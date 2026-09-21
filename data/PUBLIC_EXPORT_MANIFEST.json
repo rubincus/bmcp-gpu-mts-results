@@ -250,21 +250,24 @@
   {
     "path": "analysis/figures/draw_comparison.py",
     "source_sha256": "1988eaf1e07ac23236d5974b6e301c31f045bce09f0461896c7240beba58dd8b",
-    "export_sha256": "bea2effd7963cf6450f1aca60968c2e90d19fdeb0ea79bdf212ed2ec5b113bec",
+    "export_sha256": "7c199de9c0b581391dff04f6fe84cabec67818f37484634878a11ce5b4376bac",
     "path_metadata_sanitized": false,
-    "finalization_note": "Finalized comparison metadata, table wording, or plotting code; numerical observations unchanged."
+    "finalization_note": "Finalized comparison metadata, table wording, or plotting code; numerical observations unchanged.",
+    "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "analysis/figures/draw_diagnostics.py",
     "source_sha256": "5b17e40e3b6780d8a43642ea4ff072246362f88f51cb264d0a386f2209ae5173",
-    "export_sha256": "5b17e40e3b6780d8a43642ea4ff072246362f88f51cb264d0a386f2209ae5173",
-    "path_metadata_sanitized": false
+    "export_sha256": "75ebd68c16da4d0ca5de5060eb7cd404c85936494f1915d2b209e284c9ce5d8f",
+    "path_metadata_sanitized": false,
+    "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "analysis/figures/draw_main_figures.py",
     "source_sha256": "010868ff5fd59e8468ad93276268b751a6ac3947038ae2d7e525bcea5dceebaf",
-    "export_sha256": "010868ff5fd59e8468ad93276268b751a6ac3947038ae2d7e525bcea5dceebaf",
-    "path_metadata_sanitized": false
+    "export_sha256": "0527b0659836357e08950deb0c0153e52bbedd912a0af26785d406b55e927fba",
+    "path_metadata_sanitized": false,
+    "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "analysis/figures/focused_metrics.json",
@@ -306,21 +309,24 @@
   {
     "path": "analysis/figures/en/draw_comparison.py",
     "source_sha256": "76957743096c280cbf8f0e7f34f6cd1dab8e334f4128fa896c5f48c13a3512c1",
-    "export_sha256": "2b4acde9bbc8bc09ad7bde25c5006b105ade9436da95626c1e0a12dc6aac8567",
+    "export_sha256": "6152af2c74550220b6e7be16dbecaa8eee4909c1709ecc61e25a9052461bbc93",
     "path_metadata_sanitized": false,
-    "finalization_note": "Finalized comparison metadata, table wording, or plotting code; numerical observations unchanged."
+    "finalization_note": "Finalized comparison metadata, table wording, or plotting code; numerical observations unchanged.",
+    "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "analysis/figures/en/draw_diagnostics.py",
     "source_sha256": "6d8049312712fd65bb6c8d519156391b9f0de4d34078b1f210d6161f20688ae2",
-    "export_sha256": "6d8049312712fd65bb6c8d519156391b9f0de4d34078b1f210d6161f20688ae2",
-    "path_metadata_sanitized": false
+    "export_sha256": "ad040ea35da51b8a786aa8853f6f2ea11a1a7bab2fda33d0ee23d20ab1665496",
+    "path_metadata_sanitized": false,
+    "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "analysis/figures/en/draw_main_figures.py",
     "source_sha256": "da01a6100d73fafbd83f62eb1a0b1faa55a0e37f37177694540fbef455dcba80",
-    "export_sha256": "da01a6100d73fafbd83f62eb1a0b1faa55a0e37f37177694540fbef455dcba80",
-    "path_metadata_sanitized": false
+    "export_sha256": "955c8f632dce327360661700bfa97f528116eff4470cdfb18ecb96a5af795b35",
+    "path_metadata_sanitized": false,
+    "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "analysis/figures/en/focused_metrics.json",
@@ -349,14 +355,16 @@
   {
     "path": "paper_assets/es/appendix_diagnostics.tex",
     "source_sha256": "22c898948dfef8f6cd135bf17ad5e23d7fdc579220b858a67004f171e39764bb",
-    "export_sha256": "22c898948dfef8f6cd135bf17ad5e23d7fdc579220b858a67004f171e39764bb",
-    "path_metadata_sanitized": false
+    "export_sha256": "649d1f37440ca5c4c907adc219090d23e2c5a906b9b285dc749bf973594c5e41",
+    "path_metadata_sanitized": false,
+    "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "paper_assets/es/appendix_results.tex",
     "source_sha256": "85bfbcfc4be9c217d6966e57ec349ab2efe8e00c6139d7a110a1b409bad3aa03",
-    "export_sha256": "85bfbcfc4be9c217d6966e57ec349ab2efe8e00c6139d7a110a1b409bad3aa03",
-    "path_metadata_sanitized": false
+    "export_sha256": "3b6c853fedfc210065a29514b31556fd3aceb7005435913ff2aa2d9695f80106",
+    "path_metadata_sanitized": false,
+    "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "paper_assets/es/fig_algorithm_overview.pdf",
@@ -415,8 +423,9 @@
   {
     "path": "paper_assets/es/fig_cpu_gpu.svg",
     "source_sha256": "348114d9df712142efcdc116fc81db9e8a240b09a3adb50cb9a38f798a26f168",
-    "export_sha256": "348114d9df712142efcdc116fc81db9e8a240b09a3adb50cb9a38f798a26f168",
-    "path_metadata_sanitized": false
+    "export_sha256": "9ef2bbc3840d5dc26299288b5674615eece3361ae795ce0acfd0c61ded51b222",
+    "path_metadata_sanitized": false,
+    "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "paper_assets/es/fig_work_time.pdf",
@@ -433,105 +442,122 @@
   {
     "path": "paper_assets/es/fig_work_time.svg",
     "source_sha256": "e13acfce36a8b842ff1f79abf587572c0d4f99762ad9eab9c78c07c09f81a83d",
-    "export_sha256": "e13acfce36a8b842ff1f79abf587572c0d4f99762ad9eab9c78c07c09f81a83d",
-    "path_metadata_sanitized": false
+    "export_sha256": "bb693a3664711c4eea0636cee0e36cc4611b8cafa8ebc130955607869363dc04",
+    "path_metadata_sanitized": false,
+    "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "paper_assets/es/table_benchmark_large.tex",
     "source_sha256": "3a242c34a247e718b40a6e956a5185941f7f4ad6465f22ddfa6ee6a4dada7250",
-    "export_sha256": "3a242c34a247e718b40a6e956a5185941f7f4ad6465f22ddfa6ee6a4dada7250",
-    "path_metadata_sanitized": false
+    "export_sha256": "46e48777434975ed16ae99b175c4ebe832eaec4c9bcd15a03a778452a5e1a839",
+    "path_metadata_sanitized": false,
+    "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "paper_assets/es/table_benchmark_medium.tex",
     "source_sha256": "b5df0a8174ff8c2c52660d6370aa362ce2faa1cb0510c4731b73eb8171d0e1ea",
-    "export_sha256": "b5df0a8174ff8c2c52660d6370aa362ce2faa1cb0510c4731b73eb8171d0e1ea",
-    "path_metadata_sanitized": false
+    "export_sha256": "9cfd21c8a515ba200fdb8d924280ca6404b1a9325edad24a193f72826ed4ab8d",
+    "path_metadata_sanitized": false,
+    "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "paper_assets/es/table_benchmark_small.tex",
     "source_sha256": "c6116d80b23683528bd26b49374ffe00b0c530d0706edba32c127ec31ab6a2df",
-    "export_sha256": "c6116d80b23683528bd26b49374ffe00b0c530d0706edba32c127ec31ab6a2df",
-    "path_metadata_sanitized": false
+    "export_sha256": "e6800cd0a24d2e829d062a1fcc26622b02c9bbb560a7996ed5f608394a62cbb8",
+    "path_metadata_sanitized": false,
+    "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "paper_assets/es/table_cohorts.tex",
     "source_sha256": "af391ed0e9ef79bac2efbd38410efd313871b88b384d476bf3fb479f0740a831",
-    "export_sha256": "af391ed0e9ef79bac2efbd38410efd313871b88b384d476bf3fb479f0740a831",
-    "path_metadata_sanitized": false
+    "export_sha256": "7830736c07ec1b76e464da7800fa50ccaf994dc878071d1d4ab442029c295e0f",
+    "path_metadata_sanitized": false,
+    "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "paper_assets/es/table_confirmation.tex",
     "source_sha256": "f4dc31306dc6793cbbaf220fa7205551e5a4b515b8cf67ef61153bd92d2cdfe0",
-    "export_sha256": "f4dc31306dc6793cbbaf220fa7205551e5a4b515b8cf67ef61153bd92d2cdfe0",
-    "path_metadata_sanitized": false
+    "export_sha256": "86e3af0c21fec53a69c3a1856dc8bd94ea553e0668aa6212420c3b1672f1b281",
+    "path_metadata_sanitized": false,
+    "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "paper_assets/es/table_friedman.tex",
     "source_sha256": "8be3172b151d132b32d97e02c15a25a9a1eddc40c94fb82090a5753495648423",
-    "export_sha256": "8be3172b151d132b32d97e02c15a25a9a1eddc40c94fb82090a5753495648423",
-    "path_metadata_sanitized": false
+    "export_sha256": "0d2feb7721b8ad2a750d000594e09d257b2d4ea4c00591babde069f09bba796f",
+    "path_metadata_sanitized": false,
+    "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "paper_assets/es/table_hyperparameters.tex",
     "source_sha256": "0775b24e554f22c84f1bdf40cffb807baac8888c9787c9a5ef9619e0c153a443",
-    "export_sha256": "0775b24e554f22c84f1bdf40cffb807baac8888c9787c9a5ef9619e0c153a443",
-    "path_metadata_sanitized": false
+    "export_sha256": "9682240706910efb376b49e1f574ef32d32de13e6d696b96d767f1987ac93917",
+    "path_metadata_sanitized": false,
+    "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "paper_assets/es/table_improvements.tex",
     "source_sha256": "f159e8d2bc705d51387d11cf636ab4596a2bd7060e657e6aedfc2823095f0f7a",
-    "export_sha256": "f159e8d2bc705d51387d11cf636ab4596a2bd7060e657e6aedfc2823095f0f7a",
-    "path_metadata_sanitized": false
+    "export_sha256": "c18a190b34b30aaea08547a58287d815bd2f9af718ab2af97c46ab924d387f6a",
+    "path_metadata_sanitized": false,
+    "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "paper_assets/es/table_literature_timing.tex",
     "source_sha256": "a61291536c6774944e90477a297fa7d9b775a55bd62129741458385354b4d5e3",
-    "export_sha256": "8b1e86357ef8baeff288eeec20522aeac9443ce31f19532f8574285c82e79e35",
+    "export_sha256": "86c882818af8b18dde82253f9702fc239a1b94e0aeb6b694b20115df70980156",
     "path_metadata_sanitized": false,
-    "finalization_note": "Finalized comparison metadata, table wording, or plotting code; numerical observations unchanged."
+    "finalization_note": "Finalized comparison metadata, table wording, or plotting code; numerical observations unchanged.",
+    "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "paper_assets/es/table_method_context.tex",
     "source_sha256": "1af0bf953722656788da94cd538ce2c0b54e95c03170e05bcc325739ff2637f4",
-    "export_sha256": "1af0bf953722656788da94cd538ce2c0b54e95c03170e05bcc325739ff2637f4",
-    "path_metadata_sanitized": false
+    "export_sha256": "95c64e1e43b90d80fd6c60d24bf191088acda8f25a94b92ee7552325e5eccb67",
+    "path_metadata_sanitized": false,
+    "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "paper_assets/es/table_owner_micro.tex",
     "source_sha256": "608e3b77ee9ebdd3099593d29c14590dd02387684c70269ca36f3f557dadf6e7",
-    "export_sha256": "608e3b77ee9ebdd3099593d29c14590dd02387684c70269ca36f3f557dadf6e7",
-    "path_metadata_sanitized": false
+    "export_sha256": "0cab83096db0d28458fd9ea9cfc6880839db761ea82f25630f61aaa936c75101",
+    "path_metadata_sanitized": false,
+    "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "paper_assets/es/table_platform_quality.tex",
     "source_sha256": "50724629274dd4ae6d682cedc8f9eb43b0719c330d6ec42aa52b8b1a55a6bad1",
-    "export_sha256": "50724629274dd4ae6d682cedc8f9eb43b0719c330d6ec42aa52b8b1a55a6bad1",
-    "path_metadata_sanitized": false
+    "export_sha256": "bd1cb5e33fef3351350c8defa509e1fd5a2261ff575ec4ef7f4fc1e70ca271bd",
+    "path_metadata_sanitized": false,
+    "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "paper_assets/es/table_statistical.tex",
     "source_sha256": "48e1d27b1b5bc16ef2b46e8a59b9b13267e52b9790826477eb8769f6a9fdebfa",
-    "export_sha256": "48e1d27b1b5bc16ef2b46e8a59b9b13267e52b9790826477eb8769f6a9fdebfa",
-    "path_metadata_sanitized": false
+    "export_sha256": "0dcb8b4b625edae9f760d0d2de7f063f61f505182795d545daa10dd171dc42c1",
+    "path_metadata_sanitized": false,
+    "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "paper_assets/es/table_timing.tex",
     "source_sha256": "52564d51984a045164ec83788872fd224e90dc9add8839017ad898b2980b5dd3",
-    "export_sha256": "52564d51984a045164ec83788872fd224e90dc9add8839017ad898b2980b5dd3",
-    "path_metadata_sanitized": false
+    "export_sha256": "4262e8f3887b90ccfeba113228adb09e0c5e45a94c6a8f5c13062393caf2bb54",
+    "path_metadata_sanitized": false,
+    "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "paper_assets/en/appendix_diagnostics.tex",
     "source_sha256": "4d1a3420d8ea1a860c7a7ea7415f6f0552e02a5e44b36e41bb9a190c0597fce8",
-    "export_sha256": "4d1a3420d8ea1a860c7a7ea7415f6f0552e02a5e44b36e41bb9a190c0597fce8",
-    "path_metadata_sanitized": false
+    "export_sha256": "d7858b672e9f5b5d3d7c1bdcac7225c7787bca8fabc743f47b74fb7c51ef2633",
+    "path_metadata_sanitized": false,
+    "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "paper_assets/en/appendix_results.tex",
     "source_sha256": "22c318f078c07f52091765684f6714b160e661e03fdea4bcf0719b79a96b7009",
-    "export_sha256": "22c318f078c07f52091765684f6714b160e661e03fdea4bcf0719b79a96b7009",
-    "path_metadata_sanitized": false
+    "export_sha256": "81dd49910546ca9be722ffdd3c2e702db0f4e5fb35f8ea71b5f3c70964faef62",
+    "path_metadata_sanitized": false,
+    "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "paper_assets/en/fig_algorithm_overview.pdf",
@@ -590,8 +616,9 @@
   {
     "path": "paper_assets/en/fig_cpu_gpu.svg",
     "source_sha256": "e25905a0e545029f0b90dfc7c25fcb6797b4d9e0ead749f341544166e60483c4",
-    "export_sha256": "e25905a0e545029f0b90dfc7c25fcb6797b4d9e0ead749f341544166e60483c4",
-    "path_metadata_sanitized": false
+    "export_sha256": "77aa699c1241c9c41bc5ed55f10bae1529c937b18965beea7521b12ca88fa8dc",
+    "path_metadata_sanitized": false,
+    "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "paper_assets/en/fig_work_time.pdf",
@@ -608,93 +635,108 @@
   {
     "path": "paper_assets/en/fig_work_time.svg",
     "source_sha256": "0ee70f0e4656c7b510c519ab2c1f852e6b0d899b1c927e884f335c9d64a40e98",
-    "export_sha256": "0ee70f0e4656c7b510c519ab2c1f852e6b0d899b1c927e884f335c9d64a40e98",
-    "path_metadata_sanitized": false
+    "export_sha256": "c9ef9f02535ebf198ffd5fe90f94689c9a3e837e3bbe643293ed8e414dde20c1",
+    "path_metadata_sanitized": false,
+    "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "paper_assets/en/table_benchmark_large.tex",
     "source_sha256": "8825e12ebadc7b411a6890210adde313725887c56376642c88639e0723f9d242",
-    "export_sha256": "8825e12ebadc7b411a6890210adde313725887c56376642c88639e0723f9d242",
-    "path_metadata_sanitized": false
+    "export_sha256": "610da696685c914b96d425fe9ca6bf1ed03283414d41d39566b155d580683f9c",
+    "path_metadata_sanitized": false,
+    "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "paper_assets/en/table_benchmark_medium.tex",
     "source_sha256": "5fe3f9202710bf4dd71af32bec727a30a46b6fbc4c9d6e75077859bc7563a5e1",
-    "export_sha256": "5fe3f9202710bf4dd71af32bec727a30a46b6fbc4c9d6e75077859bc7563a5e1",
-    "path_metadata_sanitized": false
+    "export_sha256": "33aac647fd44f063464526e3564cc0f97eff0092e8a3c9caf80e72f8765319ee",
+    "path_metadata_sanitized": false,
+    "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "paper_assets/en/table_benchmark_small.tex",
     "source_sha256": "9abf32c50b7671a041d288ec64b321abc18b36122e545b6dea3195e79ba3d4fc",
-    "export_sha256": "9abf32c50b7671a041d288ec64b321abc18b36122e545b6dea3195e79ba3d4fc",
-    "path_metadata_sanitized": false
+    "export_sha256": "af6c47fa55a17f91f9220d17d70cf7e6f2f4b48fd7ba548f1fbe952e7ecb9e2f",
+    "path_metadata_sanitized": false,
+    "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "paper_assets/en/table_cohorts.tex",
     "source_sha256": "1cb86cd97e333274c192f854378e802d01c0d0f80b1ba4bd27d8bacceaa38aa5",
-    "export_sha256": "1cb86cd97e333274c192f854378e802d01c0d0f80b1ba4bd27d8bacceaa38aa5",
-    "path_metadata_sanitized": false
+    "export_sha256": "fccc61c4d8a29047654527ecfcbddae5cfed36c83a1b95e2470c2a5d929031e7",
+    "path_metadata_sanitized": false,
+    "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "paper_assets/en/table_confirmation.tex",
     "source_sha256": "283302605de4b16a0fba13eedfb8ffe679632600f20afd610415dae279461cd7",
-    "export_sha256": "283302605de4b16a0fba13eedfb8ffe679632600f20afd610415dae279461cd7",
-    "path_metadata_sanitized": false
+    "export_sha256": "d5dd73e070dfa805f2445dca9bb2ce5cb37b67116ef2abed220c07887e03b9aa",
+    "path_metadata_sanitized": false,
+    "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "paper_assets/en/table_friedman.tex",
     "source_sha256": "1db0cfe8d85825d4a8db1731201f0f7dfcf5e7d148a7dd543695891d6bc120c8",
-    "export_sha256": "1db0cfe8d85825d4a8db1731201f0f7dfcf5e7d148a7dd543695891d6bc120c8",
-    "path_metadata_sanitized": false
+    "export_sha256": "42eaa07c6d120a84decf42858eeee5bc51dc2fb3a65fe8fd8f784fced73324be",
+    "path_metadata_sanitized": false,
+    "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "paper_assets/en/table_hyperparameters.tex",
     "source_sha256": "633860ffad16335e6f99dc31394bb9577f1d1dd54f1a37d7b0119491bc3a35c7",
-    "export_sha256": "633860ffad16335e6f99dc31394bb9577f1d1dd54f1a37d7b0119491bc3a35c7",
-    "path_metadata_sanitized": false
+    "export_sha256": "4a463ca0e27d11d605a71c6f3b72d8da325267e197fc9609dcef9b0fefc7c116",
+    "path_metadata_sanitized": false,
+    "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "paper_assets/en/table_improvements.tex",
     "source_sha256": "e105c47f86d2ba78f565ca1dc92b0e81e83094abfce3588308467c95a06e4bb3",
-    "export_sha256": "e105c47f86d2ba78f565ca1dc92b0e81e83094abfce3588308467c95a06e4bb3",
-    "path_metadata_sanitized": false
+    "export_sha256": "32b5c0ac7bfb7f3b4ec7e7f5156d79350594e694e93e62584a481cf81abbb856",
+    "path_metadata_sanitized": false,
+    "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "paper_assets/en/table_literature_timing.tex",
     "source_sha256": "8a041e48ea2c3d7226b3470b056d6b6d94077f945d7d24b18643c8ec972fd875",
-    "export_sha256": "8a041e48ea2c3d7226b3470b056d6b6d94077f945d7d24b18643c8ec972fd875",
-    "path_metadata_sanitized": false
+    "export_sha256": "6147b9db40b4e268efb6990dde9742590d071481e9d4b6100f31005857130a91",
+    "path_metadata_sanitized": false,
+    "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "paper_assets/en/table_method_context.tex",
     "source_sha256": "cd01cd2359a4e60f510acf3411a4be064b13d5c1a8989ecf07d2968daad09457",
-    "export_sha256": "cd01cd2359a4e60f510acf3411a4be064b13d5c1a8989ecf07d2968daad09457",
-    "path_metadata_sanitized": false
+    "export_sha256": "ea7c97ebaff398ba082b35b40fe8a6b1513929d0ec5628daa6e3729c1212ee4e",
+    "path_metadata_sanitized": false,
+    "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "paper_assets/en/table_owner_micro.tex",
     "source_sha256": "4425c1dbbcfecd520107ca9bed830125dac1dbd5c755b92c8a54a9e39999bde3",
-    "export_sha256": "4425c1dbbcfecd520107ca9bed830125dac1dbd5c755b92c8a54a9e39999bde3",
-    "path_metadata_sanitized": false
+    "export_sha256": "d576d823451eed6af72a05138cdbffe108c91fc8cee71a36d500aa75bed08949",
+    "path_metadata_sanitized": false,
+    "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "paper_assets/en/table_platform_quality.tex",
     "source_sha256": "d9a6f52bb7d6673c0c38cb9d5f7c879f69fb6b806cb34817fd400fb27acedd6b",
-    "export_sha256": "d9a6f52bb7d6673c0c38cb9d5f7c879f69fb6b806cb34817fd400fb27acedd6b",
-    "path_metadata_sanitized": false
+    "export_sha256": "4ff59cebe4ba76cd542ffdb1db34fd205c213512d0e765d11ec993913498cc5d",
+    "path_metadata_sanitized": false,
+    "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "paper_assets/en/table_statistical.tex",
     "source_sha256": "e66ab8640d0a2d0c9c767c0fe05688450ec8c9be6c96f83ad624db7562cb76e2",
-    "export_sha256": "7769c36363bbd9156147dd98775ab387568663eab315b9bf33f3a1cce3c914d3",
+    "export_sha256": "20e04dc8193f9ae7e52a849ea002d6fb97e85c3980447643d8ff67f6248f6aac",
     "path_metadata_sanitized": false,
-    "finalization_note": "Final plotting script or translated table revision; archived numerical observations retained."
+    "finalization_note": "Final plotting script or translated table revision; archived numerical observations retained.",
+    "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "paper_assets/en/table_timing.tex",
     "source_sha256": "e3eaeb410642c7fa4d14a516dbde260e984c7228ae1d4f298fbb0387af35e2af",
-    "export_sha256": "e3eaeb410642c7fa4d14a516dbde260e984c7228ae1d4f298fbb0387af35e2af",
-    "path_metadata_sanitized": false
+    "export_sha256": "2ba033ccd0ec7ff6a4667f04809b28d70e7201d6ec7d5e2bae2c733cc4df74fd",
+    "path_metadata_sanitized": false,
+    "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "scripts/download_instances.py",
