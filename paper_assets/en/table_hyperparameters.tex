@@ -15,7 +15,7 @@ $K$ & Maximum outgoing candidates & 4 & $\{1,2,4,8\}$\\
 $S_{\mathrm{max}}$ & Non-improving accepted moves before perturbation & 300 & $\{75,150,300,600,1200\}$\\
 $T$ & Construction and reconstruction temperature & 0.03 & $\{0,0.01,0.03,0.10\}$\\
 $D$ & Deletion-probability interval, $d\sim\mathcal U(D)$ & $[0.12,0.70]$ & $[0.02,0.60]$, $[0.12,0.70]$, $[0.22,0.80]$, $[0.31,0.51]$, $[0.41,0.41]$\\
-$p_0$ & Empty-restart probability & $\approx0.20$ & Fixed\\
+$p_0$ & Empty-restart probability & $0.2$ & Fixed\\
 $M_h$ & Fingerprints per trajectory hash table & $16\,384$ & Fixed\\
 \midrule
 \multicolumn{4}{@{}l}{\textit{Execution and observation settings}}\\
@@ -25,6 +25,6 @@ $\delta$ & Target batch duration & 20 ms & Fixed\\
 \bottomrule
 \end{tabular}
 \par\smallskip
-\parbox{.97\linewidth}{\footnotesize The OFAT grid contains 18 configurations, including Baseline, varying one parameter at a time. Local search, exchanges, tabu admissibility, and perturbation remain enabled. The CPU/GPU study fixes one step per launch. The data repository specifies the budgets and seeds of each experiment. An empty restart uses the zero residue modulo five of a 64-bit pseudorandom integer.}
+\parbox{.97\linewidth}{\footnotesize The OFAT grid contains 18 configurations, including Baseline, varying one parameter at a time. Local search, exchanges, tabu admissibility, and perturbation remain enabled. The CPU/GPU study fixes one step per launch. The data repository specifies the budgets and seeds of each experiment.}
 
 \end{table}

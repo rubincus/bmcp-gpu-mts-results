@@ -327,10 +327,10 @@
   {
     "path": "analysis/figures/en/draw_main_figures.py",
     "source_sha256": "da01a6100d73fafbd83f62eb1a0b1faa55a0e37f37177694540fbef455dcba80",
-    "export_sha256": "40e3e8b01455776b3f8db4c8dd0758ec415f6a02bcaf29b17142dddf18fbdb3e",
+    "export_sha256": "fcd189e9114262a41a7bf80a38f8801e8baf5229033c8f4121ac5bd2afaf96bf",
     "path_metadata_sanitized": false,
     "git_newline_normalization": "CRLF to LF in published text blob",
-    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
+    "finalization_note": "English submission revision: annotation placement or terminology only; numerical evidence unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "analysis/figures/en/focused_metrics.json",
@@ -573,18 +573,18 @@
   {
     "path": "paper_assets/en/appendix_diagnostics.tex",
     "source_sha256": "4d1a3420d8ea1a860c7a7ea7415f6f0552e02a5e44b36e41bb9a190c0597fce8",
-    "export_sha256": "45c91c8b9109250aafad6cd5c066cd75d553f8b6cc5db8ed6d26739fec170b03",
+    "export_sha256": "207f90dac51f5aa8604bd59553670a2432f63abb515d8809fe8500df00f7ddab",
     "path_metadata_sanitized": false,
     "git_newline_normalization": "CRLF to LF in published text blob",
-    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
+    "finalization_note": "English submission revision: annotation placement or terminology only; numerical evidence unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/en/appendix_results.tex",
     "source_sha256": "22c318f078c07f52091765684f6714b160e661e03fdea4bcf0719b79a96b7009",
-    "export_sha256": "3d52ae43c4eaabd4dcded4e7e5508c81d9ac4a45443c90acba75c2256b820990",
+    "export_sha256": "95d0ea2af233f79d0ee553086d6764381d394c030d9e286627057606251303d1",
     "path_metadata_sanitized": false,
     "git_newline_normalization": "CRLF to LF in published text blob",
-    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
+    "finalization_note": "English submission revision: figure annotation placement, terminology or table typography only; numerical evidence unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/en/fig_algorithm_overview.pdf",
@@ -603,16 +603,16 @@
   {
     "path": "paper_assets/en/fig_attainment.pdf",
     "source_sha256": "59ff89f51836ee611dd5fb4bbc01da78d779dba787503ddc876b021693cdece6",
-    "export_sha256": "8ba053b8b3c4fabdb30ce77b19bca89dc0ac6679eeb6759547ca20caeb352dd5",
+    "export_sha256": "d3362b76830584b2db3f3b0dbbc0f9ac360e5218d84d749370f4448354fea868",
     "path_metadata_sanitized": false,
-    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
+    "finalization_note": "English submission revision: annotation placement or terminology only; numerical evidence unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/en/fig_attainment.png",
     "source_sha256": "6680eda28854567b26df66663385914921bc1e7e827d896f171eb5b25f8f3da7",
-    "export_sha256": "4cd80cdbd490f9a162dd3141fee2a9d7491c7e7cfce6908bae97e6f03537a9aa",
+    "export_sha256": "2bc208bcdc58af2dab0c136a17a4e67f1666d620de55db3e779587cf30ea1ed4",
     "path_metadata_sanitized": false,
-    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
+    "finalization_note": "English submission revision: annotation placement or terminology only; numerical evidence unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/en/fig_benchmark_gaps.pdf",
@@ -726,10 +726,10 @@
   {
     "path": "paper_assets/en/table_hyperparameters.tex",
     "source_sha256": "633860ffad16335e6f99dc31394bb9577f1d1dd54f1a37d7b0119491bc3a35c7",
-    "export_sha256": "eb0474da7e6aad4e0b254bb3947ed62173a5a106f50c30be53e82ebe2464d66f",
+    "export_sha256": "7873be1ff4ef0ea1d5f27e35287e6da532328310e15e57b237f144b66a43ab71",
     "path_metadata_sanitized": false,
     "git_newline_normalization": "CRLF to LF in published text blob",
-    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
+    "finalization_note": "English submission revision: annotation placement or terminology only; numerical evidence unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/en/table_improvements.tex",
@@ -762,9 +762,10 @@
   {
     "path": "paper_assets/en/table_platform_quality.tex",
     "source_sha256": "d9a6f52bb7d6673c0c38cb9d5f7c879f69fb6b806cb34817fd400fb27acedd6b",
-    "export_sha256": "4ff59cebe4ba76cd542ffdb1db34fd205c213512d0e765d11ec993913498cc5d",
+    "export_sha256": "97fc2d8c16b6c2b1ebea26d819b141d283aeeb9a49dc73fe3283e022d1c3cc07",
     "path_metadata_sanitized": false,
-    "git_newline_normalization": "CRLF to LF in published text blob"
+    "git_newline_normalization": "CRLF to LF in published text blob",
+    "finalization_note": "English submission revision: annotation placement or terminology only; numerical evidence unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/en/table_statistical.tex",
@@ -777,10 +778,10 @@
   {
     "path": "paper_assets/en/table_timing.tex",
     "source_sha256": "e3eaeb410642c7fa4d14a516dbde260e984c7228ae1d4f298fbb0387af35e2af",
-    "export_sha256": "073d92c41d19a81f12a5e02dc70775b0c5a9a6194ef16d36fae297c392f90871",
+    "export_sha256": "2ae8c90fd78554f7ed3842015dac2c163ad5b05471372b5cec81e9cee8aa607e",
     "path_metadata_sanitized": false,
     "git_newline_normalization": "CRLF to LF in published text blob",
-    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
+    "finalization_note": "English submission revision: figure annotation placement, terminology or table typography only; numerical evidence unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "scripts/download_instances.py",

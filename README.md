@@ -41,8 +41,10 @@ Outputs are written to `runs/`. The analysis recomputes statistics from the 900 
 - `data/PUBLIC_EXPORT_MANIFEST.json`: source and export hashes; absolute local paths in metadata are replaced with relative identifiers. Numerical results are unchanged.
 - `docs/REPRODUCIBILIDAD.md`: definitions, timing scopes, study scope, and preparation costs (in Spanish).
 
-The solver code is maintained in a private repository. This public repository contains verification and analysis tools; it excludes the solver's CUDA and CPU/OpenMP implementations, manuscripts, and credentials. No license is assigned here to third-party instances or published reference data; their sources are retained.
+The public deposit supports independent verification of the reported solutions and reproduction of the analyses, figures, and tables. It includes the corresponding Python tools; the CUDA and CPU/OpenMP solver implementations are maintained separately. Original sources and provenance are retained for third-party instances and published reference data.
 
 ## Correspondence with the manuscript figures
 
 The labels **Base** (Spanish) and **Baseline** (English) denote the configuration identified as `original` or `base` in the experimental records. Archived identifiers and numerical data remain unchanged. Figures contain axes, legends, and data annotations; the manuscript captions describe the comparison conditions. Files in `paper_assets/es` and `paper_assets/en` correspond to the manuscript revision dated September 21, 2026.
+
+The English attainment figure places last-hit annotations below each panel so that they do not cover any curve. The timing protocols of the platform and owner-lookup experiments are compared in [TIMING_PROTOCOLS.md](docs/TIMING_PROTOCOLS.md).

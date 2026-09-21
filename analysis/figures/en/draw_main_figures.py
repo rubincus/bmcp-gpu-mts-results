@@ -14,15 +14,15 @@ BLUE=BLACK='#000000'
 groups=[('I','I: small'),('II_medium','II: medium'),('II_large','II: large')]
 A=json.loads((DATA/'analysis.json').read_text(encoding='utf-8'))
 plt.rcParams.update({'font.family':'DejaVu Sans','font.size':9,'pdf.fonttype':42,'axes.spines.top':False,'axes.spines.right':False})
-fig,axes=plt.subplots(1,3,figsize=(7.2,3.5),sharex=True,sharey=True)
+fig,axes=plt.subplots(1,3,figsize=(7.2,3.8),sharex=True,sharey=True)
 for ax,c,(g,label),color in zip(axes,A['attainment'],groups,['#009E73','#D55E00','#0072B2']):
     tt=c['times'];ax.step([.003]+tt+[180],[0]+list(np.arange(1,301)/3)+[100],where='post',color=color,lw=1.8)
     for cut in [1,5,10,30,60]:
         y=sum(t<=cut for t in tt)/3;ax.plot(cut,y,'o',ms=3.2,color=color)
     ax.set_xscale('log');ax.set_xlim(.003,180);ax.set_ylim(-2,107);ax.set_xticks([.01,1,100]);ax.set_xticklabels(['.01','1','100']);ax.grid(alpha=.16);ax.set_title(label,color=BLUE,fontsize=10);ax.set_xlabel('Search time (s)',color=BLUE,fontsize=8)
-    ax.text(.04,.10,f'Last hit: {max(tt):.3g} s',transform=ax.transAxes,fontsize=8,color=BLUE)
+    ax.text(.5,-.34,f'Last hit: {max(tt):.3g} s',transform=ax.transAxes,ha='center',fontsize=8,color=BLUE,clip_on=False)
 axes[0].set_ylabel('Runs attaining R (%)',color=BLUE,fontsize=9)
-fig.subplots_adjust(top=.88,bottom=.19,left=.09,right=.99,wspace=.10)
+fig.subplots_adjust(top=.90,bottom=.30,left=.09,right=.99,wspace=.10)
 fig.savefig(O/'fig_attainment.pdf',bbox_inches='tight');fig.savefig(W/'fig_attainment.png',dpi=160,bbox_inches='tight');plt.close(fig)
 D=json.loads((DATA/'ablation.json').read_text(encoding='utf-8'))
 variants=['base','no_local_search','no_tabu_filter','no_swaps','positive_moves_only','restart_best_only','restart_empty_only']
