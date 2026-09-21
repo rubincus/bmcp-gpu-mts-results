@@ -37,8 +37,12 @@ Las salidas se escriben en `runs/`. El análisis recalcula las estadísticas des
 - `data/historical/`: 900 corridas, protocolos y auditoría; 56 instancias con 180 s y 34 con 90 s.
 - `data/comparison/`: valores bibliográficos identificados por instancia y análisis actual de cinco métodos.
 - `data/diagnostics/`: siete etapas; 1146 filas de etapa representan 1137 ejecuciones distintas por reutilización de nueve controles. Las 420 ablaciones incluyen las 126 piloto. Las exportaciones compactas omiten estados internos voluminosos, pero preservan calidad, testigos, trazas, parámetros y tiempos.
-- `data/owner_lookup/`: campaña adicional de 60 ejecuciones con trabajo fijado. La única diferencia evaluada es consultar el propietario frente a la matriz de incidencias. Ambas variantes mantienen el XOR. Las parejas coinciden en estados finales y certificados; razones medias de tiempo 1.49, 1.45 y 1.38.
+- `data/owner_lookup/`: experimento adicional de 60 ejecuciones con trabajo fijado. La única diferencia evaluada es consultar el propietario frente a la matriz de incidencias. Ambas variantes mantienen el XOR. Las parejas coinciden en estados finales y certificados; razones medias de tiempo 1.49, 1.45 y 1.38.
 - `data/PUBLIC_EXPORT_MANIFEST.json`: hashes de origen y exportación; las rutas absolutas locales de metadatos se sustituyen por identificadores relativos. Los resultados numéricos no se alteran.
 - `docs/REPRODUCIBILIDAD.md`: definiciones, relojes, alcance y costes de preparación.
 
 El código del solver se mantiene en un repositorio privado. Este depósito contiene auditoría y análisis, no CUDA ni CPU/OpenMP del algoritmo, artículos ni credenciales. No se atribuye aquí una licencia a instancias o datos bibliográficos de terceros; se conservan sus fuentes.
+
+## Correspondencia con las figuras del artículo
+
+Las etiquetas **Base** (español) y **Baseline** (inglés) designan la configuración identificada como `original` o `base` en los registros experimentales. Los identificadores archivados y los datos numéricos permanecen intactos. Las figuras incluyen ejes, leyendas y anotaciones de datos; sus condiciones de comparación se desarrollan en los pies del manuscrito. Los archivos de `paper_assets/es` y `paper_assets/en` corresponden a la revisión narrativa de 21 de septiembre de 2026.

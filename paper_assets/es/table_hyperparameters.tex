@@ -1,13 +1,13 @@
 \begin{table}[tbp]
 \centering\small
 
-\caption{Hiperparámetros de GPU-MTS y configuración de ejecución. La columna Original corresponde al banco de 90 instancias; los niveles explorados pertenecen al análisis OFAT.}
+\caption{Hiperparámetros de GPU-MTS y configuración de ejecución. La columna Base corresponde al banco de 90 instancias; los niveles explorados pertenecen al análisis OFAT.}
 \label{tab:hyperparameters}
 \setlength{\tabcolsep}{4pt}
 \renewcommand{\arraystretch}{1.14}
 \begin{tabular}{@{}p{.08\linewidth}p{.32\linewidth}p{.17\linewidth}p{.35\linewidth}@{}}
 \toprule
-Símbolo & Función & Original & Valores explorados\\
+Símbolo & Función & Base & Valores explorados\\
 \midrule
 \multicolumn{4}{@{}l}{\textit{Hiperparámetros de búsqueda}}\\
 $B$ & Trayectorias independientes, una por bloque & 128 & $\{32,64,128,256\}$\\
@@ -21,10 +21,10 @@ $M_h$ & Huellas por tabla hash de cada trayectoria & $16\,384$ & Fijo\\
 \multicolumn{4}{@{}l}{\textit{Configuración de ejecución y observación}}\\
 $N_t$ & Hilos CUDA por bloque & 128 & Fijo\\
 $s$ & Pasos por lanzamiento & 1--64 & Adaptativo; inicio en 1\\
-$\delta$ & Duración objetivo del lote & 20 ms & Fija; no es una cota de duración\\
+$\delta$ & Duración objetivo del lote & 20 ms & Fija\\
 \bottomrule
 \end{tabular}
 \par\smallskip
-\parbox{.97\linewidth}{\footnotesize La malla OFAT contiene 18 configuraciones distintas, incluida Original; no es un diseño factorial. Se mantienen activas la búsqueda local, los intercambios, la admisibilidad tabú y la perturbación. El estudio CPU/GPU fija un paso por lanzamiento. Los presupuestos y las semillas se especifican en los protocolos de cada experimento. El reinicio vacío usa el residuo cero módulo cinco de un entero pseudoaleatorio de 64 bits.}
+\parbox{.97\linewidth}{\footnotesize La malla OFAT contiene 18 configuraciones, incluida Base, que modifican un parámetro a la vez. Se mantienen activas la búsqueda local, los intercambios, la admisibilidad tabú y la perturbación. El estudio CPU/GPU fija un paso por lanzamiento. El repositorio de datos especifica los presupuestos y las semillas de cada experimento. El reinicio vacío usa el residuo cero módulo cinco de un entero pseudoaleatorio de 64 bits.}
 
 \end{table}

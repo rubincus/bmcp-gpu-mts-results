@@ -250,24 +250,26 @@
   {
     "path": "analysis/figures/draw_comparison.py",
     "source_sha256": "1988eaf1e07ac23236d5974b6e301c31f045bce09f0461896c7240beba58dd8b",
-    "export_sha256": "7c199de9c0b581391dff04f6fe84cabec67818f37484634878a11ce5b4376bac",
+    "export_sha256": "81ddb7eb7360a92fb0f4951b71f774fcd7e93bac2d3fb5f4dfec8262e28d1158",
     "path_metadata_sanitized": false,
-    "finalization_note": "Finalized comparison metadata, table wording, or plotting code; numerical observations unchanged.",
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes.",
     "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "analysis/figures/draw_diagnostics.py",
     "source_sha256": "5b17e40e3b6780d8a43642ea4ff072246362f88f51cb264d0a386f2209ae5173",
-    "export_sha256": "75ebd68c16da4d0ca5de5060eb7cd404c85936494f1915d2b209e284c9ce5d8f",
+    "export_sha256": "d843ae6e90e6953b6afa9f51ae91437632d837ed6d6c51b08595fb3dde7d5aab",
     "path_metadata_sanitized": false,
-    "git_newline_normalization": "CRLF to LF in published text blob"
+    "git_newline_normalization": "CRLF to LF in published text blob",
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "analysis/figures/draw_main_figures.py",
     "source_sha256": "010868ff5fd59e8468ad93276268b751a6ac3947038ae2d7e525bcea5dceebaf",
-    "export_sha256": "0527b0659836357e08950deb0c0153e52bbedd912a0af26785d406b55e927fba",
+    "export_sha256": "6b7ab8b4f350c2e0873a8b90df7f1edb6987b9f7305f8a975579d049b7c05681",
     "path_metadata_sanitized": false,
-    "git_newline_normalization": "CRLF to LF in published text blob"
+    "git_newline_normalization": "CRLF to LF in published text blob",
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "analysis/figures/focused_metrics.json",
@@ -309,24 +311,26 @@
   {
     "path": "analysis/figures/en/draw_comparison.py",
     "source_sha256": "76957743096c280cbf8f0e7f34f6cd1dab8e334f4128fa896c5f48c13a3512c1",
-    "export_sha256": "6152af2c74550220b6e7be16dbecaa8eee4909c1709ecc61e25a9052461bbc93",
+    "export_sha256": "1cf7d062be931febcff01f122649518efee042f7a9b0d427b8aff63777963190",
     "path_metadata_sanitized": false,
-    "finalization_note": "Finalized comparison metadata, table wording, or plotting code; numerical observations unchanged.",
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes.",
     "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "analysis/figures/en/draw_diagnostics.py",
     "source_sha256": "6d8049312712fd65bb6c8d519156391b9f0de4d34078b1f210d6161f20688ae2",
-    "export_sha256": "ad040ea35da51b8a786aa8853f6f2ea11a1a7bab2fda33d0ee23d20ab1665496",
+    "export_sha256": "4c55790325595012f521eaf4dfc549ceae96c0d07bcdcb4033e2939f8ed08753",
     "path_metadata_sanitized": false,
-    "git_newline_normalization": "CRLF to LF in published text blob"
+    "git_newline_normalization": "CRLF to LF in published text blob",
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "analysis/figures/en/draw_main_figures.py",
     "source_sha256": "da01a6100d73fafbd83f62eb1a0b1faa55a0e37f37177694540fbef455dcba80",
-    "export_sha256": "955c8f632dce327360661700bfa97f528116eff4470cdfb18ecb96a5af795b35",
+    "export_sha256": "40e3e8b01455776b3f8db4c8dd0758ec415f6a02bcaf29b17142dddf18fbdb3e",
     "path_metadata_sanitized": false,
-    "git_newline_normalization": "CRLF to LF in published text blob"
+    "git_newline_normalization": "CRLF to LF in published text blob",
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "analysis/figures/en/focused_metrics.json",
@@ -355,96 +359,111 @@
   {
     "path": "paper_assets/es/appendix_diagnostics.tex",
     "source_sha256": "22c898948dfef8f6cd135bf17ad5e23d7fdc579220b858a67004f171e39764bb",
-    "export_sha256": "649d1f37440ca5c4c907adc219090d23e2c5a906b9b285dc749bf973594c5e41",
+    "export_sha256": "a76a1e18ce09f68fe84434f0800fe82209c282c71a20c66dcc211187a5a008f6",
     "path_metadata_sanitized": false,
-    "git_newline_normalization": "CRLF to LF in published text blob"
+    "git_newline_normalization": "CRLF to LF in published text blob",
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/es/appendix_results.tex",
     "source_sha256": "85bfbcfc4be9c217d6966e57ec349ab2efe8e00c6139d7a110a1b409bad3aa03",
-    "export_sha256": "3b6c853fedfc210065a29514b31556fd3aceb7005435913ff2aa2d9695f80106",
+    "export_sha256": "d85070dd24bdea3304ad46bca0319abd1292c18dda151eacde211694a5dc4832",
     "path_metadata_sanitized": false,
-    "git_newline_normalization": "CRLF to LF in published text blob"
+    "git_newline_normalization": "CRLF to LF in published text blob",
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/es/fig_algorithm_overview.pdf",
     "source_sha256": "9abd56c6204cf74e56205c67816ffa3f464c6104d4c10e58c2acf964447644a4",
-    "export_sha256": "9abd56c6204cf74e56205c67816ffa3f464c6104d4c10e58c2acf964447644a4",
-    "path_metadata_sanitized": false
+    "export_sha256": "bc461a4eddf2930f06477ec74535901d0bf0b77edb95bc71282581bd198c2b7b",
+    "path_metadata_sanitized": false,
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/es/fig_algorithm_overview.png",
     "source_sha256": "f3533e1b44977a72735fce11f6e6df5b4eaaceb6a6d153acad3a676e7030881b",
-    "export_sha256": "f3533e1b44977a72735fce11f6e6df5b4eaaceb6a6d153acad3a676e7030881b",
-    "path_metadata_sanitized": false
+    "export_sha256": "5d7669526ceb0c70b3ca1d51d0d2283cf089150d5d98ec79e636495cadfa4a3f",
+    "path_metadata_sanitized": false,
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/es/fig_attainment.pdf",
     "source_sha256": "9cf206438e0d4c65b258addde111be60461d2936fadfbcecc4a87dce7421b931",
-    "export_sha256": "9cf206438e0d4c65b258addde111be60461d2936fadfbcecc4a87dce7421b931",
-    "path_metadata_sanitized": false
+    "export_sha256": "b4b9b3ac214e041497aeef8c11837d5b7edf99a7dcd966e22388fad25ccc71bd",
+    "path_metadata_sanitized": false,
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/es/fig_attainment.png",
     "source_sha256": "46a2ee904c2afae92e017c212bfdb7595ce3222cdbf3e62ee0778495bc73936e",
-    "export_sha256": "46a2ee904c2afae92e017c212bfdb7595ce3222cdbf3e62ee0778495bc73936e",
-    "path_metadata_sanitized": false
+    "export_sha256": "bd344d9013753c451e090a0c6a43458ee318fcfffe05ea6bb0affcf236adcec8",
+    "path_metadata_sanitized": false,
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/es/fig_benchmark_gaps.pdf",
     "source_sha256": "7b6fd1b4de23588d9e8d887232afa3370f6608bf0ba54bda3d8ca8fd8075b444",
-    "export_sha256": "7b6fd1b4de23588d9e8d887232afa3370f6608bf0ba54bda3d8ca8fd8075b444",
-    "path_metadata_sanitized": false
+    "export_sha256": "5eb219f52507b621afb822459febbb9f08c980a5cda5ee04b357721275d528db",
+    "path_metadata_sanitized": false,
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/es/fig_component_quality.pdf",
     "source_sha256": "6c73241c8c6290c39dae9d1c1da771ab5aa2842e91a46b0401cda6e44343976b",
-    "export_sha256": "6c73241c8c6290c39dae9d1c1da771ab5aa2842e91a46b0401cda6e44343976b",
-    "path_metadata_sanitized": false
+    "export_sha256": "f9ec25176c085e9405b33ac8aa5c5f6c6acc96e7b9b19948780f5560ac4c0b1d",
+    "path_metadata_sanitized": false,
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/es/fig_component_quality.png",
     "source_sha256": "359b67733bfa235e066e9ce5360346917535eb1f9080f4d73ce26bb643cf64e3",
-    "export_sha256": "359b67733bfa235e066e9ce5360346917535eb1f9080f4d73ce26bb643cf64e3",
-    "path_metadata_sanitized": false
+    "export_sha256": "a45e078b626a90d8a78eefda926aae103a2d642b75cf173e256f1bb759952725",
+    "path_metadata_sanitized": false,
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/es/fig_cpu_gpu.pdf",
     "source_sha256": "c13755e18cd55d81d31454017f268e2d61f1522d7a349e69b133ca25061e2321",
-    "export_sha256": "c13755e18cd55d81d31454017f268e2d61f1522d7a349e69b133ca25061e2321",
-    "path_metadata_sanitized": false
+    "export_sha256": "352edc0dcad1ce40893302c33ea968d1f51dc524eef8f94e0626197c241e1555",
+    "path_metadata_sanitized": false,
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/es/fig_cpu_gpu.png",
     "source_sha256": "bcd85ea7415a114a04207c6bfe312c0374f027eef051381b7a89eb14f24d26e6",
-    "export_sha256": "bcd85ea7415a114a04207c6bfe312c0374f027eef051381b7a89eb14f24d26e6",
-    "path_metadata_sanitized": false
+    "export_sha256": "8ccccb0251fa72ef67e90fe3ee7a45e25a5672380479353060941aca5e0321a0",
+    "path_metadata_sanitized": false,
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/es/fig_cpu_gpu.svg",
     "source_sha256": "348114d9df712142efcdc116fc81db9e8a240b09a3adb50cb9a38f798a26f168",
-    "export_sha256": "9ef2bbc3840d5dc26299288b5674615eece3361ae795ce0acfd0c61ded51b222",
+    "export_sha256": "8fe239a046ab8455b0953db1c0c2e8603285b63f1763e60aa6036e8969e375d3",
     "path_metadata_sanitized": false,
-    "git_newline_normalization": "CRLF to LF in published text blob"
+    "git_newline_normalization": "CRLF to LF in published text blob",
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/es/fig_work_time.pdf",
     "source_sha256": "f15fcbac907f1308b0b7f89b914d237a1f73fbe452e660adc4c184dda18f38e7",
-    "export_sha256": "f15fcbac907f1308b0b7f89b914d237a1f73fbe452e660adc4c184dda18f38e7",
-    "path_metadata_sanitized": false
+    "export_sha256": "5356d02a157c277c11fcfb46597daced0a91a6cbfe7d7bc6525d14a8a44c441c",
+    "path_metadata_sanitized": false,
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/es/fig_work_time.png",
     "source_sha256": "4e807fbf9c7e332eca3aa595541e03942f5798b53088fb77d2da47dfd83c823d",
-    "export_sha256": "4e807fbf9c7e332eca3aa595541e03942f5798b53088fb77d2da47dfd83c823d",
-    "path_metadata_sanitized": false
+    "export_sha256": "0e92d12c7177f9a41cff3c80dcb337b0b149c806a688dc954bbce08cc8ba3646",
+    "path_metadata_sanitized": false,
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/es/fig_work_time.svg",
     "source_sha256": "e13acfce36a8b842ff1f79abf587572c0d4f99762ad9eab9c78c07c09f81a83d",
-    "export_sha256": "bb693a3664711c4eea0636cee0e36cc4611b8cafa8ebc130955607869363dc04",
+    "export_sha256": "e978e69bd7a452960d8d9f5fee36fa7b9332b6e8b7cde1e5b43cd1cc19556c6e",
     "path_metadata_sanitized": false,
-    "git_newline_normalization": "CRLF to LF in published text blob"
+    "git_newline_normalization": "CRLF to LF in published text blob",
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/es/table_benchmark_large.tex",
@@ -477,23 +496,26 @@
   {
     "path": "paper_assets/es/table_confirmation.tex",
     "source_sha256": "f4dc31306dc6793cbbaf220fa7205551e5a4b515b8cf67ef61153bd92d2cdfe0",
-    "export_sha256": "86e3af0c21fec53a69c3a1856dc8bd94ea553e0668aa6212420c3b1672f1b281",
+    "export_sha256": "a9a6f54a49c12d809aeb67f92c284bea7250cc031a5d9a8cbd1e202d3150ad45",
     "path_metadata_sanitized": false,
-    "git_newline_normalization": "CRLF to LF in published text blob"
+    "git_newline_normalization": "CRLF to LF in published text blob",
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/es/table_friedman.tex",
     "source_sha256": "8be3172b151d132b32d97e02c15a25a9a1eddc40c94fb82090a5753495648423",
-    "export_sha256": "0d2feb7721b8ad2a750d000594e09d257b2d4ea4c00591babde069f09bba796f",
+    "export_sha256": "58679c9ae3ea11d5c7f3f7058c24cba14afff0584b60fe572791a60b9f363617",
     "path_metadata_sanitized": false,
-    "git_newline_normalization": "CRLF to LF in published text blob"
+    "git_newline_normalization": "CRLF to LF in published text blob",
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/es/table_hyperparameters.tex",
     "source_sha256": "0775b24e554f22c84f1bdf40cffb807baac8888c9787c9a5ef9619e0c153a443",
-    "export_sha256": "9682240706910efb376b49e1f574ef32d32de13e6d696b96d767f1987ac93917",
+    "export_sha256": "747372d05ab7c3b4edb5a96c0ba9d4060cb68a29be49355c42620b402d2c7fe5",
     "path_metadata_sanitized": false,
-    "git_newline_normalization": "CRLF to LF in published text blob"
+    "git_newline_normalization": "CRLF to LF in published text blob",
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/es/table_improvements.tex",
@@ -527,117 +549,135 @@
   {
     "path": "paper_assets/es/table_platform_quality.tex",
     "source_sha256": "50724629274dd4ae6d682cedc8f9eb43b0719c330d6ec42aa52b8b1a55a6bad1",
-    "export_sha256": "bd1cb5e33fef3351350c8defa509e1fd5a2261ff575ec4ef7f4fc1e70ca271bd",
+    "export_sha256": "0b5cbbe4231cbd01e0096b3de9f0238fd2eddfb1aecd2adbab4e1c1d49494459",
     "path_metadata_sanitized": false,
-    "git_newline_normalization": "CRLF to LF in published text blob"
+    "git_newline_normalization": "CRLF to LF in published text blob",
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/es/table_statistical.tex",
     "source_sha256": "48e1d27b1b5bc16ef2b46e8a59b9b13267e52b9790826477eb8769f6a9fdebfa",
-    "export_sha256": "0dcb8b4b625edae9f760d0d2de7f063f61f505182795d545daa10dd171dc42c1",
+    "export_sha256": "9ef380ad3a62e34bee7d301b72844673050f7c608481151f34b14976043d9a14",
     "path_metadata_sanitized": false,
-    "git_newline_normalization": "CRLF to LF in published text blob"
+    "git_newline_normalization": "CRLF to LF in published text blob",
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/es/table_timing.tex",
     "source_sha256": "52564d51984a045164ec83788872fd224e90dc9add8839017ad898b2980b5dd3",
-    "export_sha256": "4262e8f3887b90ccfeba113228adb09e0c5e45a94c6a8f5c13062393caf2bb54",
+    "export_sha256": "d63b18f0b97adb5412e1d2a924eb21fc62c9f2f57138126d55788ab51bda7d65",
     "path_metadata_sanitized": false,
-    "git_newline_normalization": "CRLF to LF in published text blob"
+    "git_newline_normalization": "CRLF to LF in published text blob",
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/en/appendix_diagnostics.tex",
     "source_sha256": "4d1a3420d8ea1a860c7a7ea7415f6f0552e02a5e44b36e41bb9a190c0597fce8",
-    "export_sha256": "d7858b672e9f5b5d3d7c1bdcac7225c7787bca8fabc743f47b74fb7c51ef2633",
+    "export_sha256": "45c91c8b9109250aafad6cd5c066cd75d553f8b6cc5db8ed6d26739fec170b03",
     "path_metadata_sanitized": false,
-    "git_newline_normalization": "CRLF to LF in published text blob"
+    "git_newline_normalization": "CRLF to LF in published text blob",
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/en/appendix_results.tex",
     "source_sha256": "22c318f078c07f52091765684f6714b160e661e03fdea4bcf0719b79a96b7009",
-    "export_sha256": "81dd49910546ca9be722ffdd3c2e702db0f4e5fb35f8ea71b5f3c70964faef62",
+    "export_sha256": "3d52ae43c4eaabd4dcded4e7e5508c81d9ac4a45443c90acba75c2256b820990",
     "path_metadata_sanitized": false,
-    "git_newline_normalization": "CRLF to LF in published text blob"
+    "git_newline_normalization": "CRLF to LF in published text blob",
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/en/fig_algorithm_overview.pdf",
     "source_sha256": "780dc4316f18af9c3acd69c1f4a26de3a7bb1d07ab5a46bb2f144a5c40cdc58c",
-    "export_sha256": "780dc4316f18af9c3acd69c1f4a26de3a7bb1d07ab5a46bb2f144a5c40cdc58c",
-    "path_metadata_sanitized": false
+    "export_sha256": "ccdd49de311682465ec20590c3840996d9c6c86c56556e5cae3a61e34f39c884",
+    "path_metadata_sanitized": false,
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/en/fig_algorithm_overview.png",
     "source_sha256": "70dca2848b2e6d1b1a3c5f7476e6241fd53995e3b9059a881a7d8fcb939632f9",
-    "export_sha256": "70dca2848b2e6d1b1a3c5f7476e6241fd53995e3b9059a881a7d8fcb939632f9",
-    "path_metadata_sanitized": false
+    "export_sha256": "7946a99253a1e29afb76fc2244251630ee059671c9d4f4194bd0a230daa64703",
+    "path_metadata_sanitized": false,
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/en/fig_attainment.pdf",
     "source_sha256": "59ff89f51836ee611dd5fb4bbc01da78d779dba787503ddc876b021693cdece6",
-    "export_sha256": "59ff89f51836ee611dd5fb4bbc01da78d779dba787503ddc876b021693cdece6",
-    "path_metadata_sanitized": false
+    "export_sha256": "8ba053b8b3c4fabdb30ce77b19bca89dc0ac6679eeb6759547ca20caeb352dd5",
+    "path_metadata_sanitized": false,
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/en/fig_attainment.png",
     "source_sha256": "6680eda28854567b26df66663385914921bc1e7e827d896f171eb5b25f8f3da7",
-    "export_sha256": "6680eda28854567b26df66663385914921bc1e7e827d896f171eb5b25f8f3da7",
-    "path_metadata_sanitized": false
+    "export_sha256": "4cd80cdbd490f9a162dd3141fee2a9d7491c7e7cfce6908bae97e6f03537a9aa",
+    "path_metadata_sanitized": false,
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/en/fig_benchmark_gaps.pdf",
     "source_sha256": "326131b1d261bb8cb2694b3fbe2ed6f39c0a33efa342aec31b9586a92c1fbe4c",
-    "export_sha256": "326131b1d261bb8cb2694b3fbe2ed6f39c0a33efa342aec31b9586a92c1fbe4c",
-    "path_metadata_sanitized": false
+    "export_sha256": "68ff39d56f31ee2c42631dd2122fd703fdce694bde0a2da2b832899ae32a1c5d",
+    "path_metadata_sanitized": false,
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/en/fig_component_quality.pdf",
     "source_sha256": "a103726de4246b9ef5c116fdb097d16ce54200ec17c6468aaffc7a88c3724d96",
-    "export_sha256": "a103726de4246b9ef5c116fdb097d16ce54200ec17c6468aaffc7a88c3724d96",
-    "path_metadata_sanitized": false
+    "export_sha256": "c491a27e69e02d98bbc89395e8eb84c3a10b5418339b3cb0b61a45c63ca3498b",
+    "path_metadata_sanitized": false,
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/en/fig_component_quality.png",
     "source_sha256": "a57294149223170262020a27f592fe04db725e837caa0de907a2c07c7fc2047f",
-    "export_sha256": "a57294149223170262020a27f592fe04db725e837caa0de907a2c07c7fc2047f",
-    "path_metadata_sanitized": false
+    "export_sha256": "56d67b3c4f33e5311f77acddcbaf6932e8cffa085fe43c8582c7ddcae9428081",
+    "path_metadata_sanitized": false,
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/en/fig_cpu_gpu.pdf",
     "source_sha256": "700890e3a074c9b2b8c289b2f1ee34293ceba007e46feba4c31f672e579516a7",
-    "export_sha256": "700890e3a074c9b2b8c289b2f1ee34293ceba007e46feba4c31f672e579516a7",
-    "path_metadata_sanitized": false
+    "export_sha256": "40183039dc9e4f566635362779c0e68ec7b6b865825489d0aabd627df6ed0278",
+    "path_metadata_sanitized": false,
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/en/fig_cpu_gpu.png",
     "source_sha256": "062600c85c87a4fa9e86ac6da0b84229cb4914c6d5129720e6a28d3dc2be7ce8",
-    "export_sha256": "062600c85c87a4fa9e86ac6da0b84229cb4914c6d5129720e6a28d3dc2be7ce8",
-    "path_metadata_sanitized": false
+    "export_sha256": "b8685987784df0ce9b0a62d71724eb12dd526a0f9877b743c37284b3ce154b8f",
+    "path_metadata_sanitized": false,
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/en/fig_cpu_gpu.svg",
     "source_sha256": "e25905a0e545029f0b90dfc7c25fcb6797b4d9e0ead749f341544166e60483c4",
-    "export_sha256": "77aa699c1241c9c41bc5ed55f10bae1529c937b18965beea7521b12ca88fa8dc",
+    "export_sha256": "1a5078edc4dfd7e271864fdf35922c96da112b25a17962e051003e3d606e8094",
     "path_metadata_sanitized": false,
-    "git_newline_normalization": "CRLF to LF in published text blob"
+    "git_newline_normalization": "CRLF to LF in published text blob",
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/en/fig_work_time.pdf",
     "source_sha256": "9776efbee8ffa55700e985de3adc39deee8c8ac2ada0e12db0fa8a48817dd4f2",
-    "export_sha256": "9776efbee8ffa55700e985de3adc39deee8c8ac2ada0e12db0fa8a48817dd4f2",
-    "path_metadata_sanitized": false
+    "export_sha256": "85bd2c43d35ac0aa54c97a1c5a515bf8404a7a0728f381a83e49660e47658807",
+    "path_metadata_sanitized": false,
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/en/fig_work_time.png",
     "source_sha256": "057a27e662db2b3a49a74a205cf7086d6f262425209d02d2bf03177409059d52",
-    "export_sha256": "057a27e662db2b3a49a74a205cf7086d6f262425209d02d2bf03177409059d52",
-    "path_metadata_sanitized": false
+    "export_sha256": "5a6562d6d14ee1d71d5c70143c7cb7793d81bd9bfa97de711cba4f74933a0c91",
+    "path_metadata_sanitized": false,
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/en/fig_work_time.svg",
     "source_sha256": "0ee70f0e4656c7b510c519ab2c1f852e6b0d899b1c927e884f335c9d64a40e98",
-    "export_sha256": "c9ef9f02535ebf198ffd5fe90f94689c9a3e837e3bbe643293ed8e414dde20c1",
+    "export_sha256": "38afa0d61abc38f0972a3725b78ef0e9d7b18f77a312099e6228157743dd5c6e",
     "path_metadata_sanitized": false,
-    "git_newline_normalization": "CRLF to LF in published text blob"
+    "git_newline_normalization": "CRLF to LF in published text blob",
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/en/table_benchmark_large.tex",
@@ -670,23 +710,26 @@
   {
     "path": "paper_assets/en/table_confirmation.tex",
     "source_sha256": "283302605de4b16a0fba13eedfb8ffe679632600f20afd610415dae279461cd7",
-    "export_sha256": "d5dd73e070dfa805f2445dca9bb2ce5cb37b67116ef2abed220c07887e03b9aa",
+    "export_sha256": "5a956a37051368b4c8fbc4212dd27a4c81136d64d8d4c0888a0981c6aa0374b0",
     "path_metadata_sanitized": false,
-    "git_newline_normalization": "CRLF to LF in published text blob"
+    "git_newline_normalization": "CRLF to LF in published text blob",
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/en/table_friedman.tex",
     "source_sha256": "1db0cfe8d85825d4a8db1731201f0f7dfcf5e7d148a7dd543695891d6bc120c8",
-    "export_sha256": "42eaa07c6d120a84decf42858eeee5bc51dc2fb3a65fe8fd8f784fced73324be",
+    "export_sha256": "b4dc272f47edd59c7ba5db4ed0529700deddc6e7af0f257a7a0ef1b4c4c64e14",
     "path_metadata_sanitized": false,
-    "git_newline_normalization": "CRLF to LF in published text blob"
+    "git_newline_normalization": "CRLF to LF in published text blob",
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/en/table_hyperparameters.tex",
     "source_sha256": "633860ffad16335e6f99dc31394bb9577f1d1dd54f1a37d7b0119491bc3a35c7",
-    "export_sha256": "4a463ca0e27d11d605a71c6f3b72d8da325267e197fc9609dcef9b0fefc7c116",
+    "export_sha256": "eb0474da7e6aad4e0b254bb3947ed62173a5a106f50c30be53e82ebe2464d66f",
     "path_metadata_sanitized": false,
-    "git_newline_normalization": "CRLF to LF in published text blob"
+    "git_newline_normalization": "CRLF to LF in published text blob",
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "paper_assets/en/table_improvements.tex",
@@ -726,22 +769,37 @@
   {
     "path": "paper_assets/en/table_statistical.tex",
     "source_sha256": "e66ab8640d0a2d0c9c767c0fe05688450ec8c9be6c96f83ad624db7562cb76e2",
-    "export_sha256": "20e04dc8193f9ae7e52a849ea002d6fb97e85c3980447643d8ff67f6248f6aac",
+    "export_sha256": "49f45d25c99fdb12679dc5ffc6e5207613e94c4761125b7536108cd5e796608e",
     "path_metadata_sanitized": false,
-    "finalization_note": "Final plotting script or translated table revision; archived numerical observations retained.",
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes.",
     "git_newline_normalization": "CRLF to LF in published text blob"
   },
   {
     "path": "paper_assets/en/table_timing.tex",
     "source_sha256": "e3eaeb410642c7fa4d14a516dbde260e984c7228ae1d4f298fbb0387af35e2af",
-    "export_sha256": "2ba033ccd0ec7ff6a4667f04809b28d70e7201d6ec7d5e2bae2c733cc4df74fd",
+    "export_sha256": "073d92c41d19a81f12a5e02dc70775b0c5a9a6194ef16d36fae297c392f90871",
     "path_metadata_sanitized": false,
-    "git_newline_normalization": "CRLF to LF in published text blob"
+    "git_newline_normalization": "CRLF to LF in published text blob",
+    "finalization_note": "Narrative revision: baseline labels, figure layout, captions, or prose; experimental data unchanged. Hash identifies Git export bytes."
   },
   {
     "path": "scripts/download_instances.py",
     "source_sha256": "32864d122822bec8ba14beccdcd0828944618842f6c9d86fccbfd1e3a359c5d1",
     "export_sha256": "32864d122822bec8ba14beccdcd0828944618842f6c9d86fccbfd1e3a359c5d1",
     "path_metadata_sanitized": false
+  },
+  {
+    "path": "paper_assets/en/fig_benchmark_gaps.png",
+    "source_sha256": "917010193c752daf6dab3064ca79fab53910a71178d026fbf61d5a085a61e46d",
+    "export_sha256": "917010193c752daf6dab3064ca79fab53910a71178d026fbf61d5a085a61e46d",
+    "path_metadata_sanitized": false,
+    "finalization_note": "Narrative revision: presentation asset; experimental data unchanged."
+  },
+  {
+    "path": "paper_assets/es/fig_benchmark_gaps.png",
+    "source_sha256": "3db9647012a8dd61a8b20342ea417c6d83f34787c7a18f1486d711a3b7242821",
+    "export_sha256": "3db9647012a8dd61a8b20342ea417c6d83f34787c7a18f1486d711a3b7242821",
+    "path_metadata_sanitized": false,
+    "finalization_note": "Narrative revision: presentation asset; experimental data unchanged."
   }
 ]

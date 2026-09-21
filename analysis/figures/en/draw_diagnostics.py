@@ -1,3 +1,8 @@
+from decimal import Decimal
+
+def decimal3(x):
+    return format(Decimal(f"{x:.2e}"), "f")
+
 """Rebuild the work/time and CPU/GPU figures from archived observations; no searches."""
 from pathlib import Path
 import json, math, os
@@ -5,7 +10,7 @@ ROOT=Path(__file__).resolve().parent
 OUT=Path(os.environ['BMCP_FIGURE_OUT']);OUT.mkdir(parents=True,exist_ok=True)
 os.environ['MPLCONFIGDIR']=str(OUT/'mplcache')
 METHODS=('base','outgoing_2')
-LABELS={'base':'Original (K = 4)','outgoing_2':'K = 2'}
+LABELS={'base':'Baseline (K = 4)','outgoing_2':'K = 2'}
 COLORS={'base':'#0072B2','outgoing_2':'#D55E00'}
 MARKERS={'base':'o','outgoing_2':'s'}
 FIGURE='fig_work_time'
@@ -20,13 +25,11 @@ def draw(data, output):
         'axes.labelsize': 10.5, 'xtick.labelsize': 9.8, 'ytick.labelsize': 10,
         'pdf.fonttype': 42, 'ps.fonttype': 42, 'svg.fonttype': 'none', 'axes.spines.top': False,
         'axes.spines.right': False})
-    fig, axs = plt.subplots(2, 3, figsize=(9.6, 6.7), sharey=True)
-    fig.subplots_adjust(left=.085, right=.985, top=.785, bottom=.155, hspace=.52, wspace=.24)
-    fig.suptitle('Does reducing K preserve attainment per step and per second?', x=.52, y=.976, fontsize=14, weight='bold')
-    fig.text(.52, .925, '10 paired runs per method · n = 10 at each point · Fixed own targets', ha='center', fontsize=10.2)
+    fig, axs = plt.subplots(2, 3, figsize=(9.6, 5.8), sharey=True)
+    fig.subplots_adjust(left=.085, right=.985, top=.83, bottom=.12, hspace=.52, wspace=.24)
     handles = [Line2D([0], [0], color=COLORS[m], marker=MARKERS[m], markerfacecolor='white' if m == 'base' else COLORS[m],
         markersize=6, linewidth=1.8, linestyle='-' if m == 'base' else '--', label=LABELS[m]) for m in METHODS]
-    fig.legend(handles=handles, loc='upper center', bbox_to_anchor=(.52, .90), frameon=False, ncol=2, columnspacing=3)
+    fig.legend(handles=handles, loc='upper center', bbox_to_anchor=(.52, .985), frameon=False, ncol=2, columnspacing=3)
     for col, case in enumerate(data['cases']):
         top, bottom = axs[:, col]
         top.set_title(f"{case['display_title']}\nTarget {case['target']:,} · H = {case['horizon_seconds']} s", pad=10)
@@ -75,8 +78,6 @@ def draw(data, output):
             ax.set_axisbelow(True)
     axs[0, 0].set_ylabel('At equal work\nCumulative hits')
     axs[1, 0].set_ylabel('By observed time\nCumulative hits')
-    fig.text(.52, .074, 'Top: exact nominal work checkpoints. Bottom: empirical distribution of batch-observed times.', ha='center', fontsize=9.4)
-    fig.text(.52, .04, 'Axes differ by case. Both methods finish at 10/10; subsecond differences require cautious interpretation.', ha='center', fontsize=9.3)
     for ext in ('png', 'pdf', 'svg'):
         fig.savefig(output / f'{FIGURE}.{ext}', dpi=240, facecolor='white', bbox_inches='tight')
     plt.close(fig)
@@ -95,7 +96,7 @@ def draw_platform():
     plt.rcParams.update({'font.family':'DejaVu Sans','font.size':9,'axes.titlesize':10,'axes.labelsize':9,
         'pdf.fonttype':42,'ps.fonttype':42,'svg.fonttype':'none','axes.spines.top':False,'axes.spines.right':False})
     fig, axes=plt.subplots(1,3,figsize=(10.8,4.4))
-    fig.subplots_adjust(left=.12,right=.99,top=.75,bottom=.27,wspace=.22)
+    fig.subplots_adjust(left=.12,right=.99,top=.79,bottom=.27,wspace=.22)
     colors=['#0072B2','#D55E00','#009E73']
     plotted=[]
     for ax,c,color,letter in zip(axes,data['cases'],colors,'abc'):
@@ -109,7 +110,7 @@ def draw_platform():
             ax.scatter(x,yy,s=19,color=color,edgecolors='white',linewidths=.25,zorder=3)
             mean=sum(x)/10
             ax.scatter([mean],[y],s=34,color='#202020',marker='D',zorder=4)
-            ax.text(mean,y+.25,f'{mean:.3g} s',ha='center',va='bottom',fontsize=8.6)
+            ax.text(mean,y+.25,f'{decimal3(mean)} s',ha='center',va='bottom',fontsize=8.6)
             plotted.extend(dict(instance_uid=uid,platform=plat,seed=r['seed'],seconds=v,display_y=off) for r,v,off in zip(group,x,yy))
         ax.set_xscale('log');ax.set_xlim(.06,200);ax.set_ylim(-.45,2.65)
         ax.set_xticks([.1,1,10,100],['0.1','1','10','100'])
@@ -122,15 +123,13 @@ def draw_platform():
         size=ref['name'].replace('bmcp_','')
         ax.set_title(f'({letter}) {size}\n{c["work_steps"]} steps/trajectory · H = {ref["seconds"]} s',pad=14)
         p={p['cpu_platform']:p['speedup']['mean'] for p in c['pairs']}
-        ax.text(.5,-.30,f'Mean paired CPU/GPU ratio\n1 thread: {p["cpu1"]:.3g}×   |   20 threads: {p["cpu20"]:.3g}×',transform=ax.transAxes,ha='center',va='top',fontsize=8.5)
-    fig.suptitle('Time to complete fixed work: Original on all platforms',x=.5,y=.985,fontsize=12)
+        ax.text(.5,-.30,f'Mean paired CPU/GPU ratio\n1 thread: {decimal3(p["cpu1"])}×   |   20 threads: {decimal3(p["cpu20"])}×',transform=ax.transAxes,ha='center',va='top',fontsize=8.5)
     legend=[Line2D([],[],marker='o',color='none',markerfacecolor='#777777',markeredgecolor='white',markersize=5,label='Individual run (10 per platform)'),
             Line2D([],[],marker='D',color='none',markerfacecolor='#202020',markeredgecolor='#202020',markersize=5,label='Arithmetic mean')]
-    fig.legend(handles=legend,loc='upper center',bbox_to_anchor=(.53,.943),ncol=2,frameon=False,fontsize=8.5)
-    fig.text(.53,.025,'128 trajectories · batch = 1 · 90 runs · all checkpoints attained · includes observation and synchronization',ha='center',fontsize=8)
+    fig.legend(handles=legend,loc='upper center',bbox_to_anchor=(.53,.995),ncol=2,frameon=False,fontsize=8.5)
     stem='fig_cpu_gpu'
     for ext in ('png','pdf','svg'):
-        fig.savefig(OUT/f'{stem}.{ext}',dpi=200 if ext=='png' else None,facecolor='white')
+        fig.savefig(OUT/f'{stem}.{ext}',dpi=200 if ext=='png' else None,facecolor='white',bbox_inches='tight')
     plt.close(fig)
 
 def main():
