@@ -1,0 +1,1950 @@
+{
+  "schema_version": 1,
+  "problem": "BMCP",
+  "stage": "sensitivity_ofat",
+  "created_at_utc": "2026-09-19T01:12:18.237147+00:00",
+  "runner_sha256": "7ec76f281fc997d358221de60971155fbf1bb968454698222fcb8381fb08f90c",
+  "bindings": [
+    {
+      "path": "run_ablation_full10.py",
+      "snapshot": "full10_runner.py",
+      "sha256": "c6226b291149083b3fdf905322932d7a8c677a900011091fae02a26e086fae81"
+    },
+    {
+      "path": "ablation_full10_v1/protocol.json",
+      "snapshot": "full10_protocol.json",
+      "sha256": "c28e9c9858d39e1494bb3ec0f5548703339285993ec137b70c43b8c2a2148b7f"
+    },
+    {
+      "path": "ablation_full10_v1/state.json",
+      "snapshot": "full10_state.json",
+      "sha256": "f7ddc3726426728a2ded201a223d2ef3ed506f898224adce29c402eb66635a3d"
+    },
+    {
+      "path": "ablation_full10_v1/results.jsonl",
+      "snapshot": "full10_results.jsonl",
+      "sha256": "e3fcf855b2f6dc553749d38a9e85a0033b704b34f4964320613514312f6664c7"
+    },
+    {
+      "path": "ablation_full10_v1/audit_final.json",
+      "snapshot": "full10_audit_final.json",
+      "sha256": "1a3472cc669f58372d68989c71891e25cf9a7d10abde3dcdcac89017db16a374"
+    },
+    {
+      "path": "panel_final.json",
+      "snapshot": "panel_final.json",
+      "sha256": "aefb0561941d643ec4defb1c67c478a1fd1c456522eb9a9630a9e613b8cba414"
+    },
+    {
+      "path": "experiment_spec.json",
+      "snapshot": "experiment_spec.json",
+      "sha256": "8209f2b434daa36a1c24a7991e5664ea023db4945c867186fe300ae3f503382f"
+    },
+    {
+      "path": "VALIDACION_EXPERIMENTAL.json",
+      "snapshot": "VALIDACION_EXPERIMENTAL.json",
+      "sha256": "f0828b9523eb2fa6dcbadc96b90b941adfc2fdaadd6f62c949916cc01124027b"
+    },
+    {
+      "path": "VALIDACION_CONTROLADOR_OFAT.json",
+      "snapshot": "VALIDACION_CONTROLADOR_OFAT.json",
+      "sha256": "5b0c43853720af25b697372e56786f77bacb7aec942188386e7cf3b21bae5b12"
+    },
+    {
+      "path": "../../../work/bmcp_experiments/test_sensitivity_ofat.py",
+      "snapshot": "test_sensitivity_ofat.py",
+      "sha256": "a7fb87e9efe5a2bd0142fc51736a0543add30c635916930a76c14b5092e89d1d"
+    },
+    {
+      "path": "Start-BMCP-Sensitivity-OFAT.ps1",
+      "snapshot": "Start-BMCP-Sensitivity-OFAT.ps1",
+      "sha256": "dbee001eabc4ab350e42e6855991eaa4451f909c43733555f5a86f35d04f06ae"
+    }
+  ],
+  "source_sha256": {
+    "bmcp_gpu.py": "4397c2aaf3c692065f04551e7f0618f432c7250a9fb42fd2e316b6dedb696d0c",
+    "bmcp_search.cu": "e46da6945964d2223d1c15b4bad083697891ba476b82c175a8408fb1fad62bdc",
+    "bmcp_io.py": "0e96030b91e6c159187163025cc76100ad1c21dc8511fb854e8778a1844943c7",
+    "cuda_backend.py": "89010eefe2ec05aee2aa65a3aef26873210c9778d9b4adf09f6da1702e529a13"
+  },
+  "parent_protocol_sha256": "c28e9c9858d39e1494bb3ec0f5548703339285993ec137b70c43b8c2a2148b7f",
+  "parent_results_sha256": "e3fcf855b2f6dc553749d38a9e85a0033b704b34f4964320613514312f6664c7",
+  "parent_audit_sha256": "1a3472cc669f58372d68989c71891e25cf9a7d10abde3dcdcac89017db16a374",
+  "parent_role": "Audited provenance only; zero observations or seeds inherited.",
+  "references": [
+    {
+      "name": "bmcp_4600_4400_0.5_7000",
+      "group": "BMCP_Set_II",
+      "table": "C.2",
+      "page": 41,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "items": 4600,
+      "elements": 4400,
+      "capacity": 7000,
+      "density": 0.05869258893280632,
+      "degree_min": 211,
+      "degree_max": 326,
+      "relative_path": "instances/bmcp_4600_4400_0.5_7000.txt",
+      "sha256": "92eb8136640431faf6f973ce0b1f8e4ee2bd6344d3a95d92c1e61fd1e02f830c",
+      "bkv_column": 1898602,
+      "plts_best": 1845046,
+      "plts_mean": 1817697.0,
+      "vdls_best": 1898602,
+      "vdls_mean": 1889659.0,
+      "ihs_best": 1901834,
+      "ihs_mean": 1901834.0,
+      "anrma_best": 1901834,
+      "anrma_mean": 1900506.0,
+      "anrma_sd": 1357.53,
+      "anrma_tavg": 645.1,
+      "published_runs": 30,
+      "published_seconds": 1800,
+      "reference_best": 1901834,
+      "reference_scope": "maximum reported in SWEVO2026 Table C.2",
+      "cohort": "II_large",
+      "common_target": 1901868,
+      "panel_role": "tail"
+    },
+    {
+      "name": "bmcp_1300_1300_0.5_2000",
+      "group": "BMCP_Set_II",
+      "table": "C.2",
+      "page": 40,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "items": 1300,
+      "elements": 1300,
+      "capacity": 2000,
+      "density": 0.05870414201183432,
+      "degree_min": 54,
+      "degree_max": 103,
+      "relative_path": "instances/bmcp_1300_1300_0.5_2000.txt",
+      "sha256": "f7f591a886d659144d55326cdfdb7ff4f4272d97a208b82b7b654d60bf5914d1",
+      "bkv_column": 162146,
+      "plts_best": 160485,
+      "plts_mean": 159511.0,
+      "vdls_best": 162146,
+      "vdls_mean": 161537.0,
+      "ihs_best": 162514,
+      "ihs_mean": 162211.0,
+      "anrma_best": 162514,
+      "anrma_mean": 162514.0,
+      "anrma_sd": 0.0,
+      "anrma_tavg": 142.39,
+      "published_runs": 30,
+      "published_seconds": 1800,
+      "reference_best": 162514,
+      "reference_scope": "maximum reported in SWEVO2026 Table C.2",
+      "cohort": "II_medium",
+      "common_target": 162514,
+      "panel_role": "tail"
+    },
+    {
+      "name": "bmcp_785_800_0.05_2000",
+      "group": "BMCP_Set_I",
+      "table": "C.1",
+      "page": 39,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "items": 785,
+      "elements": 800,
+      "capacity": 2000,
+      "density": 0.05032165605095541,
+      "degree_min": 21,
+      "degree_max": 64,
+      "relative_path": "instances/bmcp_785_800_0.05_2000.txt",
+      "sha256": "837bc9b2f4268cf4a27bcd35da8469a827a1cdc6d693445848902392f2529290",
+      "bkv_column": 92740,
+      "plts_best": 92608,
+      "plts_mean": 92588.0,
+      "vdls_best": 92740,
+      "vdls_mean": 92414.0,
+      "ihs_best": 92740,
+      "ihs_mean": 92740.0,
+      "anrma_best": 92740,
+      "anrma_mean": 92740.0,
+      "anrma_sd": 0.0,
+      "anrma_tavg": 3.39,
+      "published_runs": 30,
+      "published_seconds": 600,
+      "reference_best": 92740,
+      "reference_scope": "maximum reported in SWEVO2026 Table C.1",
+      "cohort": "I",
+      "common_target": 92740,
+      "panel_role": "tail"
+    }
+  ],
+  "configurations": [
+    {
+      "id": "base",
+      "factor": "base",
+      "parameters": {
+        "blocks": 128,
+        "stagnation": 300,
+        "outgoing": 4,
+        "temperature": 0.03,
+        "destroy_low": 0.12,
+        "destroy_high": 0.7
+      }
+    },
+    {
+      "id": "temperature_0",
+      "factor": "temperature",
+      "parameters": {
+        "blocks": 128,
+        "stagnation": 300,
+        "outgoing": 4,
+        "temperature": 0.0,
+        "destroy_low": 0.12,
+        "destroy_high": 0.7
+      }
+    },
+    {
+      "id": "temperature_0p01",
+      "factor": "temperature",
+      "parameters": {
+        "blocks": 128,
+        "stagnation": 300,
+        "outgoing": 4,
+        "temperature": 0.01,
+        "destroy_low": 0.12,
+        "destroy_high": 0.7
+      }
+    },
+    {
+      "id": "temperature_0p10",
+      "factor": "temperature",
+      "parameters": {
+        "blocks": 128,
+        "stagnation": 300,
+        "outgoing": 4,
+        "temperature": 0.1,
+        "destroy_low": 0.12,
+        "destroy_high": 0.7
+      }
+    },
+    {
+      "id": "stagnation_75",
+      "factor": "stagnation",
+      "parameters": {
+        "blocks": 128,
+        "stagnation": 75,
+        "outgoing": 4,
+        "temperature": 0.03,
+        "destroy_low": 0.12,
+        "destroy_high": 0.7
+      }
+    },
+    {
+      "id": "stagnation_150",
+      "factor": "stagnation",
+      "parameters": {
+        "blocks": 128,
+        "stagnation": 150,
+        "outgoing": 4,
+        "temperature": 0.03,
+        "destroy_low": 0.12,
+        "destroy_high": 0.7
+      }
+    },
+    {
+      "id": "stagnation_600",
+      "factor": "stagnation",
+      "parameters": {
+        "blocks": 128,
+        "stagnation": 600,
+        "outgoing": 4,
+        "temperature": 0.03,
+        "destroy_low": 0.12,
+        "destroy_high": 0.7
+      }
+    },
+    {
+      "id": "stagnation_1200",
+      "factor": "stagnation",
+      "parameters": {
+        "blocks": 128,
+        "stagnation": 1200,
+        "outgoing": 4,
+        "temperature": 0.03,
+        "destroy_low": 0.12,
+        "destroy_high": 0.7
+      }
+    },
+    {
+      "id": "outgoing_1",
+      "factor": "outgoing",
+      "parameters": {
+        "blocks": 128,
+        "stagnation": 300,
+        "outgoing": 1,
+        "temperature": 0.03,
+        "destroy_low": 0.12,
+        "destroy_high": 0.7
+      }
+    },
+    {
+      "id": "outgoing_2",
+      "factor": "outgoing",
+      "parameters": {
+        "blocks": 128,
+        "stagnation": 300,
+        "outgoing": 2,
+        "temperature": 0.03,
+        "destroy_low": 0.12,
+        "destroy_high": 0.7
+      }
+    },
+    {
+      "id": "outgoing_8",
+      "factor": "outgoing",
+      "parameters": {
+        "blocks": 128,
+        "stagnation": 300,
+        "outgoing": 8,
+        "temperature": 0.03,
+        "destroy_low": 0.12,
+        "destroy_high": 0.7
+      }
+    },
+    {
+      "id": "blocks_32",
+      "factor": "blocks",
+      "parameters": {
+        "blocks": 32,
+        "stagnation": 300,
+        "outgoing": 4,
+        "temperature": 0.03,
+        "destroy_low": 0.12,
+        "destroy_high": 0.7
+      }
+    },
+    {
+      "id": "blocks_64",
+      "factor": "blocks",
+      "parameters": {
+        "blocks": 64,
+        "stagnation": 300,
+        "outgoing": 4,
+        "temperature": 0.03,
+        "destroy_low": 0.12,
+        "destroy_high": 0.7
+      }
+    },
+    {
+      "id": "blocks_256",
+      "factor": "blocks",
+      "parameters": {
+        "blocks": 256,
+        "stagnation": 300,
+        "outgoing": 4,
+        "temperature": 0.03,
+        "destroy_low": 0.12,
+        "destroy_high": 0.7
+      }
+    },
+    {
+      "id": "destroy_0p02_0p60",
+      "factor": "destruction_window",
+      "parameters": {
+        "blocks": 128,
+        "stagnation": 300,
+        "outgoing": 4,
+        "temperature": 0.03,
+        "destroy_low": 0.02,
+        "destroy_high": 0.6
+      }
+    },
+    {
+      "id": "destroy_0p22_0p80",
+      "factor": "destruction_window",
+      "parameters": {
+        "blocks": 128,
+        "stagnation": 300,
+        "outgoing": 4,
+        "temperature": 0.03,
+        "destroy_low": 0.22,
+        "destroy_high": 0.8
+      }
+    },
+    {
+      "id": "destroy_0p31_0p51",
+      "factor": "destruction_window",
+      "parameters": {
+        "blocks": 128,
+        "stagnation": 300,
+        "outgoing": 4,
+        "temperature": 0.03,
+        "destroy_low": 0.31,
+        "destroy_high": 0.51
+      }
+    },
+    {
+      "id": "destroy_0p41_0p41",
+      "factor": "destruction_window",
+      "parameters": {
+        "blocks": 128,
+        "stagnation": 300,
+        "outgoing": 4,
+        "temperature": 0.03,
+        "destroy_low": 0.41,
+        "destroy_high": 0.41
+      }
+    }
+  ],
+  "configuration_count": 18,
+  "variant": "base",
+  "instrumentation": true,
+  "seeds": [
+    2026100201,
+    2026100202,
+    2026100203
+  ],
+  "repeats": 3,
+  "expected_runs": 162,
+  "instance_count": 3,
+  "cells": [
+    {
+      "index": 0,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100201,
+      "configuration_id": "temperature_0p10",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 1,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100201,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 2,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100201,
+      "configuration_id": "stagnation_150",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 3,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100201,
+      "configuration_id": "blocks_256",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 4,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100201,
+      "configuration_id": "blocks_64",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 5,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100201,
+      "configuration_id": "temperature_0",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 6,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100201,
+      "configuration_id": "destroy_0p41_0p41",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 7,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100201,
+      "configuration_id": "destroy_0p22_0p80",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 8,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100201,
+      "configuration_id": "outgoing_2",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 9,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100201,
+      "configuration_id": "outgoing_1",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 10,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100201,
+      "configuration_id": "destroy_0p02_0p60",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 11,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100201,
+      "configuration_id": "destroy_0p31_0p51",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 12,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100201,
+      "configuration_id": "stagnation_1200",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 13,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100201,
+      "configuration_id": "stagnation_600",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 14,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100201,
+      "configuration_id": "outgoing_8",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 15,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100201,
+      "configuration_id": "temperature_0p01",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 16,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100201,
+      "configuration_id": "blocks_32",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 17,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100201,
+      "configuration_id": "stagnation_75",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 18,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100202,
+      "configuration_id": "stagnation_1200",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 19,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100202,
+      "configuration_id": "blocks_32",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 20,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100202,
+      "configuration_id": "destroy_0p31_0p51",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 21,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100202,
+      "configuration_id": "blocks_256",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 22,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100202,
+      "configuration_id": "destroy_0p02_0p60",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 23,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100202,
+      "configuration_id": "stagnation_600",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 24,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100202,
+      "configuration_id": "outgoing_8",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 25,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100202,
+      "configuration_id": "outgoing_2",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 26,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100202,
+      "configuration_id": "destroy_0p22_0p80",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 27,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100202,
+      "configuration_id": "temperature_0p01",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 28,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100202,
+      "configuration_id": "temperature_0",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 29,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100202,
+      "configuration_id": "blocks_64",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 30,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100202,
+      "configuration_id": "stagnation_150",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 31,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100202,
+      "configuration_id": "outgoing_1",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 32,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100202,
+      "configuration_id": "temperature_0p10",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 33,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100202,
+      "configuration_id": "destroy_0p41_0p41",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 34,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100202,
+      "configuration_id": "stagnation_75",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 35,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100202,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 36,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100203,
+      "configuration_id": "blocks_64",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 37,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100203,
+      "configuration_id": "outgoing_2",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 38,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100203,
+      "configuration_id": "destroy_0p41_0p41",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 39,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100203,
+      "configuration_id": "outgoing_1",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 40,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100203,
+      "configuration_id": "outgoing_8",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 41,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100203,
+      "configuration_id": "blocks_256",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 42,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100203,
+      "configuration_id": "temperature_0",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 43,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100203,
+      "configuration_id": "destroy_0p02_0p60",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 44,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100203,
+      "configuration_id": "destroy_0p31_0p51",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 45,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100203,
+      "configuration_id": "stagnation_150",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 46,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100203,
+      "configuration_id": "stagnation_75",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 47,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100203,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 48,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100203,
+      "configuration_id": "stagnation_600",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 49,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100203,
+      "configuration_id": "blocks_32",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 50,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100203,
+      "configuration_id": "temperature_0p01",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 51,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100203,
+      "configuration_id": "temperature_0p10",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 52,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100203,
+      "configuration_id": "stagnation_1200",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 53,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100203,
+      "configuration_id": "destroy_0p22_0p80",
+      "variant": "base",
+      "seconds": 180
+    },
+    {
+      "index": 54,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100201,
+      "configuration_id": "blocks_256",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 55,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100201,
+      "configuration_id": "destroy_0p02_0p60",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 56,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100201,
+      "configuration_id": "blocks_64",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 57,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100201,
+      "configuration_id": "stagnation_1200",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 58,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100201,
+      "configuration_id": "stagnation_150",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 59,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100201,
+      "configuration_id": "stagnation_600",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 60,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100201,
+      "configuration_id": "destroy_0p41_0p41",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 61,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100201,
+      "configuration_id": "destroy_0p22_0p80",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 62,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100201,
+      "configuration_id": "outgoing_1",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 63,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100201,
+      "configuration_id": "outgoing_2",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 64,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100201,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 65,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100201,
+      "configuration_id": "outgoing_8",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 66,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100201,
+      "configuration_id": "stagnation_75",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 67,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100201,
+      "configuration_id": "temperature_0p10",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 68,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100201,
+      "configuration_id": "blocks_32",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 69,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100201,
+      "configuration_id": "temperature_0p01",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 70,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100201,
+      "configuration_id": "destroy_0p31_0p51",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 71,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100201,
+      "configuration_id": "temperature_0",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 72,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100202,
+      "configuration_id": "temperature_0p10",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 73,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100202,
+      "configuration_id": "destroy_0p31_0p51",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 74,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100202,
+      "configuration_id": "temperature_0",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 75,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100202,
+      "configuration_id": "blocks_64",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 76,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100202,
+      "configuration_id": "destroy_0p22_0p80",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 77,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100202,
+      "configuration_id": "temperature_0p01",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 78,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100202,
+      "configuration_id": "blocks_256",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 79,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100202,
+      "configuration_id": "blocks_32",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 80,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100202,
+      "configuration_id": "destroy_0p02_0p60",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 81,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100202,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 82,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100202,
+      "configuration_id": "outgoing_1",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 83,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100202,
+      "configuration_id": "stagnation_150",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 84,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100202,
+      "configuration_id": "outgoing_8",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 85,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100202,
+      "configuration_id": "stagnation_1200",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 86,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100202,
+      "configuration_id": "destroy_0p41_0p41",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 87,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100202,
+      "configuration_id": "stagnation_75",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 88,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100202,
+      "configuration_id": "outgoing_2",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 89,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100202,
+      "configuration_id": "stagnation_600",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 90,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100203,
+      "configuration_id": "stagnation_75",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 91,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100203,
+      "configuration_id": "destroy_0p41_0p41",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 92,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100203,
+      "configuration_id": "blocks_256",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 93,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100203,
+      "configuration_id": "temperature_0p10",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 94,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100203,
+      "configuration_id": "blocks_32",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 95,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100203,
+      "configuration_id": "temperature_0",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 96,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100203,
+      "configuration_id": "destroy_0p31_0p51",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 97,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100203,
+      "configuration_id": "temperature_0p01",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 98,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100203,
+      "configuration_id": "outgoing_8",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 99,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100203,
+      "configuration_id": "stagnation_1200",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 100,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100203,
+      "configuration_id": "destroy_0p22_0p80",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 101,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100203,
+      "configuration_id": "outgoing_2",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 102,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100203,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 103,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100203,
+      "configuration_id": "destroy_0p02_0p60",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 104,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100203,
+      "configuration_id": "outgoing_1",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 105,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100203,
+      "configuration_id": "stagnation_150",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 106,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100203,
+      "configuration_id": "blocks_64",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 107,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100203,
+      "configuration_id": "stagnation_600",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 108,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100201,
+      "configuration_id": "temperature_0",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 109,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100201,
+      "configuration_id": "destroy_0p31_0p51",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 110,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100201,
+      "configuration_id": "destroy_0p02_0p60",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 111,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100201,
+      "configuration_id": "outgoing_2",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 112,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100201,
+      "configuration_id": "outgoing_8",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 113,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100201,
+      "configuration_id": "stagnation_150",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 114,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100201,
+      "configuration_id": "blocks_256",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 115,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100201,
+      "configuration_id": "blocks_64",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 116,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100201,
+      "configuration_id": "blocks_32",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 117,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100201,
+      "configuration_id": "temperature_0p01",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 118,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100201,
+      "configuration_id": "stagnation_1200",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 119,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100201,
+      "configuration_id": "destroy_0p41_0p41",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 120,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100201,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 121,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100201,
+      "configuration_id": "stagnation_75",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 122,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100201,
+      "configuration_id": "outgoing_1",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 123,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100201,
+      "configuration_id": "temperature_0p10",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 124,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100201,
+      "configuration_id": "stagnation_600",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 125,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100201,
+      "configuration_id": "destroy_0p22_0p80",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 126,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100202,
+      "configuration_id": "blocks_32",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 127,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100202,
+      "configuration_id": "outgoing_1",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 128,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100202,
+      "configuration_id": "destroy_0p22_0p80",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 129,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100202,
+      "configuration_id": "blocks_64",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 130,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100202,
+      "configuration_id": "temperature_0p10",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 131,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100202,
+      "configuration_id": "destroy_0p41_0p41",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 132,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100202,
+      "configuration_id": "destroy_0p02_0p60",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 133,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100202,
+      "configuration_id": "temperature_0",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 134,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100202,
+      "configuration_id": "outgoing_8",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 135,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100202,
+      "configuration_id": "destroy_0p31_0p51",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 136,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100202,
+      "configuration_id": "stagnation_600",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 137,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100202,
+      "configuration_id": "outgoing_2",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 138,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100202,
+      "configuration_id": "stagnation_1200",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 139,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100202,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 140,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100202,
+      "configuration_id": "stagnation_150",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 141,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100202,
+      "configuration_id": "blocks_256",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 142,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100202,
+      "configuration_id": "temperature_0p01",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 143,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100202,
+      "configuration_id": "stagnation_75",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 144,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100203,
+      "configuration_id": "temperature_0p10",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 145,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100203,
+      "configuration_id": "stagnation_75",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 146,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100203,
+      "configuration_id": "stagnation_1200",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 147,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100203,
+      "configuration_id": "temperature_0p01",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 148,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100203,
+      "configuration_id": "stagnation_600",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 149,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100203,
+      "configuration_id": "blocks_64",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 150,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100203,
+      "configuration_id": "temperature_0",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 151,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100203,
+      "configuration_id": "destroy_0p02_0p60",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 152,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100203,
+      "configuration_id": "destroy_0p31_0p51",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 153,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100203,
+      "configuration_id": "stagnation_150",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 154,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100203,
+      "configuration_id": "outgoing_2",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 155,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100203,
+      "configuration_id": "outgoing_8",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 156,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100203,
+      "configuration_id": "blocks_256",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 157,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100203,
+      "configuration_id": "blocks_32",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 158,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100203,
+      "configuration_id": "destroy_0p22_0p80",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 159,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100203,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 160,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100203,
+      "configuration_id": "destroy_0p41_0p41",
+      "variant": "base",
+      "seconds": 90
+    },
+    {
+      "index": 161,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100203,
+      "configuration_id": "outgoing_1",
+      "variant": "base",
+      "seconds": 90
+    }
+  ],
+  "total_search_seconds": 19440,
+  "schedule_seed": 2026100001,
+  "schedule_policy": "Fresh per-stage RNG; shuffle eighteen configurations inside each of nine instance-seed blocks.",
+  "horizons": {
+    "II_large": 180,
+    "II_medium": 90,
+    "I": 90
+  },
+  "checkpoints": [
+    0.02,
+    0.05,
+    0.1,
+    0.25,
+    0.5,
+    1,
+    2,
+    5,
+    10,
+    30,
+    60,
+    90,
+    180
+  ],
+  "heldout_uids": [
+    "BMCP_Set_II:bmcp_4600_4600_0.5_7000",
+    "BMCP_Set_II:bmcp_4600_4600_0.3_10000",
+    "BMCP_Set_II:bmcp_1100_1100_0.3_3000",
+    "BMCP_Set_II:bmcp_1300_1300_0.3_3000",
+    "BMCP_Set_I:bmcp_1000_1000_0.075_1500",
+    "BMCP_Set_I:bmcp_785_800_0.075_1500"
+  ],
+  "diagnostic_counter_names": [
+    "accepted_add_positive",
+    "accepted_add_zero",
+    "accepted_add_negative",
+    "accepted_remove_positive",
+    "accepted_remove_zero",
+    "accepted_remove_negative",
+    "accepted_swap_positive",
+    "accepted_swap_zero",
+    "accepted_swap_negative",
+    "accepted_gain_positive_sum",
+    "accepted_gain_negative_abs_sum",
+    "incumbent_improvements_construction",
+    "incumbent_improvements_local",
+    "incumbent_gain_construction",
+    "incumbent_gain_local",
+    "restarts_stagnation",
+    "restarts_no_admissible",
+    "restarts_construction_exhausted",
+    "restarts_empty",
+    "restarts_incumbent",
+    "accepted_table_matches",
+    "accepted_effective_aspirations",
+    "construction_steps",
+    "local_steps",
+    "construction_exhaustions",
+    "local_exhaustions",
+    "recovery_episodes",
+    "recovery_reached",
+    "recovery_delay_steps_sum",
+    "recovery_improved",
+    "recovery_improvement_delay_steps_sum",
+    "recovery_censored_by_restart",
+    "destruction_items_removed",
+    "destruction_items_before",
+    "recovery_improvement_censored_by_restart",
+    "loss_edge_reads",
+    "incoming_items_scanned",
+    "packed_words_scanned",
+    "active_incidence_visits",
+    "construction_candidate_evaluations",
+    "local_add_candidate_evaluations",
+    "local_remove_candidate_evaluations",
+    "local_swap_candidate_evaluations",
+    "local_swap_feasible",
+    "tabu_queries",
+    "tabu_full_hash_matches",
+    "tabu_rejections",
+    "effective_aspiration_candidates",
+    "accepted_construction_moves",
+    "accepted_local_moves"
+  ],
+  "target_scope": "Frozen published and maximum nominal baseline objectives; neither implies optimality.",
+  "timing_scope": "Full per-cell search wall budget. Nominal observations exclude overshoot. Misses are censored at their own horizon. No pooled mixed-budget time.",
+  "inference": "Exploratory OFAT screen: three paired seeds on one preselected tail case per size. Configurations share a frozen numerical base. No significance, benchmark-wide superiority, or holdout claim follows from this panel."
+}

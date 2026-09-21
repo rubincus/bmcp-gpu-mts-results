@@ -1,0 +1,11 @@
+* text=auto
+*.json text eol=lf
+*.jsonl text eol=lf
+*.py text eol=lf
+*.gz binary
+*.pdf binary
+*.png binary
+data/** -text
+solutions/** -text
+analysis/figures/*.json -text
+analysis/figures/en/*.json -text

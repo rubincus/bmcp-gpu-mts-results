@@ -1,0 +1,3096 @@
+{
+  "created_at_utc": "2026-09-19T15:28:52.239646+00:00",
+  "all_valid": true,
+  "runs": 180,
+  "instances": 6,
+  "configurations": 3,
+  "repeats": 10,
+  "inherited_runs": 0,
+  "new_runs": 180,
+  "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507",
+  "results_sha256": "f50c93612e04b0145976c7b7fda793f5551067518cf79147f089124ea5bfa155",
+  "source_sha256": {
+    "bmcp_gpu.py": "4397c2aaf3c692065f04551e7f0618f432c7250a9fb42fd2e316b6dedb696d0c",
+    "bmcp_search.cu": "e46da6945964d2223d1c15b4bad083697891ba476b82c175a8408fb1fad62bdc",
+    "bmcp_io.py": "0e96030b91e6c159187163025cc76100ad1c21dc8511fb854e8778a1844943c7",
+    "cuda_backend.py": "89010eefe2ec05aee2aa65a3aef26873210c9778d9b4adf09f6da1702e529a13"
+  },
+  "parent_protocol_sha256": "73ba5c7b2b8f0be5f24543c63f0a82ab17d623e7f976009d9bc3a71ad03d6b4a",
+  "parent_audit_sha256": "4b60d7f73018b1b0db7be6f18ad3779a1f57624da3fa0c9fc03eca6394221be7",
+  "runner_sha256": "04a0f2bd265b7c0a6a60aa9a7d09627643f3348df93e1a61edf05809cb337dd9",
+  "input_sha256": {
+    "BMCP_Set_II:bmcp_4600_4400_0.5_7000": "92eb8136640431faf6f973ce0b1f8e4ee2bd6344d3a95d92c1e61fd1e02f830c",
+    "BMCP_Set_II:bmcp_5000_5200_0.5_7000": "5921647f063e59b390370679fbc3e7f0154d21df6d0ce952f761215343205c45",
+    "BMCP_Set_II:bmcp_1300_1300_0.5_2000": "f7f591a886d659144d55326cdfdb7ff4f4272d97a208b82b7b654d60bf5914d1",
+    "BMCP_Set_II:bmcp_1500_1600_0.5_2000": "c4a323679aadd5fcc8eacb18983384b0675c91b479cf328096f2107eb67ec611",
+    "BMCP_Set_I:bmcp_785_800_0.05_2000": "837bc9b2f4268cf4a27bcd35da8469a827a1cdc6d693445848902392f2529290",
+    "BMCP_Set_I:bmcp_985_1000_0.075_1500": "328585a0b3e91a514bc36112ddbed15d2a9b4424def37e68ef7578eb23bafdb9"
+  },
+  "budget_counts": {
+    "180": 60,
+    "90": 120
+  },
+  "certificates": [
+    {
+      "cell": {
+        "index": 0,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100301,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 1901868,
+      "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "overshoot_profit": 1901868,
+      "overshoot_selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 1,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100301,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 1901868,
+      "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "overshoot_profit": 1901868,
+      "overshoot_selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 2,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100301,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 1901868,
+      "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "overshoot_profit": 1901868,
+      "overshoot_selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 3,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100302,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 1901868,
+      "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "overshoot_profit": 1901868,
+      "overshoot_selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 4,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100302,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 1901868,
+      "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "overshoot_profit": 1901868,
+      "overshoot_selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 5,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100302,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 1901868,
+      "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "overshoot_profit": 1901868,
+      "overshoot_selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 6,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100303,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 1901868,
+      "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "overshoot_profit": 1901868,
+      "overshoot_selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 7,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100303,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 1901868,
+      "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "overshoot_profit": 1901868,
+      "overshoot_selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 8,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100303,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 1901868,
+      "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "overshoot_profit": 1901868,
+      "overshoot_selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 9,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100304,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 1901868,
+      "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "overshoot_profit": 1901868,
+      "overshoot_selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 10,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100304,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 1901868,
+      "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "overshoot_profit": 1901868,
+      "overshoot_selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 11,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100304,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 1901868,
+      "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "overshoot_profit": 1901868,
+      "overshoot_selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 12,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100305,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 1901868,
+      "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "overshoot_profit": 1901868,
+      "overshoot_selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 13,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100305,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 1901868,
+      "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "overshoot_profit": 1901868,
+      "overshoot_selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 14,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100305,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 1901868,
+      "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "overshoot_profit": 1901868,
+      "overshoot_selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 15,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100306,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 1901868,
+      "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "overshoot_profit": 1901868,
+      "overshoot_selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 16,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100306,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 1901868,
+      "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "overshoot_profit": 1901868,
+      "overshoot_selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 17,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100306,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 1901868,
+      "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "overshoot_profit": 1901868,
+      "overshoot_selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 18,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100307,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 1901868,
+      "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "overshoot_profit": 1901868,
+      "overshoot_selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 19,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100307,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 1901868,
+      "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "overshoot_profit": 1901868,
+      "overshoot_selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 20,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100307,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 1901868,
+      "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "overshoot_profit": 1901868,
+      "overshoot_selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 21,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100308,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 1901868,
+      "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "overshoot_profit": 1901868,
+      "overshoot_selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 22,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100308,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 1901868,
+      "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "overshoot_profit": 1901868,
+      "overshoot_selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 23,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100308,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 1901868,
+      "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "overshoot_profit": 1901868,
+      "overshoot_selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 24,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100309,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 1901868,
+      "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "overshoot_profit": 1901868,
+      "overshoot_selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 25,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100309,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 1901868,
+      "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "overshoot_profit": 1901868,
+      "overshoot_selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 26,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100309,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 1901868,
+      "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "overshoot_profit": 1901868,
+      "overshoot_selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 27,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100310,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 1901868,
+      "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "overshoot_profit": 1901868,
+      "overshoot_selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 28,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100310,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 1901868,
+      "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "overshoot_profit": 1901868,
+      "overshoot_selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 29,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100310,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 1901868,
+      "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "overshoot_profit": 1901868,
+      "overshoot_selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 30,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+        "seed": 2026100301,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 2227362,
+      "selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "overshoot_profit": 2227362,
+      "overshoot_selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 31,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+        "seed": 2026100301,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 2227362,
+      "selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "overshoot_profit": 2227362,
+      "overshoot_selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 32,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+        "seed": 2026100301,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 2227362,
+      "selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "overshoot_profit": 2227362,
+      "overshoot_selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 33,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+        "seed": 2026100302,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 2227362,
+      "selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "overshoot_profit": 2227362,
+      "overshoot_selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 34,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+        "seed": 2026100302,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 2227362,
+      "selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "overshoot_profit": 2227362,
+      "overshoot_selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 35,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+        "seed": 2026100302,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 2227362,
+      "selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "overshoot_profit": 2227362,
+      "overshoot_selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 36,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+        "seed": 2026100303,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 2227362,
+      "selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "overshoot_profit": 2227362,
+      "overshoot_selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 37,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+        "seed": 2026100303,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 2227362,
+      "selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "overshoot_profit": 2227362,
+      "overshoot_selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 38,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+        "seed": 2026100303,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 2227362,
+      "selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "overshoot_profit": 2227362,
+      "overshoot_selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 39,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+        "seed": 2026100304,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 2227362,
+      "selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "overshoot_profit": 2227362,
+      "overshoot_selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 40,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+        "seed": 2026100304,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 2227362,
+      "selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "overshoot_profit": 2227362,
+      "overshoot_selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 41,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+        "seed": 2026100304,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 2227362,
+      "selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "overshoot_profit": 2227362,
+      "overshoot_selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 42,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+        "seed": 2026100305,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 2227362,
+      "selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "overshoot_profit": 2227362,
+      "overshoot_selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 43,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+        "seed": 2026100305,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 2227362,
+      "selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "overshoot_profit": 2227362,
+      "overshoot_selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 44,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+        "seed": 2026100305,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 2227362,
+      "selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "overshoot_profit": 2227362,
+      "overshoot_selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 45,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+        "seed": 2026100306,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 2227362,
+      "selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "overshoot_profit": 2227362,
+      "overshoot_selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 46,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+        "seed": 2026100306,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 2227362,
+      "selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "overshoot_profit": 2227362,
+      "overshoot_selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 47,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+        "seed": 2026100306,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 2227362,
+      "selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "overshoot_profit": 2227362,
+      "overshoot_selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 48,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+        "seed": 2026100307,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 2227362,
+      "selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "overshoot_profit": 2227362,
+      "overshoot_selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 49,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+        "seed": 2026100307,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 2227362,
+      "selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "overshoot_profit": 2227362,
+      "overshoot_selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 50,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+        "seed": 2026100307,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 2227362,
+      "selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "overshoot_profit": 2227362,
+      "overshoot_selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 51,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+        "seed": 2026100308,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 2227362,
+      "selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "overshoot_profit": 2227362,
+      "overshoot_selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 52,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+        "seed": 2026100308,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 2227362,
+      "selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "overshoot_profit": 2227362,
+      "overshoot_selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 53,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+        "seed": 2026100308,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 2227362,
+      "selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "overshoot_profit": 2227362,
+      "overshoot_selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 54,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+        "seed": 2026100309,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 2227362,
+      "selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "overshoot_profit": 2227362,
+      "overshoot_selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 55,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+        "seed": 2026100309,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 2227362,
+      "selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "overshoot_profit": 2227362,
+      "overshoot_selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 56,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+        "seed": 2026100309,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 2227362,
+      "selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "overshoot_profit": 2227362,
+      "overshoot_selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 57,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+        "seed": 2026100310,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 2227362,
+      "selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "overshoot_profit": 2227362,
+      "overshoot_selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 58,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+        "seed": 2026100310,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 2227362,
+      "selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "overshoot_profit": 2227362,
+      "overshoot_selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 59,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+        "seed": 2026100310,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "profit": 2227362,
+      "selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "overshoot_profit": 2227362,
+      "overshoot_selection_sha256": "7f2349efdd48b82140b7e9161161661b1eb31dec41f75dba67d2a37d525a3f2e",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 60,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100301,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 162514,
+      "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "overshoot_profit": 162514,
+      "overshoot_selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 61,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100301,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 162514,
+      "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "overshoot_profit": 162514,
+      "overshoot_selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 62,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100301,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 162514,
+      "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "overshoot_profit": 162514,
+      "overshoot_selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 63,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100302,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 162514,
+      "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "overshoot_profit": 162514,
+      "overshoot_selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 64,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100302,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 162514,
+      "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "overshoot_profit": 162514,
+      "overshoot_selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 65,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100302,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 162514,
+      "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "overshoot_profit": 162514,
+      "overshoot_selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 66,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100303,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 162514,
+      "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "overshoot_profit": 162514,
+      "overshoot_selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 67,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100303,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 162514,
+      "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "overshoot_profit": 162514,
+      "overshoot_selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 68,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100303,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 162514,
+      "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "overshoot_profit": 162514,
+      "overshoot_selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 69,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100304,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 162514,
+      "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "overshoot_profit": 162514,
+      "overshoot_selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 70,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100304,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 162514,
+      "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "overshoot_profit": 162514,
+      "overshoot_selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 71,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100304,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 162514,
+      "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "overshoot_profit": 162514,
+      "overshoot_selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 72,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100305,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 162514,
+      "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "overshoot_profit": 162514,
+      "overshoot_selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 73,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100305,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 162514,
+      "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "overshoot_profit": 162514,
+      "overshoot_selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 74,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100305,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 162514,
+      "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "overshoot_profit": 162514,
+      "overshoot_selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 75,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100306,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 162514,
+      "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "overshoot_profit": 162514,
+      "overshoot_selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 76,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100306,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 162514,
+      "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "overshoot_profit": 162514,
+      "overshoot_selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 77,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100306,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 162514,
+      "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "overshoot_profit": 162514,
+      "overshoot_selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 78,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100307,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 162514,
+      "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "overshoot_profit": 162514,
+      "overshoot_selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 79,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100307,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 162514,
+      "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "overshoot_profit": 162514,
+      "overshoot_selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 80,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100307,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 162514,
+      "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "overshoot_profit": 162514,
+      "overshoot_selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 81,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100308,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 162514,
+      "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "overshoot_profit": 162514,
+      "overshoot_selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 82,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100308,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 162514,
+      "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "overshoot_profit": 162514,
+      "overshoot_selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 83,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100308,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 162514,
+      "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "overshoot_profit": 162514,
+      "overshoot_selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 84,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100309,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 162514,
+      "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "overshoot_profit": 162514,
+      "overshoot_selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 85,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100309,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 162514,
+      "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "overshoot_profit": 162514,
+      "overshoot_selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 86,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100309,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 162514,
+      "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "overshoot_profit": 162514,
+      "overshoot_selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 87,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100310,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 162514,
+      "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "overshoot_profit": 162514,
+      "overshoot_selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 88,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100310,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 162514,
+      "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "overshoot_profit": 162514,
+      "overshoot_selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 89,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100310,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 162514,
+      "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "overshoot_profit": 162514,
+      "overshoot_selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 90,
+        "reference_index": 3,
+        "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+        "seed": 2026100301,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 199678,
+      "selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "overshoot_profit": 199678,
+      "overshoot_selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 91,
+        "reference_index": 3,
+        "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+        "seed": 2026100301,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 199678,
+      "selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "overshoot_profit": 199678,
+      "overshoot_selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 92,
+        "reference_index": 3,
+        "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+        "seed": 2026100301,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 199678,
+      "selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "overshoot_profit": 199678,
+      "overshoot_selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 93,
+        "reference_index": 3,
+        "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+        "seed": 2026100302,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 199678,
+      "selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "overshoot_profit": 199678,
+      "overshoot_selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 94,
+        "reference_index": 3,
+        "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+        "seed": 2026100302,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 199678,
+      "selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "overshoot_profit": 199678,
+      "overshoot_selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 95,
+        "reference_index": 3,
+        "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+        "seed": 2026100302,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 199678,
+      "selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "overshoot_profit": 199678,
+      "overshoot_selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 96,
+        "reference_index": 3,
+        "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+        "seed": 2026100303,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 199678,
+      "selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "overshoot_profit": 199678,
+      "overshoot_selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 97,
+        "reference_index": 3,
+        "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+        "seed": 2026100303,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 199678,
+      "selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "overshoot_profit": 199678,
+      "overshoot_selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 98,
+        "reference_index": 3,
+        "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+        "seed": 2026100303,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 199678,
+      "selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "overshoot_profit": 199678,
+      "overshoot_selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 99,
+        "reference_index": 3,
+        "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+        "seed": 2026100304,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 199678,
+      "selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "overshoot_profit": 199678,
+      "overshoot_selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 100,
+        "reference_index": 3,
+        "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+        "seed": 2026100304,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 199678,
+      "selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "overshoot_profit": 199678,
+      "overshoot_selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 101,
+        "reference_index": 3,
+        "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+        "seed": 2026100304,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 199678,
+      "selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "overshoot_profit": 199678,
+      "overshoot_selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 102,
+        "reference_index": 3,
+        "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+        "seed": 2026100305,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 199678,
+      "selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "overshoot_profit": 199678,
+      "overshoot_selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 103,
+        "reference_index": 3,
+        "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+        "seed": 2026100305,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 199678,
+      "selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "overshoot_profit": 199678,
+      "overshoot_selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 104,
+        "reference_index": 3,
+        "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+        "seed": 2026100305,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 199678,
+      "selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "overshoot_profit": 199678,
+      "overshoot_selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 105,
+        "reference_index": 3,
+        "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+        "seed": 2026100306,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 199678,
+      "selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "overshoot_profit": 199678,
+      "overshoot_selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 106,
+        "reference_index": 3,
+        "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+        "seed": 2026100306,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 199678,
+      "selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "overshoot_profit": 199678,
+      "overshoot_selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 107,
+        "reference_index": 3,
+        "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+        "seed": 2026100306,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 199678,
+      "selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "overshoot_profit": 199678,
+      "overshoot_selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 108,
+        "reference_index": 3,
+        "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+        "seed": 2026100307,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 199678,
+      "selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "overshoot_profit": 199678,
+      "overshoot_selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 109,
+        "reference_index": 3,
+        "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+        "seed": 2026100307,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 199678,
+      "selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "overshoot_profit": 199678,
+      "overshoot_selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 110,
+        "reference_index": 3,
+        "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+        "seed": 2026100307,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 199678,
+      "selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "overshoot_profit": 199678,
+      "overshoot_selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 111,
+        "reference_index": 3,
+        "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+        "seed": 2026100308,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 199678,
+      "selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "overshoot_profit": 199678,
+      "overshoot_selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 112,
+        "reference_index": 3,
+        "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+        "seed": 2026100308,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 199678,
+      "selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "overshoot_profit": 199678,
+      "overshoot_selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 113,
+        "reference_index": 3,
+        "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+        "seed": 2026100308,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 199678,
+      "selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "overshoot_profit": 199678,
+      "overshoot_selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 114,
+        "reference_index": 3,
+        "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+        "seed": 2026100309,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 199678,
+      "selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "overshoot_profit": 199678,
+      "overshoot_selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 115,
+        "reference_index": 3,
+        "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+        "seed": 2026100309,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 199678,
+      "selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "overshoot_profit": 199678,
+      "overshoot_selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 116,
+        "reference_index": 3,
+        "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+        "seed": 2026100309,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 199678,
+      "selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "overshoot_profit": 199678,
+      "overshoot_selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 117,
+        "reference_index": 3,
+        "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+        "seed": 2026100310,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 199678,
+      "selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "overshoot_profit": 199678,
+      "overshoot_selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 118,
+        "reference_index": 3,
+        "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+        "seed": 2026100310,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 199678,
+      "selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "overshoot_profit": 199678,
+      "overshoot_selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 119,
+        "reference_index": 3,
+        "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+        "seed": 2026100310,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 199678,
+      "selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "overshoot_profit": 199678,
+      "overshoot_selection_sha256": "49f3ec35afb0c733c5d47f7381aab447bd2bd9d16d0280cfcdd048027b483d7d",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 120,
+        "reference_index": 4,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100301,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 92740,
+      "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "overshoot_profit": 92740,
+      "overshoot_selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 121,
+        "reference_index": 4,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100301,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 92740,
+      "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "overshoot_profit": 92740,
+      "overshoot_selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 122,
+        "reference_index": 4,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100301,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 92740,
+      "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "overshoot_profit": 92740,
+      "overshoot_selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 123,
+        "reference_index": 4,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100302,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 92740,
+      "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "overshoot_profit": 92740,
+      "overshoot_selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 124,
+        "reference_index": 4,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100302,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 92740,
+      "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "overshoot_profit": 92740,
+      "overshoot_selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 125,
+        "reference_index": 4,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100302,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 92740,
+      "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "overshoot_profit": 92740,
+      "overshoot_selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 126,
+        "reference_index": 4,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100303,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 92740,
+      "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "overshoot_profit": 92740,
+      "overshoot_selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 127,
+        "reference_index": 4,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100303,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 92740,
+      "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "overshoot_profit": 92740,
+      "overshoot_selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 128,
+        "reference_index": 4,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100303,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 92740,
+      "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "overshoot_profit": 92740,
+      "overshoot_selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 129,
+        "reference_index": 4,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100304,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 92740,
+      "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "overshoot_profit": 92740,
+      "overshoot_selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 130,
+        "reference_index": 4,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100304,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 92740,
+      "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "overshoot_profit": 92740,
+      "overshoot_selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 131,
+        "reference_index": 4,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100304,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 92740,
+      "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "overshoot_profit": 92740,
+      "overshoot_selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 132,
+        "reference_index": 4,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100305,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 92740,
+      "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "overshoot_profit": 92740,
+      "overshoot_selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 133,
+        "reference_index": 4,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100305,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 92740,
+      "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "overshoot_profit": 92740,
+      "overshoot_selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 134,
+        "reference_index": 4,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100305,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 92740,
+      "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "overshoot_profit": 92740,
+      "overshoot_selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 135,
+        "reference_index": 4,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100306,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 92740,
+      "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "overshoot_profit": 92740,
+      "overshoot_selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 136,
+        "reference_index": 4,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100306,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 92740,
+      "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "overshoot_profit": 92740,
+      "overshoot_selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 137,
+        "reference_index": 4,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100306,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 92740,
+      "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "overshoot_profit": 92740,
+      "overshoot_selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 138,
+        "reference_index": 4,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100307,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 92740,
+      "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "overshoot_profit": 92740,
+      "overshoot_selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 139,
+        "reference_index": 4,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100307,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 92740,
+      "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "overshoot_profit": 92740,
+      "overshoot_selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 140,
+        "reference_index": 4,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100307,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 92740,
+      "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "overshoot_profit": 92740,
+      "overshoot_selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 141,
+        "reference_index": 4,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100308,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 92740,
+      "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "overshoot_profit": 92740,
+      "overshoot_selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 142,
+        "reference_index": 4,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100308,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 92740,
+      "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "overshoot_profit": 92740,
+      "overshoot_selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 143,
+        "reference_index": 4,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100308,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 92740,
+      "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "overshoot_profit": 92740,
+      "overshoot_selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 144,
+        "reference_index": 4,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100309,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 92740,
+      "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "overshoot_profit": 92740,
+      "overshoot_selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 145,
+        "reference_index": 4,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100309,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 92740,
+      "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "overshoot_profit": 92740,
+      "overshoot_selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 146,
+        "reference_index": 4,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100309,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 92740,
+      "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "overshoot_profit": 92740,
+      "overshoot_selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 147,
+        "reference_index": 4,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100310,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 92740,
+      "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "overshoot_profit": 92740,
+      "overshoot_selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 148,
+        "reference_index": 4,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100310,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 92740,
+      "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "overshoot_profit": 92740,
+      "overshoot_selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 149,
+        "reference_index": 4,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100310,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 92740,
+      "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "overshoot_profit": 92740,
+      "overshoot_selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 150,
+        "reference_index": 5,
+        "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+        "seed": 2026100301,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 115505,
+      "selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "overshoot_profit": 115505,
+      "overshoot_selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 151,
+        "reference_index": 5,
+        "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+        "seed": 2026100301,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 115505,
+      "selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "overshoot_profit": 115505,
+      "overshoot_selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 152,
+        "reference_index": 5,
+        "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+        "seed": 2026100301,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 115505,
+      "selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "overshoot_profit": 115505,
+      "overshoot_selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 153,
+        "reference_index": 5,
+        "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+        "seed": 2026100302,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 115505,
+      "selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "overshoot_profit": 115505,
+      "overshoot_selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 154,
+        "reference_index": 5,
+        "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+        "seed": 2026100302,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 115505,
+      "selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "overshoot_profit": 115505,
+      "overshoot_selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 155,
+        "reference_index": 5,
+        "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+        "seed": 2026100302,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 115505,
+      "selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "overshoot_profit": 115505,
+      "overshoot_selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 156,
+        "reference_index": 5,
+        "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+        "seed": 2026100303,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 115505,
+      "selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "overshoot_profit": 115505,
+      "overshoot_selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 157,
+        "reference_index": 5,
+        "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+        "seed": 2026100303,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 115505,
+      "selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "overshoot_profit": 115505,
+      "overshoot_selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 158,
+        "reference_index": 5,
+        "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+        "seed": 2026100303,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 115505,
+      "selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "overshoot_profit": 115505,
+      "overshoot_selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 159,
+        "reference_index": 5,
+        "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+        "seed": 2026100304,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 115505,
+      "selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "overshoot_profit": 115505,
+      "overshoot_selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 160,
+        "reference_index": 5,
+        "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+        "seed": 2026100304,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 115505,
+      "selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "overshoot_profit": 115505,
+      "overshoot_selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 161,
+        "reference_index": 5,
+        "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+        "seed": 2026100304,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 115505,
+      "selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "overshoot_profit": 115505,
+      "overshoot_selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 162,
+        "reference_index": 5,
+        "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+        "seed": 2026100305,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 115505,
+      "selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "overshoot_profit": 115505,
+      "overshoot_selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 163,
+        "reference_index": 5,
+        "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+        "seed": 2026100305,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 115505,
+      "selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "overshoot_profit": 115505,
+      "overshoot_selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 164,
+        "reference_index": 5,
+        "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+        "seed": 2026100305,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 115505,
+      "selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "overshoot_profit": 115505,
+      "overshoot_selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 165,
+        "reference_index": 5,
+        "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+        "seed": 2026100306,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 115505,
+      "selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "overshoot_profit": 115505,
+      "overshoot_selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 166,
+        "reference_index": 5,
+        "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+        "seed": 2026100306,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 115505,
+      "selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "overshoot_profit": 115505,
+      "overshoot_selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 167,
+        "reference_index": 5,
+        "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+        "seed": 2026100306,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 115505,
+      "selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "overshoot_profit": 115505,
+      "overshoot_selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 168,
+        "reference_index": 5,
+        "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+        "seed": 2026100307,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 115505,
+      "selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "overshoot_profit": 115505,
+      "overshoot_selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 169,
+        "reference_index": 5,
+        "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+        "seed": 2026100307,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 115505,
+      "selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "overshoot_profit": 115505,
+      "overshoot_selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 170,
+        "reference_index": 5,
+        "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+        "seed": 2026100307,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 115505,
+      "selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "overshoot_profit": 115505,
+      "overshoot_selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 171,
+        "reference_index": 5,
+        "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+        "seed": 2026100308,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 115505,
+      "selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "overshoot_profit": 115505,
+      "overshoot_selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 172,
+        "reference_index": 5,
+        "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+        "seed": 2026100308,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 115505,
+      "selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "overshoot_profit": 115505,
+      "overshoot_selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 173,
+        "reference_index": 5,
+        "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+        "seed": 2026100308,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 115505,
+      "selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "overshoot_profit": 115505,
+      "overshoot_selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 174,
+        "reference_index": 5,
+        "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+        "seed": 2026100309,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 115505,
+      "selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "overshoot_profit": 115505,
+      "overshoot_selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 175,
+        "reference_index": 5,
+        "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+        "seed": 2026100309,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 115505,
+      "selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "overshoot_profit": 115505,
+      "overshoot_selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 176,
+        "reference_index": 5,
+        "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+        "seed": 2026100309,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 115505,
+      "selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "overshoot_profit": 115505,
+      "overshoot_selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 177,
+        "reference_index": 5,
+        "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+        "seed": 2026100310,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 115505,
+      "selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "overshoot_profit": 115505,
+      "overshoot_selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 178,
+        "reference_index": 5,
+        "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+        "seed": 2026100310,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 115505,
+      "selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "overshoot_profit": 115505,
+      "overshoot_selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    },
+    {
+      "cell": {
+        "index": 179,
+        "reference_index": 5,
+        "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+        "seed": 2026100310,
+        "configuration_id": "destroy_0p02_0p60_stagnation_150",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "profit": 115505,
+      "selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "overshoot_profit": 115505,
+      "overshoot_selection_sha256": "0696c4a807462472e028c4fb062613cbe1de384bfa3ab64324d0661cff4b9cb9",
+      "protocol_sha256": "1f205b53fdcbb0f12d27010769a600bd97fb183735acd737e1f22c4de9449507"
+    }
+  ],
+  "audit_method": "independent_cpu_nominal_and_overshoot_once"
+}

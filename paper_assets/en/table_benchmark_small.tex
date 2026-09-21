@@ -1,0 +1,15 @@
+\begin{table}[tbp]\centering\small
+\caption{Quality on the 30 small instances (set I). Arithmetic averages of best values (Best) and per-instance means (Mean). Bold: largest average for each metric, including ties.}
+\label{tab:benchmark-small}
+\begin{tabular}{lrrrrr}
+\toprule
+Method & Best & Mean & Best: W/T/L & Mean: W/T/L & Gap (\%)\\
+\midrule
+PLTS & 91957.83 & 91637.50 & 18/12/0 & 29/1/0 & 0.650\\
+VDLS & \textbf{92290.50} & 91981.00 & 0/30/0 & 28/2/0 & 0.331\\
+IHS & \textbf{92290.50} & 92275.27 & 0/30/0 & 4/26/0 & 0.0158\\
+ANRMA & \textbf{92290.50} & \textbf{92290.50} & 0/30/0 & 0/30/0 & 0\\
+GPU-MTS & \textbf{92290.50} & \textbf{92290.50} & -- & -- & 0\\
+\bottomrule\end{tabular}
+\par\smallskip\parbox{.97\linewidth}{\footnotesize W/T/L counts GPU-MTS wins, ties, and losses against each method. The mean gap uses $R_i=\max\{\mathrm{BKV}_i,f^{\mathrm{best}}_{i,\rm GPU}\}$; BKV identifies the literature value from Wei et al.~\cite{Wei2026ANRMA}.}
+\end{table}

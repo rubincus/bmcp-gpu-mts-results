@@ -1,0 +1,21 @@
+\begin{table}[tbp]
+\centering\small
+\setlength{\tabcolsep}{4pt}
+\raggedright
+\renewcommand{\arraystretch}{1.15}
+
+\caption{Estrategias de exploración y diversificación en los métodos de comparación. La última fila resume la organización propuesta.}
+\label{tab:method-context}
+\begin{tabular}{p{.16\linewidth}p{.35\linewidth}p{.38\linewidth}}
+\toprule
+Método & Exploración & Diversificación y organización\\
+\midrule
+PLTS~\cite{Li2021PLTS} & Movimientos de búsqueda tabú sobre la selección & Perturbación guiada por probabilidades aprendidas\\
+VDLS~\cite{Zhou2022VDLS} & Secuencias de cambios; profundidad y ramificación acotadas & Exploración parcial guiada por relaciones entre ítems\\
+IHS~\cite{Wei2023IHS} & Búsqueda tabú e intensificación en hiperplanos de cardinalidad & Perturbación dedicada entre fases de intensificación\\
+ANRMA~\cite{Wei2026ANRMA} & Búsqueda tabú con reducción adaptativa del vecindario & Recombinación y actualización de población\\
+\method{} & Intercambios con corrección exacta y lista corta de salientes & Multiarranque GPU, memoria de soluciones y reconstrucción\\
+\bottomrule
+\end{tabular}
+
+\end{table}

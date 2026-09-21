@@ -1,0 +1,30 @@
+\begin{table}[tbp]
+\centering\small
+
+\caption{GPU-MTS hyperparameters and execution configuration. Original is used on the 90-instance benchmark; explored levels belong to the OFAT analysis.}
+\label{tab:hyperparameters}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.14}
+\begin{tabular}{@{}p{.08\linewidth}p{.32\linewidth}p{.17\linewidth}p{.35\linewidth}@{}}
+\toprule
+Symbol & Role & Original & Explored levels\\
+\midrule
+\multicolumn{4}{@{}l}{\textit{Search hyperparameters}}\\
+$B$ & Independent trajectories, one per block & 128 & $\{32,64,128,256\}$\\
+$K$ & Maximum outgoing candidates & 4 & $\{1,2,4,8\}$\\
+$S_{\mathrm{max}}$ & Non-improving accepted moves before perturbation & 300 & $\{75,150,300,600,1200\}$\\
+$T$ & Construction and reconstruction temperature & 0.03 & $\{0,0.01,0.03,0.10\}$\\
+$D$ & Deletion-probability interval, $d\sim\mathcal U(D)$ & $[0.12,0.70]$ & $[0.02,0.60]$, $[0.12,0.70]$, $[0.22,0.80]$, $[0.31,0.51]$, $[0.41,0.41]$\\
+$p_0$ & Empty-restart probability & $\approx0.20$ & Fixed\\
+$M_h$ & Fingerprints per trajectory hash table & $16\,384$ & Fixed\\
+\midrule
+\multicolumn{4}{@{}l}{\textit{Execution and observation settings}}\\
+$N_t$ & CUDA threads per block & 128 & Fixed\\
+$s$ & Steps per launch & 1--64 & Adaptive; starts at 1\\
+$\delta$ & Target batch duration & 20 ms & Fixed; not a duration bound\\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\parbox{.97\linewidth}{\footnotesize The OFAT grid contains 18 distinct configurations including Original; it is not factorial. Local search, exchanges, tabu admissibility, and perturbation remain enabled. The CPU/GPU study fixes one step per launch. Each protocol specifies budgets and seeds. An empty restart uses the zero residue modulo five of a 64-bit pseudorandom integer.}
+
+\end{table}

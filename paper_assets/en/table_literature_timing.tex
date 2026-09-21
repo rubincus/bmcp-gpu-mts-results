@@ -1,0 +1,18 @@
+\begin{table}[tbp]\centering\small
+\caption{Timing context by group. Time averages the 30 per-instance mean times to each method's final result; $\mathrm{std}(f)$ concerns quality. Equipment and protocols differ.}
+\label{tab:literature-timing}
+\begin{tabular}{llrrrr}
+\toprule
+Group & Method & $n$ & Limit (s) & Mean of $\mathrm{std}(f)$ & Time (s)\\
+\midrule
+I: small instances & PLTS & 30 & 600 & 222 & 257\\
+I: small instances & IHS & 30 & 600 & 15.6 & 44.8\\
+I: small instances & ANRMA & 30 & 600 & 0 & 1.30\\
+I: small instances & GPU-MTS & 10 & 90 & 0 & 0.0130\\
+II: medium instances & ANRMA & 30 & 1800 & 8.27 & 41.9\\
+II: medium instances & GPU-MTS & 10 & 90/180 & 0 & 0.0967\\
+II: large instances & ANRMA & 30 & 1800 & 869 & 648\\
+II: large instances & GPU-MTS & 10 & 180 & 0 & 2.29\\
+\bottomrule\end{tabular}
+\par\smallskip\parbox{.97\linewidth}{\footnotesize GPU-MTS: four medium instances use 90 s and 26 use 180 s. Its clock includes search and observation and excludes preparation. Literature data are from Wei and Hao~\cite{Wei2023IHS} (PLTS and IHS on small instances) and Wei et al.~\cite{Wei2026ANRMA} (ANRMA). }
+\end{table}

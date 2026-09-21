@@ -1,0 +1,1795 @@
+{
+  "created_at_utc": "2026-09-20T05:49:23.088308+00:00",
+  "status": "complete",
+  "completed_runs": 90,
+  "planned_runs": 90,
+  "inherited_runs": 0,
+  "new_runs": 90,
+  "results_prefix_sha256": "9bef01dda519b713b64f7906cd5800cd4097cf8ddde23b40e47b3d7d2e144a6d",
+  "active_cell": null,
+  "remaining_nominal_seconds": 0,
+  "cases": [
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "instance": "bmcp_4600_4400_0.5_7000",
+      "platform": "gpu",
+      "seconds": 180,
+      "n": 10,
+      "expected_runs": 10,
+      "status": "COMPLETE",
+      "best": 1901868,
+      "mean": 1901868,
+      "worst": 1901868,
+      "sample_sd": 0.0,
+      "outcomes": {
+        "published": {
+          "n": 10,
+          "hits": 10,
+          "misses": 0,
+          "mean_capped_seconds": 2.443796259991359,
+          "conditional_n": 10,
+          "mean_conditional_seconds": 2.443796259991359
+        },
+        "baseline_best": {
+          "n": 10,
+          "hits": 10,
+          "misses": 0,
+          "mean_capped_seconds": 5.963785260007716,
+          "conditional_n": 10,
+          "mean_conditional_seconds": 5.963785260007716
+        },
+        "common_work": {
+          "n": 10,
+          "hits": 10,
+          "misses": 0,
+          "mean_capped_seconds": 0.7302333000348881,
+          "conditional_n": 10,
+          "mean_conditional_seconds": 0.7302333000348881
+        }
+      }
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "instance": "bmcp_4600_4400_0.5_7000",
+      "platform": "cpu1",
+      "seconds": 180,
+      "n": 10,
+      "expected_runs": 10,
+      "status": "COMPLETE",
+      "best": 1901834,
+      "mean": 1901584.3,
+      "worst": 1900226,
+      "sample_sd": 486.35881815795216,
+      "outcomes": {
+        "published": {
+          "n": 10,
+          "hits": 3,
+          "misses": 7,
+          "mean_capped_seconds": 159.66818389000838,
+          "conditional_n": 3,
+          "mean_conditional_seconds": 112.22727963336122
+        },
+        "baseline_best": {
+          "n": 10,
+          "hits": 0,
+          "misses": 10,
+          "mean_capped_seconds": 180,
+          "conditional_n": 0,
+          "mean_conditional_seconds": null
+        },
+        "common_work": {
+          "n": 10,
+          "hits": 10,
+          "misses": 0,
+          "mean_capped_seconds": 111.19501332000364,
+          "conditional_n": 10,
+          "mean_conditional_seconds": 111.19501332000364
+        }
+      }
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "instance": "bmcp_4600_4400_0.5_7000",
+      "platform": "cpu20",
+      "seconds": 180,
+      "n": 10,
+      "expected_runs": 10,
+      "status": "COMPLETE",
+      "best": 1901868,
+      "mean": 1901868,
+      "worst": 1901868,
+      "sample_sd": 0.0,
+      "outcomes": {
+        "published": {
+          "n": 10,
+          "hits": 10,
+          "misses": 0,
+          "mean_capped_seconds": 32.75427264000755,
+          "conditional_n": 10,
+          "mean_conditional_seconds": 32.75427264000755
+        },
+        "baseline_best": {
+          "n": 10,
+          "hits": 10,
+          "misses": 0,
+          "mean_capped_seconds": 82.09632788999006,
+          "conditional_n": 10,
+          "mean_conditional_seconds": 82.09632788999006
+        },
+        "common_work": {
+          "n": 10,
+          "hits": 10,
+          "misses": 0,
+          "mean_capped_seconds": 8.578522580000572,
+          "conditional_n": 10,
+          "mean_conditional_seconds": 8.578522580000572
+        }
+      }
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "instance": "bmcp_1300_1300_0.5_2000",
+      "platform": "gpu",
+      "seconds": 90,
+      "n": 10,
+      "expected_runs": 10,
+      "status": "COMPLETE",
+      "best": 162514,
+      "mean": 162514,
+      "worst": 162514,
+      "sample_sd": 0.0,
+      "outcomes": {
+        "published": {
+          "n": 10,
+          "hits": 10,
+          "misses": 0,
+          "mean_capped_seconds": 3.627043340005912,
+          "conditional_n": 10,
+          "mean_conditional_seconds": 3.627043340005912
+        },
+        "baseline_best": {
+          "n": 10,
+          "hits": 10,
+          "misses": 0,
+          "mean_capped_seconds": 3.627043340005912,
+          "conditional_n": 10,
+          "mean_conditional_seconds": 3.627043340005912
+        },
+        "common_work": {
+          "n": 10,
+          "hits": 10,
+          "misses": 0,
+          "mean_capped_seconds": 0.3142488999990746,
+          "conditional_n": 10,
+          "mean_conditional_seconds": 0.3142488999990746
+        }
+      }
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "instance": "bmcp_1300_1300_0.5_2000",
+      "platform": "cpu1",
+      "seconds": 90,
+      "n": 10,
+      "expected_runs": 10,
+      "status": "COMPLETE",
+      "best": 162514,
+      "mean": 162286.5,
+      "worst": 162189,
+      "sample_sd": 156.9899147503856,
+      "outcomes": {
+        "published": {
+          "n": 10,
+          "hits": 3,
+          "misses": 7,
+          "mean_capped_seconds": 65.33024450999218,
+          "conditional_n": 3,
+          "mean_conditional_seconds": 7.767481699973966
+        },
+        "baseline_best": {
+          "n": 10,
+          "hits": 3,
+          "misses": 7,
+          "mean_capped_seconds": 65.33024450999218,
+          "conditional_n": 3,
+          "mean_conditional_seconds": 7.767481699973966
+        },
+        "common_work": {
+          "n": 10,
+          "hits": 10,
+          "misses": 0,
+          "mean_capped_seconds": 35.65355040002614,
+          "conditional_n": 10,
+          "mean_conditional_seconds": 35.65355040002614
+        }
+      }
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "instance": "bmcp_1300_1300_0.5_2000",
+      "platform": "cpu20",
+      "seconds": 90,
+      "n": 10,
+      "expected_runs": 10,
+      "status": "COMPLETE",
+      "best": 162514,
+      "mean": 162481.5,
+      "worst": 162189,
+      "sample_sd": 102.77402395547233,
+      "outcomes": {
+        "published": {
+          "n": 10,
+          "hits": 9,
+          "misses": 1,
+          "mean_capped_seconds": 37.07724916996667,
+          "conditional_n": 9,
+          "mean_conditional_seconds": 31.19694352218519
+        },
+        "baseline_best": {
+          "n": 10,
+          "hits": 9,
+          "misses": 1,
+          "mean_capped_seconds": 37.07724916996667,
+          "conditional_n": 9,
+          "mean_conditional_seconds": 31.19694352218519
+        },
+        "common_work": {
+          "n": 10,
+          "hits": 10,
+          "misses": 0,
+          "mean_capped_seconds": 2.6409196399967185,
+          "conditional_n": 10,
+          "mean_conditional_seconds": 2.6409196399967185
+        }
+      }
+    },
+    {
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "instance": "bmcp_785_800_0.05_2000",
+      "platform": "gpu",
+      "seconds": 90,
+      "n": 10,
+      "expected_runs": 10,
+      "status": "COMPLETE",
+      "best": 92740,
+      "mean": 92740,
+      "worst": 92740,
+      "sample_sd": 0.0,
+      "outcomes": {
+        "published": {
+          "n": 10,
+          "hits": 10,
+          "misses": 0,
+          "mean_capped_seconds": 0.007900950009934604,
+          "conditional_n": 10,
+          "mean_conditional_seconds": 0.007900950009934604
+        },
+        "baseline_best": {
+          "n": 10,
+          "hits": 10,
+          "misses": 0,
+          "mean_capped_seconds": 0.007900950009934604,
+          "conditional_n": 10,
+          "mean_conditional_seconds": 0.007900950009934604
+        },
+        "common_work": {
+          "n": 10,
+          "hits": 10,
+          "misses": 0,
+          "mean_capped_seconds": 0.15035788998939098,
+          "conditional_n": 10,
+          "mean_conditional_seconds": 0.15035788998939098
+        }
+      }
+    },
+    {
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "instance": "bmcp_785_800_0.05_2000",
+      "platform": "cpu1",
+      "seconds": 90,
+      "n": 10,
+      "expected_runs": 10,
+      "status": "COMPLETE",
+      "best": 92740,
+      "mean": 92740,
+      "worst": 92740,
+      "sample_sd": 0.0,
+      "outcomes": {
+        "published": {
+          "n": 10,
+          "hits": 10,
+          "misses": 0,
+          "mean_capped_seconds": 0.6593434900045395,
+          "conditional_n": 10,
+          "mean_conditional_seconds": 0.6593434900045395
+        },
+        "baseline_best": {
+          "n": 10,
+          "hits": 10,
+          "misses": 0,
+          "mean_capped_seconds": 0.6593434900045395,
+          "conditional_n": 10,
+          "mean_conditional_seconds": 0.6593434900045395
+        },
+        "common_work": {
+          "n": 10,
+          "hits": 10,
+          "misses": 0,
+          "mean_capped_seconds": 13.094221590005327,
+          "conditional_n": 10,
+          "mean_conditional_seconds": 13.094221590005327
+        }
+      }
+    },
+    {
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "instance": "bmcp_785_800_0.05_2000",
+      "platform": "cpu20",
+      "seconds": 90,
+      "n": 10,
+      "expected_runs": 10,
+      "status": "COMPLETE",
+      "best": 92740,
+      "mean": 92740,
+      "worst": 92740,
+      "sample_sd": 0.0,
+      "outcomes": {
+        "published": {
+          "n": 10,
+          "hits": 10,
+          "misses": 0,
+          "mean_capped_seconds": 0.06857183999381959,
+          "conditional_n": 10,
+          "mean_conditional_seconds": 0.06857183999381959
+        },
+        "baseline_best": {
+          "n": 10,
+          "hits": 10,
+          "misses": 0,
+          "mean_capped_seconds": 0.06857183999381959,
+          "conditional_n": 10,
+          "mean_conditional_seconds": 0.06857183999381959
+        },
+        "common_work": {
+          "n": 10,
+          "hits": 10,
+          "misses": 0,
+          "mean_capped_seconds": 0.9853218999691308,
+          "conditional_n": 10,
+          "mean_conditional_seconds": 0.9853218999691308
+        }
+      }
+    }
+  ],
+  "paired_work": [
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "cpu_platform": "cpu1",
+      "n": 10,
+      "expected_pairs": 10,
+      "pairs": [
+        {
+          "seed": 2026100601,
+          "gpu_minus_cpu_profit": 34,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 139,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 111.01044730003923,
+            "capped_time_seconds": 111.01044730003923,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 139,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.7260076000820845,
+            "capped_time_seconds": 0.7260076000820845,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 152.9053515245406
+        },
+        {
+          "seed": 2026100602,
+          "gpu_minus_cpu_profit": 148,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 139,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 111.38053500000387,
+            "capped_time_seconds": 111.38053500000387,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 139,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.7277026000665501,
+            "capped_time_seconds": 0.7277026000665501,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 153.05776699137513
+        },
+        {
+          "seed": 2026100603,
+          "gpu_minus_cpu_profit": 148,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 139,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 111.14922210003715,
+            "capped_time_seconds": 111.14922210003715,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 139,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.7347014000406489,
+            "capped_time_seconds": 0.7347014000406489,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 151.28489219414524
+        },
+        {
+          "seed": 2026100604,
+          "gpu_minus_cpu_profit": 1642,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 139,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 111.29219010006636,
+            "capped_time_seconds": 111.29219010006636,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 139,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.7261627999832854,
+            "capped_time_seconds": 0.7261627999832854,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 153.26066014759783
+        },
+        {
+          "seed": 2026100605,
+          "gpu_minus_cpu_profit": 353,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 139,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 111.12837579997722,
+            "capped_time_seconds": 111.12837579997722,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 139,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.7285015999805182,
+            "capped_time_seconds": 0.7285015999805182,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 152.54376353181522
+        },
+        {
+          "seed": 2026100606,
+          "gpu_minus_cpu_profit": 34,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 139,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 111.30331579991616,
+            "capped_time_seconds": 111.30331579991616,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 139,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.7229157000547275,
+            "capped_time_seconds": 0.7229157000547275,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 153.96444674184013
+        },
+        {
+          "seed": 2026100607,
+          "gpu_minus_cpu_profit": 148,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 139,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 111.18704300001264,
+            "capped_time_seconds": 111.18704300001264,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 139,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.7419037000508979,
+            "capped_time_seconds": 0.7419037000508979,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 149.86721725796045
+        },
+        {
+          "seed": 2026100608,
+          "gpu_minus_cpu_profit": 148,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 139,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 111.26731680007651,
+            "capped_time_seconds": 111.26731680007651,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 139,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.7303860000101849,
+            "capped_time_seconds": 0.7303860000101849,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 152.34042930522344
+        },
+        {
+          "seed": 2026100609,
+          "gpu_minus_cpu_profit": 34,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 139,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 111.10782969999127,
+            "capped_time_seconds": 111.10782969999127,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 139,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.729849600000307,
+            "capped_time_seconds": 0.729849600000307,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 152.2338707864532
+        },
+        {
+          "seed": 2026100610,
+          "gpu_minus_cpu_profit": 148,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 139,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 111.12385759991594,
+            "capped_time_seconds": 111.12385759991594,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 139,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.7342020000796765,
+            "capped_time_seconds": 0.7342020000796765,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 151.3532482720786
+        }
+      ]
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "cpu_platform": "cpu20",
+      "n": 10,
+      "expected_pairs": 10,
+      "pairs": [
+        {
+          "seed": 2026100601,
+          "gpu_minus_cpu_profit": 0,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 139,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 8.459188900073059,
+            "capped_time_seconds": 8.459188900073059,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 139,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.7260076000820845,
+            "capped_time_seconds": 0.7260076000820845,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 11.651653369904995
+        },
+        {
+          "seed": 2026100602,
+          "gpu_minus_cpu_profit": 0,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 139,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 8.476194299990311,
+            "capped_time_seconds": 8.476194299990311,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 139,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.7277026000665501,
+            "capped_time_seconds": 0.7277026000665501,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 11.647882389337544
+        },
+        {
+          "seed": 2026100603,
+          "gpu_minus_cpu_profit": 0,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 139,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 8.927303700009361,
+            "capped_time_seconds": 8.927303700009361,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 139,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.7347014000406489,
+            "capped_time_seconds": 0.7347014000406489,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 12.150927845673683
+        },
+        {
+          "seed": 2026100604,
+          "gpu_minus_cpu_profit": 0,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 139,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 8.485604499932379,
+            "capped_time_seconds": 8.485604499932379,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 139,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.7261627999832854,
+            "capped_time_seconds": 0.7261627999832854,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 11.685540074660528
+        },
+        {
+          "seed": 2026100605,
+          "gpu_minus_cpu_profit": 0,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 139,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 8.453221400035545,
+            "capped_time_seconds": 8.453221400035545,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 139,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.7285015999805182,
+            "capped_time_seconds": 0.7285015999805182,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 11.603572868284164
+        },
+        {
+          "seed": 2026100606,
+          "gpu_minus_cpu_profit": 0,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 139,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 8.929218400036916,
+            "capped_time_seconds": 8.929218400036916,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 139,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.7229157000547275,
+            "capped_time_seconds": 0.7229157000547275,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 12.351673091843129
+        },
+        {
+          "seed": 2026100607,
+          "gpu_minus_cpu_profit": 0,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 139,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 8.579182400018908,
+            "capped_time_seconds": 8.579182400018908,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 139,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.7419037000508979,
+            "capped_time_seconds": 0.7419037000508979,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 11.563741223329036
+        },
+        {
+          "seed": 2026100608,
+          "gpu_minus_cpu_profit": 0,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 139,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 8.464164599892683,
+            "capped_time_seconds": 8.464164599892683,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 139,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.7303860000101849,
+            "capped_time_seconds": 0.7303860000101849,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 11.588618346702502
+        },
+        {
+          "seed": 2026100609,
+          "gpu_minus_cpu_profit": 0,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 139,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 8.568283000029624,
+            "capped_time_seconds": 8.568283000029624,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 139,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.729849600000307,
+            "capped_time_seconds": 0.729849600000307,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 11.739792691571003
+        },
+        {
+          "seed": 2026100610,
+          "gpu_minus_cpu_profit": 0,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 139,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 8.442864599986933,
+            "capped_time_seconds": 8.442864599986933,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 139,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.7342020000796765,
+            "capped_time_seconds": 0.7342020000796765,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 11.499375647397724
+        }
+      ]
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "cpu_platform": "cpu1",
+      "n": 10,
+      "expected_pairs": 10,
+      "pairs": [
+        {
+          "seed": 2026100601,
+          "gpu_minus_cpu_profit": 325,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 35.75575300003402,
+            "capped_time_seconds": 35.75575300003402,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.3127618000144139,
+            "capped_time_seconds": 0.3127618000144139,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 114.32263466441933
+        },
+        {
+          "seed": 2026100602,
+          "gpu_minus_cpu_profit": 325,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 35.676832200028,
+            "capped_time_seconds": 35.676832200028,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.3118997000856325,
+            "capped_time_seconds": 0.3118997000856325,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 114.38559315777758
+        },
+        {
+          "seed": 2026100603,
+          "gpu_minus_cpu_profit": 325,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 35.55001590005122,
+            "capped_time_seconds": 35.55001590005122,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.3137709000147879,
+            "capped_time_seconds": 0.3137709000147879,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 113.29927631394678
+        },
+        {
+          "seed": 2026100604,
+          "gpu_minus_cpu_profit": 325,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 35.58550370007288,
+            "capped_time_seconds": 35.58550370007288,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.3123401999473572,
+            "capped_time_seconds": 0.3123401999473572,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 113.93187206152321
+        },
+        {
+          "seed": 2026100605,
+          "gpu_minus_cpu_profit": 325,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 35.62440140009858,
+            "capped_time_seconds": 35.62440140009858,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.31363749993033707,
+            "capped_time_seconds": 0.31363749993033707,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 113.5846364290342
+        },
+        {
+          "seed": 2026100606,
+          "gpu_minus_cpu_profit": 325,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 35.785813600057736,
+            "capped_time_seconds": 35.785813600057736,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.3176695000147447,
+            "capped_time_seconds": 0.3176695000147447,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 112.6510842192805
+        },
+        {
+          "seed": 2026100607,
+          "gpu_minus_cpu_profit": 0,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 35.63185739994515,
+            "capped_time_seconds": 35.63185739994515,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.3160859999479726,
+            "capped_time_seconds": 0.3160859999479726,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 112.72836318536763
+        },
+        {
+          "seed": 2026100608,
+          "gpu_minus_cpu_profit": 0,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 35.655540799954906,
+            "capped_time_seconds": 35.655540799954906,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.3181423000060022,
+            "capped_time_seconds": 0.3181423000060022,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 112.07419069794308
+        },
+        {
+          "seed": 2026100609,
+          "gpu_minus_cpu_profit": 0,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 35.61867050000001,
+            "capped_time_seconds": 35.61867050000001,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.3124457999365404,
+            "capped_time_seconds": 0.3124457999365404,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 113.99951769949978
+        },
+        {
+          "seed": 2026100610,
+          "gpu_minus_cpu_profit": 325,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 35.65111550001893,
+            "capped_time_seconds": 35.65111550001893,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.3137353000929579,
+            "capped_time_seconds": 0.3137353000929579,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 113.63437741770122
+        }
+      ]
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "cpu_platform": "cpu20",
+      "n": 10,
+      "expected_pairs": 10,
+      "pairs": [
+        {
+          "seed": 2026100601,
+          "gpu_minus_cpu_profit": 0,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 2.653640400036238,
+            "capped_time_seconds": 2.653640400036238,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.3127618000144139,
+            "capped_time_seconds": 0.3127618000144139,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 8.484541270429903
+        },
+        {
+          "seed": 2026100602,
+          "gpu_minus_cpu_profit": 0,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 2.649235500022769,
+            "capped_time_seconds": 2.649235500022769,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.3118997000856325,
+            "capped_time_seconds": 0.3118997000856325,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 8.493869982226395
+        },
+        {
+          "seed": 2026100603,
+          "gpu_minus_cpu_profit": 325,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 2.631900200038217,
+            "capped_time_seconds": 2.631900200038217,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.3137709000147879,
+            "capped_time_seconds": 0.3137709000147879,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 8.387967781314892
+        },
+        {
+          "seed": 2026100604,
+          "gpu_minus_cpu_profit": 0,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 2.6260241999989375,
+            "capped_time_seconds": 2.6260241999989375,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.3123401999473572,
+            "capped_time_seconds": 0.3123401999473572,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 8.407576739854608
+        },
+        {
+          "seed": 2026100605,
+          "gpu_minus_cpu_profit": 0,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 2.639474799972959,
+            "capped_time_seconds": 2.639474799972959,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.31363749993033707,
+            "capped_time_seconds": 0.31363749993033707,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 8.415686263789311
+        },
+        {
+          "seed": 2026100606,
+          "gpu_minus_cpu_profit": 0,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 2.645122400019318,
+            "capped_time_seconds": 2.645122400019318,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.3176695000147447,
+            "capped_time_seconds": 0.3176695000147447,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 8.326648922532833
+        },
+        {
+          "seed": 2026100607,
+          "gpu_minus_cpu_profit": 0,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 2.641249099979177,
+            "capped_time_seconds": 2.641249099979177,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.3160859999479726,
+            "capped_time_seconds": 0.3160859999479726,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 8.356109098200882
+        },
+        {
+          "seed": 2026100608,
+          "gpu_minus_cpu_profit": 0,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 2.6450452000135556,
+            "capped_time_seconds": 2.6450452000135556,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.3181423000060022,
+            "capped_time_seconds": 0.3181423000060022,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 8.314031802635654
+        },
+        {
+          "seed": 2026100609,
+          "gpu_minus_cpu_profit": 0,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 2.6483059999300167,
+            "capped_time_seconds": 2.6483059999300167,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.3124457999365404,
+            "capped_time_seconds": 0.3124457999365404,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 8.476049287485711
+        },
+        {
+          "seed": 2026100610,
+          "gpu_minus_cpu_profit": 0,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 2.6291985999559984,
+            "capped_time_seconds": 2.6291985999559984,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.3137353000929579,
+            "capped_time_seconds": 0.3137353000929579,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 8.380308493105437
+        }
+      ]
+    },
+    {
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "cpu_platform": "cpu1",
+      "n": 10,
+      "expected_pairs": 10,
+      "pairs": [
+        {
+          "seed": 2026100601,
+          "gpu_minus_cpu_profit": 0,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 13.086052699945867,
+            "capped_time_seconds": 13.086052699945867,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.15014529996551573,
+            "capped_time_seconds": 0.15014529996551573,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 87.1559263123879
+        },
+        {
+          "seed": 2026100602,
+          "gpu_minus_cpu_profit": 0,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 13.078515600063838,
+            "capped_time_seconds": 13.078515600063838,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.15095690009184182,
+            "capped_time_seconds": 0.15095690009184182,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 86.63741499796896
+        },
+        {
+          "seed": 2026100603,
+          "gpu_minus_cpu_profit": 0,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 13.094580699922517,
+            "capped_time_seconds": 13.094580699922517,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.1513213999569416,
+            "capped_time_seconds": 0.1513213999569416,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 86.53489000001699
+        },
+        {
+          "seed": 2026100604,
+          "gpu_minus_cpu_profit": 0,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 13.1069030999206,
+            "capped_time_seconds": 13.1069030999206,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.15022009995300323,
+            "capped_time_seconds": 0.15022009995300323,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 87.25132724596197
+        },
+        {
+          "seed": 2026100605,
+          "gpu_minus_cpu_profit": 0,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 13.09207090002019,
+            "capped_time_seconds": 13.09207090002019,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.1519921999424696,
+            "capped_time_seconds": 0.1519921999424696,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 86.13646558820555
+        },
+        {
+          "seed": 2026100606,
+          "gpu_minus_cpu_profit": 0,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 13.101423199987039,
+            "capped_time_seconds": 13.101423199987039,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.14916999998968095,
+            "capped_time_seconds": 0.14916999998968095,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 87.82880740694074
+        },
+        {
+          "seed": 2026100607,
+          "gpu_minus_cpu_profit": 0,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 13.09375350002665,
+            "capped_time_seconds": 13.09375350002665,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.14976719999685884,
+            "capped_time_seconds": 0.14976719999685884,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 87.42737729156501
+        },
+        {
+          "seed": 2026100608,
+          "gpu_minus_cpu_profit": 0,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 13.08423840010073,
+            "capped_time_seconds": 13.08423840010073,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.1500573999946937,
+            "capped_time_seconds": 0.1500573999946937,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 87.19488942606904
+        },
+        {
+          "seed": 2026100609,
+          "gpu_minus_cpu_profit": 0,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 13.09341560001485,
+            "capped_time_seconds": 13.09341560001485,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.15093899995554239,
+            "capped_time_seconds": 0.15093899995554239,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 86.74640486468964
+        },
+        {
+          "seed": 2026100610,
+          "gpu_minus_cpu_profit": 0,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 13.111262200050987,
+            "capped_time_seconds": 13.111262200050987,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.14900940004736185,
+            "capped_time_seconds": 0.14900940004736185,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 87.98949727925648
+        }
+      ]
+    },
+    {
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "cpu_platform": "cpu20",
+      "n": 10,
+      "expected_pairs": 10,
+      "pairs": [
+        {
+          "seed": 2026100601,
+          "gpu_minus_cpu_profit": 0,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.9869744000025094,
+            "capped_time_seconds": 0.9869744000025094,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.15014529996551573,
+            "capped_time_seconds": 0.15014529996551573,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 6.573461841490812
+        },
+        {
+          "seed": 2026100602,
+          "gpu_minus_cpu_profit": 0,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.98700830002781,
+            "capped_time_seconds": 0.98700830002781,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.15095690009184182,
+            "capped_time_seconds": 0.15095690009184182,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 6.5383450470122035
+        },
+        {
+          "seed": 2026100603,
+          "gpu_minus_cpu_profit": 0,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.986997599946335,
+            "capped_time_seconds": 0.986997599946335,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.1513213999569416,
+            "capped_time_seconds": 0.1513213999569416,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 6.522524905447507
+        },
+        {
+          "seed": 2026100604,
+          "gpu_minus_cpu_profit": 0,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.989082399988547,
+            "capped_time_seconds": 0.989082399988547,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.15022009995300323,
+            "capped_time_seconds": 0.15022009995300323,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 6.584221421088017
+        },
+        {
+          "seed": 2026100605,
+          "gpu_minus_cpu_profit": 0,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.9857591999461874,
+            "capped_time_seconds": 0.9857591999461874,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.1519921999424696,
+            "capped_time_seconds": 0.1519921999424696,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 6.485590710045029
+        },
+        {
+          "seed": 2026100606,
+          "gpu_minus_cpu_profit": 0,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.9799671999644488,
+            "capped_time_seconds": 0.9799671999644488,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.14916999998968095,
+            "capped_time_seconds": 0.14916999998968095,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 6.569465710479584
+        },
+        {
+          "seed": 2026100607,
+          "gpu_minus_cpu_profit": 0,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.9871042999438941,
+            "capped_time_seconds": 0.9871042999438941,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.14976719999685884,
+            "capped_time_seconds": 0.14976719999685884,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 6.590924447840364
+        },
+        {
+          "seed": 2026100608,
+          "gpu_minus_cpu_profit": 0,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.9810242999810725,
+            "capped_time_seconds": 0.9810242999810725,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.1500573999946937,
+            "capped_time_seconds": 0.1500573999946937,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 6.537660255447338
+        },
+        {
+          "seed": 2026100609,
+          "gpu_minus_cpu_profit": 0,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.9837393999332562,
+            "capped_time_seconds": 0.9837393999332562,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.15093899995554239,
+            "capped_time_seconds": 0.15093899995554239,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 6.51746334759742
+        },
+        {
+          "seed": 2026100610,
+          "gpu_minus_cpu_profit": 0,
+          "cpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.9855618999572471,
+            "capped_time_seconds": 0.9855618999572471,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "gpu_work": {
+            "requested_steps_per_trajectory": 512,
+            "trajectories": 128,
+            "hit": true,
+            "first_observed_seconds": 0.14900940004736185,
+            "capped_time_seconds": 0.14900940004736185,
+            "right_censored": false,
+            "late_observed_seconds": null
+          },
+          "exact_work_speedup_cpu_over_gpu": 6.6140921287112855
+        }
+      ]
+    }
+  ],
+  "scope": "Search-wall comparison with identical batch1 observations, not exclusive kernel speedup. Work not reached is censored; no exact speedup is inferred. Paired seeds, not trajectory blocks, are experimental replicates."
+}

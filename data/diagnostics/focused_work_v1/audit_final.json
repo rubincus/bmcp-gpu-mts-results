@@ -1,0 +1,1811 @@
+{
+  "created_at_utc": "2026-09-20T01:10:33.381925+00:00",
+  "all_valid": true,
+  "runs": 60,
+  "results_sha256": "7377eee6ede65e59ec8c72753811703287afbd86391ab588cefa4989e3d961c8",
+  "protocol_sha256": "d9c6e164e3a34525b8e5070a107089b0c341a6dd7e13daf6bc0fdf055ac93114",
+  "state_sha256": "9ce4515b40f032e37ce59194fd095269c482dec1cdaccf95f293d617d880004a",
+  "runner_sha256": "15227cacbd3d3db36d87d20e0c46686c56d2223a811158e7286b92d03dc62d2e",
+  "certificates": [
+    {
+      "cell": {
+        "index": 0,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100501,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 1901868,
+        "cost": 6998,
+        "capacity": 7000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 3598,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      },
+      "late_certificate": {
+        "profit": 1901868,
+        "cost": 6998,
+        "capacity": 7000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 3598,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      }
+    },
+    {
+      "cell": {
+        "index": 1,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100501,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 1901868,
+        "cost": 6998,
+        "capacity": 7000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 3598,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      },
+      "late_certificate": {
+        "profit": 1901868,
+        "cost": 6998,
+        "capacity": 7000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 3598,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      }
+    },
+    {
+      "cell": {
+        "index": 2,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100502,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 1901868,
+        "cost": 6998,
+        "capacity": 7000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 3598,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      },
+      "late_certificate": {
+        "profit": 1901868,
+        "cost": 6998,
+        "capacity": 7000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 3598,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      }
+    },
+    {
+      "cell": {
+        "index": 3,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100502,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 1901868,
+        "cost": 6998,
+        "capacity": 7000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 3598,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      },
+      "late_certificate": {
+        "profit": 1901868,
+        "cost": 6998,
+        "capacity": 7000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 3598,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      }
+    },
+    {
+      "cell": {
+        "index": 4,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100503,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 1901868,
+        "cost": 6998,
+        "capacity": 7000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 3598,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      },
+      "late_certificate": {
+        "profit": 1901868,
+        "cost": 6998,
+        "capacity": 7000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 3598,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      }
+    },
+    {
+      "cell": {
+        "index": 5,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100503,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 1901868,
+        "cost": 6998,
+        "capacity": 7000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 3598,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      },
+      "late_certificate": {
+        "profit": 1901868,
+        "cost": 6998,
+        "capacity": 7000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 3598,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      }
+    },
+    {
+      "cell": {
+        "index": 6,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100504,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 1901868,
+        "cost": 6998,
+        "capacity": 7000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 3598,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      },
+      "late_certificate": {
+        "profit": 1901868,
+        "cost": 6998,
+        "capacity": 7000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 3598,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      }
+    },
+    {
+      "cell": {
+        "index": 7,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100504,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 1901868,
+        "cost": 6998,
+        "capacity": 7000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 3598,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      },
+      "late_certificate": {
+        "profit": 1901868,
+        "cost": 6998,
+        "capacity": 7000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 3598,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      }
+    },
+    {
+      "cell": {
+        "index": 8,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100505,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 1901868,
+        "cost": 6998,
+        "capacity": 7000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 3598,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      },
+      "late_certificate": {
+        "profit": 1901868,
+        "cost": 6998,
+        "capacity": 7000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 3598,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      }
+    },
+    {
+      "cell": {
+        "index": 9,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100505,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 1901868,
+        "cost": 6998,
+        "capacity": 7000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 3598,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      },
+      "late_certificate": {
+        "profit": 1901868,
+        "cost": 6998,
+        "capacity": 7000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 3598,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      }
+    },
+    {
+      "cell": {
+        "index": 10,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100506,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 1901868,
+        "cost": 6998,
+        "capacity": 7000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 3598,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      },
+      "late_certificate": {
+        "profit": 1901868,
+        "cost": 6998,
+        "capacity": 7000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 3598,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      }
+    },
+    {
+      "cell": {
+        "index": 11,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100506,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 1901868,
+        "cost": 6998,
+        "capacity": 7000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 3598,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      },
+      "late_certificate": {
+        "profit": 1901868,
+        "cost": 6998,
+        "capacity": 7000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 3598,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      }
+    },
+    {
+      "cell": {
+        "index": 12,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100507,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 1901868,
+        "cost": 6998,
+        "capacity": 7000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 3598,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      },
+      "late_certificate": {
+        "profit": 1901868,
+        "cost": 6998,
+        "capacity": 7000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 3598,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      }
+    },
+    {
+      "cell": {
+        "index": 13,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100507,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 1901868,
+        "cost": 6998,
+        "capacity": 7000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 3598,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      },
+      "late_certificate": {
+        "profit": 1901868,
+        "cost": 6998,
+        "capacity": 7000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 3598,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      }
+    },
+    {
+      "cell": {
+        "index": 14,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100508,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 1901868,
+        "cost": 6998,
+        "capacity": 7000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 3598,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      },
+      "late_certificate": {
+        "profit": 1901868,
+        "cost": 6998,
+        "capacity": 7000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 3598,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      }
+    },
+    {
+      "cell": {
+        "index": 15,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100508,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 1901868,
+        "cost": 6998,
+        "capacity": 7000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 3598,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      },
+      "late_certificate": {
+        "profit": 1901868,
+        "cost": 6998,
+        "capacity": 7000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 3598,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      }
+    },
+    {
+      "cell": {
+        "index": 16,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100509,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 1901868,
+        "cost": 6998,
+        "capacity": 7000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 3598,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      },
+      "late_certificate": {
+        "profit": 1901868,
+        "cost": 6998,
+        "capacity": 7000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 3598,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      }
+    },
+    {
+      "cell": {
+        "index": 17,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100509,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 1901868,
+        "cost": 6998,
+        "capacity": 7000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 3598,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      },
+      "late_certificate": {
+        "profit": 1901868,
+        "cost": 6998,
+        "capacity": 7000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 3598,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      }
+    },
+    {
+      "cell": {
+        "index": 18,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100510,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 1901868,
+        "cost": 6998,
+        "capacity": 7000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 3598,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      },
+      "late_certificate": {
+        "profit": 1901868,
+        "cost": 6998,
+        "capacity": 7000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 3598,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      }
+    },
+    {
+      "cell": {
+        "index": 19,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100510,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 180,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 1901868,
+        "cost": 6998,
+        "capacity": 7000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 3598,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      },
+      "late_certificate": {
+        "profit": 1901868,
+        "cost": 6998,
+        "capacity": 7000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 3598,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      }
+    },
+    {
+      "cell": {
+        "index": 20,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100501,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 162514,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 1084,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      },
+      "late_certificate": {
+        "profit": 162514,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 1084,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      }
+    },
+    {
+      "cell": {
+        "index": 21,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100501,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 162514,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 1084,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      },
+      "late_certificate": {
+        "profit": 162514,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 1084,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      }
+    },
+    {
+      "cell": {
+        "index": 22,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100502,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 162514,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 1084,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      },
+      "late_certificate": {
+        "profit": 162514,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 1084,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      }
+    },
+    {
+      "cell": {
+        "index": 23,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100502,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 162514,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 1084,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      },
+      "late_certificate": {
+        "profit": 162514,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 1084,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      }
+    },
+    {
+      "cell": {
+        "index": 24,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100503,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 162514,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 1084,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      },
+      "late_certificate": {
+        "profit": 162514,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 1084,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      }
+    },
+    {
+      "cell": {
+        "index": 25,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100503,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 162514,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 1084,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      },
+      "late_certificate": {
+        "profit": 162514,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 1084,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      }
+    },
+    {
+      "cell": {
+        "index": 26,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100504,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 162514,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 1084,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      },
+      "late_certificate": {
+        "profit": 162514,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 1084,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      }
+    },
+    {
+      "cell": {
+        "index": 27,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100504,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 162514,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 1084,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      },
+      "late_certificate": {
+        "profit": 162514,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 1084,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      }
+    },
+    {
+      "cell": {
+        "index": 28,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100505,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 162514,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 1084,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      },
+      "late_certificate": {
+        "profit": 162514,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 1084,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      }
+    },
+    {
+      "cell": {
+        "index": 29,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100505,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 162514,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 1084,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      },
+      "late_certificate": {
+        "profit": 162514,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 1084,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      }
+    },
+    {
+      "cell": {
+        "index": 30,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100506,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 162514,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 1084,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      },
+      "late_certificate": {
+        "profit": 162514,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 1084,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      }
+    },
+    {
+      "cell": {
+        "index": 31,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100506,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 162514,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 1084,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      },
+      "late_certificate": {
+        "profit": 162514,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 1084,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      }
+    },
+    {
+      "cell": {
+        "index": 32,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100507,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 162514,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 1084,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      },
+      "late_certificate": {
+        "profit": 162514,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 1084,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      }
+    },
+    {
+      "cell": {
+        "index": 33,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100507,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 162514,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 1084,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      },
+      "late_certificate": {
+        "profit": 162514,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 1084,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      }
+    },
+    {
+      "cell": {
+        "index": 34,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100508,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 162514,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 1084,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      },
+      "late_certificate": {
+        "profit": 162514,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 1084,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      }
+    },
+    {
+      "cell": {
+        "index": 35,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100508,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 162514,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 1084,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      },
+      "late_certificate": {
+        "profit": 162514,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 1084,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      }
+    },
+    {
+      "cell": {
+        "index": 36,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100509,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 162514,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 1084,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      },
+      "late_certificate": {
+        "profit": 162514,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 1084,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      }
+    },
+    {
+      "cell": {
+        "index": 37,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100509,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 162514,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 1084,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      },
+      "late_certificate": {
+        "profit": 162514,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 1084,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      }
+    },
+    {
+      "cell": {
+        "index": 38,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100510,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 162514,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 1084,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      },
+      "late_certificate": {
+        "profit": 162514,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 1084,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      }
+    },
+    {
+      "cell": {
+        "index": 39,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100510,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 162514,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 1084,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      },
+      "late_certificate": {
+        "profit": 162514,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 1084,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      }
+    },
+    {
+      "cell": {
+        "index": 40,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100501,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 92740,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 615,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late_certificate": {
+        "profit": 92740,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 615,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "index": 41,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100501,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 92740,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 615,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late_certificate": {
+        "profit": 92740,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 615,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "index": 42,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100502,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 92740,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 615,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late_certificate": {
+        "profit": 92740,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 615,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "index": 43,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100502,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 92740,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 615,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late_certificate": {
+        "profit": 92740,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 615,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "index": 44,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100503,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 92740,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 615,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late_certificate": {
+        "profit": 92740,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 615,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "index": 45,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100503,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 92740,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 615,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late_certificate": {
+        "profit": 92740,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 615,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "index": 46,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100504,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 92740,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 615,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late_certificate": {
+        "profit": 92740,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 615,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "index": 47,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100504,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 92740,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 615,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late_certificate": {
+        "profit": 92740,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 615,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "index": 48,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100505,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 92740,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 615,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late_certificate": {
+        "profit": 92740,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 615,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "index": 49,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100505,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 92740,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 615,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late_certificate": {
+        "profit": 92740,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 615,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "index": 50,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100506,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 92740,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 615,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late_certificate": {
+        "profit": 92740,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 615,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "index": 51,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100506,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 92740,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 615,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late_certificate": {
+        "profit": 92740,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 615,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "index": 52,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100507,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 92740,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 615,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late_certificate": {
+        "profit": 92740,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 615,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "index": 53,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100507,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 92740,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 615,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late_certificate": {
+        "profit": 92740,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 615,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "index": 54,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100508,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 92740,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 615,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late_certificate": {
+        "profit": 92740,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 615,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "index": 55,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100508,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 92740,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 615,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late_certificate": {
+        "profit": 92740,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 615,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "index": 56,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100509,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 92740,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 615,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late_certificate": {
+        "profit": 92740,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 615,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "index": 57,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100509,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 92740,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 615,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late_certificate": {
+        "profit": 92740,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 615,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "index": 58,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100510,
+        "configuration_id": "outgoing_2",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 92740,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 615,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late_certificate": {
+        "profit": 92740,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 615,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "index": 59,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100510,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90,
+        "origin": "new"
+      },
+      "certificate": {
+        "profit": 92740,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 615,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late_certificate": {
+        "profit": 92740,
+        "cost": 2000,
+        "capacity": 2000,
+        "feasible": true,
+        "selected_count": 19,
+        "covered_elements": 615,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1234 @@
+{
+  "schema_version": 1,
+  "stage": "platform_comparison",
+  "created_at_utc": "2026-09-20T01:33:44.423016+00:00",
+  "runner_sha256": "308de915d10beecfca661efa40091aa94d07eeb3ec7b0ce16ee658ae27d26796",
+  "decision_path": "local_path/DECISION_B.json",
+  "decision_sha256": "130722087d594e3374d97f9c3bd25c731caa98b6448eef35c1a921956f3d8eca",
+  "parent_sha256": {
+    "protocol.json": "3b4454dd1b819c56d21082417e634b5d62d2e6b9b031f84fe2e6c6c81181589e",
+    "state.json": "1b9b82fe2a588c9012b9cf13d21e5f3fbcfb0ef506a03b610308b0a1e0cc6596",
+    "results.jsonl": "d0755e9b7f9d35364d25fc81aed2bca66c4bdda27481dae8db6bbc00758f3de0",
+    "audit_final.json": "a00a3ff5fc3a7c1d303454e87703c7ef40dc1a204a27fd99d36f4b459e359547",
+    "audit_cache.json": "9a01ffc428066a9bb10ed68bff7dc0a68a176ea9577750719533eee69d15eb38"
+  },
+  "source_sha256": {
+    "bmcp_cpu.cpp": "5868ec7bbb600579603a3c8c7e31e1731978cb7c87f7a5b1f14010d81223fb02",
+    "bmcp_cpu.py": "9781a99a309f3e552be3d7ee83313952d177ee057627ff1bfa756a00c6432b03",
+    "bmcp_cpu.dll": "62e4781b468a34547a6a79c5a7a4b6085b98514201e394aaa7ea4ff52154813e",
+    "libomp.dll": "e2b0e3dd116dd4a5f3438e746eb333861560a05972a799ccf2bb2f2114103458",
+    "build_cpu.py": "27a2909d2701ea0d02b19aa24afdcd56a4b41a4fe5d78494150abbe3692fe2b0",
+    "build_manifest.json": "36306122a5b2bd738d98ca5c934c5bcc2c703191db7d1cb51c279672a523132b",
+    "gpu_platform.py": "c8631d18f3ff505613a53124a2a8c5b18081bdd1c305421da5652c3e0c689e33"
+  },
+  "bindings": [
+    {
+      "path": "local_path/run_platform_comparison.py",
+      "snapshot": "00_run_platform_comparison.py",
+      "sha256": "308de915d10beecfca661efa40091aa94d07eeb3ec7b0ce16ee658ae27d26796"
+    },
+    {
+      "path": "local_path/test_platform_controller.py",
+      "snapshot": "01_test_platform_controller.py",
+      "sha256": "0923bee67690d391f0e8a78f63b0fa21b7f8c8b11c8cfb8df39ef66c808bf9e1"
+    },
+    {
+      "path": "local_path/Start-Platform-Comparison.ps1",
+      "snapshot": "02_Start-Platform-Comparison.ps1",
+      "sha256": "330a4452755cf15e680cadd018b24f6b8a4175c9cc3eab09a24a892581988f47"
+    },
+    {
+      "path": "local_path/DECISION_B.json",
+      "snapshot": "03_DECISION_B.json",
+      "sha256": "130722087d594e3374d97f9c3bd25c731caa98b6448eef35c1a921956f3d8eca"
+    },
+    {
+      "path": "local_path/panel_final.json",
+      "snapshot": "04_panel_final.json",
+      "sha256": "aefb0561941d643ec4defb1c67c478a1fd1c456522eb9a9630a9e613b8cba414"
+    },
+    {
+      "path": "local_path/CIERRE_FOCALIZADO_GPU_20260919.md",
+      "snapshot": "05_CIERRE_FOCALIZADO_GPU_20260919.md",
+      "sha256": "27a5b6d8dff979d6cc458b7d189bd83260266f5d3a34a348263813b7b10db780"
+    },
+    {
+      "path": "local_path/run_heldout.py",
+      "snapshot": "06_run_heldout.py",
+      "sha256": "20114b1292716a90a6d0f90da9bf9888fc87e39f5f8607412c1b83bd8aabc4b7"
+    },
+    {
+      "path": "local_path/protocol.json",
+      "snapshot": "07_protocol.json",
+      "sha256": "3b4454dd1b819c56d21082417e634b5d62d2e6b9b031f84fe2e6c6c81181589e"
+    },
+    {
+      "path": "local_path/state.json",
+      "snapshot": "08_state.json",
+      "sha256": "1b9b82fe2a588c9012b9cf13d21e5f3fbcfb0ef506a03b610308b0a1e0cc6596"
+    },
+    {
+      "path": "local_path/results.jsonl",
+      "snapshot": "09_results.jsonl",
+      "sha256": "d0755e9b7f9d35364d25fc81aed2bca66c4bdda27481dae8db6bbc00758f3de0"
+    },
+    {
+      "path": "local_path/audit_final.json",
+      "snapshot": "10_audit_final.json",
+      "sha256": "a00a3ff5fc3a7c1d303454e87703c7ef40dc1a204a27fd99d36f4b459e359547"
+    },
+    {
+      "path": "local_path/audit_cache.json",
+      "snapshot": "11_audit_cache.json",
+      "sha256": "9a01ffc428066a9bb10ed68bff7dc0a68a176ea9577750719533eee69d15eb38"
+    },
+    {
+      "path": "local_path/bmcp_cpu.cpp",
+      "snapshot": "12_bmcp_cpu.cpp",
+      "sha256": "5868ec7bbb600579603a3c8c7e31e1731978cb7c87f7a5b1f14010d81223fb02"
+    },
+    {
+      "path": "local_path/bmcp_cpu.py",
+      "snapshot": "13_bmcp_cpu.py",
+      "sha256": "9781a99a309f3e552be3d7ee83313952d177ee057627ff1bfa756a00c6432b03"
+    },
+    {
+      "path": "local_path/bmcp_cpu.dll",
+      "snapshot": "14_bmcp_cpu.dll",
+      "sha256": "62e4781b468a34547a6a79c5a7a4b6085b98514201e394aaa7ea4ff52154813e"
+    },
+    {
+      "path": "local_path/libomp.dll",
+      "snapshot": "15_libomp.dll",
+      "sha256": "e2b0e3dd116dd4a5f3438e746eb333861560a05972a799ccf2bb2f2114103458"
+    },
+    {
+      "path": "local_path/build_cpu.py",
+      "snapshot": "16_build_cpu.py",
+      "sha256": "27a2909d2701ea0d02b19aa24afdcd56a4b41a4fe5d78494150abbe3692fe2b0"
+    },
+    {
+      "path": "local_path/build_manifest.json",
+      "snapshot": "17_build_manifest.json",
+      "sha256": "36306122a5b2bd738d98ca5c934c5bcc2c703191db7d1cb51c279672a523132b"
+    },
+    {
+      "path": "local_path/gpu_platform.py",
+      "snapshot": "18_gpu_platform.py",
+      "sha256": "c8631d18f3ff505613a53124a2a8c5b18081bdd1c305421da5652c3e0c689e33"
+    },
+    {
+      "path": "local_path/PARITY_BATCH1.json",
+      "snapshot": "19_PARITY_BATCH1.json",
+      "sha256": "77ea90423306324777e5036a8a1b10cd96ef1edd2f97f1199bedce8690cefd30"
+    },
+    {
+      "path": "local_path/HOST_VALIDATION.json",
+      "snapshot": "20_HOST_VALIDATION.json",
+      "sha256": "4193df0946cfbc02de96f023b4ade3944cb85777a55863c9a0f61669a5e62979"
+    },
+    {
+      "path": "local_path/CALIBRATION.json",
+      "snapshot": "21_CALIBRATION.json",
+      "sha256": "0436d040f7a2cdc0e6f51df281fa1bad04d81b07dc1749d404d8545af7e9fbcc"
+    },
+    {
+      "path": "local_path/CONTROLLER_B_CPU_VALIDATION.json",
+      "snapshot": "22_CONTROLLER_B_CPU_VALIDATION.json",
+      "sha256": "819177d1e0207cdbab34ddad67915f750f5feb4404942df799aacec19c499cd7"
+    },
+    {
+      "path": "local_path/READINESS_B_RAW.json",
+      "snapshot": "23_READINESS_B_RAW.json",
+      "sha256": "3756bc297da315df604c6c2df090e5ecb7fdc759cda506b2e696ec10d4a90762"
+    },
+    {
+      "path": "local_path/validate_platform_readiness.py",
+      "snapshot": "24_validate_platform_readiness.py",
+      "sha256": "4c890f8a68b5062a33027cda5e941279dcf45731e486a7fc0f7ae8e4bd851a89"
+    },
+    {
+      "path": "local_path/CPU_GPU_PARITY.json",
+      "snapshot": "25_CPU_GPU_PARITY.json",
+      "sha256": "0975764c0cc07be61323f9ceeb6cba9ad558d6eaee4e65cb49d2b83dabe7f419"
+    },
+    {
+      "path": "local_path/validate_cpu_gpu_parity.py",
+      "snapshot": "26_validate_cpu_gpu_parity.py",
+      "sha256": "b6d2a2e225e6f5cd51ba171d6dc92d5b03eb918a7e3d4ace0a5d70931554dda4"
+    }
+  ],
+  "references": [
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "name": "bmcp_4600_4400_0.5_7000",
+      "path": "local_path/bmcp_4600_4400_0.5_7000.txt",
+      "sha256": "92eb8136640431faf6f973ce0b1f8e4ee2bd6344d3a95d92c1e61fd1e02f830c",
+      "cohort": "II_large",
+      "items": 4600,
+      "elements": 4400,
+      "capacity": 7000,
+      "common_target": 1901868,
+      "reference_best": 1901834,
+      "seconds": 180
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "name": "bmcp_1300_1300_0.5_2000",
+      "path": "local_path/bmcp_1300_1300_0.5_2000.txt",
+      "sha256": "f7f591a886d659144d55326cdfdb7ff4f4272d97a208b82b7b654d60bf5914d1",
+      "cohort": "II_medium",
+      "items": 1300,
+      "elements": 1300,
+      "capacity": 2000,
+      "common_target": 162514,
+      "reference_best": 162514,
+      "seconds": 90
+    },
+    {
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "name": "bmcp_785_800_0.05_2000",
+      "path": "local_path/bmcp_785_800_0.05_2000.txt",
+      "sha256": "837bc9b2f4268cf4a27bcd35da8469a827a1cdc6d693445848902392f2529290",
+      "cohort": "I",
+      "items": 785,
+      "elements": 800,
+      "capacity": 2000,
+      "common_target": 92740,
+      "reference_best": 92740,
+      "seconds": 90
+    }
+  ],
+  "cells": [
+    {
+      "index": 0,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100601,
+      "platform": "cpu20",
+      "threads": 20,
+      "seconds": 180,
+      "work_target_steps": 139,
+      "batch_steps": 1
+    },
+    {
+      "index": 1,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100601,
+      "platform": "cpu1",
+      "threads": 1,
+      "seconds": 180,
+      "work_target_steps": 139,
+      "batch_steps": 1
+    },
+    {
+      "index": 2,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100601,
+      "platform": "gpu",
+      "threads": null,
+      "seconds": 180,
+      "work_target_steps": 139,
+      "batch_steps": 1
+    },
+    {
+      "index": 3,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100602,
+      "platform": "cpu1",
+      "threads": 1,
+      "seconds": 180,
+      "work_target_steps": 139,
+      "batch_steps": 1
+    },
+    {
+      "index": 4,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100602,
+      "platform": "gpu",
+      "threads": null,
+      "seconds": 180,
+      "work_target_steps": 139,
+      "batch_steps": 1
+    },
+    {
+      "index": 5,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100602,
+      "platform": "cpu20",
+      "threads": 20,
+      "seconds": 180,
+      "work_target_steps": 139,
+      "batch_steps": 1
+    },
+    {
+      "index": 6,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100603,
+      "platform": "cpu20",
+      "threads": 20,
+      "seconds": 180,
+      "work_target_steps": 139,
+      "batch_steps": 1
+    },
+    {
+      "index": 7,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100603,
+      "platform": "cpu1",
+      "threads": 1,
+      "seconds": 180,
+      "work_target_steps": 139,
+      "batch_steps": 1
+    },
+    {
+      "index": 8,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100603,
+      "platform": "gpu",
+      "threads": null,
+      "seconds": 180,
+      "work_target_steps": 139,
+      "batch_steps": 1
+    },
+    {
+      "index": 9,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100604,
+      "platform": "cpu1",
+      "threads": 1,
+      "seconds": 180,
+      "work_target_steps": 139,
+      "batch_steps": 1
+    },
+    {
+      "index": 10,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100604,
+      "platform": "cpu20",
+      "threads": 20,
+      "seconds": 180,
+      "work_target_steps": 139,
+      "batch_steps": 1
+    },
+    {
+      "index": 11,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100604,
+      "platform": "gpu",
+      "threads": null,
+      "seconds": 180,
+      "work_target_steps": 139,
+      "batch_steps": 1
+    },
+    {
+      "index": 12,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100605,
+      "platform": "cpu1",
+      "threads": 1,
+      "seconds": 180,
+      "work_target_steps": 139,
+      "batch_steps": 1
+    },
+    {
+      "index": 13,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100605,
+      "platform": "gpu",
+      "threads": null,
+      "seconds": 180,
+      "work_target_steps": 139,
+      "batch_steps": 1
+    },
+    {
+      "index": 14,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100605,
+      "platform": "cpu20",
+      "threads": 20,
+      "seconds": 180,
+      "work_target_steps": 139,
+      "batch_steps": 1
+    },
+    {
+      "index": 15,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100606,
+      "platform": "cpu20",
+      "threads": 20,
+      "seconds": 180,
+      "work_target_steps": 139,
+      "batch_steps": 1
+    },
+    {
+      "index": 16,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100606,
+      "platform": "cpu1",
+      "threads": 1,
+      "seconds": 180,
+      "work_target_steps": 139,
+      "batch_steps": 1
+    },
+    {
+      "index": 17,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100606,
+      "platform": "gpu",
+      "threads": null,
+      "seconds": 180,
+      "work_target_steps": 139,
+      "batch_steps": 1
+    },
+    {
+      "index": 18,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100607,
+      "platform": "cpu20",
+      "threads": 20,
+      "seconds": 180,
+      "work_target_steps": 139,
+      "batch_steps": 1
+    },
+    {
+      "index": 19,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100607,
+      "platform": "cpu1",
+      "threads": 1,
+      "seconds": 180,
+      "work_target_steps": 139,
+      "batch_steps": 1
+    },
+    {
+      "index": 20,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100607,
+      "platform": "gpu",
+      "threads": null,
+      "seconds": 180,
+      "work_target_steps": 139,
+      "batch_steps": 1
+    },
+    {
+      "index": 21,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100608,
+      "platform": "cpu1",
+      "threads": 1,
+      "seconds": 180,
+      "work_target_steps": 139,
+      "batch_steps": 1
+    },
+    {
+      "index": 22,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100608,
+      "platform": "gpu",
+      "threads": null,
+      "seconds": 180,
+      "work_target_steps": 139,
+      "batch_steps": 1
+    },
+    {
+      "index": 23,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100608,
+      "platform": "cpu20",
+      "threads": 20,
+      "seconds": 180,
+      "work_target_steps": 139,
+      "batch_steps": 1
+    },
+    {
+      "index": 24,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100609,
+      "platform": "cpu1",
+      "threads": 1,
+      "seconds": 180,
+      "work_target_steps": 139,
+      "batch_steps": 1
+    },
+    {
+      "index": 25,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100609,
+      "platform": "gpu",
+      "threads": null,
+      "seconds": 180,
+      "work_target_steps": 139,
+      "batch_steps": 1
+    },
+    {
+      "index": 26,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100609,
+      "platform": "cpu20",
+      "threads": 20,
+      "seconds": 180,
+      "work_target_steps": 139,
+      "batch_steps": 1
+    },
+    {
+      "index": 27,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100610,
+      "platform": "cpu1",
+      "threads": 1,
+      "seconds": 180,
+      "work_target_steps": 139,
+      "batch_steps": 1
+    },
+    {
+      "index": 28,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100610,
+      "platform": "gpu",
+      "threads": null,
+      "seconds": 180,
+      "work_target_steps": 139,
+      "batch_steps": 1
+    },
+    {
+      "index": 29,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100610,
+      "platform": "cpu20",
+      "threads": 20,
+      "seconds": 180,
+      "work_target_steps": 139,
+      "batch_steps": 1
+    },
+    {
+      "index": 30,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100601,
+      "platform": "cpu1",
+      "threads": 1,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 31,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100601,
+      "platform": "cpu20",
+      "threads": 20,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 32,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100601,
+      "platform": "gpu",
+      "threads": null,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 33,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100602,
+      "platform": "gpu",
+      "threads": null,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 34,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100602,
+      "platform": "cpu1",
+      "threads": 1,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 35,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100602,
+      "platform": "cpu20",
+      "threads": 20,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 36,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100603,
+      "platform": "cpu1",
+      "threads": 1,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 37,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100603,
+      "platform": "cpu20",
+      "threads": 20,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 38,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100603,
+      "platform": "gpu",
+      "threads": null,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 39,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100604,
+      "platform": "cpu1",
+      "threads": 1,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 40,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100604,
+      "platform": "cpu20",
+      "threads": 20,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 41,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100604,
+      "platform": "gpu",
+      "threads": null,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 42,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100605,
+      "platform": "cpu20",
+      "threads": 20,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 43,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100605,
+      "platform": "cpu1",
+      "threads": 1,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 44,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100605,
+      "platform": "gpu",
+      "threads": null,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 45,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100606,
+      "platform": "gpu",
+      "threads": null,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 46,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100606,
+      "platform": "cpu20",
+      "threads": 20,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 47,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100606,
+      "platform": "cpu1",
+      "threads": 1,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 48,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100607,
+      "platform": "gpu",
+      "threads": null,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 49,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100607,
+      "platform": "cpu1",
+      "threads": 1,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 50,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100607,
+      "platform": "cpu20",
+      "threads": 20,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 51,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100608,
+      "platform": "cpu1",
+      "threads": 1,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 52,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100608,
+      "platform": "cpu20",
+      "threads": 20,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 53,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100608,
+      "platform": "gpu",
+      "threads": null,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 54,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100609,
+      "platform": "gpu",
+      "threads": null,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 55,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100609,
+      "platform": "cpu20",
+      "threads": 20,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 56,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100609,
+      "platform": "cpu1",
+      "threads": 1,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 57,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100610,
+      "platform": "cpu20",
+      "threads": 20,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 58,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100610,
+      "platform": "gpu",
+      "threads": null,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 59,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100610,
+      "platform": "cpu1",
+      "threads": 1,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 60,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100601,
+      "platform": "cpu20",
+      "threads": 20,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 61,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100601,
+      "platform": "gpu",
+      "threads": null,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 62,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100601,
+      "platform": "cpu1",
+      "threads": 1,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 63,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100602,
+      "platform": "gpu",
+      "threads": null,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 64,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100602,
+      "platform": "cpu1",
+      "threads": 1,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 65,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100602,
+      "platform": "cpu20",
+      "threads": 20,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 66,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100603,
+      "platform": "cpu1",
+      "threads": 1,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 67,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100603,
+      "platform": "cpu20",
+      "threads": 20,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 68,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100603,
+      "platform": "gpu",
+      "threads": null,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 69,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100604,
+      "platform": "cpu20",
+      "threads": 20,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 70,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100604,
+      "platform": "cpu1",
+      "threads": 1,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 71,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100604,
+      "platform": "gpu",
+      "threads": null,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 72,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100605,
+      "platform": "gpu",
+      "threads": null,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 73,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100605,
+      "platform": "cpu20",
+      "threads": 20,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 74,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100605,
+      "platform": "cpu1",
+      "threads": 1,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 75,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100606,
+      "platform": "gpu",
+      "threads": null,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 76,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100606,
+      "platform": "cpu20",
+      "threads": 20,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 77,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100606,
+      "platform": "cpu1",
+      "threads": 1,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 78,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100607,
+      "platform": "gpu",
+      "threads": null,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 79,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100607,
+      "platform": "cpu1",
+      "threads": 1,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 80,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100607,
+      "platform": "cpu20",
+      "threads": 20,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 81,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100608,
+      "platform": "gpu",
+      "threads": null,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 82,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100608,
+      "platform": "cpu1",
+      "threads": 1,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 83,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100608,
+      "platform": "cpu20",
+      "threads": 20,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 84,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100609,
+      "platform": "cpu20",
+      "threads": 20,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 85,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100609,
+      "platform": "gpu",
+      "threads": null,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 86,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100609,
+      "platform": "cpu1",
+      "threads": 1,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 87,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100610,
+      "platform": "cpu1",
+      "threads": 1,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 88,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100610,
+      "platform": "gpu",
+      "threads": null,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    },
+    {
+      "index": 89,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100610,
+      "platform": "cpu20",
+      "threads": 20,
+      "seconds": 90,
+      "work_target_steps": 512,
+      "batch_steps": 1
+    }
+  ],
+  "expected_runs": 90,
+  "inherited_runs": 0,
+  "repeats": 10,
+  "seeds": [
+    2026100601,
+    2026100602,
+    2026100603,
+    2026100604,
+    2026100605,
+    2026100606,
+    2026100607,
+    2026100608,
+    2026100609,
+    2026100610
+  ],
+  "schedule_seed": 2026100008,
+  "batch_steps": 1,
+  "platforms": [
+    "gpu",
+    "cpu1",
+    "cpu20"
+  ],
+  "threads": {
+    "gpu": null,
+    "cpu1": 1,
+    "cpu20": 20
+  },
+  "original": {
+    "blocks": 128,
+    "stagnation": 300,
+    "outgoing": 4,
+    "temperature": 0.03,
+    "destroy_low": 0.12,
+    "destroy_high": 0.7
+  },
+  "work_target_steps": {
+    "BMCP_Set_II:bmcp_4600_4400_0.5_7000": 139,
+    "BMCP_Set_II:bmcp_1300_1300_0.5_2000": 512,
+    "BMCP_Set_I:bmcp_785_800_0.05_2000": 512
+  }
+}

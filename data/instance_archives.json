@@ -1,0 +1,14 @@
+[
+  {
+    "name": "set1",
+    "url": "https://raw.githubusercontent.com/Zequn-Wei/BMCP/main/Instances.zip",
+    "sha256": "2e384117b489a8296dca3a22408dcb40bb4e2ed5394bd74af35630ed737d5918",
+    "bytes": 1762672
+  },
+  {
+    "name": "set2",
+    "url": "https://github.com/JHL-HUST/VDLS/releases/download/Instances/New_Instances.zip",
+    "sha256": "9f5d5578ed9a04146e41a04bf1011ebee516629b514e8841aa4d649d4bdecf21",
+    "bytes": 44514569
+  }
+]

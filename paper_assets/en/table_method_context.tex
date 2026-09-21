@@ -1,0 +1,21 @@
+\begin{table}[tbp]
+\centering\small
+\setlength{\tabcolsep}{4pt}
+\raggedright
+\renewcommand{\arraystretch}{1.15}
+
+\caption{Exploration and diversification strategies of the compared methods. The final row summarizes the proposed organization.}
+\label{tab:method-context}
+\begin{tabular}{p{.16\linewidth}p{.35\linewidth}p{.38\linewidth}}
+\toprule
+Method & Exploration & Diversification and organization\\
+\midrule
+PLTS~\cite{Li2021PLTS} & Tabu-search moves on the selection & Perturbation guided by learned probabilities\\
+VDLS~\cite{Zhou2022VDLS} & Sequences of changes; bounded depth and branching & Partial exploration guided by item relationships\\
+IHS~\cite{Wei2023IHS} & Tabu search and intensification on cardinality hyperplanes & Dedicated perturbation between intensification phases\\
+ANRMA~\cite{Wei2026ANRMA} & Tabu search with adaptive neighborhood reduction & Recombination and population updating\\
+\method{} & Exactly corrected exchanges and an outgoing shortlist & GPU multistart, solution memory, and reconstruction\\
+\bottomrule
+\end{tabular}
+
+\end{table}

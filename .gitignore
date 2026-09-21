@@ -1,0 +1,6 @@
+runs/
+data/instances/
+__pycache__/
+*.py[cod]
+mplcache/
+.venv/

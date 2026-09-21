@@ -1,0 +1,632 @@
+[
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+    "platform": "cpu1",
+    "seed": 2026100601,
+    "seconds": 111.01044730003923,
+    "display_y": 1.83
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+    "platform": "cpu1",
+    "seed": 2026100602,
+    "seconds": 111.38053500000387,
+    "display_y": 1.8677777777777778
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+    "platform": "cpu1",
+    "seed": 2026100603,
+    "seconds": 111.14922210003715,
+    "display_y": 1.9055555555555554
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+    "platform": "cpu1",
+    "seed": 2026100604,
+    "seconds": 111.29219010006636,
+    "display_y": 1.9433333333333334
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+    "platform": "cpu1",
+    "seed": 2026100605,
+    "seconds": 111.12837579997722,
+    "display_y": 1.981111111111111
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+    "platform": "cpu1",
+    "seed": 2026100606,
+    "seconds": 111.30331579991616,
+    "display_y": 2.0188888888888887
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+    "platform": "cpu1",
+    "seed": 2026100607,
+    "seconds": 111.18704300001264,
+    "display_y": 2.0566666666666666
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+    "platform": "cpu1",
+    "seed": 2026100608,
+    "seconds": 111.26731680007651,
+    "display_y": 2.0944444444444446
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+    "platform": "cpu1",
+    "seed": 2026100609,
+    "seconds": 111.10782969999127,
+    "display_y": 2.132222222222222
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+    "platform": "cpu1",
+    "seed": 2026100610,
+    "seconds": 111.12385759991594,
+    "display_y": 2.17
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+    "platform": "cpu20",
+    "seed": 2026100601,
+    "seconds": 8.459188900073059,
+    "display_y": 0.83
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+    "platform": "cpu20",
+    "seed": 2026100602,
+    "seconds": 8.476194299990311,
+    "display_y": 0.8677777777777778
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+    "platform": "cpu20",
+    "seed": 2026100603,
+    "seconds": 8.927303700009361,
+    "display_y": 0.9055555555555556
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+    "platform": "cpu20",
+    "seed": 2026100604,
+    "seconds": 8.485604499932379,
+    "display_y": 0.9433333333333334
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+    "platform": "cpu20",
+    "seed": 2026100605,
+    "seconds": 8.453221400035545,
+    "display_y": 0.981111111111111
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+    "platform": "cpu20",
+    "seed": 2026100606,
+    "seconds": 8.929218400036916,
+    "display_y": 1.018888888888889
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+    "platform": "cpu20",
+    "seed": 2026100607,
+    "seconds": 8.579182400018908,
+    "display_y": 1.0566666666666666
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+    "platform": "cpu20",
+    "seed": 2026100608,
+    "seconds": 8.464164599892683,
+    "display_y": 1.0944444444444446
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+    "platform": "cpu20",
+    "seed": 2026100609,
+    "seconds": 8.568283000029624,
+    "display_y": 1.1322222222222222
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+    "platform": "cpu20",
+    "seed": 2026100610,
+    "seconds": 8.442864599986933,
+    "display_y": 1.17
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+    "platform": "gpu",
+    "seed": 2026100601,
+    "seconds": 0.7260076000820845,
+    "display_y": -0.17
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+    "platform": "gpu",
+    "seed": 2026100602,
+    "seconds": 0.7277026000665501,
+    "display_y": -0.13222222222222224
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+    "platform": "gpu",
+    "seed": 2026100603,
+    "seconds": 0.7347014000406489,
+    "display_y": -0.09444444444444446
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+    "platform": "gpu",
+    "seed": 2026100604,
+    "seconds": 0.7261627999832854,
+    "display_y": -0.05666666666666668
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+    "platform": "gpu",
+    "seed": 2026100605,
+    "seconds": 0.7285015999805182,
+    "display_y": -0.0188888888888889
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+    "platform": "gpu",
+    "seed": 2026100606,
+    "seconds": 0.7229157000547275,
+    "display_y": 0.0188888888888889
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+    "platform": "gpu",
+    "seed": 2026100607,
+    "seconds": 0.7419037000508979,
+    "display_y": 0.05666666666666666
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+    "platform": "gpu",
+    "seed": 2026100608,
+    "seconds": 0.7303860000101849,
+    "display_y": 0.09444444444444446
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+    "platform": "gpu",
+    "seed": 2026100609,
+    "seconds": 0.729849600000307,
+    "display_y": 0.1322222222222222
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+    "platform": "gpu",
+    "seed": 2026100610,
+    "seconds": 0.7342020000796765,
+    "display_y": 0.17
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+    "platform": "cpu1",
+    "seed": 2026100601,
+    "seconds": 35.75575300003402,
+    "display_y": 1.83
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+    "platform": "cpu1",
+    "seed": 2026100602,
+    "seconds": 35.676832200028,
+    "display_y": 1.8677777777777778
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+    "platform": "cpu1",
+    "seed": 2026100603,
+    "seconds": 35.55001590005122,
+    "display_y": 1.9055555555555554
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+    "platform": "cpu1",
+    "seed": 2026100604,
+    "seconds": 35.58550370007288,
+    "display_y": 1.9433333333333334
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+    "platform": "cpu1",
+    "seed": 2026100605,
+    "seconds": 35.62440140009858,
+    "display_y": 1.981111111111111
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+    "platform": "cpu1",
+    "seed": 2026100606,
+    "seconds": 35.785813600057736,
+    "display_y": 2.0188888888888887
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+    "platform": "cpu1",
+    "seed": 2026100607,
+    "seconds": 35.63185739994515,
+    "display_y": 2.0566666666666666
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+    "platform": "cpu1",
+    "seed": 2026100608,
+    "seconds": 35.655540799954906,
+    "display_y": 2.0944444444444446
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+    "platform": "cpu1",
+    "seed": 2026100609,
+    "seconds": 35.61867050000001,
+    "display_y": 2.132222222222222
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+    "platform": "cpu1",
+    "seed": 2026100610,
+    "seconds": 35.65111550001893,
+    "display_y": 2.17
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+    "platform": "cpu20",
+    "seed": 2026100601,
+    "seconds": 2.653640400036238,
+    "display_y": 0.83
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+    "platform": "cpu20",
+    "seed": 2026100602,
+    "seconds": 2.649235500022769,
+    "display_y": 0.8677777777777778
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+    "platform": "cpu20",
+    "seed": 2026100603,
+    "seconds": 2.631900200038217,
+    "display_y": 0.9055555555555556
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+    "platform": "cpu20",
+    "seed": 2026100604,
+    "seconds": 2.6260241999989375,
+    "display_y": 0.9433333333333334
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+    "platform": "cpu20",
+    "seed": 2026100605,
+    "seconds": 2.639474799972959,
+    "display_y": 0.981111111111111
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+    "platform": "cpu20",
+    "seed": 2026100606,
+    "seconds": 2.645122400019318,
+    "display_y": 1.018888888888889
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+    "platform": "cpu20",
+    "seed": 2026100607,
+    "seconds": 2.641249099979177,
+    "display_y": 1.0566666666666666
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+    "platform": "cpu20",
+    "seed": 2026100608,
+    "seconds": 2.6450452000135556,
+    "display_y": 1.0944444444444446
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+    "platform": "cpu20",
+    "seed": 2026100609,
+    "seconds": 2.6483059999300167,
+    "display_y": 1.1322222222222222
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+    "platform": "cpu20",
+    "seed": 2026100610,
+    "seconds": 2.6291985999559984,
+    "display_y": 1.17
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+    "platform": "gpu",
+    "seed": 2026100601,
+    "seconds": 0.3127618000144139,
+    "display_y": -0.17
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+    "platform": "gpu",
+    "seed": 2026100602,
+    "seconds": 0.3118997000856325,
+    "display_y": -0.13222222222222224
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+    "platform": "gpu",
+    "seed": 2026100603,
+    "seconds": 0.3137709000147879,
+    "display_y": -0.09444444444444446
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+    "platform": "gpu",
+    "seed": 2026100604,
+    "seconds": 0.3123401999473572,
+    "display_y": -0.05666666666666668
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+    "platform": "gpu",
+    "seed": 2026100605,
+    "seconds": 0.31363749993033707,
+    "display_y": -0.0188888888888889
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+    "platform": "gpu",
+    "seed": 2026100606,
+    "seconds": 0.3176695000147447,
+    "display_y": 0.0188888888888889
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+    "platform": "gpu",
+    "seed": 2026100607,
+    "seconds": 0.3160859999479726,
+    "display_y": 0.05666666666666666
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+    "platform": "gpu",
+    "seed": 2026100608,
+    "seconds": 0.3181423000060022,
+    "display_y": 0.09444444444444446
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+    "platform": "gpu",
+    "seed": 2026100609,
+    "seconds": 0.3124457999365404,
+    "display_y": 0.1322222222222222
+  },
+  {
+    "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+    "platform": "gpu",
+    "seed": 2026100610,
+    "seconds": 0.3137353000929579,
+    "display_y": 0.17
+  },
+  {
+    "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+    "platform": "cpu1",
+    "seed": 2026100601,
+    "seconds": 13.086052699945867,
+    "display_y": 1.83
+  },
+  {
+    "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+    "platform": "cpu1",
+    "seed": 2026100602,
+    "seconds": 13.078515600063838,
+    "display_y": 1.8677777777777778
+  },
+  {
+    "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+    "platform": "cpu1",
+    "seed": 2026100603,
+    "seconds": 13.094580699922517,
+    "display_y": 1.9055555555555554
+  },
+  {
+    "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+    "platform": "cpu1",
+    "seed": 2026100604,
+    "seconds": 13.1069030999206,
+    "display_y": 1.9433333333333334
+  },
+  {
+    "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+    "platform": "cpu1",
+    "seed": 2026100605,
+    "seconds": 13.09207090002019,
+    "display_y": 1.981111111111111
+  },
+  {
+    "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+    "platform": "cpu1",
+    "seed": 2026100606,
+    "seconds": 13.101423199987039,
+    "display_y": 2.0188888888888887
+  },
+  {
+    "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+    "platform": "cpu1",
+    "seed": 2026100607,
+    "seconds": 13.09375350002665,
+    "display_y": 2.0566666666666666
+  },
+  {
+    "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+    "platform": "cpu1",
+    "seed": 2026100608,
+    "seconds": 13.08423840010073,
+    "display_y": 2.0944444444444446
+  },
+  {
+    "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+    "platform": "cpu1",
+    "seed": 2026100609,
+    "seconds": 13.09341560001485,
+    "display_y": 2.132222222222222
+  },
+  {
+    "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+    "platform": "cpu1",
+    "seed": 2026100610,
+    "seconds": 13.111262200050987,
+    "display_y": 2.17
+  },
+  {
+    "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+    "platform": "cpu20",
+    "seed": 2026100601,
+    "seconds": 0.9869744000025094,
+    "display_y": 0.83
+  },
+  {
+    "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+    "platform": "cpu20",
+    "seed": 2026100602,
+    "seconds": 0.98700830002781,
+    "display_y": 0.8677777777777778
+  },
+  {
+    "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+    "platform": "cpu20",
+    "seed": 2026100603,
+    "seconds": 0.986997599946335,
+    "display_y": 0.9055555555555556
+  },
+  {
+    "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+    "platform": "cpu20",
+    "seed": 2026100604,
+    "seconds": 0.989082399988547,
+    "display_y": 0.9433333333333334
+  },
+  {
+    "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+    "platform": "cpu20",
+    "seed": 2026100605,
+    "seconds": 0.9857591999461874,
+    "display_y": 0.981111111111111
+  },
+  {
+    "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+    "platform": "cpu20",
+    "seed": 2026100606,
+    "seconds": 0.9799671999644488,
+    "display_y": 1.018888888888889
+  },
+  {
+    "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+    "platform": "cpu20",
+    "seed": 2026100607,
+    "seconds": 0.9871042999438941,
+    "display_y": 1.0566666666666666
+  },
+  {
+    "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+    "platform": "cpu20",
+    "seed": 2026100608,
+    "seconds": 0.9810242999810725,
+    "display_y": 1.0944444444444446
+  },
+  {
+    "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+    "platform": "cpu20",
+    "seed": 2026100609,
+    "seconds": 0.9837393999332562,
+    "display_y": 1.1322222222222222
+  },
+  {
+    "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+    "platform": "cpu20",
+    "seed": 2026100610,
+    "seconds": 0.9855618999572471,
+    "display_y": 1.17
+  },
+  {
+    "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+    "platform": "gpu",
+    "seed": 2026100601,
+    "seconds": 0.15014529996551573,
+    "display_y": -0.17
+  },
+  {
+    "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+    "platform": "gpu",
+    "seed": 2026100602,
+    "seconds": 0.15095690009184182,
+    "display_y": -0.13222222222222224
+  },
+  {
+    "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+    "platform": "gpu",
+    "seed": 2026100603,
+    "seconds": 0.1513213999569416,
+    "display_y": -0.09444444444444446
+  },
+  {
+    "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+    "platform": "gpu",
+    "seed": 2026100604,
+    "seconds": 0.15022009995300323,
+    "display_y": -0.05666666666666668
+  },
+  {
+    "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+    "platform": "gpu",
+    "seed": 2026100605,
+    "seconds": 0.1519921999424696,
+    "display_y": -0.0188888888888889
+  },
+  {
+    "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+    "platform": "gpu",
+    "seed": 2026100606,
+    "seconds": 0.14916999998968095,
+    "display_y": 0.0188888888888889
+  },
+  {
+    "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+    "platform": "gpu",
+    "seed": 2026100607,
+    "seconds": 0.14976719999685884,
+    "display_y": 0.05666666666666666
+  },
+  {
+    "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+    "platform": "gpu",
+    "seed": 2026100608,
+    "seconds": 0.1500573999946937,
+    "display_y": 0.09444444444444446
+  },
+  {
+    "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+    "platform": "gpu",
+    "seed": 2026100609,
+    "seconds": 0.15093899995554239,
+    "display_y": 0.1322222222222222
+  },
+  {
+    "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+    "platform": "gpu",
+    "seed": 2026100610,
+    "seconds": 0.14900940004736185,
+    "display_y": 0.17
+  }
+]

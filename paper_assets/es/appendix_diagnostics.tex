@@ -1,0 +1,58 @@
+\section{Casos de diagnóstico y sensibilidad completa}
+\label{app:diagnostics}
+Las Tablas~\ref{tab:diagnostic-cases} y \ref{tab:ofat} documentan los casos de diagnóstico y todas las configuraciones exploratorias de parámetros.
+\begin{table}[H]
+\centering\small
+\caption{Identificadores, presupuestos y objetivos propios fijados. D1,D3,D5 son los tres casos focalizados. Los V se excluyeron del ajuste, pero pertenecían al banco histórico.}
+\label{tab:diagnostic-cases}
+\begin{tabular}{llrr}
+\toprule
+Código & Instancia (sin prefijo bmcp) & H (s) & Objetivo\\
+\midrule
+D1 & 4600\_4400\_0.5\_7000 & 180 & 1901868\\
+D2 & 5000\_5200\_0.5\_7000 & 180 & 2227362\\
+D3 & 1300\_1300\_0.5\_2000 & 90 & 162514\\
+D4 & 1500\_1600\_0.5\_2000 & 90 & 199678\\
+D5 & 785\_800\_0.05\_2000 & 90 & 92740\\
+D6 & 985\_1000\_0.075\_1500 & 90 & 115505\\
+V1 & 4600\_4600\_0.5\_7000 & 180 & 1984295\\
+V2 & 4600\_4600\_0.3\_10000 & 180 & 2106970\\
+V3 & 1100\_1100\_0.3\_3000 & 90 & 157530\\
+V4 & 1300\_1300\_0.3\_3000 & 90 & 184699\\
+V5 & 1000\_1000\_0.075\_1500 & 90 & 120246\\
+V6 & 785\_800\_0.075\_1500 & 90 & 95221\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering\small
+\caption{Exploración completa de un factor a la vez: aciertos/3 y tiempo medio acotado (s). Original: B=128, $S_{\mathrm{max}}=300$, K=4, T=0.03, D=[0.12,0.70]. Solo cambia el parámetro indicado.}
+\label{tab:ofat}
+\begin{tabular}{lrrr}
+\toprule
+Configuración & D1 & D3 & D5\\
+\midrule
+Original & 3/3; 6.50 & 3/3; 0.493 & 3/3; 0.0120\\
+$T=0.0$ & 3/3; 17.0 & 3/3; 4.59 & 2/3; 58.6\\
+$T=0.01$ & 3/3; 44.4 & 3/3; 0.300 & 3/3; 0.0350\\
+$T=0.1$ & 2/3; 80.3 & 3/3; 16.1 & 3/3; 1.71\\
+$S_{\mathrm{max}}=75$ & 3/3; 6.25 & 3/3; 1.39 & 3/3; 0.0120\\
+$S_{\mathrm{max}}=150$ & 3/3; 4.35 & 3/3; 0.809 & 3/3; 0.0120\\
+$S_{\mathrm{max}}=600$ & 3/3; 11.6 & 3/3; 4.60 & 3/3; 0.0110\\
+$S_{\mathrm{max}}=1200$ & 3/3; 50.7 & 3/3; 11.0 & 3/3; 0.0120\\
+$K=1$ & 1/3; 170 & 3/3; 7.23 & 3/3; 0.257\\
+$K=2$ & 3/3; 5.12 & 3/3; 1.15 & 3/3; 0.0110\\
+$K=8$ & 3/3; 11.3 & 3/3; 0.999 & 3/3; 0.0130\\
+$B=32$ & 2/3; 83.7 & 3/3; 16.3 & 3/3; 0.0990\\
+$B=64$ & 3/3; 7.23 & 3/3; 3.28 & 3/3; 0.0380\\
+$B=256$ & 3/3; 10.1 & 3/3; 0.836 & 3/3; 0.0190\\
+$D=[0.02,0.6]$ & 3/3; 4.89 & 3/3; 4.07 & 3/3; 0.0120\\
+$D=[0.22,0.8]$ & 3/3; 6.66 & 3/3; 0.518 & 3/3; 0.0120\\
+$D=[0.31,0.51]$ & 3/3; 6.54 & 3/3; 1.03 & 3/3; 0.0120\\
+$D=[0.41,0.41]$ & 3/3; 7.23 & 3/3; 0.916 & 3/3; 0.0120\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\FloatBarrier

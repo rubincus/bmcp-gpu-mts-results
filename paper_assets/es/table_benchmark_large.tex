@@ -1,0 +1,15 @@
+\begin{table}[tbp]\centering\small
+\caption{Calidad en las 30 instancias grandes (conjunto II). Promedios aritméticos de los mejores valores (Best) y de las medias por instancia (Media). Negrita: mayor promedio de cada métrica, incluidos empates.}
+\label{tab:benchmark-large}
+\begin{tabular}{lrrrrr}
+\toprule
+Método & Best & Media & Best: G/E/P & Media: G/E/P & Brecha (\%)\\
+\midrule
+PLTS & 1967744.97 & 1943665.37 & 30/0/0 & 30/0/0 & 4.88\\
+VDLS & 2042027.00 & 2033356.80 & 20/10/0 & 30/0/0 & 0.525\\
+IHS & 2042180.70 & 2042006.17 & 15/15/0 & 16/14/0 & 0.101\\
+ANRMA & 2043872.83 & 2042495.67 & 5/25/0 & 21/9/0 & 0.0759\\
+GPU-MTS & \textbf{2044036.53} & \textbf{2044036.53} & -- & -- & 0\\
+\bottomrule\end{tabular}
+\par\smallskip\parbox{.97\linewidth}{\footnotesize G/E/P cuenta victorias, empates y pérdidas de GPU-MTS frente a cada método. La brecha media utiliza $R_i=\max\{\mathrm{BKV}_i,f^{\mathrm{best}}_{i,\rm GPU}\}$; BKV identifica el valor bibliográfico de Wei et al.~\cite{Wei2026ANRMA}.}
+\end{table}

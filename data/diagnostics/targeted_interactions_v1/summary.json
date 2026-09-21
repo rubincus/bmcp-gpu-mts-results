@@ -1,0 +1,4120 @@
+{
+  "created_at_utc": "2026-09-19T08:47:04.372197+00:00",
+  "status": "complete",
+  "completed_runs": 54,
+  "planned_runs": 54,
+  "inherited_runs": 9,
+  "new_runs": 45,
+  "active_cell": null,
+  "results_prefix_sha256": "ce418d49e0386ef588c343962809c080bc0db1326eee2cb64342aeb788a3f1a1",
+  "complete_case_configurations": 18,
+  "partial_case_configurations": 0,
+  "pending_case_configurations": 0,
+  "cases": [
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "instance": "bmcp_4600_4400_0.5_7000",
+      "cohort": "II_large",
+      "configuration_id": "base",
+      "factor": "base",
+      "parameters": {
+        "blocks": 128,
+        "stagnation": 300,
+        "outgoing": 4,
+        "temperature": 0.03,
+        "destroy_low": 0.12,
+        "destroy_high": 0.7
+      },
+      "seconds": 180,
+      "n": 3,
+      "expected_runs": 3,
+      "status": "COMPLETE",
+      "best": 1901868,
+      "mean": 1901868,
+      "worst": 1901868,
+      "sample_sd": 0.0,
+      "time_to_best_mean": 6.500246299973999,
+      "late_improvements": 0,
+      "targets": {
+        "published": {
+          "value": 1901834,
+          "hits": 3,
+          "failures": 0,
+          "denominator": 3,
+          "hit_rate": 1.0,
+          "capped_time_mean": 2.174131066654809,
+          "hit_time_mean": 2.174131066654809,
+          "hit_time_denominator": 3,
+          "best_gap_percent": 0.001787748036894913,
+          "mean_gap_percent": 0.001787748036894913
+        },
+        "baseline_best": {
+          "value": 1901868,
+          "hits": 3,
+          "failures": 0,
+          "denominator": 3,
+          "hit_rate": 1.0,
+          "capped_time_mean": 6.500246299973999,
+          "hit_time_mean": 6.500246299973999,
+          "hit_time_denominator": 3,
+          "best_gap_percent": 0.0,
+          "mean_gap_percent": 0.0
+        }
+      },
+      "checkpoints": [
+        {
+          "seconds": 0.02,
+          "n": 3,
+          "mean": 837152.6666666666,
+          "best": 844654,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 0.05,
+          "n": 3,
+          "mean": 1426483.6666666667,
+          "best": 1427391,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 0.1,
+          "n": 3,
+          "mean": 1884406,
+          "best": 1886427,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 0.25,
+          "n": 3,
+          "mean": 1896979.3333333333,
+          "best": 1899171,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 0.5,
+          "n": 3,
+          "mean": 1899214.6666666667,
+          "best": 1901515,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 1,
+          "n": 3,
+          "mean": 1901689.6666666667,
+          "best": 1901834,
+          "published_hits": 1,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 2,
+          "n": 3,
+          "mean": 1901796,
+          "best": 1901834,
+          "published_hits": 2,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 5,
+          "n": 3,
+          "mean": 1901845.3333333333,
+          "best": 1901868,
+          "published_hits": 3,
+          "baseline_best_hits": 1
+        },
+        {
+          "seconds": 10,
+          "n": 3,
+          "mean": 1901856.6666666667,
+          "best": 1901868,
+          "published_hits": 3,
+          "baseline_best_hits": 2
+        },
+        {
+          "seconds": 30,
+          "n": 3,
+          "mean": 1901868,
+          "best": 1901868,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 60,
+          "n": 3,
+          "mean": 1901868,
+          "best": 1901868,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 90,
+          "n": 3,
+          "mean": 1901868,
+          "best": 1901868,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 180,
+          "n": 3,
+          "mean": 1901868,
+          "best": 1901868,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        }
+      ]
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "instance": "bmcp_4600_4400_0.5_7000",
+      "cohort": "II_large",
+      "configuration_id": "temp_0p01_stagnation_150",
+      "factor": "temperature_stagnation",
+      "parameters": {
+        "blocks": 128,
+        "stagnation": 150,
+        "outgoing": 4,
+        "temperature": 0.01,
+        "destroy_low": 0.12,
+        "destroy_high": 0.7
+      },
+      "seconds": 180,
+      "n": 3,
+      "expected_runs": 3,
+      "status": "COMPLETE",
+      "best": 1901868,
+      "mean": 1901856.6666666667,
+      "worst": 1901834,
+      "sample_sd": 19.629909152447276,
+      "time_to_best_mean": 15.504633733343022,
+      "late_improvements": 0,
+      "targets": {
+        "published": {
+          "value": 1901834,
+          "hits": 3,
+          "failures": 0,
+          "denominator": 3,
+          "hit_rate": 1.0,
+          "capped_time_mean": 5.93936149997171,
+          "hit_time_mean": 5.93936149997171,
+          "hit_time_denominator": 3,
+          "best_gap_percent": 0.001787748036894913,
+          "mean_gap_percent": 0.0011918320246006894
+        },
+        "baseline_best": {
+          "value": 1901868,
+          "hits": 2,
+          "failures": 1,
+          "denominator": 3,
+          "hit_rate": 0.6666666666666666,
+          "capped_time_mean": 73.12018190002225,
+          "hit_time_mean": 19.68027285003336,
+          "hit_time_denominator": 2,
+          "best_gap_percent": 0.0,
+          "mean_gap_percent": -0.0005959053590078662
+        }
+      },
+      "checkpoints": [
+        {
+          "seconds": 0.02,
+          "n": 3,
+          "mean": 838712.3333333334,
+          "best": 839524,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 0.05,
+          "n": 3,
+          "mean": 1434402,
+          "best": 1434402,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 0.1,
+          "n": 3,
+          "mean": 1887537.3333333333,
+          "best": 1890221,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 0.25,
+          "n": 3,
+          "mean": 1897988.3333333333,
+          "best": 1901515,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 0.5,
+          "n": 3,
+          "mean": 1900742,
+          "best": 1901515,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 1,
+          "n": 3,
+          "mean": 1901583.3333333333,
+          "best": 1901720,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 2,
+          "n": 3,
+          "mean": 1901720,
+          "best": 1901720,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 5,
+          "n": 3,
+          "mean": 1901720,
+          "best": 1901720,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 10,
+          "n": 3,
+          "mean": 1901834,
+          "best": 1901834,
+          "published_hits": 3,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 30,
+          "n": 3,
+          "mean": 1901856.6666666667,
+          "best": 1901868,
+          "published_hits": 3,
+          "baseline_best_hits": 2
+        },
+        {
+          "seconds": 60,
+          "n": 3,
+          "mean": 1901856.6666666667,
+          "best": 1901868,
+          "published_hits": 3,
+          "baseline_best_hits": 2
+        },
+        {
+          "seconds": 90,
+          "n": 3,
+          "mean": 1901856.6666666667,
+          "best": 1901868,
+          "published_hits": 3,
+          "baseline_best_hits": 2
+        },
+        {
+          "seconds": 180,
+          "n": 3,
+          "mean": 1901856.6666666667,
+          "best": 1901868,
+          "published_hits": 3,
+          "baseline_best_hits": 2
+        }
+      ]
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "instance": "bmcp_4600_4400_0.5_7000",
+      "cohort": "II_large",
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "factor": "destruction_stagnation",
+      "parameters": {
+        "blocks": 128,
+        "stagnation": 150,
+        "outgoing": 4,
+        "temperature": 0.03,
+        "destroy_low": 0.02,
+        "destroy_high": 0.6
+      },
+      "seconds": 180,
+      "n": 3,
+      "expected_runs": 3,
+      "status": "COMPLETE",
+      "best": 1901868,
+      "mean": 1901868,
+      "worst": 1901868,
+      "sample_sd": 0.0,
+      "time_to_best_mean": 3.993592099985108,
+      "late_improvements": 0,
+      "targets": {
+        "published": {
+          "value": 1901834,
+          "hits": 3,
+          "failures": 0,
+          "denominator": 3,
+          "hit_rate": 1.0,
+          "capped_time_mean": 2.35922586665644,
+          "hit_time_mean": 2.35922586665644,
+          "hit_time_denominator": 3,
+          "best_gap_percent": 0.001787748036894913,
+          "mean_gap_percent": 0.001787748036894913
+        },
+        "baseline_best": {
+          "value": 1901868,
+          "hits": 3,
+          "failures": 0,
+          "denominator": 3,
+          "hit_rate": 1.0,
+          "capped_time_mean": 3.993592099985108,
+          "hit_time_mean": 3.993592099985108,
+          "hit_time_denominator": 3,
+          "best_gap_percent": 0.0,
+          "mean_gap_percent": 0.0
+        }
+      },
+      "checkpoints": [
+        {
+          "seconds": 0.02,
+          "n": 3,
+          "mean": 837152.6666666666,
+          "best": 844654,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 0.05,
+          "n": 3,
+          "mean": 1426483.6666666667,
+          "best": 1427391,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 0.1,
+          "n": 3,
+          "mean": 1884406,
+          "best": 1886427,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 0.25,
+          "n": 3,
+          "mean": 1896979.3333333333,
+          "best": 1899171,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 0.5,
+          "n": 3,
+          "mean": 1899308.3333333333,
+          "best": 1901515,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 1,
+          "n": 3,
+          "mean": 1901689.6666666667,
+          "best": 1901834,
+          "published_hits": 1,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 2,
+          "n": 3,
+          "mean": 1901796,
+          "best": 1901834,
+          "published_hits": 2,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 5,
+          "n": 3,
+          "mean": 1901868,
+          "best": 1901868,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 10,
+          "n": 3,
+          "mean": 1901868,
+          "best": 1901868,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 30,
+          "n": 3,
+          "mean": 1901868,
+          "best": 1901868,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 60,
+          "n": 3,
+          "mean": 1901868,
+          "best": 1901868,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 90,
+          "n": 3,
+          "mean": 1901868,
+          "best": 1901868,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 180,
+          "n": 3,
+          "mean": 1901868,
+          "best": 1901868,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        }
+      ]
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+      "instance": "bmcp_5000_5200_0.5_7000",
+      "cohort": "II_large",
+      "configuration_id": "base",
+      "factor": "base",
+      "parameters": {
+        "blocks": 128,
+        "stagnation": 300,
+        "outgoing": 4,
+        "temperature": 0.03,
+        "destroy_low": 0.12,
+        "destroy_high": 0.7
+      },
+      "seconds": 180,
+      "n": 3,
+      "expected_runs": 3,
+      "status": "COMPLETE",
+      "best": 2227362,
+      "mean": 2227362,
+      "worst": 2227362,
+      "sample_sd": 0.0,
+      "time_to_best_mean": 8.194643299949044,
+      "late_improvements": 0,
+      "targets": {
+        "published": {
+          "value": 2225839,
+          "hits": 3,
+          "failures": 0,
+          "denominator": 3,
+          "hit_rate": 1.0,
+          "capped_time_mean": 2.331509666633792,
+          "hit_time_mean": 2.331509666633792,
+          "hit_time_denominator": 3,
+          "best_gap_percent": 0.06842363710942256,
+          "mean_gap_percent": 0.06842363710942256
+        },
+        "baseline_best": {
+          "value": 2227362,
+          "hits": 3,
+          "failures": 0,
+          "denominator": 3,
+          "hit_rate": 1.0,
+          "capped_time_mean": 8.194643299949044,
+          "hit_time_mean": 8.194643299949044,
+          "hit_time_denominator": 3,
+          "best_gap_percent": 0.0,
+          "mean_gap_percent": 0.0
+        }
+      },
+      "checkpoints": [
+        {
+          "seconds": 0.02,
+          "n": 3,
+          "mean": 297860.3333333333,
+          "best": 518001,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 0.05,
+          "n": 3,
+          "mean": 1257890.3333333333,
+          "best": 1342725,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 0.1,
+          "n": 3,
+          "mean": 2110293.6666666665,
+          "best": 2188822,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 0.25,
+          "n": 3,
+          "mean": 2212083.6666666665,
+          "best": 2213746,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 0.5,
+          "n": 3,
+          "mean": 2222745.3333333335,
+          "best": 2225179,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 1,
+          "n": 3,
+          "mean": 2223623.3333333335,
+          "best": 2225415,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 2,
+          "n": 3,
+          "mean": 2225697.6666666665,
+          "best": 2225839,
+          "published_hits": 2,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 5,
+          "n": 3,
+          "mean": 2226608.3333333335,
+          "best": 2226668,
+          "published_hits": 3,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 10,
+          "n": 3,
+          "mean": 2227130.6666666665,
+          "best": 2227362,
+          "published_hits": 3,
+          "baseline_best_hits": 2
+        },
+        {
+          "seconds": 30,
+          "n": 3,
+          "mean": 2227362,
+          "best": 2227362,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 60,
+          "n": 3,
+          "mean": 2227362,
+          "best": 2227362,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 90,
+          "n": 3,
+          "mean": 2227362,
+          "best": 2227362,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 180,
+          "n": 3,
+          "mean": 2227362,
+          "best": 2227362,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        }
+      ]
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+      "instance": "bmcp_5000_5200_0.5_7000",
+      "cohort": "II_large",
+      "configuration_id": "temp_0p01_stagnation_150",
+      "factor": "temperature_stagnation",
+      "parameters": {
+        "blocks": 128,
+        "stagnation": 150,
+        "outgoing": 4,
+        "temperature": 0.01,
+        "destroy_low": 0.12,
+        "destroy_high": 0.7
+      },
+      "seconds": 180,
+      "n": 3,
+      "expected_runs": 3,
+      "status": "COMPLETE",
+      "best": 2227362,
+      "mean": 2227362,
+      "worst": 2227362,
+      "sample_sd": 0.0,
+      "time_to_best_mean": 3.990701800057044,
+      "late_improvements": 0,
+      "targets": {
+        "published": {
+          "value": 2225839,
+          "hits": 3,
+          "failures": 0,
+          "denominator": 3,
+          "hit_rate": 1.0,
+          "capped_time_mean": 2.303919633345989,
+          "hit_time_mean": 2.303919633345989,
+          "hit_time_denominator": 3,
+          "best_gap_percent": 0.06842363710942256,
+          "mean_gap_percent": 0.06842363710942256
+        },
+        "baseline_best": {
+          "value": 2227362,
+          "hits": 3,
+          "failures": 0,
+          "denominator": 3,
+          "hit_rate": 1.0,
+          "capped_time_mean": 3.990701800057044,
+          "hit_time_mean": 3.990701800057044,
+          "hit_time_denominator": 3,
+          "best_gap_percent": 0.0,
+          "mean_gap_percent": 0.0
+        }
+      },
+      "checkpoints": [
+        {
+          "seconds": 0.02,
+          "n": 3,
+          "mean": 185296.66666666666,
+          "best": 187757,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 0.05,
+          "n": 3,
+          "mean": 1355109.3333333333,
+          "best": 1358451,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 0.1,
+          "n": 3,
+          "mean": 2172454.3333333335,
+          "best": 2219035,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 0.25,
+          "n": 3,
+          "mean": 2220823,
+          "best": 2223526,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 0.5,
+          "n": 3,
+          "mean": 2225395,
+          "best": 2225540,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 1,
+          "n": 3,
+          "mean": 2225916,
+          "best": 2226668,
+          "published_hits": 1,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 2,
+          "n": 3,
+          "mean": 2225916,
+          "best": 2226668,
+          "published_hits": 1,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 5,
+          "n": 3,
+          "mean": 2227362,
+          "best": 2227362,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 10,
+          "n": 3,
+          "mean": 2227362,
+          "best": 2227362,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 30,
+          "n": 3,
+          "mean": 2227362,
+          "best": 2227362,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 60,
+          "n": 3,
+          "mean": 2227362,
+          "best": 2227362,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 90,
+          "n": 3,
+          "mean": 2227362,
+          "best": 2227362,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 180,
+          "n": 3,
+          "mean": 2227362,
+          "best": 2227362,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        }
+      ]
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+      "instance": "bmcp_5000_5200_0.5_7000",
+      "cohort": "II_large",
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "factor": "destruction_stagnation",
+      "parameters": {
+        "blocks": 128,
+        "stagnation": 150,
+        "outgoing": 4,
+        "temperature": 0.03,
+        "destroy_low": 0.02,
+        "destroy_high": 0.6
+      },
+      "seconds": 180,
+      "n": 3,
+      "expected_runs": 3,
+      "status": "COMPLETE",
+      "best": 2227362,
+      "mean": 2227362,
+      "worst": 2227362,
+      "sample_sd": 0.0,
+      "time_to_best_mean": 6.203143466652061,
+      "late_improvements": 0,
+      "targets": {
+        "published": {
+          "value": 2225839,
+          "hits": 3,
+          "failures": 0,
+          "denominator": 3,
+          "hit_rate": 1.0,
+          "capped_time_mean": 2.2557143333445615,
+          "hit_time_mean": 2.2557143333445615,
+          "hit_time_denominator": 3,
+          "best_gap_percent": 0.06842363710942256,
+          "mean_gap_percent": 0.06842363710942256
+        },
+        "baseline_best": {
+          "value": 2227362,
+          "hits": 3,
+          "failures": 0,
+          "denominator": 3,
+          "hit_rate": 1.0,
+          "capped_time_mean": 6.203143466652061,
+          "hit_time_mean": 6.203143466652061,
+          "hit_time_denominator": 3,
+          "best_gap_percent": 0.0,
+          "mean_gap_percent": 0.0
+        }
+      },
+      "checkpoints": [
+        {
+          "seconds": 0.02,
+          "n": 3,
+          "mean": 187779,
+          "best": 187823,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 0.05,
+          "n": 3,
+          "mean": 1337378.3333333333,
+          "best": 1342725,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 0.1,
+          "n": 3,
+          "mean": 2068261.3333333333,
+          "best": 2072855,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 0.25,
+          "n": 3,
+          "mean": 2212083.6666666665,
+          "best": 2213746,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 0.5,
+          "n": 3,
+          "mean": 2222745.3333333335,
+          "best": 2225179,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 1,
+          "n": 3,
+          "mean": 2223623.3333333335,
+          "best": 2225415,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 2,
+          "n": 3,
+          "mean": 2225556.3333333335,
+          "best": 2225839,
+          "published_hits": 1,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 5,
+          "n": 3,
+          "mean": 2226839.6666666665,
+          "best": 2227362,
+          "published_hits": 3,
+          "baseline_best_hits": 1
+        },
+        {
+          "seconds": 10,
+          "n": 3,
+          "mean": 2227362,
+          "best": 2227362,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 30,
+          "n": 3,
+          "mean": 2227362,
+          "best": 2227362,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 60,
+          "n": 3,
+          "mean": 2227362,
+          "best": 2227362,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 90,
+          "n": 3,
+          "mean": 2227362,
+          "best": 2227362,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 180,
+          "n": 3,
+          "mean": 2227362,
+          "best": 2227362,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        }
+      ]
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "instance": "bmcp_1300_1300_0.5_2000",
+      "cohort": "II_medium",
+      "configuration_id": "base",
+      "factor": "base",
+      "parameters": {
+        "blocks": 128,
+        "stagnation": 300,
+        "outgoing": 4,
+        "temperature": 0.03,
+        "destroy_low": 0.12,
+        "destroy_high": 0.7
+      },
+      "seconds": 90,
+      "n": 3,
+      "expected_runs": 3,
+      "status": "COMPLETE",
+      "best": 162514,
+      "mean": 162514,
+      "worst": 162514,
+      "sample_sd": 0.0,
+      "time_to_best_mean": 0.49308073330515373,
+      "late_improvements": 0,
+      "targets": {
+        "published": {
+          "value": 162514,
+          "hits": 3,
+          "failures": 0,
+          "denominator": 3,
+          "hit_rate": 1.0,
+          "capped_time_mean": 0.49308073330515373,
+          "hit_time_mean": 0.49308073330515373,
+          "hit_time_denominator": 3,
+          "best_gap_percent": 0.0,
+          "mean_gap_percent": 0.0
+        },
+        "baseline_best": {
+          "value": 162514,
+          "hits": 3,
+          "failures": 0,
+          "denominator": 3,
+          "hit_rate": 1.0,
+          "capped_time_mean": 0.49308073330515373,
+          "hit_time_mean": 0.49308073330515373,
+          "hit_time_denominator": 3,
+          "best_gap_percent": 0.0,
+          "mean_gap_percent": 0.0
+        }
+      },
+      "checkpoints": [
+        {
+          "seconds": 0.02,
+          "n": 3,
+          "mean": 14413,
+          "best": 14985,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 0.05,
+          "n": 3,
+          "mean": 162174.33333333334,
+          "best": 162189,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 0.1,
+          "n": 3,
+          "mean": 162189,
+          "best": 162189,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 0.25,
+          "n": 3,
+          "mean": 162297.33333333334,
+          "best": 162514,
+          "published_hits": 1,
+          "baseline_best_hits": 1
+        },
+        {
+          "seconds": 0.5,
+          "n": 3,
+          "mean": 162405.66666666666,
+          "best": 162514,
+          "published_hits": 2,
+          "baseline_best_hits": 2
+        },
+        {
+          "seconds": 1,
+          "n": 3,
+          "mean": 162514,
+          "best": 162514,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 2,
+          "n": 3,
+          "mean": 162514,
+          "best": 162514,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 5,
+          "n": 3,
+          "mean": 162514,
+          "best": 162514,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 10,
+          "n": 3,
+          "mean": 162514,
+          "best": 162514,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 30,
+          "n": 3,
+          "mean": 162514,
+          "best": 162514,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 60,
+          "n": 3,
+          "mean": 162514,
+          "best": 162514,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 90,
+          "n": 3,
+          "mean": 162514,
+          "best": 162514,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        }
+      ]
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "instance": "bmcp_1300_1300_0.5_2000",
+      "cohort": "II_medium",
+      "configuration_id": "temp_0p01_stagnation_150",
+      "factor": "temperature_stagnation",
+      "parameters": {
+        "blocks": 128,
+        "stagnation": 150,
+        "outgoing": 4,
+        "temperature": 0.01,
+        "destroy_low": 0.12,
+        "destroy_high": 0.7
+      },
+      "seconds": 90,
+      "n": 3,
+      "expected_runs": 3,
+      "status": "COMPLETE",
+      "best": 162514,
+      "mean": 162514,
+      "worst": 162514,
+      "sample_sd": 0.0,
+      "time_to_best_mean": 0.22208283333263049,
+      "late_improvements": 0,
+      "targets": {
+        "published": {
+          "value": 162514,
+          "hits": 3,
+          "failures": 0,
+          "denominator": 3,
+          "hit_rate": 1.0,
+          "capped_time_mean": 0.22208283333263049,
+          "hit_time_mean": 0.22208283333263049,
+          "hit_time_denominator": 3,
+          "best_gap_percent": 0.0,
+          "mean_gap_percent": 0.0
+        },
+        "baseline_best": {
+          "value": 162514,
+          "hits": 3,
+          "failures": 0,
+          "denominator": 3,
+          "hit_rate": 1.0,
+          "capped_time_mean": 0.22208283333263049,
+          "hit_time_mean": 0.22208283333263049,
+          "hit_time_denominator": 3,
+          "best_gap_percent": 0.0,
+          "mean_gap_percent": 0.0
+        }
+      },
+      "checkpoints": [
+        {
+          "seconds": 0.02,
+          "n": 3,
+          "mean": 13966,
+          "best": 13966,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 0.05,
+          "n": 3,
+          "mean": 162174.66666666666,
+          "best": 162189,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 0.1,
+          "n": 3,
+          "mean": 162189,
+          "best": 162189,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 0.25,
+          "n": 3,
+          "mean": 162514,
+          "best": 162514,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 0.5,
+          "n": 3,
+          "mean": 162514,
+          "best": 162514,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 1,
+          "n": 3,
+          "mean": 162514,
+          "best": 162514,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 2,
+          "n": 3,
+          "mean": 162514,
+          "best": 162514,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 5,
+          "n": 3,
+          "mean": 162514,
+          "best": 162514,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 10,
+          "n": 3,
+          "mean": 162514,
+          "best": 162514,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 30,
+          "n": 3,
+          "mean": 162514,
+          "best": 162514,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 60,
+          "n": 3,
+          "mean": 162514,
+          "best": 162514,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 90,
+          "n": 3,
+          "mean": 162514,
+          "best": 162514,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        }
+      ]
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "instance": "bmcp_1300_1300_0.5_2000",
+      "cohort": "II_medium",
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "factor": "destruction_stagnation",
+      "parameters": {
+        "blocks": 128,
+        "stagnation": 150,
+        "outgoing": 4,
+        "temperature": 0.03,
+        "destroy_low": 0.02,
+        "destroy_high": 0.6
+      },
+      "seconds": 90,
+      "n": 3,
+      "expected_runs": 3,
+      "status": "COMPLETE",
+      "best": 162514,
+      "mean": 162514,
+      "worst": 162514,
+      "sample_sd": 0.0,
+      "time_to_best_mean": 0.4987959333617861,
+      "late_improvements": 0,
+      "targets": {
+        "published": {
+          "value": 162514,
+          "hits": 3,
+          "failures": 0,
+          "denominator": 3,
+          "hit_rate": 1.0,
+          "capped_time_mean": 0.4987959333617861,
+          "hit_time_mean": 0.4987959333617861,
+          "hit_time_denominator": 3,
+          "best_gap_percent": 0.0,
+          "mean_gap_percent": 0.0
+        },
+        "baseline_best": {
+          "value": 162514,
+          "hits": 3,
+          "failures": 0,
+          "denominator": 3,
+          "hit_rate": 1.0,
+          "capped_time_mean": 0.4987959333617861,
+          "hit_time_mean": 0.4987959333617861,
+          "hit_time_denominator": 3,
+          "best_gap_percent": 0.0,
+          "mean_gap_percent": 0.0
+        }
+      },
+      "checkpoints": [
+        {
+          "seconds": 0.02,
+          "n": 3,
+          "mean": 14413,
+          "best": 14985,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 0.05,
+          "n": 3,
+          "mean": 162174.33333333334,
+          "best": 162189,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 0.1,
+          "n": 3,
+          "mean": 162189,
+          "best": 162189,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 0.25,
+          "n": 3,
+          "mean": 162297.33333333334,
+          "best": 162514,
+          "published_hits": 1,
+          "baseline_best_hits": 1
+        },
+        {
+          "seconds": 0.5,
+          "n": 3,
+          "mean": 162297.33333333334,
+          "best": 162514,
+          "published_hits": 1,
+          "baseline_best_hits": 1
+        },
+        {
+          "seconds": 1,
+          "n": 3,
+          "mean": 162514,
+          "best": 162514,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 2,
+          "n": 3,
+          "mean": 162514,
+          "best": 162514,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 5,
+          "n": 3,
+          "mean": 162514,
+          "best": 162514,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 10,
+          "n": 3,
+          "mean": 162514,
+          "best": 162514,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 30,
+          "n": 3,
+          "mean": 162514,
+          "best": 162514,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 60,
+          "n": 3,
+          "mean": 162514,
+          "best": 162514,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 90,
+          "n": 3,
+          "mean": 162514,
+          "best": 162514,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        }
+      ]
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+      "instance": "bmcp_1500_1600_0.5_2000",
+      "cohort": "II_medium",
+      "configuration_id": "base",
+      "factor": "base",
+      "parameters": {
+        "blocks": 128,
+        "stagnation": 300,
+        "outgoing": 4,
+        "temperature": 0.03,
+        "destroy_low": 0.12,
+        "destroy_high": 0.7
+      },
+      "seconds": 90,
+      "n": 3,
+      "expected_runs": 3,
+      "status": "COMPLETE",
+      "best": 199678,
+      "mean": 199678,
+      "worst": 199678,
+      "sample_sd": 0.0,
+      "time_to_best_mean": 0.30403590000544983,
+      "late_improvements": 0,
+      "targets": {
+        "published": {
+          "value": 199678,
+          "hits": 3,
+          "failures": 0,
+          "denominator": 3,
+          "hit_rate": 1.0,
+          "capped_time_mean": 0.30403590000544983,
+          "hit_time_mean": 0.30403590000544983,
+          "hit_time_denominator": 3,
+          "best_gap_percent": 0.0,
+          "mean_gap_percent": 0.0
+        },
+        "baseline_best": {
+          "value": 199678,
+          "hits": 3,
+          "failures": 0,
+          "denominator": 3,
+          "hit_rate": 1.0,
+          "capped_time_mean": 0.30403590000544983,
+          "hit_time_mean": 0.30403590000544983,
+          "hit_time_denominator": 3,
+          "best_gap_percent": 0.0,
+          "mean_gap_percent": 0.0
+        }
+      },
+      "checkpoints": [
+        {
+          "seconds": 0.02,
+          "n": 3,
+          "mean": 79171,
+          "best": 199033,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 0.05,
+          "n": 3,
+          "mean": 199360,
+          "best": 199678,
+          "published_hits": 1,
+          "baseline_best_hits": 1
+        },
+        {
+          "seconds": 0.1,
+          "n": 3,
+          "mean": 199451.33333333334,
+          "best": 199678,
+          "published_hits": 2,
+          "baseline_best_hits": 2
+        },
+        {
+          "seconds": 0.25,
+          "n": 3,
+          "mean": 199451.33333333334,
+          "best": 199678,
+          "published_hits": 2,
+          "baseline_best_hits": 2
+        },
+        {
+          "seconds": 0.5,
+          "n": 3,
+          "mean": 199451.33333333334,
+          "best": 199678,
+          "published_hits": 2,
+          "baseline_best_hits": 2
+        },
+        {
+          "seconds": 1,
+          "n": 3,
+          "mean": 199678,
+          "best": 199678,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 2,
+          "n": 3,
+          "mean": 199678,
+          "best": 199678,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 5,
+          "n": 3,
+          "mean": 199678,
+          "best": 199678,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 10,
+          "n": 3,
+          "mean": 199678,
+          "best": 199678,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 30,
+          "n": 3,
+          "mean": 199678,
+          "best": 199678,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 60,
+          "n": 3,
+          "mean": 199678,
+          "best": 199678,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 90,
+          "n": 3,
+          "mean": 199678,
+          "best": 199678,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        }
+      ]
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+      "instance": "bmcp_1500_1600_0.5_2000",
+      "cohort": "II_medium",
+      "configuration_id": "temp_0p01_stagnation_150",
+      "factor": "temperature_stagnation",
+      "parameters": {
+        "blocks": 128,
+        "stagnation": 150,
+        "outgoing": 4,
+        "temperature": 0.01,
+        "destroy_low": 0.12,
+        "destroy_high": 0.7
+      },
+      "seconds": 90,
+      "n": 3,
+      "expected_runs": 3,
+      "status": "COMPLETE",
+      "best": 199678,
+      "mean": 199678,
+      "worst": 199678,
+      "sample_sd": 0.0,
+      "time_to_best_mean": 0.8946587666869164,
+      "late_improvements": 0,
+      "targets": {
+        "published": {
+          "value": 199678,
+          "hits": 3,
+          "failures": 0,
+          "denominator": 3,
+          "hit_rate": 1.0,
+          "capped_time_mean": 0.8946587666869164,
+          "hit_time_mean": 0.8946587666869164,
+          "hit_time_denominator": 3,
+          "best_gap_percent": 0.0,
+          "mean_gap_percent": 0.0
+        },
+        "baseline_best": {
+          "value": 199678,
+          "hits": 3,
+          "failures": 0,
+          "denominator": 3,
+          "hit_rate": 1.0,
+          "capped_time_mean": 0.8946587666869164,
+          "hit_time_mean": 0.8946587666869164,
+          "hit_time_denominator": 3,
+          "best_gap_percent": 0.0,
+          "mean_gap_percent": 0.0
+        }
+      },
+      "checkpoints": [
+        {
+          "seconds": 0.02,
+          "n": 3,
+          "mean": 78805.66666666667,
+          "best": 197937,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 0.05,
+          "n": 3,
+          "mean": 198756.33333333334,
+          "best": 198946,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 0.1,
+          "n": 3,
+          "mean": 198797.33333333334,
+          "best": 198998,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 0.25,
+          "n": 3,
+          "mean": 198866.66666666666,
+          "best": 198998,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 0.5,
+          "n": 3,
+          "mean": 198998,
+          "best": 198998,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 1,
+          "n": 3,
+          "mean": 199451.33333333334,
+          "best": 199678,
+          "published_hits": 2,
+          "baseline_best_hits": 2
+        },
+        {
+          "seconds": 2,
+          "n": 3,
+          "mean": 199678,
+          "best": 199678,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 5,
+          "n": 3,
+          "mean": 199678,
+          "best": 199678,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 10,
+          "n": 3,
+          "mean": 199678,
+          "best": 199678,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 30,
+          "n": 3,
+          "mean": 199678,
+          "best": 199678,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 60,
+          "n": 3,
+          "mean": 199678,
+          "best": 199678,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 90,
+          "n": 3,
+          "mean": 199678,
+          "best": 199678,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        }
+      ]
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+      "instance": "bmcp_1500_1600_0.5_2000",
+      "cohort": "II_medium",
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "factor": "destruction_stagnation",
+      "parameters": {
+        "blocks": 128,
+        "stagnation": 150,
+        "outgoing": 4,
+        "temperature": 0.03,
+        "destroy_low": 0.02,
+        "destroy_high": 0.6
+      },
+      "seconds": 90,
+      "n": 3,
+      "expected_runs": 3,
+      "status": "COMPLETE",
+      "best": 199678,
+      "mean": 199678,
+      "worst": 199678,
+      "sample_sd": 0.0,
+      "time_to_best_mean": 0.20718423331466815,
+      "late_improvements": 0,
+      "targets": {
+        "published": {
+          "value": 199678,
+          "hits": 3,
+          "failures": 0,
+          "denominator": 3,
+          "hit_rate": 1.0,
+          "capped_time_mean": 0.20718423331466815,
+          "hit_time_mean": 0.20718423331466815,
+          "hit_time_denominator": 3,
+          "best_gap_percent": 0.0,
+          "mean_gap_percent": 0.0
+        },
+        "baseline_best": {
+          "value": 199678,
+          "hits": 3,
+          "failures": 0,
+          "denominator": 3,
+          "hit_rate": 1.0,
+          "capped_time_mean": 0.20718423331466815,
+          "hit_time_mean": 0.20718423331466815,
+          "hit_time_denominator": 3,
+          "best_gap_percent": 0.0,
+          "mean_gap_percent": 0.0
+        }
+      },
+      "checkpoints": [
+        {
+          "seconds": 0.02,
+          "n": 3,
+          "mean": 19240,
+          "best": 19240,
+          "published_hits": 0,
+          "baseline_best_hits": 0
+        },
+        {
+          "seconds": 0.05,
+          "n": 3,
+          "mean": 199360,
+          "best": 199678,
+          "published_hits": 1,
+          "baseline_best_hits": 1
+        },
+        {
+          "seconds": 0.1,
+          "n": 3,
+          "mean": 199451.33333333334,
+          "best": 199678,
+          "published_hits": 2,
+          "baseline_best_hits": 2
+        },
+        {
+          "seconds": 0.25,
+          "n": 3,
+          "mean": 199451.33333333334,
+          "best": 199678,
+          "published_hits": 2,
+          "baseline_best_hits": 2
+        },
+        {
+          "seconds": 0.5,
+          "n": 3,
+          "mean": 199586.66666666666,
+          "best": 199678,
+          "published_hits": 2,
+          "baseline_best_hits": 2
+        },
+        {
+          "seconds": 1,
+          "n": 3,
+          "mean": 199678,
+          "best": 199678,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 2,
+          "n": 3,
+          "mean": 199678,
+          "best": 199678,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 5,
+          "n": 3,
+          "mean": 199678,
+          "best": 199678,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 10,
+          "n": 3,
+          "mean": 199678,
+          "best": 199678,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 30,
+          "n": 3,
+          "mean": 199678,
+          "best": 199678,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 60,
+          "n": 3,
+          "mean": 199678,
+          "best": 199678,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 90,
+          "n": 3,
+          "mean": 199678,
+          "best": 199678,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        }
+      ]
+    },
+    {
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "instance": "bmcp_785_800_0.05_2000",
+      "cohort": "I",
+      "configuration_id": "base",
+      "factor": "base",
+      "parameters": {
+        "blocks": 128,
+        "stagnation": 300,
+        "outgoing": 4,
+        "temperature": 0.03,
+        "destroy_low": 0.12,
+        "destroy_high": 0.7
+      },
+      "seconds": 90,
+      "n": 3,
+      "expected_runs": 3,
+      "status": "COMPLETE",
+      "best": 92740,
+      "mean": 92740,
+      "worst": 92740,
+      "sample_sd": 0.0,
+      "time_to_best_mean": 0.01151243329513818,
+      "late_improvements": 0,
+      "targets": {
+        "published": {
+          "value": 92740,
+          "hits": 3,
+          "failures": 0,
+          "denominator": 3,
+          "hit_rate": 1.0,
+          "capped_time_mean": 0.01151243329513818,
+          "hit_time_mean": 0.01151243329513818,
+          "hit_time_denominator": 3,
+          "best_gap_percent": 0.0,
+          "mean_gap_percent": 0.0
+        },
+        "baseline_best": {
+          "value": 92740,
+          "hits": 3,
+          "failures": 0,
+          "denominator": 3,
+          "hit_rate": 1.0,
+          "capped_time_mean": 0.01151243329513818,
+          "hit_time_mean": 0.01151243329513818,
+          "hit_time_denominator": 3,
+          "best_gap_percent": 0.0,
+          "mean_gap_percent": 0.0
+        }
+      },
+      "checkpoints": [
+        {
+          "seconds": 0.02,
+          "n": 3,
+          "mean": 92740,
+          "best": 92740,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 0.05,
+          "n": 3,
+          "mean": 92740,
+          "best": 92740,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 0.1,
+          "n": 3,
+          "mean": 92740,
+          "best": 92740,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 0.25,
+          "n": 3,
+          "mean": 92740,
+          "best": 92740,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 0.5,
+          "n": 3,
+          "mean": 92740,
+          "best": 92740,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 1,
+          "n": 3,
+          "mean": 92740,
+          "best": 92740,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 2,
+          "n": 3,
+          "mean": 92740,
+          "best": 92740,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 5,
+          "n": 3,
+          "mean": 92740,
+          "best": 92740,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 10,
+          "n": 3,
+          "mean": 92740,
+          "best": 92740,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 30,
+          "n": 3,
+          "mean": 92740,
+          "best": 92740,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 60,
+          "n": 3,
+          "mean": 92740,
+          "best": 92740,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 90,
+          "n": 3,
+          "mean": 92740,
+          "best": 92740,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        }
+      ]
+    },
+    {
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "instance": "bmcp_785_800_0.05_2000",
+      "cohort": "I",
+      "configuration_id": "temp_0p01_stagnation_150",
+      "factor": "temperature_stagnation",
+      "parameters": {
+        "blocks": 128,
+        "stagnation": 150,
+        "outgoing": 4,
+        "temperature": 0.01,
+        "destroy_low": 0.12,
+        "destroy_high": 0.7
+      },
+      "seconds": 90,
+      "n": 3,
+      "expected_runs": 3,
+      "status": "COMPLETE",
+      "best": 92740,
+      "mean": 92740,
+      "worst": 92740,
+      "sample_sd": 0.0,
+      "time_to_best_mean": 0.039371833321638405,
+      "late_improvements": 0,
+      "targets": {
+        "published": {
+          "value": 92740,
+          "hits": 3,
+          "failures": 0,
+          "denominator": 3,
+          "hit_rate": 1.0,
+          "capped_time_mean": 0.039371833321638405,
+          "hit_time_mean": 0.039371833321638405,
+          "hit_time_denominator": 3,
+          "best_gap_percent": 0.0,
+          "mean_gap_percent": 0.0
+        },
+        "baseline_best": {
+          "value": 92740,
+          "hits": 3,
+          "failures": 0,
+          "denominator": 3,
+          "hit_rate": 1.0,
+          "capped_time_mean": 0.039371833321638405,
+          "hit_time_mean": 0.039371833321638405,
+          "hit_time_denominator": 3,
+          "best_gap_percent": 0.0,
+          "mean_gap_percent": 0.0
+        }
+      },
+      "checkpoints": [
+        {
+          "seconds": 0.02,
+          "n": 3,
+          "mean": 92696,
+          "best": 92740,
+          "published_hits": 2,
+          "baseline_best_hits": 2
+        },
+        {
+          "seconds": 0.05,
+          "n": 3,
+          "mean": 92696,
+          "best": 92740,
+          "published_hits": 2,
+          "baseline_best_hits": 2
+        },
+        {
+          "seconds": 0.1,
+          "n": 3,
+          "mean": 92740,
+          "best": 92740,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 0.25,
+          "n": 3,
+          "mean": 92740,
+          "best": 92740,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 0.5,
+          "n": 3,
+          "mean": 92740,
+          "best": 92740,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 1,
+          "n": 3,
+          "mean": 92740,
+          "best": 92740,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 2,
+          "n": 3,
+          "mean": 92740,
+          "best": 92740,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 5,
+          "n": 3,
+          "mean": 92740,
+          "best": 92740,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 10,
+          "n": 3,
+          "mean": 92740,
+          "best": 92740,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 30,
+          "n": 3,
+          "mean": 92740,
+          "best": 92740,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 60,
+          "n": 3,
+          "mean": 92740,
+          "best": 92740,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 90,
+          "n": 3,
+          "mean": 92740,
+          "best": 92740,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        }
+      ]
+    },
+    {
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "instance": "bmcp_785_800_0.05_2000",
+      "cohort": "I",
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "factor": "destruction_stagnation",
+      "parameters": {
+        "blocks": 128,
+        "stagnation": 150,
+        "outgoing": 4,
+        "temperature": 0.03,
+        "destroy_low": 0.02,
+        "destroy_high": 0.6
+      },
+      "seconds": 90,
+      "n": 3,
+      "expected_runs": 3,
+      "status": "COMPLETE",
+      "best": 92740,
+      "mean": 92740,
+      "worst": 92740,
+      "sample_sd": 0.0,
+      "time_to_best_mean": 0.011518933344632387,
+      "late_improvements": 0,
+      "targets": {
+        "published": {
+          "value": 92740,
+          "hits": 3,
+          "failures": 0,
+          "denominator": 3,
+          "hit_rate": 1.0,
+          "capped_time_mean": 0.011518933344632387,
+          "hit_time_mean": 0.011518933344632387,
+          "hit_time_denominator": 3,
+          "best_gap_percent": 0.0,
+          "mean_gap_percent": 0.0
+        },
+        "baseline_best": {
+          "value": 92740,
+          "hits": 3,
+          "failures": 0,
+          "denominator": 3,
+          "hit_rate": 1.0,
+          "capped_time_mean": 0.011518933344632387,
+          "hit_time_mean": 0.011518933344632387,
+          "hit_time_denominator": 3,
+          "best_gap_percent": 0.0,
+          "mean_gap_percent": 0.0
+        }
+      },
+      "checkpoints": [
+        {
+          "seconds": 0.02,
+          "n": 3,
+          "mean": 92740,
+          "best": 92740,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 0.05,
+          "n": 3,
+          "mean": 92740,
+          "best": 92740,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 0.1,
+          "n": 3,
+          "mean": 92740,
+          "best": 92740,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 0.25,
+          "n": 3,
+          "mean": 92740,
+          "best": 92740,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 0.5,
+          "n": 3,
+          "mean": 92740,
+          "best": 92740,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 1,
+          "n": 3,
+          "mean": 92740,
+          "best": 92740,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 2,
+          "n": 3,
+          "mean": 92740,
+          "best": 92740,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 5,
+          "n": 3,
+          "mean": 92740,
+          "best": 92740,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 10,
+          "n": 3,
+          "mean": 92740,
+          "best": 92740,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 30,
+          "n": 3,
+          "mean": 92740,
+          "best": 92740,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 60,
+          "n": 3,
+          "mean": 92740,
+          "best": 92740,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 90,
+          "n": 3,
+          "mean": 92740,
+          "best": 92740,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        }
+      ]
+    },
+    {
+      "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+      "instance": "bmcp_985_1000_0.075_1500",
+      "cohort": "I",
+      "configuration_id": "base",
+      "factor": "base",
+      "parameters": {
+        "blocks": 128,
+        "stagnation": 300,
+        "outgoing": 4,
+        "temperature": 0.03,
+        "destroy_low": 0.12,
+        "destroy_high": 0.7
+      },
+      "seconds": 90,
+      "n": 3,
+      "expected_runs": 3,
+      "status": "COMPLETE",
+      "best": 115505,
+      "mean": 115505,
+      "worst": 115505,
+      "sample_sd": 0.0,
+      "time_to_best_mean": 0.01949016668368131,
+      "late_improvements": 0,
+      "targets": {
+        "published": {
+          "value": 115505,
+          "hits": 3,
+          "failures": 0,
+          "denominator": 3,
+          "hit_rate": 1.0,
+          "capped_time_mean": 0.01949016668368131,
+          "hit_time_mean": 0.01949016668368131,
+          "hit_time_denominator": 3,
+          "best_gap_percent": 0.0,
+          "mean_gap_percent": 0.0
+        },
+        "baseline_best": {
+          "value": 115505,
+          "hits": 3,
+          "failures": 0,
+          "denominator": 3,
+          "hit_rate": 1.0,
+          "capped_time_mean": 0.01949016668368131,
+          "hit_time_mean": 0.01949016668368131,
+          "hit_time_denominator": 3,
+          "best_gap_percent": 0.0,
+          "mean_gap_percent": 0.0
+        }
+      },
+      "checkpoints": [
+        {
+          "seconds": 0.02,
+          "n": 3,
+          "mean": 115505,
+          "best": 115505,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 0.05,
+          "n": 3,
+          "mean": 115505,
+          "best": 115505,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 0.1,
+          "n": 3,
+          "mean": 115505,
+          "best": 115505,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 0.25,
+          "n": 3,
+          "mean": 115505,
+          "best": 115505,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 0.5,
+          "n": 3,
+          "mean": 115505,
+          "best": 115505,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 1,
+          "n": 3,
+          "mean": 115505,
+          "best": 115505,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 2,
+          "n": 3,
+          "mean": 115505,
+          "best": 115505,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 5,
+          "n": 3,
+          "mean": 115505,
+          "best": 115505,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 10,
+          "n": 3,
+          "mean": 115505,
+          "best": 115505,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 30,
+          "n": 3,
+          "mean": 115505,
+          "best": 115505,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 60,
+          "n": 3,
+          "mean": 115505,
+          "best": 115505,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 90,
+          "n": 3,
+          "mean": 115505,
+          "best": 115505,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        }
+      ]
+    },
+    {
+      "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+      "instance": "bmcp_985_1000_0.075_1500",
+      "cohort": "I",
+      "configuration_id": "temp_0p01_stagnation_150",
+      "factor": "temperature_stagnation",
+      "parameters": {
+        "blocks": 128,
+        "stagnation": 150,
+        "outgoing": 4,
+        "temperature": 0.01,
+        "destroy_low": 0.12,
+        "destroy_high": 0.7
+      },
+      "seconds": 90,
+      "n": 3,
+      "expected_runs": 3,
+      "status": "COMPLETE",
+      "best": 115505,
+      "mean": 115505,
+      "worst": 115505,
+      "sample_sd": 0.0,
+      "time_to_best_mean": 0.019650566663282614,
+      "late_improvements": 0,
+      "targets": {
+        "published": {
+          "value": 115505,
+          "hits": 3,
+          "failures": 0,
+          "denominator": 3,
+          "hit_rate": 1.0,
+          "capped_time_mean": 0.019650566663282614,
+          "hit_time_mean": 0.019650566663282614,
+          "hit_time_denominator": 3,
+          "best_gap_percent": 0.0,
+          "mean_gap_percent": 0.0
+        },
+        "baseline_best": {
+          "value": 115505,
+          "hits": 3,
+          "failures": 0,
+          "denominator": 3,
+          "hit_rate": 1.0,
+          "capped_time_mean": 0.019650566663282614,
+          "hit_time_mean": 0.019650566663282614,
+          "hit_time_denominator": 3,
+          "best_gap_percent": 0.0,
+          "mean_gap_percent": 0.0
+        }
+      },
+      "checkpoints": [
+        {
+          "seconds": 0.02,
+          "n": 3,
+          "mean": 115505,
+          "best": 115505,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 0.05,
+          "n": 3,
+          "mean": 115505,
+          "best": 115505,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 0.1,
+          "n": 3,
+          "mean": 115505,
+          "best": 115505,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 0.25,
+          "n": 3,
+          "mean": 115505,
+          "best": 115505,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 0.5,
+          "n": 3,
+          "mean": 115505,
+          "best": 115505,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 1,
+          "n": 3,
+          "mean": 115505,
+          "best": 115505,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 2,
+          "n": 3,
+          "mean": 115505,
+          "best": 115505,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 5,
+          "n": 3,
+          "mean": 115505,
+          "best": 115505,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 10,
+          "n": 3,
+          "mean": 115505,
+          "best": 115505,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 30,
+          "n": 3,
+          "mean": 115505,
+          "best": 115505,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 60,
+          "n": 3,
+          "mean": 115505,
+          "best": 115505,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 90,
+          "n": 3,
+          "mean": 115505,
+          "best": 115505,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        }
+      ]
+    },
+    {
+      "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+      "instance": "bmcp_985_1000_0.075_1500",
+      "cohort": "I",
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "factor": "destruction_stagnation",
+      "parameters": {
+        "blocks": 128,
+        "stagnation": 150,
+        "outgoing": 4,
+        "temperature": 0.03,
+        "destroy_low": 0.02,
+        "destroy_high": 0.6
+      },
+      "seconds": 90,
+      "n": 3,
+      "expected_runs": 3,
+      "status": "COMPLETE",
+      "best": 115505,
+      "mean": 115505,
+      "worst": 115505,
+      "sample_sd": 0.0,
+      "time_to_best_mean": 0.019522733287885785,
+      "late_improvements": 0,
+      "targets": {
+        "published": {
+          "value": 115505,
+          "hits": 3,
+          "failures": 0,
+          "denominator": 3,
+          "hit_rate": 1.0,
+          "capped_time_mean": 0.019522733287885785,
+          "hit_time_mean": 0.019522733287885785,
+          "hit_time_denominator": 3,
+          "best_gap_percent": 0.0,
+          "mean_gap_percent": 0.0
+        },
+        "baseline_best": {
+          "value": 115505,
+          "hits": 3,
+          "failures": 0,
+          "denominator": 3,
+          "hit_rate": 1.0,
+          "capped_time_mean": 0.019522733287885785,
+          "hit_time_mean": 0.019522733287885785,
+          "hit_time_denominator": 3,
+          "best_gap_percent": 0.0,
+          "mean_gap_percent": 0.0
+        }
+      },
+      "checkpoints": [
+        {
+          "seconds": 0.02,
+          "n": 3,
+          "mean": 115505,
+          "best": 115505,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 0.05,
+          "n": 3,
+          "mean": 115505,
+          "best": 115505,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 0.1,
+          "n": 3,
+          "mean": 115505,
+          "best": 115505,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 0.25,
+          "n": 3,
+          "mean": 115505,
+          "best": 115505,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 0.5,
+          "n": 3,
+          "mean": 115505,
+          "best": 115505,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 1,
+          "n": 3,
+          "mean": 115505,
+          "best": 115505,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 2,
+          "n": 3,
+          "mean": 115505,
+          "best": 115505,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 5,
+          "n": 3,
+          "mean": 115505,
+          "best": 115505,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 10,
+          "n": 3,
+          "mean": 115505,
+          "best": 115505,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 30,
+          "n": 3,
+          "mean": 115505,
+          "best": 115505,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 60,
+          "n": 3,
+          "mean": 115505,
+          "best": 115505,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        },
+        {
+          "seconds": 90,
+          "n": 3,
+          "mean": 115505,
+          "best": 115505,
+          "published_hits": 3,
+          "baseline_best_hits": 3
+        }
+      ]
+    }
+  ],
+  "paired_effects": [
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "configuration_id": "temp_0p01_stagnation_150",
+      "paired_n": 3,
+      "expected_pairs": 3,
+      "pairs": [
+        {
+          "seed": 2026100201,
+          "base_hit": true,
+          "configuration_hit": true,
+          "capped_time_difference": 23.77482090005651,
+          "profit_difference": 0
+        },
+        {
+          "seed": 2026100202,
+          "base_hit": true,
+          "configuration_hit": true,
+          "capped_time_difference": 6.24553770001512,
+          "profit_difference": 0
+        },
+        {
+          "seed": 2026100203,
+          "base_hit": true,
+          "configuration_hit": false,
+          "capped_time_difference": 169.8394482000731,
+          "profit_difference": -34
+        }
+      ],
+      "interpretation": "Descriptive paired observations; capped times retain misses. No significance test at three seeds."
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "paired_n": 3,
+      "expected_pairs": 3,
+      "pairs": [
+        {
+          "seed": 2026100201,
+          "base_hit": true,
+          "configuration_hit": true,
+          "capped_time_difference": 0.5387825999641791,
+          "profit_difference": 0
+        },
+        {
+          "seed": 2026100202,
+          "base_hit": true,
+          "configuration_hit": true,
+          "capped_time_difference": -0.7845291999401525,
+          "profit_difference": 0
+        },
+        {
+          "seed": 2026100203,
+          "base_hit": true,
+          "configuration_hit": true,
+          "capped_time_difference": -7.274215999990702,
+          "profit_difference": 0
+        }
+      ],
+      "interpretation": "Descriptive paired observations; capped times retain misses. No significance test at three seeds."
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+      "configuration_id": "temp_0p01_stagnation_150",
+      "paired_n": 3,
+      "expected_pairs": 3,
+      "pairs": [
+        {
+          "seed": 2026100201,
+          "base_hit": true,
+          "configuration_hit": true,
+          "capped_time_difference": -2.451061299885623,
+          "profit_difference": 0
+        },
+        {
+          "seed": 2026100202,
+          "base_hit": true,
+          "configuration_hit": true,
+          "capped_time_difference": -2.840328599908389,
+          "profit_difference": 0
+        },
+        {
+          "seed": 2026100203,
+          "base_hit": true,
+          "configuration_hit": true,
+          "capped_time_difference": -7.320434599881992,
+          "profit_difference": 0
+        }
+      ],
+      "interpretation": "Descriptive paired observations; capped times retain misses. No significance test at three seeds."
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "paired_n": 3,
+      "expected_pairs": 3,
+      "pairs": [
+        {
+          "seed": 2026100201,
+          "base_hit": true,
+          "configuration_hit": true,
+          "capped_time_difference": -2.5062625999562442,
+          "profit_difference": 0
+        },
+        {
+          "seed": 2026100202,
+          "base_hit": true,
+          "configuration_hit": true,
+          "capped_time_difference": 1.95548260002397,
+          "profit_difference": 0
+        },
+        {
+          "seed": 2026100203,
+          "base_hit": true,
+          "configuration_hit": true,
+          "capped_time_difference": -5.423719499958679,
+          "profit_difference": 0
+        }
+      ],
+      "interpretation": "Descriptive paired observations; capped times retain misses. No significance test at three seeds."
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "configuration_id": "temp_0p01_stagnation_150",
+      "paired_n": 3,
+      "expected_pairs": 3,
+      "pairs": [
+        {
+          "seed": 2026100201,
+          "base_hit": true,
+          "configuration_hit": true,
+          "capped_time_difference": -0.6958702999399975,
+          "profit_difference": 0
+        },
+        {
+          "seed": 2026100202,
+          "base_hit": true,
+          "configuration_hit": true,
+          "capped_time_difference": 0.1220770999789238,
+          "profit_difference": 0
+        },
+        {
+          "seed": 2026100203,
+          "base_hit": true,
+          "configuration_hit": true,
+          "capped_time_difference": -0.23920049995649606,
+          "profit_difference": 0
+        }
+      ],
+      "interpretation": "Descriptive paired observations; capped times retain misses. No significance test at three seeds."
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "paired_n": 3,
+      "expected_pairs": 3,
+      "pairs": [
+        {
+          "seed": 2026100201,
+          "base_hit": true,
+          "configuration_hit": true,
+          "capped_time_difference": -0.2226102000568062,
+          "profit_difference": 0
+        },
+        {
+          "seed": 2026100202,
+          "base_hit": true,
+          "configuration_hit": true,
+          "capped_time_difference": 0.0009468001080676913,
+          "profit_difference": 0
+        },
+        {
+          "seed": 2026100203,
+          "base_hit": true,
+          "configuration_hit": true,
+          "capped_time_difference": 0.2388090001186356,
+          "profit_difference": 0
+        }
+      ],
+      "interpretation": "Descriptive paired observations; capped times retain misses. No significance test at three seeds."
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+      "configuration_id": "temp_0p01_stagnation_150",
+      "paired_n": 3,
+      "expected_pairs": 3,
+      "pairs": [
+        {
+          "seed": 2026100201,
+          "base_hit": true,
+          "configuration_hit": true,
+          "capped_time_difference": 0.6591590000316501,
+          "profit_difference": 0
+        },
+        {
+          "seed": 2026100202,
+          "base_hit": true,
+          "configuration_hit": true,
+          "capped_time_difference": 1.1518592999782413,
+          "profit_difference": 0
+        },
+        {
+          "seed": 2026100203,
+          "base_hit": true,
+          "configuration_hit": true,
+          "capped_time_difference": -0.03914969996549189,
+          "profit_difference": 0
+        }
+      ],
+      "interpretation": "Descriptive paired observations; capped times retain misses. No significance test at three seeds."
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "paired_n": 3,
+      "expected_pairs": 3,
+      "pairs": [
+        {
+          "seed": 2026100201,
+          "base_hit": true,
+          "configuration_hit": true,
+          "capped_time_difference": -0.0002669000532478094,
+          "profit_difference": 0
+        },
+        {
+          "seed": 2026100202,
+          "base_hit": true,
+          "configuration_hit": true,
+          "capped_time_difference": 0.0008209999650716782,
+          "profit_difference": 0
+        },
+        {
+          "seed": 2026100203,
+          "base_hit": true,
+          "configuration_hit": true,
+          "capped_time_difference": -0.291109099984169,
+          "profit_difference": 0
+        }
+      ],
+      "interpretation": "Descriptive paired observations; capped times retain misses. No significance test at three seeds."
+    },
+    {
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "configuration_id": "temp_0p01_stagnation_150",
+      "paired_n": 3,
+      "expected_pairs": 3,
+      "pairs": [
+        {
+          "seed": 2026100201,
+          "base_hit": true,
+          "configuration_hit": true,
+          "capped_time_difference": 0.0007392000406980515,
+          "profit_difference": 0
+        },
+        {
+          "seed": 2026100202,
+          "base_hit": true,
+          "configuration_hit": true,
+          "capped_time_difference": 0.0005118000553920865,
+          "profit_difference": 0
+        },
+        {
+          "seed": 2026100203,
+          "base_hit": true,
+          "configuration_hit": true,
+          "capped_time_difference": 0.08232719998341054,
+          "profit_difference": 0
+        }
+      ],
+      "interpretation": "Descriptive paired observations; capped times retain misses. No significance test at three seeds."
+    },
+    {
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "paired_n": 3,
+      "expected_pairs": 3,
+      "pairs": [
+        {
+          "seed": 2026100201,
+          "base_hit": true,
+          "configuration_hit": true,
+          "capped_time_difference": 2.3400061763823032e-05,
+          "profit_difference": 0
+        },
+        {
+          "seed": 2026100202,
+          "base_hit": true,
+          "configuration_hit": true,
+          "capped_time_difference": -3.3999094739556313e-06,
+          "profit_difference": 0
+        },
+        {
+          "seed": 2026100203,
+          "base_hit": true,
+          "configuration_hit": true,
+          "capped_time_difference": -5.00003807246685e-07,
+          "profit_difference": 0
+        }
+      ],
+      "interpretation": "Descriptive paired observations; capped times retain misses. No significance test at three seeds."
+    },
+    {
+      "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+      "configuration_id": "temp_0p01_stagnation_150",
+      "paired_n": 3,
+      "expected_pairs": 3,
+      "pairs": [
+        {
+          "seed": 2026100201,
+          "base_hit": true,
+          "configuration_hit": true,
+          "capped_time_difference": 0.00013189995661377907,
+          "profit_difference": 0
+        },
+        {
+          "seed": 2026100202,
+          "base_hit": true,
+          "configuration_hit": true,
+          "capped_time_difference": 0.00035969994496554136,
+          "profit_difference": 0
+        },
+        {
+          "seed": 2026100203,
+          "base_hit": true,
+          "configuration_hit": true,
+          "capped_time_difference": -1.0399962775409222e-05,
+          "profit_difference": 0
+        }
+      ],
+      "interpretation": "Descriptive paired observations; capped times retain misses. No significance test at three seeds."
+    },
+    {
+      "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "paired_n": 3,
+      "expected_pairs": 3,
+      "pairs": [
+        {
+          "seed": 2026100201,
+          "base_hit": true,
+          "configuration_hit": true,
+          "capped_time_difference": 0.0001314998371526599,
+          "profit_difference": 0
+        },
+        {
+          "seed": 2026100202,
+          "base_hit": true,
+          "configuration_hit": true,
+          "capped_time_difference": -4.67000063508749e-05,
+          "profit_difference": 0
+        },
+        {
+          "seed": 2026100203,
+          "base_hit": true,
+          "configuration_hit": true,
+          "capped_time_difference": 1.2899981811642647e-05,
+          "profit_difference": 0
+        }
+      ],
+      "interpretation": "Descriptive paired observations; capped times retain misses. No significance test at three seeds."
+    }
+  ],
+  "corner_coverage": [
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100201,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "temp_0p01_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "ofat",
+          "configuration_id": "temperature_0p01",
+          "parent_index": 15,
+          "line_sha256": "234c4e741ea1500c012ed132d72635310bef1bc158e838b8987169e798cdd028",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        },
+        "stagnation_alone": {
+          "source": "ofat",
+          "configuration_id": "stagnation_150",
+          "parent_index": 2,
+          "line_sha256": "6187523566a6af0579c7fdab4d8dabc3a05a0afa45a8f38edd1958d6515c4dbb",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        }
+      },
+      "paired_factorial_possible_after_completion": true,
+      "all_four_observed": true
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100202,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "temp_0p01_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "ofat",
+          "configuration_id": "temperature_0p01",
+          "parent_index": 27,
+          "line_sha256": "b5151c65306eb03c763de2caeadc7f7544ddcedc114dc1ecbeb9ec800db126ea",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        },
+        "stagnation_alone": {
+          "source": "ofat",
+          "configuration_id": "stagnation_150",
+          "parent_index": 30,
+          "line_sha256": "f08c9719f12d87767a7f6ed47f143ce2369beb2aa06d3d98fda67328624c453e",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        }
+      },
+      "paired_factorial_possible_after_completion": true,
+      "all_four_observed": true
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100203,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "temp_0p01_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "ofat",
+          "configuration_id": "temperature_0p01",
+          "parent_index": 50,
+          "line_sha256": "d027f4c57ccc8ae0d879391613f70251be3256b17e78ee9042edfe0a40feab98",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        },
+        "stagnation_alone": {
+          "source": "ofat",
+          "configuration_id": "stagnation_150",
+          "parent_index": 45,
+          "line_sha256": "6ed8f2e53aa93b52938c5381a6e6b0288a561dd873fe2569266ef7a1f5d0d03e",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        }
+      },
+      "paired_factorial_possible_after_completion": true,
+      "all_four_observed": true
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100201,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "destroy_0p02_0p60_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "ofat",
+          "configuration_id": "destroy_0p02_0p60",
+          "parent_index": 10,
+          "line_sha256": "2f50ee87d578063ff480d076d741861ec62e69728a16ff624b4f1e7facf78810",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        },
+        "stagnation_alone": {
+          "source": "ofat",
+          "configuration_id": "stagnation_150",
+          "parent_index": 2,
+          "line_sha256": "6187523566a6af0579c7fdab4d8dabc3a05a0afa45a8f38edd1958d6515c4dbb",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        }
+      },
+      "paired_factorial_possible_after_completion": true,
+      "all_four_observed": true
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100202,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "destroy_0p02_0p60_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "ofat",
+          "configuration_id": "destroy_0p02_0p60",
+          "parent_index": 22,
+          "line_sha256": "fef5a295148a6aed811b273f50b211d5ff5225a78fa2fbbd9113c956cfc4f3f2",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        },
+        "stagnation_alone": {
+          "source": "ofat",
+          "configuration_id": "stagnation_150",
+          "parent_index": 30,
+          "line_sha256": "f08c9719f12d87767a7f6ed47f143ce2369beb2aa06d3d98fda67328624c453e",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        }
+      },
+      "paired_factorial_possible_after_completion": true,
+      "all_four_observed": true
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100203,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "destroy_0p02_0p60_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "ofat",
+          "configuration_id": "destroy_0p02_0p60",
+          "parent_index": 43,
+          "line_sha256": "3a1d71e927ebfa88b3daeaa066d860c19a2be59872bbd3ad3c2568792f996078",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        },
+        "stagnation_alone": {
+          "source": "ofat",
+          "configuration_id": "stagnation_150",
+          "parent_index": 45,
+          "line_sha256": "6ed8f2e53aa93b52938c5381a6e6b0288a561dd873fe2569266ef7a1f5d0d03e",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        }
+      },
+      "paired_factorial_possible_after_completion": true,
+      "all_four_observed": true
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+      "seed": 2026100201,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "temp_0p01_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "missing",
+          "configuration_id": "temperature_0p01"
+        },
+        "stagnation_alone": {
+          "source": "missing",
+          "configuration_id": "stagnation_150"
+        }
+      },
+      "paired_factorial_possible_after_completion": false,
+      "all_four_observed": false
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+      "seed": 2026100202,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "temp_0p01_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "missing",
+          "configuration_id": "temperature_0p01"
+        },
+        "stagnation_alone": {
+          "source": "missing",
+          "configuration_id": "stagnation_150"
+        }
+      },
+      "paired_factorial_possible_after_completion": false,
+      "all_four_observed": false
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+      "seed": 2026100203,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "temp_0p01_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "missing",
+          "configuration_id": "temperature_0p01"
+        },
+        "stagnation_alone": {
+          "source": "missing",
+          "configuration_id": "stagnation_150"
+        }
+      },
+      "paired_factorial_possible_after_completion": false,
+      "all_four_observed": false
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+      "seed": 2026100201,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "destroy_0p02_0p60_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "missing",
+          "configuration_id": "destroy_0p02_0p60"
+        },
+        "stagnation_alone": {
+          "source": "missing",
+          "configuration_id": "stagnation_150"
+        }
+      },
+      "paired_factorial_possible_after_completion": false,
+      "all_four_observed": false
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+      "seed": 2026100202,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "destroy_0p02_0p60_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "missing",
+          "configuration_id": "destroy_0p02_0p60"
+        },
+        "stagnation_alone": {
+          "source": "missing",
+          "configuration_id": "stagnation_150"
+        }
+      },
+      "paired_factorial_possible_after_completion": false,
+      "all_four_observed": false
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+      "seed": 2026100203,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "destroy_0p02_0p60_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "missing",
+          "configuration_id": "destroy_0p02_0p60"
+        },
+        "stagnation_alone": {
+          "source": "missing",
+          "configuration_id": "stagnation_150"
+        }
+      },
+      "paired_factorial_possible_after_completion": false,
+      "all_four_observed": false
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100201,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "temp_0p01_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "ofat",
+          "configuration_id": "temperature_0p01",
+          "parent_index": 69,
+          "line_sha256": "36a0376d49ab3c72a36403a80a0bc19492b5254eca009f96e902b82a8c8682e7",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        },
+        "stagnation_alone": {
+          "source": "ofat",
+          "configuration_id": "stagnation_150",
+          "parent_index": 58,
+          "line_sha256": "3b9d8ebeacda115400d94bba03521a8cc7d233e76a48f975a668287ec5bb53d4",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        }
+      },
+      "paired_factorial_possible_after_completion": true,
+      "all_four_observed": true
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100202,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "temp_0p01_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "ofat",
+          "configuration_id": "temperature_0p01",
+          "parent_index": 77,
+          "line_sha256": "9aba7b8f3a0ceac0dfcdd129129ec0c53420bae0c1623ac53740acdc3fcbe87d",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        },
+        "stagnation_alone": {
+          "source": "ofat",
+          "configuration_id": "stagnation_150",
+          "parent_index": 83,
+          "line_sha256": "5efdf179d98de6aff8128022968da50782e3ce44216bc7a7a2376d7603441f4f",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        }
+      },
+      "paired_factorial_possible_after_completion": true,
+      "all_four_observed": true
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100203,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "temp_0p01_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "ofat",
+          "configuration_id": "temperature_0p01",
+          "parent_index": 97,
+          "line_sha256": "035fdaf2487a570660314f5854b89ce3f3b627c07995bf5c4f8ffc50a6f7e8f3",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        },
+        "stagnation_alone": {
+          "source": "ofat",
+          "configuration_id": "stagnation_150",
+          "parent_index": 105,
+          "line_sha256": "e44c4bb84e8b22dc04bdd987ef956e3b405ec37628431c2b4fbc5a3eec573945",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        }
+      },
+      "paired_factorial_possible_after_completion": true,
+      "all_four_observed": true
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100201,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "destroy_0p02_0p60_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "ofat",
+          "configuration_id": "destroy_0p02_0p60",
+          "parent_index": 55,
+          "line_sha256": "1643c4335b6201c4f9f029cf5f7476bad0a4d657316130264899ae3174b3f915",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        },
+        "stagnation_alone": {
+          "source": "ofat",
+          "configuration_id": "stagnation_150",
+          "parent_index": 58,
+          "line_sha256": "3b9d8ebeacda115400d94bba03521a8cc7d233e76a48f975a668287ec5bb53d4",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        }
+      },
+      "paired_factorial_possible_after_completion": true,
+      "all_four_observed": true
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100202,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "destroy_0p02_0p60_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "ofat",
+          "configuration_id": "destroy_0p02_0p60",
+          "parent_index": 80,
+          "line_sha256": "409ca8550979a2fade2a8ad06ed271062362ae1ffbd8603dffad50d3619747e9",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        },
+        "stagnation_alone": {
+          "source": "ofat",
+          "configuration_id": "stagnation_150",
+          "parent_index": 83,
+          "line_sha256": "5efdf179d98de6aff8128022968da50782e3ce44216bc7a7a2376d7603441f4f",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        }
+      },
+      "paired_factorial_possible_after_completion": true,
+      "all_four_observed": true
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100203,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "destroy_0p02_0p60_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "ofat",
+          "configuration_id": "destroy_0p02_0p60",
+          "parent_index": 103,
+          "line_sha256": "e1c957ef22f263904e1d72e8c31c476eaa14e63df534c43356d8507d470c3238",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        },
+        "stagnation_alone": {
+          "source": "ofat",
+          "configuration_id": "stagnation_150",
+          "parent_index": 105,
+          "line_sha256": "e44c4bb84e8b22dc04bdd987ef956e3b405ec37628431c2b4fbc5a3eec573945",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        }
+      },
+      "paired_factorial_possible_after_completion": true,
+      "all_four_observed": true
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+      "seed": 2026100201,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "temp_0p01_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "missing",
+          "configuration_id": "temperature_0p01"
+        },
+        "stagnation_alone": {
+          "source": "missing",
+          "configuration_id": "stagnation_150"
+        }
+      },
+      "paired_factorial_possible_after_completion": false,
+      "all_four_observed": false
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+      "seed": 2026100202,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "temp_0p01_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "missing",
+          "configuration_id": "temperature_0p01"
+        },
+        "stagnation_alone": {
+          "source": "missing",
+          "configuration_id": "stagnation_150"
+        }
+      },
+      "paired_factorial_possible_after_completion": false,
+      "all_four_observed": false
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+      "seed": 2026100203,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "temp_0p01_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "missing",
+          "configuration_id": "temperature_0p01"
+        },
+        "stagnation_alone": {
+          "source": "missing",
+          "configuration_id": "stagnation_150"
+        }
+      },
+      "paired_factorial_possible_after_completion": false,
+      "all_four_observed": false
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+      "seed": 2026100201,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "destroy_0p02_0p60_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "missing",
+          "configuration_id": "destroy_0p02_0p60"
+        },
+        "stagnation_alone": {
+          "source": "missing",
+          "configuration_id": "stagnation_150"
+        }
+      },
+      "paired_factorial_possible_after_completion": false,
+      "all_four_observed": false
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+      "seed": 2026100202,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "destroy_0p02_0p60_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "missing",
+          "configuration_id": "destroy_0p02_0p60"
+        },
+        "stagnation_alone": {
+          "source": "missing",
+          "configuration_id": "stagnation_150"
+        }
+      },
+      "paired_factorial_possible_after_completion": false,
+      "all_four_observed": false
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+      "seed": 2026100203,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "destroy_0p02_0p60_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "missing",
+          "configuration_id": "destroy_0p02_0p60"
+        },
+        "stagnation_alone": {
+          "source": "missing",
+          "configuration_id": "stagnation_150"
+        }
+      },
+      "paired_factorial_possible_after_completion": false,
+      "all_four_observed": false
+    },
+    {
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100201,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "temp_0p01_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "ofat",
+          "configuration_id": "temperature_0p01",
+          "parent_index": 117,
+          "line_sha256": "df5e85f405a9b37b847a69a2d769dbeff5e7fcc390da9d71caf18d8dae214371",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        },
+        "stagnation_alone": {
+          "source": "ofat",
+          "configuration_id": "stagnation_150",
+          "parent_index": 113,
+          "line_sha256": "e7e9c3ed615b0aba94998f0ef25393a76a14bbe8b953e52ba507f2b36a6b0cac",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        }
+      },
+      "paired_factorial_possible_after_completion": true,
+      "all_four_observed": true
+    },
+    {
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100202,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "temp_0p01_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "ofat",
+          "configuration_id": "temperature_0p01",
+          "parent_index": 142,
+          "line_sha256": "78af5e1251f9b1ba03a589d944591b104c9a1e935fb439992671206295deacf2",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        },
+        "stagnation_alone": {
+          "source": "ofat",
+          "configuration_id": "stagnation_150",
+          "parent_index": 140,
+          "line_sha256": "408119e5d7f335fefa37f766d5336879745816129534ac382b8f14271239f6e6",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        }
+      },
+      "paired_factorial_possible_after_completion": true,
+      "all_four_observed": true
+    },
+    {
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100203,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "temp_0p01_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "ofat",
+          "configuration_id": "temperature_0p01",
+          "parent_index": 147,
+          "line_sha256": "10a1ccbee04d993bf692cc8853ead7db80fdc0d2c71a0b2fbe1a0cee19a1fd3d",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        },
+        "stagnation_alone": {
+          "source": "ofat",
+          "configuration_id": "stagnation_150",
+          "parent_index": 153,
+          "line_sha256": "c5c195878151626bbce77e6033175a38009235e72b0b225524b49660263cb123",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        }
+      },
+      "paired_factorial_possible_after_completion": true,
+      "all_four_observed": true
+    },
+    {
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100201,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "destroy_0p02_0p60_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "ofat",
+          "configuration_id": "destroy_0p02_0p60",
+          "parent_index": 110,
+          "line_sha256": "85735f01de4c1b6098cb3bcedcb4b4f1d06ac12bca777230491b05b61c5d2a78",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        },
+        "stagnation_alone": {
+          "source": "ofat",
+          "configuration_id": "stagnation_150",
+          "parent_index": 113,
+          "line_sha256": "e7e9c3ed615b0aba94998f0ef25393a76a14bbe8b953e52ba507f2b36a6b0cac",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        }
+      },
+      "paired_factorial_possible_after_completion": true,
+      "all_four_observed": true
+    },
+    {
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100202,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "destroy_0p02_0p60_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "ofat",
+          "configuration_id": "destroy_0p02_0p60",
+          "parent_index": 132,
+          "line_sha256": "fe638bd2240dba8789f4971421329b22eb9658d4c1ca76bd16a7ea1c505d6fb3",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        },
+        "stagnation_alone": {
+          "source": "ofat",
+          "configuration_id": "stagnation_150",
+          "parent_index": 140,
+          "line_sha256": "408119e5d7f335fefa37f766d5336879745816129534ac382b8f14271239f6e6",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        }
+      },
+      "paired_factorial_possible_after_completion": true,
+      "all_four_observed": true
+    },
+    {
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100203,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "destroy_0p02_0p60_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "ofat",
+          "configuration_id": "destroy_0p02_0p60",
+          "parent_index": 151,
+          "line_sha256": "ebd7aa494dc68a8110e914ba765da6de1a4674dff65b20a92a0be5c5f492fb32",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        },
+        "stagnation_alone": {
+          "source": "ofat",
+          "configuration_id": "stagnation_150",
+          "parent_index": 153,
+          "line_sha256": "c5c195878151626bbce77e6033175a38009235e72b0b225524b49660263cb123",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        }
+      },
+      "paired_factorial_possible_after_completion": true,
+      "all_four_observed": true
+    },
+    {
+      "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+      "seed": 2026100201,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "temp_0p01_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "missing",
+          "configuration_id": "temperature_0p01"
+        },
+        "stagnation_alone": {
+          "source": "missing",
+          "configuration_id": "stagnation_150"
+        }
+      },
+      "paired_factorial_possible_after_completion": false,
+      "all_four_observed": false
+    },
+    {
+      "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+      "seed": 2026100202,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "temp_0p01_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "missing",
+          "configuration_id": "temperature_0p01"
+        },
+        "stagnation_alone": {
+          "source": "missing",
+          "configuration_id": "stagnation_150"
+        }
+      },
+      "paired_factorial_possible_after_completion": false,
+      "all_four_observed": false
+    },
+    {
+      "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+      "seed": 2026100203,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "temp_0p01_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "missing",
+          "configuration_id": "temperature_0p01"
+        },
+        "stagnation_alone": {
+          "source": "missing",
+          "configuration_id": "stagnation_150"
+        }
+      },
+      "paired_factorial_possible_after_completion": false,
+      "all_four_observed": false
+    },
+    {
+      "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+      "seed": 2026100201,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "destroy_0p02_0p60_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "missing",
+          "configuration_id": "destroy_0p02_0p60"
+        },
+        "stagnation_alone": {
+          "source": "missing",
+          "configuration_id": "stagnation_150"
+        }
+      },
+      "paired_factorial_possible_after_completion": false,
+      "all_four_observed": false
+    },
+    {
+      "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+      "seed": 2026100202,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "destroy_0p02_0p60_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "missing",
+          "configuration_id": "destroy_0p02_0p60"
+        },
+        "stagnation_alone": {
+          "source": "missing",
+          "configuration_id": "stagnation_150"
+        }
+      },
+      "paired_factorial_possible_after_completion": false,
+      "all_four_observed": false
+    },
+    {
+      "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+      "seed": 2026100203,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "destroy_0p02_0p60_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "missing",
+          "configuration_id": "destroy_0p02_0p60"
+        },
+        "stagnation_alone": {
+          "source": "missing",
+          "configuration_id": "stagnation_150"
+        }
+      },
+      "paired_factorial_possible_after_completion": false,
+      "all_four_observed": false
+    }
+  ],
+  "remaining_nominal_search_seconds": 0,
+  "inference": "Exploratory post-OFAT combinations, three paired seeds. Combined-versus-base performance is not proof of interaction. Four-corner paired contrasts are identifiable only on tail cases with existing simple effects. No significance or holdout claim; historical controls belong to a prior stage.",
+  "timing_scope": "Full per-cell search wall budget. Nominal observations exclude overshoot. Misses are censored at their own horizon. No pooled mixed-budget time."
+}

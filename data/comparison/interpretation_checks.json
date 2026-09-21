@@ -1,0 +1,48 @@
+{
+  "early_quality_large": [
+    {
+      "reference": "published_BKV",
+      "anrma_final_mean_gap_percent": 0.06869658064413506,
+      "ihs_final_mean_gap_percent": 0.09384300018097352,
+      "1s_gpu_mean_signed_gap_percent": 0.03379936228254224,
+      "5s_gpu_mean_signed_gap_percent": -0.0035083808138547307,
+      "10s_gpu_mean_signed_gap_percent": -0.006003338272778496
+    },
+    {
+      "reference": "R",
+      "anrma_final_mean_gap_percent": 0.07591131113535472,
+      "ihs_final_mean_gap_percent": 0.10104965000225426,
+      "1s_gpu_mean_signed_gap_percent": 0.04101816643264132,
+      "5s_gpu_mean_signed_gap_percent": 0.0037206232413480424,
+      "10s_gpu_mean_signed_gap_percent": 0.0012262197149398664
+    }
+  ],
+  "retention_model": {
+    "assumption": "Independent uniform slot assignments; not empirical retention",
+    "M": 16384,
+    "probabilities": {
+      "100": 0.9939148878500083,
+      "300": 0.9818555239965366,
+      "1000": 0.9407884121124792,
+      "5000": 0.7369869492739174
+    },
+    "half_life_insertions": 11356.176829178228
+  },
+  "relative_construction_weights": {
+    "0.01": {
+      "0.02": 0.13261955589475294,
+      "0.05": 0.0059205292203339975,
+      "0.1": 2.6561398887587544e-05
+    },
+    "0.03": {
+      "0.02": 0.5099596993590692,
+      "0.05": 0.18090622433263223,
+      "0.1": 0.029836667507260748
+    },
+    "0.1": {
+      "0.02": 0.8170728068875467,
+      "0.05": 0.5987369392383787,
+      "0.1": 0.3486784401000001
+    }
+  }
+}

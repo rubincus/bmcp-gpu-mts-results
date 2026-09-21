@@ -1,0 +1,462 @@
+{
+  "question": "Does unique-owner lookup reduce fixed-work search time compared with exact incidence lookup?",
+  "cases": [
+    [
+      "D1",
+      "bmcp_4600_4400_0.5_7000",
+      139
+    ],
+    [
+      "D3",
+      "bmcp_1300_1300_0.5_2000",
+      512
+    ],
+    [
+      "D5",
+      "bmcp_785_800_0.05_2000",
+      512
+    ]
+  ],
+  "blocks": 128,
+  "batch_steps": 1,
+  "instrumentation": false,
+  "temperature": 0.03,
+  "outgoing": 4,
+  "order_seed": 2026092184,
+  "schedule": [
+    {
+      "case": "D1",
+      "instance": "bmcp_4600_4400_0.5_7000",
+      "steps": 139,
+      "seed": 2026092201,
+      "variant": "incidence"
+    },
+    {
+      "case": "D1",
+      "instance": "bmcp_4600_4400_0.5_7000",
+      "steps": 139,
+      "seed": 2026092201,
+      "variant": "owner"
+    },
+    {
+      "case": "D1",
+      "instance": "bmcp_4600_4400_0.5_7000",
+      "steps": 139,
+      "seed": 2026092202,
+      "variant": "owner"
+    },
+    {
+      "case": "D1",
+      "instance": "bmcp_4600_4400_0.5_7000",
+      "steps": 139,
+      "seed": 2026092202,
+      "variant": "incidence"
+    },
+    {
+      "case": "D1",
+      "instance": "bmcp_4600_4400_0.5_7000",
+      "steps": 139,
+      "seed": 2026092203,
+      "variant": "owner"
+    },
+    {
+      "case": "D1",
+      "instance": "bmcp_4600_4400_0.5_7000",
+      "steps": 139,
+      "seed": 2026092203,
+      "variant": "incidence"
+    },
+    {
+      "case": "D1",
+      "instance": "bmcp_4600_4400_0.5_7000",
+      "steps": 139,
+      "seed": 2026092204,
+      "variant": "owner"
+    },
+    {
+      "case": "D1",
+      "instance": "bmcp_4600_4400_0.5_7000",
+      "steps": 139,
+      "seed": 2026092204,
+      "variant": "incidence"
+    },
+    {
+      "case": "D1",
+      "instance": "bmcp_4600_4400_0.5_7000",
+      "steps": 139,
+      "seed": 2026092205,
+      "variant": "incidence"
+    },
+    {
+      "case": "D1",
+      "instance": "bmcp_4600_4400_0.5_7000",
+      "steps": 139,
+      "seed": 2026092205,
+      "variant": "owner"
+    },
+    {
+      "case": "D1",
+      "instance": "bmcp_4600_4400_0.5_7000",
+      "steps": 139,
+      "seed": 2026092206,
+      "variant": "owner"
+    },
+    {
+      "case": "D1",
+      "instance": "bmcp_4600_4400_0.5_7000",
+      "steps": 139,
+      "seed": 2026092206,
+      "variant": "incidence"
+    },
+    {
+      "case": "D1",
+      "instance": "bmcp_4600_4400_0.5_7000",
+      "steps": 139,
+      "seed": 2026092207,
+      "variant": "incidence"
+    },
+    {
+      "case": "D1",
+      "instance": "bmcp_4600_4400_0.5_7000",
+      "steps": 139,
+      "seed": 2026092207,
+      "variant": "owner"
+    },
+    {
+      "case": "D1",
+      "instance": "bmcp_4600_4400_0.5_7000",
+      "steps": 139,
+      "seed": 2026092208,
+      "variant": "incidence"
+    },
+    {
+      "case": "D1",
+      "instance": "bmcp_4600_4400_0.5_7000",
+      "steps": 139,
+      "seed": 2026092208,
+      "variant": "owner"
+    },
+    {
+      "case": "D1",
+      "instance": "bmcp_4600_4400_0.5_7000",
+      "steps": 139,
+      "seed": 2026092209,
+      "variant": "incidence"
+    },
+    {
+      "case": "D1",
+      "instance": "bmcp_4600_4400_0.5_7000",
+      "steps": 139,
+      "seed": 2026092209,
+      "variant": "owner"
+    },
+    {
+      "case": "D1",
+      "instance": "bmcp_4600_4400_0.5_7000",
+      "steps": 139,
+      "seed": 2026092210,
+      "variant": "owner"
+    },
+    {
+      "case": "D1",
+      "instance": "bmcp_4600_4400_0.5_7000",
+      "steps": 139,
+      "seed": 2026092210,
+      "variant": "incidence"
+    },
+    {
+      "case": "D3",
+      "instance": "bmcp_1300_1300_0.5_2000",
+      "steps": 512,
+      "seed": 2026092201,
+      "variant": "incidence"
+    },
+    {
+      "case": "D3",
+      "instance": "bmcp_1300_1300_0.5_2000",
+      "steps": 512,
+      "seed": 2026092201,
+      "variant": "owner"
+    },
+    {
+      "case": "D3",
+      "instance": "bmcp_1300_1300_0.5_2000",
+      "steps": 512,
+      "seed": 2026092202,
+      "variant": "incidence"
+    },
+    {
+      "case": "D3",
+      "instance": "bmcp_1300_1300_0.5_2000",
+      "steps": 512,
+      "seed": 2026092202,
+      "variant": "owner"
+    },
+    {
+      "case": "D3",
+      "instance": "bmcp_1300_1300_0.5_2000",
+      "steps": 512,
+      "seed": 2026092203,
+      "variant": "owner"
+    },
+    {
+      "case": "D3",
+      "instance": "bmcp_1300_1300_0.5_2000",
+      "steps": 512,
+      "seed": 2026092203,
+      "variant": "incidence"
+    },
+    {
+      "case": "D3",
+      "instance": "bmcp_1300_1300_0.5_2000",
+      "steps": 512,
+      "seed": 2026092204,
+      "variant": "incidence"
+    },
+    {
+      "case": "D3",
+      "instance": "bmcp_1300_1300_0.5_2000",
+      "steps": 512,
+      "seed": 2026092204,
+      "variant": "owner"
+    },
+    {
+      "case": "D3",
+      "instance": "bmcp_1300_1300_0.5_2000",
+      "steps": 512,
+      "seed": 2026092205,
+      "variant": "owner"
+    },
+    {
+      "case": "D3",
+      "instance": "bmcp_1300_1300_0.5_2000",
+      "steps": 512,
+      "seed": 2026092205,
+      "variant": "incidence"
+    },
+    {
+      "case": "D3",
+      "instance": "bmcp_1300_1300_0.5_2000",
+      "steps": 512,
+      "seed": 2026092206,
+      "variant": "incidence"
+    },
+    {
+      "case": "D3",
+      "instance": "bmcp_1300_1300_0.5_2000",
+      "steps": 512,
+      "seed": 2026092206,
+      "variant": "owner"
+    },
+    {
+      "case": "D3",
+      "instance": "bmcp_1300_1300_0.5_2000",
+      "steps": 512,
+      "seed": 2026092207,
+      "variant": "incidence"
+    },
+    {
+      "case": "D3",
+      "instance": "bmcp_1300_1300_0.5_2000",
+      "steps": 512,
+      "seed": 2026092207,
+      "variant": "owner"
+    },
+    {
+      "case": "D3",
+      "instance": "bmcp_1300_1300_0.5_2000",
+      "steps": 512,
+      "seed": 2026092208,
+      "variant": "owner"
+    },
+    {
+      "case": "D3",
+      "instance": "bmcp_1300_1300_0.5_2000",
+      "steps": 512,
+      "seed": 2026092208,
+      "variant": "incidence"
+    },
+    {
+      "case": "D3",
+      "instance": "bmcp_1300_1300_0.5_2000",
+      "steps": 512,
+      "seed": 2026092209,
+      "variant": "incidence"
+    },
+    {
+      "case": "D3",
+      "instance": "bmcp_1300_1300_0.5_2000",
+      "steps": 512,
+      "seed": 2026092209,
+      "variant": "owner"
+    },
+    {
+      "case": "D3",
+      "instance": "bmcp_1300_1300_0.5_2000",
+      "steps": 512,
+      "seed": 2026092210,
+      "variant": "incidence"
+    },
+    {
+      "case": "D3",
+      "instance": "bmcp_1300_1300_0.5_2000",
+      "steps": 512,
+      "seed": 2026092210,
+      "variant": "owner"
+    },
+    {
+      "case": "D5",
+      "instance": "bmcp_785_800_0.05_2000",
+      "steps": 512,
+      "seed": 2026092201,
+      "variant": "owner"
+    },
+    {
+      "case": "D5",
+      "instance": "bmcp_785_800_0.05_2000",
+      "steps": 512,
+      "seed": 2026092201,
+      "variant": "incidence"
+    },
+    {
+      "case": "D5",
+      "instance": "bmcp_785_800_0.05_2000",
+      "steps": 512,
+      "seed": 2026092202,
+      "variant": "owner"
+    },
+    {
+      "case": "D5",
+      "instance": "bmcp_785_800_0.05_2000",
+      "steps": 512,
+      "seed": 2026092202,
+      "variant": "incidence"
+    },
+    {
+      "case": "D5",
+      "instance": "bmcp_785_800_0.05_2000",
+      "steps": 512,
+      "seed": 2026092203,
+      "variant": "incidence"
+    },
+    {
+      "case": "D5",
+      "instance": "bmcp_785_800_0.05_2000",
+      "steps": 512,
+      "seed": 2026092203,
+      "variant": "owner"
+    },
+    {
+      "case": "D5",
+      "instance": "bmcp_785_800_0.05_2000",
+      "steps": 512,
+      "seed": 2026092204,
+      "variant": "incidence"
+    },
+    {
+      "case": "D5",
+      "instance": "bmcp_785_800_0.05_2000",
+      "steps": 512,
+      "seed": 2026092204,
+      "variant": "owner"
+    },
+    {
+      "case": "D5",
+      "instance": "bmcp_785_800_0.05_2000",
+      "steps": 512,
+      "seed": 2026092205,
+      "variant": "owner"
+    },
+    {
+      "case": "D5",
+      "instance": "bmcp_785_800_0.05_2000",
+      "steps": 512,
+      "seed": 2026092205,
+      "variant": "incidence"
+    },
+    {
+      "case": "D5",
+      "instance": "bmcp_785_800_0.05_2000",
+      "steps": 512,
+      "seed": 2026092206,
+      "variant": "incidence"
+    },
+    {
+      "case": "D5",
+      "instance": "bmcp_785_800_0.05_2000",
+      "steps": 512,
+      "seed": 2026092206,
+      "variant": "owner"
+    },
+    {
+      "case": "D5",
+      "instance": "bmcp_785_800_0.05_2000",
+      "steps": 512,
+      "seed": 2026092207,
+      "variant": "owner"
+    },
+    {
+      "case": "D5",
+      "instance": "bmcp_785_800_0.05_2000",
+      "steps": 512,
+      "seed": 2026092207,
+      "variant": "incidence"
+    },
+    {
+      "case": "D5",
+      "instance": "bmcp_785_800_0.05_2000",
+      "steps": 512,
+      "seed": 2026092208,
+      "variant": "owner"
+    },
+    {
+      "case": "D5",
+      "instance": "bmcp_785_800_0.05_2000",
+      "steps": 512,
+      "seed": 2026092208,
+      "variant": "incidence"
+    },
+    {
+      "case": "D5",
+      "instance": "bmcp_785_800_0.05_2000",
+      "steps": 512,
+      "seed": 2026092209,
+      "variant": "incidence"
+    },
+    {
+      "case": "D5",
+      "instance": "bmcp_785_800_0.05_2000",
+      "steps": 512,
+      "seed": 2026092209,
+      "variant": "owner"
+    },
+    {
+      "case": "D5",
+      "instance": "bmcp_785_800_0.05_2000",
+      "steps": 512,
+      "seed": 2026092210,
+      "variant": "incidence"
+    },
+    {
+      "case": "D5",
+      "instance": "bmcp_785_800_0.05_2000",
+      "steps": 512,
+      "seed": 2026092210,
+      "variant": "owner"
+    }
+  ],
+  "warmup": "10 steps per variant and case; excluded",
+  "timing": "Search wall time with dispatch, synchronization and incumbent observations; excludes setup and final audit.",
+  "controlled_change": "Restoration term lookup only; owner maintenance and memory footprint remain identical.",
+  "source_sha256": {
+    "owner": "e46da6945964d2223d1c15b4bad083697891ba476b82c175a8408fb1fad62bdc",
+    "incidence": "86629076346dfe0f0ccfd5968830496735980d92f09e278395c9725a9e808838"
+  },
+  "instances": {
+    "bmcp_4600_4400_0.5_7000": "92eb8136640431faf6f973ce0b1f8e4ee2bd6344d3a95d92c1e61fd1e02f830c",
+    "bmcp_1300_1300_0.5_2000": "f7f591a886d659144d55326cdfdb7ff4f4272d97a208b82b7b654d60bf5914d1",
+    "bmcp_785_800_0.05_2000": "837bc9b2f4268cf4a27bcd35da8469a827a1cdc6d693445848902392f2529290"
+  },
+  "parity": "Compare all returned array hashes and incumbent objective sequences, ignoring time stamps.",
+  "reporting": "All three cases and all pairs, regardless of timing outcome. No solver tuning or new best-known claims."
+}

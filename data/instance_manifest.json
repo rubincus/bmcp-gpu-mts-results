@@ -1,0 +1,722 @@
+[
+  {
+    "name": "bmcp_5000_5200_0.5_7000",
+    "sha256": "5921647f063e59b390370679fbc3e7f0154d21df6d0ce952f761215343205c45",
+    "cohort": "II_large",
+    "items": 5000,
+    "elements": 5200,
+    "capacity": 7000
+  },
+  {
+    "name": "bmcp_5000_5200_0.3_10000",
+    "sha256": "7c9556ac93bdd8d442f3cb60f14087a7e0fc90168c26e16bcca7f7e873ba99a8",
+    "cohort": "II_large",
+    "items": 5000,
+    "elements": 5200,
+    "capacity": 10000
+  },
+  {
+    "name": "bmcp_5000_5000_0.5_7000",
+    "sha256": "443bf71778e8b405b7eb1b8646c928fd403ade1d760c5c1d47190dc42d8ed9e0",
+    "cohort": "II_large",
+    "items": 5000,
+    "elements": 5000,
+    "capacity": 7000
+  },
+  {
+    "name": "bmcp_5000_5000_0.3_10000",
+    "sha256": "953323f3d1b056fe0907130a946dc39e90ed4916f509b2f5016de889d71aedd1",
+    "cohort": "II_large",
+    "items": 5000,
+    "elements": 5000,
+    "capacity": 10000
+  },
+  {
+    "name": "bmcp_5000_4800_0.5_7000",
+    "sha256": "a09560e97744acfd4848edde4aff49331e6495032dbc3639d1d015726b613b0a",
+    "cohort": "II_large",
+    "items": 5000,
+    "elements": 4800,
+    "capacity": 7000
+  },
+  {
+    "name": "bmcp_5000_4800_0.3_10000",
+    "sha256": "eaff71e1f96fbe5c09709dfd74654203023f29f0cbde3e4ac539c52590cdc74e",
+    "cohort": "II_large",
+    "items": 5000,
+    "elements": 4800,
+    "capacity": 10000
+  },
+  {
+    "name": "bmcp_4800_5000_0.5_7000",
+    "sha256": "18a89e70425c070170761ca34ea33eecfc666a1492ab49eba730f0a51e6c31fa",
+    "cohort": "II_large",
+    "items": 4800,
+    "elements": 5000,
+    "capacity": 7000
+  },
+  {
+    "name": "bmcp_4800_5000_0.3_10000",
+    "sha256": "dd8280f747262811a52b6932b8fd625d9bae61dca3d02ea8b3f465fedb767682",
+    "cohort": "II_large",
+    "items": 4800,
+    "elements": 5000,
+    "capacity": 10000
+  },
+  {
+    "name": "bmcp_4800_4800_0.5_7000",
+    "sha256": "57c05f2d3fbaeb1474030c9b7b05ea921b4d58a2c02dd60835d34ac24ffd7488",
+    "cohort": "II_large",
+    "items": 4800,
+    "elements": 4800,
+    "capacity": 7000
+  },
+  {
+    "name": "bmcp_4800_4800_0.3_10000",
+    "sha256": "1a8ae03a23aa204d61b2b68f64a93a5aa806265da45b4456d71014db35076ca2",
+    "cohort": "II_large",
+    "items": 4800,
+    "elements": 4800,
+    "capacity": 10000
+  },
+  {
+    "name": "bmcp_4800_4600_0.5_7000",
+    "sha256": "c489e820181fcb64b322fb01175fed2fc4820faa1348d4ca342d50d0ee184500",
+    "cohort": "II_large",
+    "items": 4800,
+    "elements": 4600,
+    "capacity": 7000
+  },
+  {
+    "name": "bmcp_4800_4600_0.3_10000",
+    "sha256": "b7be221b017c4ca7bc871f46f7e45033823cbdb41b22c5a02d37e3f1f4eec20c",
+    "cohort": "II_large",
+    "items": 4800,
+    "elements": 4600,
+    "capacity": 10000
+  },
+  {
+    "name": "bmcp_4600_4800_0.5_7000",
+    "sha256": "eb13fc68abdc38b28eb0d9f4c9bdc4dcf80690c75e10f0502948cd8afc335a7c",
+    "cohort": "II_large",
+    "items": 4600,
+    "elements": 4800,
+    "capacity": 7000
+  },
+  {
+    "name": "bmcp_4600_4800_0.3_10000",
+    "sha256": "6901fdc8f210241233e66b6ace69101d60c1ff82d2f6c8c52e38ad3d0c77841f",
+    "cohort": "II_large",
+    "items": 4600,
+    "elements": 4800,
+    "capacity": 10000
+  },
+  {
+    "name": "bmcp_4600_4600_0.5_7000",
+    "sha256": "745c51bb8ff73b5d8e449f7d5e2fd8ef1d58058ad0c28742234e07b317e4aa26",
+    "cohort": "II_large",
+    "items": 4600,
+    "elements": 4600,
+    "capacity": 7000
+  },
+  {
+    "name": "bmcp_4600_4600_0.3_10000",
+    "sha256": "08d8fc160538ec6a5a9a4f3b2d100245ba1efba7601c2fb5cd61483818491ccd",
+    "cohort": "II_large",
+    "items": 4600,
+    "elements": 4600,
+    "capacity": 10000
+  },
+  {
+    "name": "bmcp_4600_4400_0.5_7000",
+    "sha256": "92eb8136640431faf6f973ce0b1f8e4ee2bd6344d3a95d92c1e61fd1e02f830c",
+    "cohort": "II_large",
+    "items": 4600,
+    "elements": 4400,
+    "capacity": 7000
+  },
+  {
+    "name": "bmcp_4600_4400_0.3_10000",
+    "sha256": "ced67d0c10056de647d1caac44514a2cc23ab87cc50356cdf9754c27e480a33e",
+    "cohort": "II_large",
+    "items": 4600,
+    "elements": 4400,
+    "capacity": 10000
+  },
+  {
+    "name": "bmcp_4400_4600_0.5_7000",
+    "sha256": "e2829b4446401ddc6b31d809165eba8e001f34d2427c851909ea940bb4b8d221",
+    "cohort": "II_large",
+    "items": 4400,
+    "elements": 4600,
+    "capacity": 7000
+  },
+  {
+    "name": "bmcp_4400_4600_0.3_10000",
+    "sha256": "218592ce27069c6970fb4de95c7443878312871fe5dd174c911930878fc3f06c",
+    "cohort": "II_large",
+    "items": 4400,
+    "elements": 4600,
+    "capacity": 10000
+  },
+  {
+    "name": "bmcp_4400_4400_0.5_7000",
+    "sha256": "50e17288f924a9224fa70628da655a404581e315bfefe7f750e22564f2099b1c",
+    "cohort": "II_large",
+    "items": 4400,
+    "elements": 4400,
+    "capacity": 7000
+  },
+  {
+    "name": "bmcp_4400_4400_0.3_10000",
+    "sha256": "c9822638ecc2521ba2b951395f9bee54f7a088c80bd72c900a5e3d7c84604432",
+    "cohort": "II_large",
+    "items": 4400,
+    "elements": 4400,
+    "capacity": 10000
+  },
+  {
+    "name": "bmcp_4400_4200_0.5_7000",
+    "sha256": "e7c16ba9fd1ab056ad0feda49e2739b2f1e687cd7533cc0491ed3b2b2c434de7",
+    "cohort": "II_large",
+    "items": 4400,
+    "elements": 4200,
+    "capacity": 7000
+  },
+  {
+    "name": "bmcp_4400_4200_0.3_10000",
+    "sha256": "3f6bdbe66bc15354b62a227b531e714795351e864ff6bff2fe12ba48413b222f",
+    "cohort": "II_large",
+    "items": 4400,
+    "elements": 4200,
+    "capacity": 10000
+  },
+  {
+    "name": "bmcp_4200_4400_0.3_10000",
+    "sha256": "b4d4319ba4e40ce384e8d3c4f3633e9705b327acb69396751137b0d5caa3036c",
+    "cohort": "II_large",
+    "items": 4200,
+    "elements": 4400,
+    "capacity": 10000
+  },
+  {
+    "name": "bmcp_4200_4400_0.5_7000",
+    "sha256": "67ebe98b23c9b00b68373abeae4b8813d8ff2de65610edd565165603b2545908",
+    "cohort": "II_large",
+    "items": 4200,
+    "elements": 4400,
+    "capacity": 7000
+  },
+  {
+    "name": "bmcp_4200_4200_0.5_7000",
+    "sha256": "b6e463dd5d40123e6c0d19ededd94510d65211d16435fbd6fee72dc17cbd012f",
+    "cohort": "II_large",
+    "items": 4200,
+    "elements": 4200,
+    "capacity": 7000
+  },
+  {
+    "name": "bmcp_4200_4200_0.3_10000",
+    "sha256": "43833952a8168346f40b19446e2ca50bfe57a79adf50bcfb9968e19fb7308184",
+    "cohort": "II_large",
+    "items": 4200,
+    "elements": 4200,
+    "capacity": 10000
+  },
+  {
+    "name": "bmcp_4200_4000_0.5_7000",
+    "sha256": "449a4d61aeb67f5062f504490acf569cf223cc42e619addc5506001dc70c8302",
+    "cohort": "II_large",
+    "items": 4200,
+    "elements": 4000,
+    "capacity": 7000
+  },
+  {
+    "name": "bmcp_4200_4000_0.3_10000",
+    "sha256": "ad25f7874403494d2f980b00e622746f334286c4197abc3046bd22cac6687446",
+    "cohort": "II_large",
+    "items": 4200,
+    "elements": 4000,
+    "capacity": 10000
+  },
+  {
+    "name": "bmcp_1500_1600_0.5_2000",
+    "sha256": "c4a323679aadd5fcc8eacb18983384b0675c91b479cf328096f2107eb67ec611",
+    "cohort": "II_medium",
+    "items": 1500,
+    "elements": 1600,
+    "capacity": 2000
+  },
+  {
+    "name": "bmcp_1500_1600_0.3_3000",
+    "sha256": "a2027c0648eef6f533971b3d950aeba3427f77335f50823a9b596a4e6207cdcb",
+    "cohort": "II_medium",
+    "items": 1500,
+    "elements": 1600,
+    "capacity": 3000
+  },
+  {
+    "name": "bmcp_1500_1500_0.3_3000",
+    "sha256": "d651b3769ae928d56c76015071cad50ed605c5484e871bddd7f8fb348daf75c2",
+    "cohort": "II_medium",
+    "items": 1500,
+    "elements": 1500,
+    "capacity": 3000
+  },
+  {
+    "name": "bmcp_1500_1500_0.5_2000",
+    "sha256": "17aeb5699507b822ec9474e554e4b41600c5b44d5b7691f675ebda2622fdc322",
+    "cohort": "II_medium",
+    "items": 1500,
+    "elements": 1500,
+    "capacity": 2000
+  },
+  {
+    "name": "bmcp_1500_1400_0.5_2000",
+    "sha256": "93b8dd6b035ea5636d28caa9fbf545fa7b8465dea8254338c83af757a960d000",
+    "cohort": "II_medium",
+    "items": 1500,
+    "elements": 1400,
+    "capacity": 2000
+  },
+  {
+    "name": "bmcp_1500_1400_0.3_3000",
+    "sha256": "1a7df4517a1a7626e16125e075b6f472884963013f1268ee07aae82f27c61a49",
+    "cohort": "II_medium",
+    "items": 1500,
+    "elements": 1400,
+    "capacity": 3000
+  },
+  {
+    "name": "bmcp_1400_1500_0.3_3000",
+    "sha256": "e22efadfc843b6c127c2f04df150493ddae44aa09e1cbefc17aa2337d747b49a",
+    "cohort": "II_medium",
+    "items": 1400,
+    "elements": 1500,
+    "capacity": 3000
+  },
+  {
+    "name": "bmcp_1400_1500_0.5_2000",
+    "sha256": "9b870ddfa3a95a11612794c661ec1cdbce1628f0c785793401f15908c79a2712",
+    "cohort": "II_medium",
+    "items": 1400,
+    "elements": 1500,
+    "capacity": 2000
+  },
+  {
+    "name": "bmcp_1400_1400_0.3_3000",
+    "sha256": "b480d741e94a9a97e6cced6177a48afa78c2935354a53f5609953f99892df38f",
+    "cohort": "II_medium",
+    "items": 1400,
+    "elements": 1400,
+    "capacity": 3000
+  },
+  {
+    "name": "bmcp_1400_1400_0.5_2000",
+    "sha256": "e83746b8c3e6f8d0c34502d5502160415cb75703edb949908b3f54d05f9ef281",
+    "cohort": "II_medium",
+    "items": 1400,
+    "elements": 1400,
+    "capacity": 2000
+  },
+  {
+    "name": "bmcp_1400_1300_0.3_3000",
+    "sha256": "649dd753cad64c90aafc2f77794f154c43c40e18e17a9040c492b814521a1fcd",
+    "cohort": "II_medium",
+    "items": 1400,
+    "elements": 1300,
+    "capacity": 3000
+  },
+  {
+    "name": "bmcp_1400_1300_0.5_2000",
+    "sha256": "615995f92d2066c1f0e35a5eeee550f2ca3535d24d8f243623964ac175c38bb2",
+    "cohort": "II_medium",
+    "items": 1400,
+    "elements": 1300,
+    "capacity": 2000
+  },
+  {
+    "name": "bmcp_1300_1400_0.3_3000",
+    "sha256": "e9e2cd44289db1fce9420eb81b95fa357fbe0a8716ecfc9000a475b4021b8a0a",
+    "cohort": "II_medium",
+    "items": 1300,
+    "elements": 1400,
+    "capacity": 3000
+  },
+  {
+    "name": "bmcp_1300_1400_0.5_2000",
+    "sha256": "df6752456830db03b79382aea100eb90c327a75adb8c5403163a61d3f7e681b2",
+    "cohort": "II_medium",
+    "items": 1300,
+    "elements": 1400,
+    "capacity": 2000
+  },
+  {
+    "name": "bmcp_1300_1300_0.3_3000",
+    "sha256": "95437fa52256e4e8264307455b9682609b3529086b9efe0f86ec19c0d0f0646f",
+    "cohort": "II_medium",
+    "items": 1300,
+    "elements": 1300,
+    "capacity": 3000
+  },
+  {
+    "name": "bmcp_1300_1300_0.5_2000",
+    "sha256": "f7f591a886d659144d55326cdfdb7ff4f4272d97a208b82b7b654d60bf5914d1",
+    "cohort": "II_medium",
+    "items": 1300,
+    "elements": 1300,
+    "capacity": 2000
+  },
+  {
+    "name": "bmcp_1300_1200_0.3_3000",
+    "sha256": "0362c23677ddfd7736c705942a29e00c4d49fabf5330294083294c0f8ed14078",
+    "cohort": "II_medium",
+    "items": 1300,
+    "elements": 1200,
+    "capacity": 3000
+  },
+  {
+    "name": "bmcp_1300_1200_0.5_2000",
+    "sha256": "3dbbeb2dfaa8b72e19649a57732e7af5276bf3538164d5162d630e784681470e",
+    "cohort": "II_medium",
+    "items": 1300,
+    "elements": 1200,
+    "capacity": 2000
+  },
+  {
+    "name": "bmcp_1200_1300_0.3_3000",
+    "sha256": "b61f133475d0c4c01ade901d1fe3f9330a3db47ae658927e2fd4a21293e20e9d",
+    "cohort": "II_medium",
+    "items": 1200,
+    "elements": 1300,
+    "capacity": 3000
+  },
+  {
+    "name": "bmcp_1200_1300_0.5_2000",
+    "sha256": "2fd2441da89e8d7462e9b80fd5e1c01e93b1f1bb78a90605630c42b64c4a729a",
+    "cohort": "II_medium",
+    "items": 1200,
+    "elements": 1300,
+    "capacity": 2000
+  },
+  {
+    "name": "bmcp_1200_1200_0.5_2000",
+    "sha256": "a806be3e5834361705b0a85baa7487434eea8b3ce3929d53efbe739aa0d87e65",
+    "cohort": "II_medium",
+    "items": 1200,
+    "elements": 1200,
+    "capacity": 2000
+  },
+  {
+    "name": "bmcp_1200_1200_0.3_3000",
+    "sha256": "09e795a52a6afaf975c626281377e1b7b5c04c4bfed18717818d7e71b235dba8",
+    "cohort": "II_medium",
+    "items": 1200,
+    "elements": 1200,
+    "capacity": 3000
+  },
+  {
+    "name": "bmcp_1200_1100_0.3_3000",
+    "sha256": "91410e7f0a43b0ebee5951ae6d7cd4168243574453f7a867a6a2e48893f27894",
+    "cohort": "II_medium",
+    "items": 1200,
+    "elements": 1100,
+    "capacity": 3000
+  },
+  {
+    "name": "bmcp_1200_1100_0.5_2000",
+    "sha256": "6b9e67939f43ead35543c6e15ba1b8ffbcc0f6cc39873066b85f7b7f20e2fd39",
+    "cohort": "II_medium",
+    "items": 1200,
+    "elements": 1100,
+    "capacity": 2000
+  },
+  {
+    "name": "bmcp_1100_1200_0.3_3000",
+    "sha256": "04fed7c4d53754a051a605faf72050ad3ee633cc227fed1f0e74e5cc7897c9e0",
+    "cohort": "II_medium",
+    "items": 1100,
+    "elements": 1200,
+    "capacity": 3000
+  },
+  {
+    "name": "bmcp_1100_1200_0.5_2000",
+    "sha256": "7e570831829553bbed44c58e9bd72c95088a286ed5e836fd7f24f8b1bdce02aa",
+    "cohort": "II_medium",
+    "items": 1100,
+    "elements": 1200,
+    "capacity": 2000
+  },
+  {
+    "name": "bmcp_1100_1100_0.3_3000",
+    "sha256": "0b1507675ecd762a74df0202af065395f05731e0a818801041ee767242101f0d",
+    "cohort": "II_medium",
+    "items": 1100,
+    "elements": 1100,
+    "capacity": 3000
+  },
+  {
+    "name": "bmcp_1100_1100_0.5_2000",
+    "sha256": "59df100abc2d067f6b91bba17afe623000789e56b5d40169550336f0ccf22b9c",
+    "cohort": "II_medium",
+    "items": 1100,
+    "elements": 1100,
+    "capacity": 2000
+  },
+  {
+    "name": "bmcp_1100_1000_0.3_3000",
+    "sha256": "a5a374a5f12e4030fe103d4654f45bd43e0ff22b108a479c92d2c4b33a40da00",
+    "cohort": "II_medium",
+    "items": 1100,
+    "elements": 1000,
+    "capacity": 3000
+  },
+  {
+    "name": "bmcp_1100_1000_0.5_2000",
+    "sha256": "e1cb38a0c8668b7c42de1e4e28c1c1589ca2c51b88f8b4cce9d5b56d116199ae",
+    "cohort": "II_medium",
+    "items": 1100,
+    "elements": 1000,
+    "capacity": 2000
+  },
+  {
+    "name": "bmcp_1000_1000_0.05_2000",
+    "sha256": "262b248dfa1964f4e2c2be35f531632c8b0454ae0e017842472e336af432f11a",
+    "cohort": "I",
+    "items": 1000,
+    "elements": 1000,
+    "capacity": 2000
+  },
+  {
+    "name": "bmcp_1000_1000_0.075_1500",
+    "sha256": "04ea9140ce7b670f0ed6a73ebe3ef01fd6b6f608ea61d26773caffd4d1c0e517",
+    "cohort": "I",
+    "items": 1000,
+    "elements": 1000,
+    "capacity": 1500
+  },
+  {
+    "name": "bmcp_1000_985_0.05_2000",
+    "sha256": "0eefa0fe8ee1149238acb082800eb9262fb57ec9861978ab654ee876359698d2",
+    "cohort": "I",
+    "items": 1000,
+    "elements": 985,
+    "capacity": 2000
+  },
+  {
+    "name": "bmcp_1000_985_0.075_1500",
+    "sha256": "cef7969e9c86677187a1ab06e5b638d317092224dbbb1da80200ae2453063aab",
+    "cohort": "I",
+    "items": 1000,
+    "elements": 985,
+    "capacity": 1500
+  },
+  {
+    "name": "bmcp_985_1000_0.05_2000",
+    "sha256": "338af1f60244ffb8503cea63db0fdffb8b8abda8f4eddf5234c17f9eb48997e9",
+    "cohort": "I",
+    "items": 985,
+    "elements": 1000,
+    "capacity": 2000
+  },
+  {
+    "name": "bmcp_985_1000_0.075_1500",
+    "sha256": "328585a0b3e91a514bc36112ddbed15d2a9b4424def37e68ef7578eb23bafdb9",
+    "cohort": "I",
+    "items": 985,
+    "elements": 1000,
+    "capacity": 1500
+  },
+  {
+    "name": "bmcp_900_900_0.05_2000",
+    "sha256": "aacf47eaf9c51a3107f38f7bb8cbea769db1b8b1572d182ccae124181e91db00",
+    "cohort": "I",
+    "items": 900,
+    "elements": 900,
+    "capacity": 2000
+  },
+  {
+    "name": "bmcp_900_900_0.075_1500",
+    "sha256": "68ecebbd74094f210310a62dfdc013c0642ef7954f7c596bfa235b2b8d166891",
+    "cohort": "I",
+    "items": 900,
+    "elements": 900,
+    "capacity": 1500
+  },
+  {
+    "name": "bmcp_900_885_0.05_2000",
+    "sha256": "a8ccb556e5eae283e15b43eddd5270fe3f74dfc695fb0eb0a1f99b2af1c3c182",
+    "cohort": "I",
+    "items": 900,
+    "elements": 885,
+    "capacity": 2000
+  },
+  {
+    "name": "bmcp_900_885_0.075_1500",
+    "sha256": "ebadd3fd746929f6424ee67d849e6d857336efb917db65293ec48ec439a04fa7",
+    "cohort": "I",
+    "items": 900,
+    "elements": 885,
+    "capacity": 1500
+  },
+  {
+    "name": "bmcp_885_900_0.05_2000",
+    "sha256": "a1206744895e5d7f3cb818c12c8837efff6b0bdf3e5292a9b096a3cab17d54c7",
+    "cohort": "I",
+    "items": 885,
+    "elements": 900,
+    "capacity": 2000
+  },
+  {
+    "name": "bmcp_885_900_0.075_1500",
+    "sha256": "9f6d6464e22b7815b70e15d2ccb8428569f9cbdf5cdd1bb42045bb4b5d1139eb",
+    "cohort": "I",
+    "items": 885,
+    "elements": 900,
+    "capacity": 1500
+  },
+  {
+    "name": "bmcp_800_800_0.05_2000",
+    "sha256": "74dfa6ec56e8296b23b80f4e3cd2736e66f455ca039f8454c0cdf7ca16f2f423",
+    "cohort": "I",
+    "items": 800,
+    "elements": 800,
+    "capacity": 2000
+  },
+  {
+    "name": "bmcp_800_800_0.075_1500",
+    "sha256": "91b08ec38e9aaa86e0c75fe7b03cf3ffe08cead0fc1edcc351de3ad9b6dbc00a",
+    "cohort": "I",
+    "items": 800,
+    "elements": 800,
+    "capacity": 1500
+  },
+  {
+    "name": "bmcp_800_785_0.05_2000",
+    "sha256": "a049c814e34749a200ec9ce18464033b0a4aff02e590cbc11b0e1c99e63dc019",
+    "cohort": "I",
+    "items": 800,
+    "elements": 785,
+    "capacity": 2000
+  },
+  {
+    "name": "bmcp_800_785_0.075_1500",
+    "sha256": "7a64357a043ffcfeba897f4db7d7b1c8dff3c1619d33484d2b48a714b1587a05",
+    "cohort": "I",
+    "items": 800,
+    "elements": 785,
+    "capacity": 1500
+  },
+  {
+    "name": "bmcp_785_800_0.05_2000",
+    "sha256": "837bc9b2f4268cf4a27bcd35da8469a827a1cdc6d693445848902392f2529290",
+    "cohort": "I",
+    "items": 785,
+    "elements": 800,
+    "capacity": 2000
+  },
+  {
+    "name": "bmcp_785_800_0.075_1500",
+    "sha256": "adac11a280f2c79725c8513ed05302a38e8bd7390c954fc51553df44f494f2d3",
+    "cohort": "I",
+    "items": 785,
+    "elements": 800,
+    "capacity": 1500
+  },
+  {
+    "name": "bmcp_700_700_0.05_2000",
+    "sha256": "6f11d30fde655bbc7d48e1d8204226fb499426d00448def58519dada10e42d7b",
+    "cohort": "I",
+    "items": 700,
+    "elements": 700,
+    "capacity": 2000
+  },
+  {
+    "name": "bmcp_700_700_0.075_1500",
+    "sha256": "b5421d02648e3e4e676f554c492eef3b6e0ab84e7c03a7028943ad507d92c224",
+    "cohort": "I",
+    "items": 700,
+    "elements": 700,
+    "capacity": 1500
+  },
+  {
+    "name": "bmcp_700_685_0.05_2000",
+    "sha256": "7c1a8daf5bb15ab62734cc0dd343525c3d4f3c394cbabd2698ca41b5d898fde2",
+    "cohort": "I",
+    "items": 700,
+    "elements": 685,
+    "capacity": 2000
+  },
+  {
+    "name": "bmcp_700_685_0.075_1500",
+    "sha256": "4ab8df5be4c860974a4d3ed2c8ab511412c074b276c340317f1ea006b9204ad3",
+    "cohort": "I",
+    "items": 700,
+    "elements": 685,
+    "capacity": 1500
+  },
+  {
+    "name": "bmcp_685_700_0.05_2000",
+    "sha256": "cd6ab6132a4a91e01d51af01f2dfc3cb90cc6d583bc57602c9672454a357992b",
+    "cohort": "I",
+    "items": 685,
+    "elements": 700,
+    "capacity": 2000
+  },
+  {
+    "name": "bmcp_685_700_0.075_1500",
+    "sha256": "a7908a211a0a40d183b290397c566c6785d1d019940f87031ca95682bbc91369",
+    "cohort": "I",
+    "items": 685,
+    "elements": 700,
+    "capacity": 1500
+  },
+  {
+    "name": "bmcp_600_600_0.05_2000",
+    "sha256": "1a17da194542806b3438da3321106c79576d8b5b85ed7fe80892b356c5c83fdc",
+    "cohort": "I",
+    "items": 600,
+    "elements": 600,
+    "capacity": 2000
+  },
+  {
+    "name": "bmcp_600_600_0.075_1500",
+    "sha256": "4f39f382aae5f9ca5a0ec24d3cc9b7c6713e07bfa10d6be57b746ac43c61a126",
+    "cohort": "I",
+    "items": 600,
+    "elements": 600,
+    "capacity": 1500
+  },
+  {
+    "name": "bmcp_600_585_0.05_2000",
+    "sha256": "e89bf74bddbdb40b08010c5482da19ee176466358f0fd9fc2a1e79c534a56379",
+    "cohort": "I",
+    "items": 600,
+    "elements": 585,
+    "capacity": 2000
+  },
+  {
+    "name": "bmcp_600_585_0.075_1500",
+    "sha256": "e784360a57f6495f74735bb4d46b91c7c9c63c286f92c6eacfe66418fda1ea62",
+    "cohort": "I",
+    "items": 600,
+    "elements": 585,
+    "capacity": 1500
+  },
+  {
+    "name": "bmcp_585_600_0.05_2000",
+    "sha256": "987f1335988f04a28629a0515acd878bdd8515f48c74e4033bffe843e6088950",
+    "cohort": "I",
+    "items": 585,
+    "elements": 600,
+    "capacity": 2000
+  },
+  {
+    "name": "bmcp_585_600_0.075_1500",
+    "sha256": "5667a23cb3d8a9e35e43d1a946ce14dd09db2e57de9c824ab48f061a892f4693",
+    "cohort": "I",
+    "items": 585,
+    "elements": 600,
+    "capacity": 1500
+  }
+]

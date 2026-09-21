@@ -1,0 +1,2826 @@
+{
+  "all_valid": true,
+  "runs": 90,
+  "protocol_sha256": "5e13231114d34d13abac2d08797c304f7fbb17fdfa29854f3988ed9edbb52b8e",
+  "state_sha256": "d425490e6f1688112cec3edcb90e460c656118f30002e8e2b4bca88386bc04c4",
+  "results_sha256": "9bef01dda519b713b64f7906cd5800cd4097cf8ddde23b40e47b3d7d2e144a6d",
+  "source_sha256": {
+    "bmcp_cpu.cpp": "5868ec7bbb600579603a3c8c7e31e1731978cb7c87f7a5b1f14010d81223fb02",
+    "bmcp_cpu.py": "9781a99a309f3e552be3d7ee83313952d177ee057627ff1bfa756a00c6432b03",
+    "bmcp_cpu.dll": "62e4781b468a34547a6a79c5a7a4b6085b98514201e394aaa7ea4ff52154813e",
+    "libomp.dll": "e2b0e3dd116dd4a5f3438e746eb333861560a05972a799ccf2bb2f2114103458",
+    "build_cpu.py": "27a2909d2701ea0d02b19aa24afdcd56a4b41a4fe5d78494150abbe3692fe2b0",
+    "build_manifest.json": "36306122a5b2bd738d98ca5c934c5bcc2c703191db7d1cb51c279672a523132b",
+    "gpu_platform.py": "c8631d18f3ff505613a53124a2a8c5b18081bdd1c305421da5652c3e0c689e33"
+  },
+  "parent_sha256": {
+    "protocol.json": "3b4454dd1b819c56d21082417e634b5d62d2e6b9b031f84fe2e6c6c81181589e",
+    "state.json": "1b9b82fe2a588c9012b9cf13d21e5f3fbcfb0ef506a03b610308b0a1e0cc6596",
+    "results.jsonl": "d0755e9b7f9d35364d25fc81aed2bca66c4bdda27481dae8db6bbc00758f3de0",
+    "audit_final.json": "a00a3ff5fc3a7c1d303454e87703c7ef40dc1a204a27fd99d36f4b459e359547",
+    "audit_cache.json": "9a01ffc428066a9bb10ed68bff7dc0a68a176ea9577750719533eee69d15eb38"
+  },
+  "coverage": {
+    "platform_counts": {
+      "cpu20": 30,
+      "cpu1": 30,
+      "gpu": 30
+    },
+    "horizon_counts": {
+      "180": 30,
+      "90": 60
+    }
+  },
+  "certificates": [
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "platform": "cpu20",
+        "reference_index": 0,
+        "seconds": 180,
+        "seed": 2026100601,
+        "threads": 20,
+        "work_target_steps": 139
+      },
+      "nominal": {
+        "capacity": 7000,
+        "cost": 6998,
+        "covered_elements": 3598,
+        "feasible": true,
+        "profit": 1901868,
+        "selected_count": 19,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      },
+      "late": {
+        "capacity": 7000,
+        "cost": 6998,
+        "covered_elements": 3598,
+        "feasible": true,
+        "profit": 1901868,
+        "selected_count": 19,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "platform": "cpu1",
+        "reference_index": 0,
+        "seconds": 180,
+        "seed": 2026100601,
+        "threads": 1,
+        "work_target_steps": 139
+      },
+      "nominal": {
+        "capacity": 7000,
+        "cost": 6956,
+        "covered_elements": 3602,
+        "feasible": true,
+        "profit": 1901834,
+        "selected_count": 19,
+        "selection_sha256": "2e38f00fde28cb771fffcd7ba04059084d17fc9417cefce4e26ab098d7df8e9b"
+      },
+      "late": {
+        "capacity": 7000,
+        "cost": 6956,
+        "covered_elements": 3602,
+        "feasible": true,
+        "profit": 1901834,
+        "selected_count": 19,
+        "selection_sha256": "2e38f00fde28cb771fffcd7ba04059084d17fc9417cefce4e26ab098d7df8e9b"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 2,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "platform": "gpu",
+        "reference_index": 0,
+        "seconds": 180,
+        "seed": 2026100601,
+        "threads": null,
+        "work_target_steps": 139
+      },
+      "nominal": {
+        "capacity": 7000,
+        "cost": 6998,
+        "covered_elements": 3598,
+        "feasible": true,
+        "profit": 1901868,
+        "selected_count": 19,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      },
+      "late": {
+        "capacity": 7000,
+        "cost": 6998,
+        "covered_elements": 3598,
+        "feasible": true,
+        "profit": 1901868,
+        "selected_count": 19,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 3,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "platform": "cpu1",
+        "reference_index": 0,
+        "seconds": 180,
+        "seed": 2026100602,
+        "threads": 1,
+        "work_target_steps": 139
+      },
+      "nominal": {
+        "capacity": 7000,
+        "cost": 6978,
+        "covered_elements": 3607,
+        "feasible": true,
+        "profit": 1901720,
+        "selected_count": 19,
+        "selection_sha256": "809a17198090f952220fa2ff20e8cee641d3554599d43e0315d17517e3454f9a"
+      },
+      "late": {
+        "capacity": 7000,
+        "cost": 6978,
+        "covered_elements": 3607,
+        "feasible": true,
+        "profit": 1901720,
+        "selected_count": 19,
+        "selection_sha256": "809a17198090f952220fa2ff20e8cee641d3554599d43e0315d17517e3454f9a"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 4,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "platform": "gpu",
+        "reference_index": 0,
+        "seconds": 180,
+        "seed": 2026100602,
+        "threads": null,
+        "work_target_steps": 139
+      },
+      "nominal": {
+        "capacity": 7000,
+        "cost": 6998,
+        "covered_elements": 3598,
+        "feasible": true,
+        "profit": 1901868,
+        "selected_count": 19,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      },
+      "late": {
+        "capacity": 7000,
+        "cost": 6998,
+        "covered_elements": 3598,
+        "feasible": true,
+        "profit": 1901868,
+        "selected_count": 19,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 5,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "platform": "cpu20",
+        "reference_index": 0,
+        "seconds": 180,
+        "seed": 2026100602,
+        "threads": 20,
+        "work_target_steps": 139
+      },
+      "nominal": {
+        "capacity": 7000,
+        "cost": 6998,
+        "covered_elements": 3598,
+        "feasible": true,
+        "profit": 1901868,
+        "selected_count": 19,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      },
+      "late": {
+        "capacity": 7000,
+        "cost": 6998,
+        "covered_elements": 3598,
+        "feasible": true,
+        "profit": 1901868,
+        "selected_count": 19,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 6,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "platform": "cpu20",
+        "reference_index": 0,
+        "seconds": 180,
+        "seed": 2026100603,
+        "threads": 20,
+        "work_target_steps": 139
+      },
+      "nominal": {
+        "capacity": 7000,
+        "cost": 6998,
+        "covered_elements": 3598,
+        "feasible": true,
+        "profit": 1901868,
+        "selected_count": 19,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      },
+      "late": {
+        "capacity": 7000,
+        "cost": 6998,
+        "covered_elements": 3598,
+        "feasible": true,
+        "profit": 1901868,
+        "selected_count": 19,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 7,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "platform": "cpu1",
+        "reference_index": 0,
+        "seconds": 180,
+        "seed": 2026100603,
+        "threads": 1,
+        "work_target_steps": 139
+      },
+      "nominal": {
+        "capacity": 7000,
+        "cost": 6978,
+        "covered_elements": 3607,
+        "feasible": true,
+        "profit": 1901720,
+        "selected_count": 19,
+        "selection_sha256": "809a17198090f952220fa2ff20e8cee641d3554599d43e0315d17517e3454f9a"
+      },
+      "late": {
+        "capacity": 7000,
+        "cost": 6978,
+        "covered_elements": 3607,
+        "feasible": true,
+        "profit": 1901720,
+        "selected_count": 19,
+        "selection_sha256": "809a17198090f952220fa2ff20e8cee641d3554599d43e0315d17517e3454f9a"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 8,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "platform": "gpu",
+        "reference_index": 0,
+        "seconds": 180,
+        "seed": 2026100603,
+        "threads": null,
+        "work_target_steps": 139
+      },
+      "nominal": {
+        "capacity": 7000,
+        "cost": 6998,
+        "covered_elements": 3598,
+        "feasible": true,
+        "profit": 1901868,
+        "selected_count": 19,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      },
+      "late": {
+        "capacity": 7000,
+        "cost": 6998,
+        "covered_elements": 3598,
+        "feasible": true,
+        "profit": 1901868,
+        "selected_count": 19,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 9,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "platform": "cpu1",
+        "reference_index": 0,
+        "seconds": 180,
+        "seed": 2026100604,
+        "threads": 1,
+        "work_target_steps": 139
+      },
+      "nominal": {
+        "capacity": 7000,
+        "cost": 6986,
+        "covered_elements": 3597,
+        "feasible": true,
+        "profit": 1900226,
+        "selected_count": 19,
+        "selection_sha256": "fd97cad3ebd840e9b9faaadafd8b5cda4818df07463b286e3f433445d301a2e6"
+      },
+      "late": {
+        "capacity": 7000,
+        "cost": 6986,
+        "covered_elements": 3597,
+        "feasible": true,
+        "profit": 1900226,
+        "selected_count": 19,
+        "selection_sha256": "fd97cad3ebd840e9b9faaadafd8b5cda4818df07463b286e3f433445d301a2e6"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 10,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "platform": "cpu20",
+        "reference_index": 0,
+        "seconds": 180,
+        "seed": 2026100604,
+        "threads": 20,
+        "work_target_steps": 139
+      },
+      "nominal": {
+        "capacity": 7000,
+        "cost": 6998,
+        "covered_elements": 3598,
+        "feasible": true,
+        "profit": 1901868,
+        "selected_count": 19,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      },
+      "late": {
+        "capacity": 7000,
+        "cost": 6998,
+        "covered_elements": 3598,
+        "feasible": true,
+        "profit": 1901868,
+        "selected_count": 19,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 11,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "platform": "gpu",
+        "reference_index": 0,
+        "seconds": 180,
+        "seed": 2026100604,
+        "threads": null,
+        "work_target_steps": 139
+      },
+      "nominal": {
+        "capacity": 7000,
+        "cost": 6998,
+        "covered_elements": 3598,
+        "feasible": true,
+        "profit": 1901868,
+        "selected_count": 19,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      },
+      "late": {
+        "capacity": 7000,
+        "cost": 6998,
+        "covered_elements": 3598,
+        "feasible": true,
+        "profit": 1901868,
+        "selected_count": 19,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 12,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "platform": "cpu1",
+        "reference_index": 0,
+        "seconds": 180,
+        "seed": 2026100605,
+        "threads": 1,
+        "work_target_steps": 139
+      },
+      "nominal": {
+        "capacity": 7000,
+        "cost": 6958,
+        "covered_elements": 3601,
+        "feasible": true,
+        "profit": 1901515,
+        "selected_count": 19,
+        "selection_sha256": "1e5494a470007bbcbd3f6ea8b5b94f0b6af18b3217b2d46f81d54de844085bed"
+      },
+      "late": {
+        "capacity": 7000,
+        "cost": 6958,
+        "covered_elements": 3601,
+        "feasible": true,
+        "profit": 1901515,
+        "selected_count": 19,
+        "selection_sha256": "1e5494a470007bbcbd3f6ea8b5b94f0b6af18b3217b2d46f81d54de844085bed"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 13,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "platform": "gpu",
+        "reference_index": 0,
+        "seconds": 180,
+        "seed": 2026100605,
+        "threads": null,
+        "work_target_steps": 139
+      },
+      "nominal": {
+        "capacity": 7000,
+        "cost": 6998,
+        "covered_elements": 3598,
+        "feasible": true,
+        "profit": 1901868,
+        "selected_count": 19,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      },
+      "late": {
+        "capacity": 7000,
+        "cost": 6998,
+        "covered_elements": 3598,
+        "feasible": true,
+        "profit": 1901868,
+        "selected_count": 19,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 14,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "platform": "cpu20",
+        "reference_index": 0,
+        "seconds": 180,
+        "seed": 2026100605,
+        "threads": 20,
+        "work_target_steps": 139
+      },
+      "nominal": {
+        "capacity": 7000,
+        "cost": 6998,
+        "covered_elements": 3598,
+        "feasible": true,
+        "profit": 1901868,
+        "selected_count": 19,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      },
+      "late": {
+        "capacity": 7000,
+        "cost": 6998,
+        "covered_elements": 3598,
+        "feasible": true,
+        "profit": 1901868,
+        "selected_count": 19,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 15,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "platform": "cpu20",
+        "reference_index": 0,
+        "seconds": 180,
+        "seed": 2026100606,
+        "threads": 20,
+        "work_target_steps": 139
+      },
+      "nominal": {
+        "capacity": 7000,
+        "cost": 6998,
+        "covered_elements": 3598,
+        "feasible": true,
+        "profit": 1901868,
+        "selected_count": 19,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      },
+      "late": {
+        "capacity": 7000,
+        "cost": 6998,
+        "covered_elements": 3598,
+        "feasible": true,
+        "profit": 1901868,
+        "selected_count": 19,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 16,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "platform": "cpu1",
+        "reference_index": 0,
+        "seconds": 180,
+        "seed": 2026100606,
+        "threads": 1,
+        "work_target_steps": 139
+      },
+      "nominal": {
+        "capacity": 7000,
+        "cost": 6956,
+        "covered_elements": 3602,
+        "feasible": true,
+        "profit": 1901834,
+        "selected_count": 19,
+        "selection_sha256": "2e38f00fde28cb771fffcd7ba04059084d17fc9417cefce4e26ab098d7df8e9b"
+      },
+      "late": {
+        "capacity": 7000,
+        "cost": 6956,
+        "covered_elements": 3602,
+        "feasible": true,
+        "profit": 1901834,
+        "selected_count": 19,
+        "selection_sha256": "2e38f00fde28cb771fffcd7ba04059084d17fc9417cefce4e26ab098d7df8e9b"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 17,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "platform": "gpu",
+        "reference_index": 0,
+        "seconds": 180,
+        "seed": 2026100606,
+        "threads": null,
+        "work_target_steps": 139
+      },
+      "nominal": {
+        "capacity": 7000,
+        "cost": 6998,
+        "covered_elements": 3598,
+        "feasible": true,
+        "profit": 1901868,
+        "selected_count": 19,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      },
+      "late": {
+        "capacity": 7000,
+        "cost": 6998,
+        "covered_elements": 3598,
+        "feasible": true,
+        "profit": 1901868,
+        "selected_count": 19,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 18,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "platform": "cpu20",
+        "reference_index": 0,
+        "seconds": 180,
+        "seed": 2026100607,
+        "threads": 20,
+        "work_target_steps": 139
+      },
+      "nominal": {
+        "capacity": 7000,
+        "cost": 6998,
+        "covered_elements": 3598,
+        "feasible": true,
+        "profit": 1901868,
+        "selected_count": 19,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      },
+      "late": {
+        "capacity": 7000,
+        "cost": 6998,
+        "covered_elements": 3598,
+        "feasible": true,
+        "profit": 1901868,
+        "selected_count": 19,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 19,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "platform": "cpu1",
+        "reference_index": 0,
+        "seconds": 180,
+        "seed": 2026100607,
+        "threads": 1,
+        "work_target_steps": 139
+      },
+      "nominal": {
+        "capacity": 7000,
+        "cost": 6978,
+        "covered_elements": 3607,
+        "feasible": true,
+        "profit": 1901720,
+        "selected_count": 19,
+        "selection_sha256": "809a17198090f952220fa2ff20e8cee641d3554599d43e0315d17517e3454f9a"
+      },
+      "late": {
+        "capacity": 7000,
+        "cost": 6978,
+        "covered_elements": 3607,
+        "feasible": true,
+        "profit": 1901720,
+        "selected_count": 19,
+        "selection_sha256": "809a17198090f952220fa2ff20e8cee641d3554599d43e0315d17517e3454f9a"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 20,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "platform": "gpu",
+        "reference_index": 0,
+        "seconds": 180,
+        "seed": 2026100607,
+        "threads": null,
+        "work_target_steps": 139
+      },
+      "nominal": {
+        "capacity": 7000,
+        "cost": 6998,
+        "covered_elements": 3598,
+        "feasible": true,
+        "profit": 1901868,
+        "selected_count": 19,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      },
+      "late": {
+        "capacity": 7000,
+        "cost": 6998,
+        "covered_elements": 3598,
+        "feasible": true,
+        "profit": 1901868,
+        "selected_count": 19,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 21,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "platform": "cpu1",
+        "reference_index": 0,
+        "seconds": 180,
+        "seed": 2026100608,
+        "threads": 1,
+        "work_target_steps": 139
+      },
+      "nominal": {
+        "capacity": 7000,
+        "cost": 6978,
+        "covered_elements": 3607,
+        "feasible": true,
+        "profit": 1901720,
+        "selected_count": 19,
+        "selection_sha256": "809a17198090f952220fa2ff20e8cee641d3554599d43e0315d17517e3454f9a"
+      },
+      "late": {
+        "capacity": 7000,
+        "cost": 6978,
+        "covered_elements": 3607,
+        "feasible": true,
+        "profit": 1901720,
+        "selected_count": 19,
+        "selection_sha256": "809a17198090f952220fa2ff20e8cee641d3554599d43e0315d17517e3454f9a"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 22,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "platform": "gpu",
+        "reference_index": 0,
+        "seconds": 180,
+        "seed": 2026100608,
+        "threads": null,
+        "work_target_steps": 139
+      },
+      "nominal": {
+        "capacity": 7000,
+        "cost": 6998,
+        "covered_elements": 3598,
+        "feasible": true,
+        "profit": 1901868,
+        "selected_count": 19,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      },
+      "late": {
+        "capacity": 7000,
+        "cost": 6998,
+        "covered_elements": 3598,
+        "feasible": true,
+        "profit": 1901868,
+        "selected_count": 19,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 23,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "platform": "cpu20",
+        "reference_index": 0,
+        "seconds": 180,
+        "seed": 2026100608,
+        "threads": 20,
+        "work_target_steps": 139
+      },
+      "nominal": {
+        "capacity": 7000,
+        "cost": 6998,
+        "covered_elements": 3598,
+        "feasible": true,
+        "profit": 1901868,
+        "selected_count": 19,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      },
+      "late": {
+        "capacity": 7000,
+        "cost": 6998,
+        "covered_elements": 3598,
+        "feasible": true,
+        "profit": 1901868,
+        "selected_count": 19,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 24,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "platform": "cpu1",
+        "reference_index": 0,
+        "seconds": 180,
+        "seed": 2026100609,
+        "threads": 1,
+        "work_target_steps": 139
+      },
+      "nominal": {
+        "capacity": 7000,
+        "cost": 6956,
+        "covered_elements": 3602,
+        "feasible": true,
+        "profit": 1901834,
+        "selected_count": 19,
+        "selection_sha256": "2e38f00fde28cb771fffcd7ba04059084d17fc9417cefce4e26ab098d7df8e9b"
+      },
+      "late": {
+        "capacity": 7000,
+        "cost": 6956,
+        "covered_elements": 3602,
+        "feasible": true,
+        "profit": 1901834,
+        "selected_count": 19,
+        "selection_sha256": "2e38f00fde28cb771fffcd7ba04059084d17fc9417cefce4e26ab098d7df8e9b"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 25,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "platform": "gpu",
+        "reference_index": 0,
+        "seconds": 180,
+        "seed": 2026100609,
+        "threads": null,
+        "work_target_steps": 139
+      },
+      "nominal": {
+        "capacity": 7000,
+        "cost": 6998,
+        "covered_elements": 3598,
+        "feasible": true,
+        "profit": 1901868,
+        "selected_count": 19,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      },
+      "late": {
+        "capacity": 7000,
+        "cost": 6998,
+        "covered_elements": 3598,
+        "feasible": true,
+        "profit": 1901868,
+        "selected_count": 19,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 26,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "platform": "cpu20",
+        "reference_index": 0,
+        "seconds": 180,
+        "seed": 2026100609,
+        "threads": 20,
+        "work_target_steps": 139
+      },
+      "nominal": {
+        "capacity": 7000,
+        "cost": 6998,
+        "covered_elements": 3598,
+        "feasible": true,
+        "profit": 1901868,
+        "selected_count": 19,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      },
+      "late": {
+        "capacity": 7000,
+        "cost": 6998,
+        "covered_elements": 3598,
+        "feasible": true,
+        "profit": 1901868,
+        "selected_count": 19,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 27,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "platform": "cpu1",
+        "reference_index": 0,
+        "seconds": 180,
+        "seed": 2026100610,
+        "threads": 1,
+        "work_target_steps": 139
+      },
+      "nominal": {
+        "capacity": 7000,
+        "cost": 6978,
+        "covered_elements": 3607,
+        "feasible": true,
+        "profit": 1901720,
+        "selected_count": 19,
+        "selection_sha256": "809a17198090f952220fa2ff20e8cee641d3554599d43e0315d17517e3454f9a"
+      },
+      "late": {
+        "capacity": 7000,
+        "cost": 6978,
+        "covered_elements": 3607,
+        "feasible": true,
+        "profit": 1901720,
+        "selected_count": 19,
+        "selection_sha256": "809a17198090f952220fa2ff20e8cee641d3554599d43e0315d17517e3454f9a"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 28,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "platform": "gpu",
+        "reference_index": 0,
+        "seconds": 180,
+        "seed": 2026100610,
+        "threads": null,
+        "work_target_steps": 139
+      },
+      "nominal": {
+        "capacity": 7000,
+        "cost": 6998,
+        "covered_elements": 3598,
+        "feasible": true,
+        "profit": 1901868,
+        "selected_count": 19,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      },
+      "late": {
+        "capacity": 7000,
+        "cost": 6998,
+        "covered_elements": 3598,
+        "feasible": true,
+        "profit": 1901868,
+        "selected_count": 19,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 29,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "platform": "cpu20",
+        "reference_index": 0,
+        "seconds": 180,
+        "seed": 2026100610,
+        "threads": 20,
+        "work_target_steps": 139
+      },
+      "nominal": {
+        "capacity": 7000,
+        "cost": 6998,
+        "covered_elements": 3598,
+        "feasible": true,
+        "profit": 1901868,
+        "selected_count": 19,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      },
+      "late": {
+        "capacity": 7000,
+        "cost": 6998,
+        "covered_elements": 3598,
+        "feasible": true,
+        "profit": 1901868,
+        "selected_count": 19,
+        "selection_sha256": "a20d715ed07400740a25a117374d0e60c0ea092a0b3c645a350bbd2b8af3a661"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 30,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "platform": "cpu1",
+        "reference_index": 1,
+        "seconds": 90,
+        "seed": 2026100601,
+        "threads": 1,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 1997,
+        "covered_elements": 1077,
+        "feasible": true,
+        "profit": 162189,
+        "selected_count": 19,
+        "selection_sha256": "0b158ad50eedd88e0f03975f9d5c0c4e01ead92653815a18da2c89297154df7a"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 1997,
+        "covered_elements": 1077,
+        "feasible": true,
+        "profit": 162189,
+        "selected_count": 19,
+        "selection_sha256": "0b158ad50eedd88e0f03975f9d5c0c4e01ead92653815a18da2c89297154df7a"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 31,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "platform": "cpu20",
+        "reference_index": 1,
+        "seconds": 90,
+        "seed": 2026100601,
+        "threads": 20,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 32,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "platform": "gpu",
+        "reference_index": 1,
+        "seconds": 90,
+        "seed": 2026100601,
+        "threads": null,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 33,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "platform": "gpu",
+        "reference_index": 1,
+        "seconds": 90,
+        "seed": 2026100602,
+        "threads": null,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 34,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "platform": "cpu1",
+        "reference_index": 1,
+        "seconds": 90,
+        "seed": 2026100602,
+        "threads": 1,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 1997,
+        "covered_elements": 1077,
+        "feasible": true,
+        "profit": 162189,
+        "selected_count": 19,
+        "selection_sha256": "0b158ad50eedd88e0f03975f9d5c0c4e01ead92653815a18da2c89297154df7a"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 1997,
+        "covered_elements": 1077,
+        "feasible": true,
+        "profit": 162189,
+        "selected_count": 19,
+        "selection_sha256": "0b158ad50eedd88e0f03975f9d5c0c4e01ead92653815a18da2c89297154df7a"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 35,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "platform": "cpu20",
+        "reference_index": 1,
+        "seconds": 90,
+        "seed": 2026100602,
+        "threads": 20,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 36,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "platform": "cpu1",
+        "reference_index": 1,
+        "seconds": 90,
+        "seed": 2026100603,
+        "threads": 1,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 1997,
+        "covered_elements": 1077,
+        "feasible": true,
+        "profit": 162189,
+        "selected_count": 19,
+        "selection_sha256": "0b158ad50eedd88e0f03975f9d5c0c4e01ead92653815a18da2c89297154df7a"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 1997,
+        "covered_elements": 1077,
+        "feasible": true,
+        "profit": 162189,
+        "selected_count": 19,
+        "selection_sha256": "0b158ad50eedd88e0f03975f9d5c0c4e01ead92653815a18da2c89297154df7a"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 37,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "platform": "cpu20",
+        "reference_index": 1,
+        "seconds": 90,
+        "seed": 2026100603,
+        "threads": 20,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 1997,
+        "covered_elements": 1077,
+        "feasible": true,
+        "profit": 162189,
+        "selected_count": 19,
+        "selection_sha256": "0b158ad50eedd88e0f03975f9d5c0c4e01ead92653815a18da2c89297154df7a"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 1997,
+        "covered_elements": 1077,
+        "feasible": true,
+        "profit": 162189,
+        "selected_count": 19,
+        "selection_sha256": "0b158ad50eedd88e0f03975f9d5c0c4e01ead92653815a18da2c89297154df7a"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 38,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "platform": "gpu",
+        "reference_index": 1,
+        "seconds": 90,
+        "seed": 2026100603,
+        "threads": null,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 39,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "platform": "cpu1",
+        "reference_index": 1,
+        "seconds": 90,
+        "seed": 2026100604,
+        "threads": 1,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 1997,
+        "covered_elements": 1077,
+        "feasible": true,
+        "profit": 162189,
+        "selected_count": 19,
+        "selection_sha256": "0b158ad50eedd88e0f03975f9d5c0c4e01ead92653815a18da2c89297154df7a"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 1997,
+        "covered_elements": 1077,
+        "feasible": true,
+        "profit": 162189,
+        "selected_count": 19,
+        "selection_sha256": "0b158ad50eedd88e0f03975f9d5c0c4e01ead92653815a18da2c89297154df7a"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 40,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "platform": "cpu20",
+        "reference_index": 1,
+        "seconds": 90,
+        "seed": 2026100604,
+        "threads": 20,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 41,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "platform": "gpu",
+        "reference_index": 1,
+        "seconds": 90,
+        "seed": 2026100604,
+        "threads": null,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 42,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "platform": "cpu20",
+        "reference_index": 1,
+        "seconds": 90,
+        "seed": 2026100605,
+        "threads": 20,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 43,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "platform": "cpu1",
+        "reference_index": 1,
+        "seconds": 90,
+        "seed": 2026100605,
+        "threads": 1,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 1997,
+        "covered_elements": 1077,
+        "feasible": true,
+        "profit": 162189,
+        "selected_count": 19,
+        "selection_sha256": "0b158ad50eedd88e0f03975f9d5c0c4e01ead92653815a18da2c89297154df7a"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 1997,
+        "covered_elements": 1077,
+        "feasible": true,
+        "profit": 162189,
+        "selected_count": 19,
+        "selection_sha256": "0b158ad50eedd88e0f03975f9d5c0c4e01ead92653815a18da2c89297154df7a"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 44,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "platform": "gpu",
+        "reference_index": 1,
+        "seconds": 90,
+        "seed": 2026100605,
+        "threads": null,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 45,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "platform": "gpu",
+        "reference_index": 1,
+        "seconds": 90,
+        "seed": 2026100606,
+        "threads": null,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 46,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "platform": "cpu20",
+        "reference_index": 1,
+        "seconds": 90,
+        "seed": 2026100606,
+        "threads": 20,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 47,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "platform": "cpu1",
+        "reference_index": 1,
+        "seconds": 90,
+        "seed": 2026100606,
+        "threads": 1,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 1997,
+        "covered_elements": 1077,
+        "feasible": true,
+        "profit": 162189,
+        "selected_count": 19,
+        "selection_sha256": "0b158ad50eedd88e0f03975f9d5c0c4e01ead92653815a18da2c89297154df7a"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 1997,
+        "covered_elements": 1077,
+        "feasible": true,
+        "profit": 162189,
+        "selected_count": 19,
+        "selection_sha256": "0b158ad50eedd88e0f03975f9d5c0c4e01ead92653815a18da2c89297154df7a"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 48,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "platform": "gpu",
+        "reference_index": 1,
+        "seconds": 90,
+        "seed": 2026100607,
+        "threads": null,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 49,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "platform": "cpu1",
+        "reference_index": 1,
+        "seconds": 90,
+        "seed": 2026100607,
+        "threads": 1,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 50,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "platform": "cpu20",
+        "reference_index": 1,
+        "seconds": 90,
+        "seed": 2026100607,
+        "threads": 20,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 51,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "platform": "cpu1",
+        "reference_index": 1,
+        "seconds": 90,
+        "seed": 2026100608,
+        "threads": 1,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 52,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "platform": "cpu20",
+        "reference_index": 1,
+        "seconds": 90,
+        "seed": 2026100608,
+        "threads": 20,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 53,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "platform": "gpu",
+        "reference_index": 1,
+        "seconds": 90,
+        "seed": 2026100608,
+        "threads": null,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 54,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "platform": "gpu",
+        "reference_index": 1,
+        "seconds": 90,
+        "seed": 2026100609,
+        "threads": null,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 55,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "platform": "cpu20",
+        "reference_index": 1,
+        "seconds": 90,
+        "seed": 2026100609,
+        "threads": 20,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 56,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "platform": "cpu1",
+        "reference_index": 1,
+        "seconds": 90,
+        "seed": 2026100609,
+        "threads": 1,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 57,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "platform": "cpu20",
+        "reference_index": 1,
+        "seconds": 90,
+        "seed": 2026100610,
+        "threads": 20,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 58,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "platform": "gpu",
+        "reference_index": 1,
+        "seconds": 90,
+        "seed": 2026100610,
+        "threads": null,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 1084,
+        "feasible": true,
+        "profit": 162514,
+        "selected_count": 19,
+        "selection_sha256": "5a7fa376c8639de38718c85556f35f31af8d7394b666827683f820a02b94ad73"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 59,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "platform": "cpu1",
+        "reference_index": 1,
+        "seconds": 90,
+        "seed": 2026100610,
+        "threads": 1,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 1997,
+        "covered_elements": 1077,
+        "feasible": true,
+        "profit": 162189,
+        "selected_count": 19,
+        "selection_sha256": "0b158ad50eedd88e0f03975f9d5c0c4e01ead92653815a18da2c89297154df7a"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 1997,
+        "covered_elements": 1077,
+        "feasible": true,
+        "profit": 162189,
+        "selected_count": 19,
+        "selection_sha256": "0b158ad50eedd88e0f03975f9d5c0c4e01ead92653815a18da2c89297154df7a"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 60,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "platform": "cpu20",
+        "reference_index": 2,
+        "seconds": 90,
+        "seed": 2026100601,
+        "threads": 20,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 61,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "platform": "gpu",
+        "reference_index": 2,
+        "seconds": 90,
+        "seed": 2026100601,
+        "threads": null,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 62,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "platform": "cpu1",
+        "reference_index": 2,
+        "seconds": 90,
+        "seed": 2026100601,
+        "threads": 1,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 63,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "platform": "gpu",
+        "reference_index": 2,
+        "seconds": 90,
+        "seed": 2026100602,
+        "threads": null,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 64,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "platform": "cpu1",
+        "reference_index": 2,
+        "seconds": 90,
+        "seed": 2026100602,
+        "threads": 1,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 65,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "platform": "cpu20",
+        "reference_index": 2,
+        "seconds": 90,
+        "seed": 2026100602,
+        "threads": 20,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 66,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "platform": "cpu1",
+        "reference_index": 2,
+        "seconds": 90,
+        "seed": 2026100603,
+        "threads": 1,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 67,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "platform": "cpu20",
+        "reference_index": 2,
+        "seconds": 90,
+        "seed": 2026100603,
+        "threads": 20,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 68,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "platform": "gpu",
+        "reference_index": 2,
+        "seconds": 90,
+        "seed": 2026100603,
+        "threads": null,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 69,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "platform": "cpu20",
+        "reference_index": 2,
+        "seconds": 90,
+        "seed": 2026100604,
+        "threads": 20,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 70,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "platform": "cpu1",
+        "reference_index": 2,
+        "seconds": 90,
+        "seed": 2026100604,
+        "threads": 1,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 71,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "platform": "gpu",
+        "reference_index": 2,
+        "seconds": 90,
+        "seed": 2026100604,
+        "threads": null,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 72,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "platform": "gpu",
+        "reference_index": 2,
+        "seconds": 90,
+        "seed": 2026100605,
+        "threads": null,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 73,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "platform": "cpu20",
+        "reference_index": 2,
+        "seconds": 90,
+        "seed": 2026100605,
+        "threads": 20,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 74,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "platform": "cpu1",
+        "reference_index": 2,
+        "seconds": 90,
+        "seed": 2026100605,
+        "threads": 1,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 75,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "platform": "gpu",
+        "reference_index": 2,
+        "seconds": 90,
+        "seed": 2026100606,
+        "threads": null,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 76,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "platform": "cpu20",
+        "reference_index": 2,
+        "seconds": 90,
+        "seed": 2026100606,
+        "threads": 20,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 77,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "platform": "cpu1",
+        "reference_index": 2,
+        "seconds": 90,
+        "seed": 2026100606,
+        "threads": 1,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 78,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "platform": "gpu",
+        "reference_index": 2,
+        "seconds": 90,
+        "seed": 2026100607,
+        "threads": null,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 79,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "platform": "cpu1",
+        "reference_index": 2,
+        "seconds": 90,
+        "seed": 2026100607,
+        "threads": 1,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 80,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "platform": "cpu20",
+        "reference_index": 2,
+        "seconds": 90,
+        "seed": 2026100607,
+        "threads": 20,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 81,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "platform": "gpu",
+        "reference_index": 2,
+        "seconds": 90,
+        "seed": 2026100608,
+        "threads": null,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 82,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "platform": "cpu1",
+        "reference_index": 2,
+        "seconds": 90,
+        "seed": 2026100608,
+        "threads": 1,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 83,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "platform": "cpu20",
+        "reference_index": 2,
+        "seconds": 90,
+        "seed": 2026100608,
+        "threads": 20,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 84,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "platform": "cpu20",
+        "reference_index": 2,
+        "seconds": 90,
+        "seed": 2026100609,
+        "threads": 20,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 85,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "platform": "gpu",
+        "reference_index": 2,
+        "seconds": 90,
+        "seed": 2026100609,
+        "threads": null,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 86,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "platform": "cpu1",
+        "reference_index": 2,
+        "seconds": 90,
+        "seed": 2026100609,
+        "threads": 1,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 87,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "platform": "cpu1",
+        "reference_index": 2,
+        "seconds": 90,
+        "seed": 2026100610,
+        "threads": 1,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 88,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "platform": "gpu",
+        "reference_index": 2,
+        "seconds": 90,
+        "seed": 2026100610,
+        "threads": null,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    },
+    {
+      "cell": {
+        "batch_steps": 1,
+        "index": 89,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "platform": "cpu20",
+        "reference_index": 2,
+        "seconds": 90,
+        "seed": 2026100610,
+        "threads": 20,
+        "work_target_steps": 512
+      },
+      "nominal": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      },
+      "late": {
+        "capacity": 2000,
+        "cost": 2000,
+        "covered_elements": 615,
+        "feasible": true,
+        "profit": 92740,
+        "selected_count": 19,
+        "selection_sha256": "f69d3631319c7b046d4ba6fc9a3743c690bbd1aa0d3f418c9ec39bb49cc2e8f0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "instance_sha256": "04ea9140ce7b670f0ed6a73ebe3ef01fd6b6f608ea61d26773caffd4d1c0e517",
+  "seed": 2026092101,
+  "profit": 120246,
+  "cost": 1497,
+  "capacity": 1500,
+  "covered_elements": 790,
+  "selected_count": 14,
+  "selected_items_0based": [
+    25,
+    185,
+    279,
+    438,
+    448,
+    471,
+    549,
+    550,
+    615,
+    665,
+    784,
+    858,
+    886,
+    931
+  ],
+  "certificate": {
+    "profit": 120246,
+    "cost": 1497,
+    "capacity": 1500,
+    "feasible": true,
+    "selected_count": 14,
+    "covered_elements": 790,
+    "selection_sha256": "a0417500081e17758a503bffbf625250d127df70a427ecd2073faedde150987e"
+  },
+  "protocol_sha256": "fd0e37095b7319d7e7176633ec9511134c08d4fac0da46d717b737bf6df57ee3",
+  "source_sha256": {
+    "bmcp_gpu.py": "ae86db869c44aa888a1cd57f76684972e44daa4af9532d26e0620b693e77471f",
+    "bmcp_search.cu": "16d8801d564ee9425b7c3e0ce21dd3b95b35a2b7f0f2c7a3af58eb5e0168908e",
+    "bmcp_io.py": "0e96030b91e6c159187163025cc76100ad1c21dc8511fb854e8778a1844943c7",
+    "cuda_backend.py": "89010eefe2ec05aee2aa65a3aef26873210c9778d9b4adf09f6da1702e529a13"
+  },
+  "instance": "bmcp_1000_1000_0.075_1500",
+  "selected_items_1based": [
+    26,
+    186,
+    280,
+    439,
+    449,
+    472,
+    550,
+    551,
+    616,
+    666,
+    785,
+    859,
+    887,
+    932
+  ],
+  "selection_rule": "Smallest seed among runs attaining the best objective; not selected by time.",
+  "cohort": "I",
+  "published_BKV": 120246
+}

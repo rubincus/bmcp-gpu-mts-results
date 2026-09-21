@@ -1,0 +1,14 @@
+\begin{table}[tbp]\centering\small
+\caption{Comparaciones de media por instancia frente a GPU-MTS. Ventaja normalizada en puntos porcentuales; intervalo bootstrap descriptivo del 95\%. Signos bilateral y Holm para cuatro comparaciones.}
+\label{tab:statistical}
+\begin{tabular}{lrrrr}
+\toprule
+Método & G/E/P & Efecto medio & Intervalo 95\% & $p_{\rm H}$\\
+\midrule
+PLTS & 89/1/0 & 2.39 & [2.01, 2.78] & $<0.001$\\
+VDLS & 87/3/0 & 0.461 & [0.404, 0.519] & $<0.001$\\
+IHS & 30/60/0 & 0.0443 & [0.0225, 0.0700] & $<0.001$\\
+ANRMA & 25/65/0 & 0.0266 & [0.0139, 0.0410] & $<0.001$\\
+\bottomrule\end{tabular}
+\par\smallskip\parbox{.97\linewidth}{\footnotesize Los valores p inferiores a 0.001 se muestran mediante ese umbral; el archivo de análisis conserva la precisión completa.}
+\end{table}

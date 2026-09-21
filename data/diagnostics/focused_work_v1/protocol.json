@@ -1,0 +1,900 @@
+{
+  "schema_version": 1,
+  "problem": "BMCP",
+  "stage": "focused_work_v1",
+  "created_at_utc": "2026-09-19T22:37:36.091761+00:00",
+  "runner_sha256": "15227cacbd3d3db36d87d20e0c46686c56d2223a811158e7286b92d03dc62d2e",
+  "configurations": [
+    {
+      "id": "base",
+      "parameters": {
+        "blocks": 128,
+        "stagnation": 300,
+        "outgoing": 4,
+        "temperature": 0.03,
+        "destroy_low": 0.12,
+        "destroy_high": 0.7
+      }
+    },
+    {
+      "id": "outgoing_2",
+      "parameters": {
+        "blocks": 128,
+        "stagnation": 300,
+        "outgoing": 2,
+        "temperature": 0.03,
+        "destroy_low": 0.12,
+        "destroy_high": 0.7
+      }
+    }
+  ],
+  "seeds": [
+    2026100501,
+    2026100502,
+    2026100503,
+    2026100504,
+    2026100505,
+    2026100506,
+    2026100507,
+    2026100508,
+    2026100509,
+    2026100510
+  ],
+  "schedule_seed": 2026100006,
+  "references": [
+    {
+      "name": "bmcp_4600_4400_0.5_7000",
+      "group": "BMCP_Set_II",
+      "table": "C.2",
+      "page": 41,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "items": 4600,
+      "elements": 4400,
+      "capacity": 7000,
+      "density": 0.05869258893280632,
+      "degree_min": 211,
+      "degree_max": 326,
+      "relative_path": "instances/bmcp_4600_4400_0.5_7000.txt",
+      "sha256": "92eb8136640431faf6f973ce0b1f8e4ee2bd6344d3a95d92c1e61fd1e02f830c",
+      "bkv_column": 1898602,
+      "plts_best": 1845046,
+      "plts_mean": 1817697.0,
+      "vdls_best": 1898602,
+      "vdls_mean": 1889659.0,
+      "ihs_best": 1901834,
+      "ihs_mean": 1901834.0,
+      "anrma_best": 1901834,
+      "anrma_mean": 1900506.0,
+      "anrma_sd": 1357.53,
+      "anrma_tavg": 645.1,
+      "published_runs": 30,
+      "published_seconds": 1800,
+      "reference_best": 1901834,
+      "reference_scope": "maximum reported in SWEVO2026 Table C.2",
+      "cohort": "II_large",
+      "common_target": 1901868,
+      "panel_role": "tail"
+    },
+    {
+      "name": "bmcp_1300_1300_0.5_2000",
+      "group": "BMCP_Set_II",
+      "table": "C.2",
+      "page": 40,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "items": 1300,
+      "elements": 1300,
+      "capacity": 2000,
+      "density": 0.05870414201183432,
+      "degree_min": 54,
+      "degree_max": 103,
+      "relative_path": "instances/bmcp_1300_1300_0.5_2000.txt",
+      "sha256": "f7f591a886d659144d55326cdfdb7ff4f4272d97a208b82b7b654d60bf5914d1",
+      "bkv_column": 162146,
+      "plts_best": 160485,
+      "plts_mean": 159511.0,
+      "vdls_best": 162146,
+      "vdls_mean": 161537.0,
+      "ihs_best": 162514,
+      "ihs_mean": 162211.0,
+      "anrma_best": 162514,
+      "anrma_mean": 162514.0,
+      "anrma_sd": 0.0,
+      "anrma_tavg": 142.39,
+      "published_runs": 30,
+      "published_seconds": 1800,
+      "reference_best": 162514,
+      "reference_scope": "maximum reported in SWEVO2026 Table C.2",
+      "cohort": "II_medium",
+      "common_target": 162514,
+      "panel_role": "tail"
+    },
+    {
+      "name": "bmcp_785_800_0.05_2000",
+      "group": "BMCP_Set_I",
+      "table": "C.1",
+      "page": 39,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "items": 785,
+      "elements": 800,
+      "capacity": 2000,
+      "density": 0.05032165605095541,
+      "degree_min": 21,
+      "degree_max": 64,
+      "relative_path": "instances/bmcp_785_800_0.05_2000.txt",
+      "sha256": "837bc9b2f4268cf4a27bcd35da8469a827a1cdc6d693445848902392f2529290",
+      "bkv_column": 92740,
+      "plts_best": 92608,
+      "plts_mean": 92588.0,
+      "vdls_best": 92740,
+      "vdls_mean": 92414.0,
+      "ihs_best": 92740,
+      "ihs_mean": 92740.0,
+      "anrma_best": 92740,
+      "anrma_mean": 92740.0,
+      "anrma_sd": 0.0,
+      "anrma_tavg": 3.39,
+      "published_runs": 30,
+      "published_seconds": 600,
+      "reference_best": 92740,
+      "reference_scope": "maximum reported in SWEVO2026 Table C.1",
+      "cohort": "I",
+      "common_target": 92740,
+      "panel_role": "tail"
+    }
+  ],
+  "cells": [
+    {
+      "index": 0,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100501,
+      "configuration_id": "outgoing_2",
+      "variant": "base",
+      "seconds": 180,
+      "origin": "new"
+    },
+    {
+      "index": 1,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100501,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 180,
+      "origin": "new"
+    },
+    {
+      "index": 2,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100502,
+      "configuration_id": "outgoing_2",
+      "variant": "base",
+      "seconds": 180,
+      "origin": "new"
+    },
+    {
+      "index": 3,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100502,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 180,
+      "origin": "new"
+    },
+    {
+      "index": 4,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100503,
+      "configuration_id": "outgoing_2",
+      "variant": "base",
+      "seconds": 180,
+      "origin": "new"
+    },
+    {
+      "index": 5,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100503,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 180,
+      "origin": "new"
+    },
+    {
+      "index": 6,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100504,
+      "configuration_id": "outgoing_2",
+      "variant": "base",
+      "seconds": 180,
+      "origin": "new"
+    },
+    {
+      "index": 7,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100504,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 180,
+      "origin": "new"
+    },
+    {
+      "index": 8,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100505,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 180,
+      "origin": "new"
+    },
+    {
+      "index": 9,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100505,
+      "configuration_id": "outgoing_2",
+      "variant": "base",
+      "seconds": 180,
+      "origin": "new"
+    },
+    {
+      "index": 10,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100506,
+      "configuration_id": "outgoing_2",
+      "variant": "base",
+      "seconds": 180,
+      "origin": "new"
+    },
+    {
+      "index": 11,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100506,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 180,
+      "origin": "new"
+    },
+    {
+      "index": 12,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100507,
+      "configuration_id": "outgoing_2",
+      "variant": "base",
+      "seconds": 180,
+      "origin": "new"
+    },
+    {
+      "index": 13,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100507,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 180,
+      "origin": "new"
+    },
+    {
+      "index": 14,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100508,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 180,
+      "origin": "new"
+    },
+    {
+      "index": 15,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100508,
+      "configuration_id": "outgoing_2",
+      "variant": "base",
+      "seconds": 180,
+      "origin": "new"
+    },
+    {
+      "index": 16,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100509,
+      "configuration_id": "outgoing_2",
+      "variant": "base",
+      "seconds": 180,
+      "origin": "new"
+    },
+    {
+      "index": 17,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100509,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 180,
+      "origin": "new"
+    },
+    {
+      "index": 18,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100510,
+      "configuration_id": "outgoing_2",
+      "variant": "base",
+      "seconds": 180,
+      "origin": "new"
+    },
+    {
+      "index": 19,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100510,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 180,
+      "origin": "new"
+    },
+    {
+      "index": 20,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100501,
+      "configuration_id": "outgoing_2",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 21,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100501,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 22,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100502,
+      "configuration_id": "outgoing_2",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 23,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100502,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 24,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100503,
+      "configuration_id": "outgoing_2",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 25,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100503,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 26,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100504,
+      "configuration_id": "outgoing_2",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 27,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100504,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 28,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100505,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 29,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100505,
+      "configuration_id": "outgoing_2",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 30,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100506,
+      "configuration_id": "outgoing_2",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 31,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100506,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 32,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100507,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 33,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100507,
+      "configuration_id": "outgoing_2",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 34,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100508,
+      "configuration_id": "outgoing_2",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 35,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100508,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 36,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100509,
+      "configuration_id": "outgoing_2",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 37,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100509,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 38,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100510,
+      "configuration_id": "outgoing_2",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 39,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100510,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 40,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100501,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 41,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100501,
+      "configuration_id": "outgoing_2",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 42,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100502,
+      "configuration_id": "outgoing_2",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 43,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100502,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 44,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100503,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 45,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100503,
+      "configuration_id": "outgoing_2",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 46,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100504,
+      "configuration_id": "outgoing_2",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 47,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100504,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 48,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100505,
+      "configuration_id": "outgoing_2",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 49,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100505,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 50,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100506,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 51,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100506,
+      "configuration_id": "outgoing_2",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 52,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100507,
+      "configuration_id": "outgoing_2",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 53,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100507,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 54,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100508,
+      "configuration_id": "outgoing_2",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 55,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100508,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 56,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100509,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 57,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100509,
+      "configuration_id": "outgoing_2",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 58,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100510,
+      "configuration_id": "outgoing_2",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 59,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100510,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    }
+  ],
+  "expected_runs": 60,
+  "inherited_runs": 0,
+  "nominal_search_seconds": 7200,
+  "source_sha256": {
+    "bmcp_gpu.py": "58a661e8ad23da3f8bfa66293fc57da18af73bf4fca59b3fb817adf1b00e45f7",
+    "bmcp_search.cu": "e46da6945964d2223d1c15b4bad083697891ba476b82c175a8408fb1fad62bdc",
+    "bmcp_io.py": "0e96030b91e6c159187163025cc76100ad1c21dc8511fb854e8778a1844943c7",
+    "cuda_backend.py": "524af06abc5536a4e67594ea633a7a1b1dd23a9793d8648db9e5ad98cbc27b1f"
+  },
+  "diagnostic_counter_names": [
+    "accepted_add_positive",
+    "accepted_add_zero",
+    "accepted_add_negative",
+    "accepted_remove_positive",
+    "accepted_remove_zero",
+    "accepted_remove_negative",
+    "accepted_swap_positive",
+    "accepted_swap_zero",
+    "accepted_swap_negative",
+    "accepted_gain_positive_sum",
+    "accepted_gain_negative_abs_sum",
+    "incumbent_improvements_construction",
+    "incumbent_improvements_local",
+    "incumbent_gain_construction",
+    "incumbent_gain_local",
+    "restarts_stagnation",
+    "restarts_no_admissible",
+    "restarts_construction_exhausted",
+    "restarts_empty",
+    "restarts_incumbent",
+    "accepted_table_matches",
+    "accepted_effective_aspirations",
+    "construction_steps",
+    "local_steps",
+    "construction_exhaustions",
+    "local_exhaustions",
+    "recovery_episodes",
+    "recovery_reached",
+    "recovery_delay_steps_sum",
+    "recovery_improved",
+    "recovery_improvement_delay_steps_sum",
+    "recovery_censored_by_restart",
+    "destruction_items_removed",
+    "destruction_items_before",
+    "recovery_improvement_censored_by_restart",
+    "loss_edge_reads",
+    "incoming_items_scanned",
+    "packed_words_scanned",
+    "active_incidence_visits",
+    "construction_candidate_evaluations",
+    "local_add_candidate_evaluations",
+    "local_remove_candidate_evaluations",
+    "local_swap_candidate_evaluations",
+    "local_swap_feasible",
+    "tabu_queries",
+    "tabu_full_hash_matches",
+    "tabu_rejections",
+    "effective_aspiration_candidates",
+    "accepted_construction_moves",
+    "accepted_local_moves"
+  ],
+  "work_checkpoints": [
+    0,
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64,
+    128,
+    256,
+    512,
+    1024,
+    2048,
+    4096,
+    8192,
+    16384,
+    32768,
+    65536,
+    131072,
+    262144,
+    524288,
+    1048576
+  ],
+  "bindings": [
+    {
+      "path": "local_path/VALIDACION_FOCAL_A.json",
+      "sha256": "df7444ab9ca833be5e958aeb7214fc56e409adeaf68eafa37edd9bed7f6df03e"
+    },
+    {
+      "path": "local_path/VALIDACION_CONTROLADOR.json",
+      "sha256": "3a94c1590d379b4d327831df156f1ad0d1fe25c1d266ece689da02c169bc82e5"
+    },
+    {
+      "path": "local_path/test_focused_controller.py",
+      "sha256": "24ad6a82ba40cde0be09c499af736786b60c4b5a0f8f7d0302bfa8fea26653bb"
+    },
+    {
+      "path": "local_path/validate_focused_a.py",
+      "sha256": "acb44a659d306555a6bbc4eeb832fc15cc488a7c529e5a13d14338fb9bbbec49"
+    },
+    {
+      "path": "local_path/test_focused_a_cpu.py",
+      "sha256": "fce8907ddd701081ae5c3d8b34061bf15226d6ea9f5f81a700c2c7e324f640ab"
+    },
+    {
+      "path": "local_path/LIVE_CONTROLLER_VALIDATION.json",
+      "sha256": "28e05f6bc9a426393cdddb75617aaf2eeb43083dddc349f3ffe992084349004d"
+    },
+    {
+      "path": "local_path/validate_controller_live.py",
+      "sha256": "fc5aa1fd904d74a0a2d2325061a9b7639efd4183efc60a90a9fd0b9458c04968"
+    },
+    {
+      "path": "local_path/CIERRE_FOCALIZADO_GPU_20260919.md",
+      "sha256": "27a5b6d8dff979d6cc458b7d189bd83260266f5d3a34a348263813b7b10db780"
+    },
+    {
+      "path": "local_path/run_sensitivity_ofat.py",
+      "sha256": "7ec76f281fc997d358221de60971155fbf1bb968454698222fcb8381fb08f90c"
+    }
+  ],
+  "parent_hashes": {
+    "protocol.json": "3b4454dd1b819c56d21082417e634b5d62d2e6b9b031f84fe2e6c6c81181589e",
+    "results.jsonl": "d0755e9b7f9d35364d25fc81aed2bca66c4bdda27481dae8db6bbc00758f3de0",
+    "state.json": "1b9b82fe2a588c9012b9cf13d21e5f3fbcfb0ef506a03b610308b0a1e0cc6596",
+    "audit_final.json": "a00a3ff5fc3a7c1d303454e87703c7ef40dc1a204a27fd99d36f4b459e359547",
+    "audit_cache.json": "9a01ffc428066a9bb10ed68bff7dc0a68a176ea9577750719533eee69d15eb38"
+  },
+  "technical_validation_sha256": "df7444ab9ca833be5e958aeb7214fc56e409adeaf68eafa37edd9bed7f6df03e",
+  "primary_analysis": "For each fixed case, compare K2 minus Original in equal-time quality and capped target time, and quality at common observed kernel-step checkpoints. Report measured counter brackets around first observed target, never an exact inside-batch count.",
+  "unit_of_repetition": "One complete seeded run. GPU trajectories and work checkpoints are not repetitions.",
+  "work_scope": "Kernel iterations per trajectory, including construction and local search; equal steps are not equal computation. Candidate evaluations are separately measured.",
+  "timing_scope": "Search wall time includes instrumentation and observation; CUDA-event kernel time is not exclusive local-search time. Setup, compilation, final certification and instrumentation overhead reported separately.",
+  "uncertainty": {
+    "method": "Paired percentile bootstrap of capped target time at n=10 only",
+    "resamples": 20000,
+    "confidence": 0.95,
+    "rng_base_seed": 2026100007,
+    "scope": "Individual descriptive intervals; target aliases share one result. No selection or global significance."
+  },
+  "budget": {
+    "large_runs": 20,
+    "medium_runs": 20,
+    "small_runs": 20,
+    "seconds_by_cohort": {
+      "II_large": 180,
+      "II_medium": 90,
+      "I": 90
+    },
+    "search_seconds": 7200
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "cases": [
+    {
+      "case": "D1",
+      "instance": "bmcp_4600_4400_0.5_7000",
+      "steps": 139,
+      "n": 10,
+      "owner_mean_seconds": 0.8168617900228128,
+      "incidence_mean_seconds": 1.2203635799465702,
+      "mean_paired_ratio": 1.4940133842778178,
+      "ci95": [
+        1.4866644656034045,
+        1.5012225059171236
+      ],
+      "owner_faster_pairs": 10,
+      "pairs": [
+        {
+          "seed": 2026092201,
+          "owner_seconds": 0.8242971999570727,
+          "incidence_seconds": 1.2452092999592423,
+          "ratio": 1.5106314810047754
+        },
+        {
+          "seed": 2026092202,
+          "owner_seconds": 0.8150830999948084,
+          "incidence_seconds": 1.2069606001023203,
+          "ratio": 1.4807822663848729
+        },
+        {
+          "seed": 2026092203,
+          "owner_seconds": 0.8023220999166369,
+          "incidence_seconds": 1.2020284999161959,
+          "ratio": 1.4981869501551675
+        },
+        {
+          "seed": 2026092204,
+          "owner_seconds": 0.8215552000328898,
+          "incidence_seconds": 1.2157870999071747,
+          "ratio": 1.4798605131566356
+        },
+        {
+          "seed": 2026092205,
+          "owner_seconds": 0.8059503000695258,
+          "incidence_seconds": 1.2163148999679834,
+          "ratio": 1.5091686172994254
+        },
+        {
+          "seed": 2026092206,
+          "owner_seconds": 0.8124283000361174,
+          "incidence_seconds": 1.2123725998681039,
+          "ratio": 1.4922825802771844
+        },
+        {
+          "seed": 2026092207,
+          "owner_seconds": 0.8169466000981629,
+          "incidence_seconds": 1.22577859996818,
+          "ratio": 1.5004390737667463
+        },
+        {
+          "seed": 2026092208,
+          "owner_seconds": 0.8172442999202758,
+          "incidence_seconds": 1.2295327000319958,
+          "ratio": 1.504486112845253
+        },
+        {
+          "seed": 2026092209,
+          "owner_seconds": 0.8236639001406729,
+          "incidence_seconds": 1.225207099923864,
+          "ratio": 1.4875085574523927
+        },
+        {
+          "seed": 2026092210,
+          "owner_seconds": 0.829126900061965,
+          "incidence_seconds": 1.2244443998206407,
+          "ratio": 1.476787690435724
+        }
+      ]
+    },
+    {
+      "case": "D3",
+      "instance": "bmcp_1300_1300_0.5_2000",
+      "steps": 512,
+      "n": 10,
+      "owner_mean_seconds": 0.33642335997428746,
+      "incidence_mean_seconds": 0.48668486995156857,
+      "mean_paired_ratio": 1.4466918724236244,
+      "ci95": [
+        1.441436244365165,
+        1.452042330509107
+      ],
+      "owner_faster_pairs": 10,
+      "pairs": [
+        {
+          "seed": 2026092201,
+          "owner_seconds": 0.33797949994914234,
+          "incidence_seconds": 0.48376579978503287,
+          "ratio": 1.4313465753332015
+        },
+        {
+          "seed": 2026092202,
+          "owner_seconds": 0.335185999982059,
+          "incidence_seconds": 0.48791459994390607,
+          "ratio": 1.4556532789854646
+        },
+        {
+          "seed": 2026092203,
+          "owner_seconds": 0.3347867999691516,
+          "incidence_seconds": 0.4847959999460727,
+          "ratio": 1.448073818892332
+        },
+        {
+          "seed": 2026092204,
+          "owner_seconds": 0.3315322999842465,
+          "incidence_seconds": 0.48507390008307993,
+          "ratio": 1.4631271224738263
+        },
+        {
+          "seed": 2026092205,
+          "owner_seconds": 0.33906019991263747,
+          "incidence_seconds": 0.4885468001011759,
+          "ratio": 1.4408851296231622
+        },
+        {
+          "seed": 2026092206,
+          "owner_seconds": 0.3361224001273513,
+          "incidence_seconds": 0.4873657999560237,
+          "ratio": 1.4499652500736897
+        },
+        {
+          "seed": 2026092207,
+          "owner_seconds": 0.3364650998264551,
+          "incidence_seconds": 0.4877241998910904,
+          "ratio": 1.4495536094015486
+        },
+        {
+          "seed": 2026092208,
+          "owner_seconds": 0.33596990001387894,
+          "incidence_seconds": 0.48637149995192885,
+          "ratio": 1.4476639125464419
+        },
+        {
+          "seed": 2026092209,
+          "owner_seconds": 0.33637799997814,
+          "incidence_seconds": 0.48443159996531904,
+          "ratio": 1.4401405561505227
+        },
+        {
+          "seed": 2026092210,
+          "owner_seconds": 0.34075339999981225,
+          "incidence_seconds": 0.490858499892056,
+          "ratio": 1.4405094707560555
+        }
+      ]
+    },
+    {
+      "case": "D5",
+      "instance": "bmcp_785_800_0.05_2000",
+      "steps": 512,
+      "n": 10,
+      "owner_mean_seconds": 0.15952957996632905,
+      "incidence_mean_seconds": 0.2199030700372532,
+      "mean_paired_ratio": 1.3784931810831362,
+      "ci95": [
+        1.3696464215454565,
+        1.3873841633314659
+      ],
+      "owner_faster_pairs": 10,
+      "pairs": [
+        {
+          "seed": 2026092201,
+          "owner_seconds": 0.1578196999616921,
+          "incidence_seconds": 0.22002720017917454,
+          "ratio": 1.3941681566533342
+        },
+        {
+          "seed": 2026092202,
+          "owner_seconds": 0.1580916999373585,
+          "incidence_seconds": 0.21820490015670657,
+          "ratio": 1.380242607569955
+        },
+        {
+          "seed": 2026092203,
+          "owner_seconds": 0.15794049995020032,
+          "incidence_seconds": 0.21736989985220134,
+          "ratio": 1.3762771418397404
+        },
+        {
+          "seed": 2026092204,
+          "owner_seconds": 0.16037569986656308,
+          "incidence_seconds": 0.21771889994852245,
+          "ratio": 1.3575554159992471
+        },
+        {
+          "seed": 2026092205,
+          "owner_seconds": 0.1607671999372542,
+          "incidence_seconds": 0.21852040011435747,
+          "ratio": 1.3592349695686916
+        },
+        {
+          "seed": 2026092206,
+          "owner_seconds": 0.15985719999298453,
+          "incidence_seconds": 0.22359910001978278,
+          "ratio": 1.3987427530921073
+        },
+        {
+          "seed": 2026092207,
+          "owner_seconds": 0.1612961001228541,
+          "incidence_seconds": 0.22029620013199747,
+          "ratio": 1.3657875172692016
+        },
+        {
+          "seed": 2026092208,
+          "owner_seconds": 0.15940289990976453,
+          "incidence_seconds": 0.2183352999854833,
+          "ratio": 1.3697072017452598
+        },
+        {
+          "seed": 2026092209,
+          "owner_seconds": 0.15917660016566515,
+          "incidence_seconds": 0.22158339992165565,
+          "ratio": 1.392060137551875
+        },
+        {
+          "seed": 2026092210,
+          "owner_seconds": 0.16056819981895387,
+          "incidence_seconds": 0.22337540006265044,
+          "ratio": 1.3911559095419506
+        }
+      ]
+    }
+  ],
+  "runs": 60,
+  "all_state_hashes_identical": true,
+  "all_witnesses_feasible": true,
+  "protocol_sha256": "a41a66a9734e72a19fd6eb77e07f6a76daf085245b57a6573ecef4baafcf11d2",
+  "results_sha256": "df41cbe9274f23763f11463afcc78df49f9493fc7e57fe60d33edf55ba6cc49c"
+}

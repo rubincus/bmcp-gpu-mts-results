@@ -1,0 +1,2104 @@
+{
+  "schema_version": 1,
+  "problem": "BMCP",
+  "stage": "targeted_interactions",
+  "created_at_utc": "2026-09-19T07:15:12.373805+00:00",
+  "runner_sha256": "4d199e54db7de0a052a0951903a1d3b9e9662735f9500da76a921db619a65f3e",
+  "decision_path": "local_path/DECISION_INTERACCIONES_20260919.json",
+  "bindings": [
+    {
+      "path": "local_path/run_sensitivity_ofat.py",
+      "snapshot": "ofat_runner.py",
+      "sha256": "7ec76f281fc997d358221de60971155fbf1bb968454698222fcb8381fb08f90c"
+    },
+    {
+      "path": "local_path/protocol.json",
+      "snapshot": "ofat_protocol.json",
+      "sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+    },
+    {
+      "path": "local_path/state.json",
+      "snapshot": "ofat_state.json",
+      "sha256": "64e3c04e7a55f0b2120d6dd8ef77f05034636028f2897f4344202c87df667c15"
+    },
+    {
+      "path": "local_path/results.jsonl",
+      "snapshot": "ofat_results.jsonl",
+      "sha256": "92d87c2fe8bc2436ce5471f9f32f3b41dd6be6fd5b2ed605c469783b9b47f4a4"
+    },
+    {
+      "path": "local_path/audit_final.json",
+      "snapshot": "ofat_audit_final.json",
+      "sha256": "712cbc256b4bcf75ac93bcea1c9ffec7d42ca2f10c1bb6994cdf2ba5525330bc"
+    },
+    {
+      "path": "local_path/protocol.json",
+      "snapshot": "full10_protocol.json",
+      "sha256": "c28e9c9858d39e1494bb3ec0f5548703339285993ec137b70c43b8c2a2148b7f"
+    },
+    {
+      "path": "local_path/audit_final.json",
+      "snapshot": "full10_audit_final.json",
+      "sha256": "1a3472cc669f58372d68989c71891e25cf9a7d10abde3dcdcac89017db16a374"
+    },
+    {
+      "path": "local_path/panel_final.json",
+      "snapshot": "panel_final.json",
+      "sha256": "aefb0561941d643ec4defb1c67c478a1fd1c456522eb9a9630a9e613b8cba414"
+    },
+    {
+      "path": "local_path/experiment_spec.json",
+      "snapshot": "experiment_spec.json",
+      "sha256": "8209f2b434daa36a1c24a7991e5664ea023db4945c867186fe300ae3f503382f"
+    },
+    {
+      "path": "local_path/VALIDACION_EXPERIMENTAL.json",
+      "snapshot": "VALIDACION_EXPERIMENTAL.json",
+      "sha256": "f0828b9523eb2fa6dcbadc96b90b941adfc2fdaadd6f62c949916cc01124027b"
+    },
+    {
+      "path": "local_path/VALIDACION_CONTROLADOR_INTERACTIONS.json",
+      "snapshot": "VALIDACION_CONTROLADOR_INTERACTIONS.json",
+      "sha256": "c634df2ce669210458146b0d3c24e9a5f7001159a122784a79dc07e193f17e2b"
+    },
+    {
+      "path": "local_path/test_targeted_interactions.py",
+      "snapshot": "test_targeted_interactions.py",
+      "sha256": "04649dc3d2b4d445354eb33a104298e5102610305a3eee2468da83bb68df37eb"
+    },
+    {
+      "path": "local_path/Start-BMCP-Targeted-Interactions.ps1",
+      "snapshot": "Start-BMCP-Targeted-Interactions.ps1",
+      "sha256": "e0ae8c3b53ea34c692810a260d19071b65aed890d3d216c4e7ad02b7fc04b3b6"
+    },
+    {
+      "path": "local_path/DECISION_INTERACCIONES_20260919.json",
+      "snapshot": "decision.json",
+      "sha256": "d977122ebdf910366e51fd4839177b01b9303437a6274b2accb0b2d88bd63fba"
+    }
+  ],
+  "source_sha256": {
+    "bmcp_gpu.py": "4397c2aaf3c692065f04551e7f0618f432c7250a9fb42fd2e316b6dedb696d0c",
+    "bmcp_search.cu": "e46da6945964d2223d1c15b4bad083697891ba476b82c175a8408fb1fad62bdc",
+    "bmcp_io.py": "0e96030b91e6c159187163025cc76100ad1c21dc8511fb854e8778a1844943c7",
+    "cuda_backend.py": "89010eefe2ec05aee2aa65a3aef26873210c9778d9b4adf09f6da1702e529a13"
+  },
+  "parent_protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7",
+  "parent_results_sha256": "92d87c2fe8bc2436ce5471f9f32f3b41dd6be6fd5b2ed605c469783b9b47f4a4",
+  "parent_audit_sha256": "712cbc256b4bcf75ac93bcea1c9ffec7d42ca2f10c1bb6994cdf2ba5525330bc",
+  "inheritance": {
+    "runs": 9,
+    "bytes": 10221167,
+    "sha256": "ac10070eff8149d171d94fd8dad5de218b0d6f8c890d37b929dc9af87de0f164",
+    "rows": [
+      {
+        "index": 0,
+        "parent_index": 1,
+        "line_sha256": "adaa0204bf0fc26114bf12731363f6e9b5596c46d11d98ebd5ecad26d4eccfc4",
+        "line_bytes": 1235590,
+        "parent_protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+      },
+      {
+        "index": 1,
+        "parent_index": 35,
+        "line_sha256": "95d9e7e84e1f338e50bd0aefe3a6a25dd335b297e0d156882450549e9909484f",
+        "line_bytes": 1235897,
+        "parent_protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+      },
+      {
+        "index": 2,
+        "parent_index": 47,
+        "line_sha256": "b4d975a4fa466de6a3fd62fd6c391e25fbcf3fb3f52cc67dfeccb3aeda421463",
+        "line_bytes": 1236102,
+        "parent_protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+      },
+      {
+        "index": 3,
+        "parent_index": 64,
+        "line_sha256": "14c9014d920648f36610e6ee9a36069edbe037790fdb29d2a62d69fea357b056",
+        "line_bytes": 1063928,
+        "parent_protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+      },
+      {
+        "index": 4,
+        "parent_index": 81,
+        "line_sha256": "a10b4a47e2abd81af07b169b46aff113792584f432c304652a3966a0f48c8010",
+        "line_bytes": 1064214,
+        "parent_protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+      },
+      {
+        "index": 5,
+        "parent_index": 102,
+        "line_sha256": "e992063d713e99b653700bfa983e4392576c913f1d14685e5b13dc352116c646",
+        "line_bytes": 1064147,
+        "parent_protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+      },
+      {
+        "index": 6,
+        "parent_index": 120,
+        "line_sha256": "9e10f3bff1722d89aa14887477fea3613f07d8fe91a9a207eeb0f860091e6b5c",
+        "line_bytes": 1107102,
+        "parent_protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+      },
+      {
+        "index": 7,
+        "parent_index": 139,
+        "line_sha256": "6876b1a5125aa970bf2d4afb75d38f8f98f2eed6dd85ff1f156f48556b8c6a71",
+        "line_bytes": 1107044,
+        "parent_protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+      },
+      {
+        "index": 8,
+        "parent_index": 159,
+        "line_sha256": "96cd1cc3a3d8f983abd57290ef82aa9780657945f0b6a3449f796711d89a6a2b",
+        "line_bytes": 1107143,
+        "parent_protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+      }
+    ]
+  },
+  "references": [
+    {
+      "name": "bmcp_4600_4400_0.5_7000",
+      "group": "BMCP_Set_II",
+      "table": "C.2",
+      "page": 41,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "items": 4600,
+      "elements": 4400,
+      "capacity": 7000,
+      "density": 0.05869258893280632,
+      "degree_min": 211,
+      "degree_max": 326,
+      "relative_path": "instances/bmcp_4600_4400_0.5_7000.txt",
+      "sha256": "92eb8136640431faf6f973ce0b1f8e4ee2bd6344d3a95d92c1e61fd1e02f830c",
+      "bkv_column": 1898602,
+      "plts_best": 1845046,
+      "plts_mean": 1817697.0,
+      "vdls_best": 1898602,
+      "vdls_mean": 1889659.0,
+      "ihs_best": 1901834,
+      "ihs_mean": 1901834.0,
+      "anrma_best": 1901834,
+      "anrma_mean": 1900506.0,
+      "anrma_sd": 1357.53,
+      "anrma_tavg": 645.1,
+      "published_runs": 30,
+      "published_seconds": 1800,
+      "reference_best": 1901834,
+      "reference_scope": "maximum reported in SWEVO2026 Table C.2",
+      "cohort": "II_large",
+      "common_target": 1901868,
+      "panel_role": "tail"
+    },
+    {
+      "name": "bmcp_5000_5200_0.5_7000",
+      "group": "BMCP_Set_II",
+      "table": "C.2",
+      "page": 41,
+      "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+      "items": 5000,
+      "elements": 5200,
+      "capacity": 7000,
+      "density": 0.05874730769230769,
+      "degree_min": 239,
+      "degree_max": 364,
+      "relative_path": "instances/bmcp_5000_5200_0.5_7000.txt",
+      "sha256": "5921647f063e59b390370679fbc3e7f0154d21df6d0ce952f761215343205c45",
+      "bkv_column": 2222169,
+      "plts_best": 2129556,
+      "plts_mean": 2115338.0,
+      "vdls_best": 2222169,
+      "vdls_mean": 2211651.0,
+      "ihs_best": 2222527,
+      "ihs_mean": 2222527.0,
+      "anrma_best": 2225839,
+      "anrma_mean": 2223453.0,
+      "anrma_sd": 2040.95,
+      "anrma_tavg": 681.37,
+      "published_runs": 30,
+      "published_seconds": 1800,
+      "reference_best": 2225839,
+      "reference_scope": "maximum reported in SWEVO2026 Table C.2",
+      "cohort": "II_large",
+      "common_target": 2227362,
+      "panel_role": "typical"
+    },
+    {
+      "name": "bmcp_1300_1300_0.5_2000",
+      "group": "BMCP_Set_II",
+      "table": "C.2",
+      "page": 40,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "items": 1300,
+      "elements": 1300,
+      "capacity": 2000,
+      "density": 0.05870414201183432,
+      "degree_min": 54,
+      "degree_max": 103,
+      "relative_path": "instances/bmcp_1300_1300_0.5_2000.txt",
+      "sha256": "f7f591a886d659144d55326cdfdb7ff4f4272d97a208b82b7b654d60bf5914d1",
+      "bkv_column": 162146,
+      "plts_best": 160485,
+      "plts_mean": 159511.0,
+      "vdls_best": 162146,
+      "vdls_mean": 161537.0,
+      "ihs_best": 162514,
+      "ihs_mean": 162211.0,
+      "anrma_best": 162514,
+      "anrma_mean": 162514.0,
+      "anrma_sd": 0.0,
+      "anrma_tavg": 142.39,
+      "published_runs": 30,
+      "published_seconds": 1800,
+      "reference_best": 162514,
+      "reference_scope": "maximum reported in SWEVO2026 Table C.2",
+      "cohort": "II_medium",
+      "common_target": 162514,
+      "panel_role": "tail"
+    },
+    {
+      "name": "bmcp_1500_1600_0.5_2000",
+      "group": "BMCP_Set_II",
+      "table": "C.2",
+      "page": 41,
+      "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+      "items": 1500,
+      "elements": 1600,
+      "capacity": 2000,
+      "density": 0.05870875,
+      "degree_min": 67,
+      "degree_max": 129,
+      "relative_path": "instances/bmcp_1500_1600_0.5_2000.txt",
+      "sha256": "c4a323679aadd5fcc8eacb18983384b0675c91b479cf328096f2107eb67ec611",
+      "bkv_column": 199678,
+      "plts_best": 198214,
+      "plts_mean": 196659.0,
+      "vdls_best": 199678,
+      "vdls_mean": 198463.0,
+      "ihs_best": 199678,
+      "ihs_mean": 199449.0,
+      "anrma_best": 199678,
+      "anrma_mean": 199669.0,
+      "anrma_sd": 49.18,
+      "anrma_tavg": 84.93,
+      "published_runs": 30,
+      "published_seconds": 1800,
+      "reference_best": 199678,
+      "reference_scope": "maximum reported in SWEVO2026 Table C.2",
+      "cohort": "II_medium",
+      "common_target": 199678,
+      "panel_role": "typical"
+    },
+    {
+      "name": "bmcp_785_800_0.05_2000",
+      "group": "BMCP_Set_I",
+      "table": "C.1",
+      "page": 39,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "items": 785,
+      "elements": 800,
+      "capacity": 2000,
+      "density": 0.05032165605095541,
+      "degree_min": 21,
+      "degree_max": 64,
+      "relative_path": "instances/bmcp_785_800_0.05_2000.txt",
+      "sha256": "837bc9b2f4268cf4a27bcd35da8469a827a1cdc6d693445848902392f2529290",
+      "bkv_column": 92740,
+      "plts_best": 92608,
+      "plts_mean": 92588.0,
+      "vdls_best": 92740,
+      "vdls_mean": 92414.0,
+      "ihs_best": 92740,
+      "ihs_mean": 92740.0,
+      "anrma_best": 92740,
+      "anrma_mean": 92740.0,
+      "anrma_sd": 0.0,
+      "anrma_tavg": 3.39,
+      "published_runs": 30,
+      "published_seconds": 600,
+      "reference_best": 92740,
+      "reference_scope": "maximum reported in SWEVO2026 Table C.1",
+      "cohort": "I",
+      "common_target": 92740,
+      "panel_role": "tail"
+    },
+    {
+      "name": "bmcp_985_1000_0.075_1500",
+      "group": "BMCP_Set_I",
+      "table": "C.1",
+      "page": 39,
+      "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+      "items": 985,
+      "elements": 1000,
+      "capacity": 1500,
+      "density": 0.0753756345177665,
+      "degree_min": 53,
+      "degree_max": 102,
+      "relative_path": "instances/bmcp_985_1000_0.075_1500.txt",
+      "sha256": "328585a0b3e91a514bc36112ddbed15d2a9b4424def37e68ef7578eb23bafdb9",
+      "bkv_column": 115505,
+      "plts_best": 114969,
+      "plts_mean": 113838.0,
+      "vdls_best": 115505,
+      "vdls_mean": 114765.0,
+      "ihs_best": 115505,
+      "ihs_mean": 115505.0,
+      "anrma_best": 115505,
+      "anrma_mean": 115505.0,
+      "anrma_sd": 0.0,
+      "anrma_tavg": 0.82,
+      "published_runs": 30,
+      "published_seconds": 600,
+      "reference_best": 115505,
+      "reference_scope": "maximum reported in SWEVO2026 Table C.1",
+      "cohort": "I",
+      "common_target": 115505,
+      "panel_role": "typical"
+    }
+  ],
+  "configurations": [
+    {
+      "id": "base",
+      "factor": "base",
+      "parameters": {
+        "blocks": 128,
+        "stagnation": 300,
+        "outgoing": 4,
+        "temperature": 0.03,
+        "destroy_low": 0.12,
+        "destroy_high": 0.7
+      },
+      "rationale": "Frozen instrumented Original."
+    },
+    {
+      "id": "temp_0p01_stagnation_150",
+      "factor": "temperature_stagnation",
+      "parameters": {
+        "blocks": 128,
+        "stagnation": 150,
+        "outgoing": 4,
+        "temperature": 0.01,
+        "destroy_low": 0.12,
+        "destroy_high": 0.7
+      },
+      "rationale": "Test whether earlier perturbation offsets the slower large-case search at T=0.01 while retaining its medium-case signal. The two single-factor effects reverse direction between the large and medium cases; no improvement is presumed."
+    },
+    {
+      "id": "destroy_0p02_0p60_stagnation_150",
+      "factor": "destruction_stagnation",
+      "parameters": {
+        "blocks": 128,
+        "stagnation": 150,
+        "outgoing": 4,
+        "temperature": 0.03,
+        "destroy_low": 0.02,
+        "destroy_high": 0.6
+      },
+      "rationale": "Test complementarity or interference between a lower-mean destruction window and earlier perturbation. Both single changes lower the large-case mean but worsen the medium-case mean; their joint effect is unknown."
+    }
+  ],
+  "configuration_count": 3,
+  "variant": "base",
+  "instrumentation": true,
+  "seeds": [
+    2026100201,
+    2026100202,
+    2026100203
+  ],
+  "repeats": 3,
+  "expected_runs": 54,
+  "instance_count": 6,
+  "cells": [
+    {
+      "index": 0,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100201,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 180,
+      "origin": "ofat",
+      "parent_index": 1,
+      "parent_cell": {
+        "index": 1,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100201,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 180
+      }
+    },
+    {
+      "index": 1,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100202,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 180,
+      "origin": "ofat",
+      "parent_index": 35,
+      "parent_cell": {
+        "index": 35,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100202,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 180
+      }
+    },
+    {
+      "index": 2,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100203,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 180,
+      "origin": "ofat",
+      "parent_index": 47,
+      "parent_cell": {
+        "index": 47,
+        "reference_index": 0,
+        "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+        "seed": 2026100203,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 180
+      }
+    },
+    {
+      "index": 3,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100201,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "ofat",
+      "parent_index": 64,
+      "parent_cell": {
+        "index": 64,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100201,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90
+      }
+    },
+    {
+      "index": 4,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100202,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "ofat",
+      "parent_index": 81,
+      "parent_cell": {
+        "index": 81,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100202,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90
+      }
+    },
+    {
+      "index": 5,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100203,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "ofat",
+      "parent_index": 102,
+      "parent_cell": {
+        "index": 102,
+        "reference_index": 1,
+        "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+        "seed": 2026100203,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90
+      }
+    },
+    {
+      "index": 6,
+      "reference_index": 4,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100201,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "ofat",
+      "parent_index": 120,
+      "parent_cell": {
+        "index": 120,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100201,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90
+      }
+    },
+    {
+      "index": 7,
+      "reference_index": 4,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100202,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "ofat",
+      "parent_index": 139,
+      "parent_cell": {
+        "index": 139,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100202,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90
+      }
+    },
+    {
+      "index": 8,
+      "reference_index": 4,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100203,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "ofat",
+      "parent_index": 159,
+      "parent_cell": {
+        "index": 159,
+        "reference_index": 2,
+        "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+        "seed": 2026100203,
+        "configuration_id": "base",
+        "variant": "base",
+        "seconds": 90
+      }
+    },
+    {
+      "index": 9,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100201,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "variant": "base",
+      "seconds": 180,
+      "origin": "new"
+    },
+    {
+      "index": 10,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100201,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "variant": "base",
+      "seconds": 180,
+      "origin": "new"
+    },
+    {
+      "index": 11,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100202,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "variant": "base",
+      "seconds": 180,
+      "origin": "new"
+    },
+    {
+      "index": 12,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100202,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "variant": "base",
+      "seconds": 180,
+      "origin": "new"
+    },
+    {
+      "index": 13,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100203,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "variant": "base",
+      "seconds": 180,
+      "origin": "new"
+    },
+    {
+      "index": 14,
+      "reference_index": 0,
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100203,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "variant": "base",
+      "seconds": 180,
+      "origin": "new"
+    },
+    {
+      "index": 15,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+      "seed": 2026100201,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 180,
+      "origin": "new"
+    },
+    {
+      "index": 16,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+      "seed": 2026100201,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "variant": "base",
+      "seconds": 180,
+      "origin": "new"
+    },
+    {
+      "index": 17,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+      "seed": 2026100201,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "variant": "base",
+      "seconds": 180,
+      "origin": "new"
+    },
+    {
+      "index": 18,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+      "seed": 2026100202,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "variant": "base",
+      "seconds": 180,
+      "origin": "new"
+    },
+    {
+      "index": 19,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+      "seed": 2026100202,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 180,
+      "origin": "new"
+    },
+    {
+      "index": 20,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+      "seed": 2026100202,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "variant": "base",
+      "seconds": 180,
+      "origin": "new"
+    },
+    {
+      "index": 21,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+      "seed": 2026100203,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "variant": "base",
+      "seconds": 180,
+      "origin": "new"
+    },
+    {
+      "index": 22,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+      "seed": 2026100203,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 180,
+      "origin": "new"
+    },
+    {
+      "index": 23,
+      "reference_index": 1,
+      "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+      "seed": 2026100203,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "variant": "base",
+      "seconds": 180,
+      "origin": "new"
+    },
+    {
+      "index": 24,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100201,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 25,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100201,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 26,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100202,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 27,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100202,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 28,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100203,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 29,
+      "reference_index": 2,
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100203,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 30,
+      "reference_index": 3,
+      "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+      "seed": 2026100201,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 31,
+      "reference_index": 3,
+      "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+      "seed": 2026100201,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 32,
+      "reference_index": 3,
+      "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+      "seed": 2026100201,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 33,
+      "reference_index": 3,
+      "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+      "seed": 2026100202,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 34,
+      "reference_index": 3,
+      "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+      "seed": 2026100202,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 35,
+      "reference_index": 3,
+      "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+      "seed": 2026100202,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 36,
+      "reference_index": 3,
+      "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+      "seed": 2026100203,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 37,
+      "reference_index": 3,
+      "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+      "seed": 2026100203,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 38,
+      "reference_index": 3,
+      "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+      "seed": 2026100203,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 39,
+      "reference_index": 4,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100201,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 40,
+      "reference_index": 4,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100201,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 41,
+      "reference_index": 4,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100202,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 42,
+      "reference_index": 4,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100202,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 43,
+      "reference_index": 4,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100203,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 44,
+      "reference_index": 4,
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100203,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 45,
+      "reference_index": 5,
+      "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+      "seed": 2026100201,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 46,
+      "reference_index": 5,
+      "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+      "seed": 2026100201,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 47,
+      "reference_index": 5,
+      "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+      "seed": 2026100201,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 48,
+      "reference_index": 5,
+      "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+      "seed": 2026100202,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 49,
+      "reference_index": 5,
+      "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+      "seed": 2026100202,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 50,
+      "reference_index": 5,
+      "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+      "seed": 2026100202,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 51,
+      "reference_index": 5,
+      "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+      "seed": 2026100203,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 52,
+      "reference_index": 5,
+      "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+      "seed": 2026100203,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    },
+    {
+      "index": 53,
+      "reference_index": 5,
+      "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+      "seed": 2026100203,
+      "configuration_id": "base",
+      "variant": "base",
+      "seconds": 90,
+      "origin": "new"
+    }
+  ],
+  "total_search_seconds": 6480,
+  "new_search_seconds": 5400,
+  "schedule_seed": 2026100001,
+  "schedule_policy": "Nine existing OFAT base lines first, in their original order. Fresh stage RNG shuffles NEW configurations only within each instance-seed block. Historical controls were not interleaved with new runs.",
+  "horizons": {
+    "II_large": 180,
+    "II_medium": 90,
+    "I": 90
+  },
+  "checkpoints": [
+    0.02,
+    0.05,
+    0.1,
+    0.25,
+    0.5,
+    1,
+    2,
+    5,
+    10,
+    30,
+    60,
+    90,
+    180
+  ],
+  "heldout_uids": [
+    "BMCP_Set_II:bmcp_4600_4600_0.5_7000",
+    "BMCP_Set_II:bmcp_4600_4600_0.3_10000",
+    "BMCP_Set_II:bmcp_1100_1100_0.3_3000",
+    "BMCP_Set_II:bmcp_1300_1300_0.3_3000",
+    "BMCP_Set_I:bmcp_1000_1000_0.075_1500",
+    "BMCP_Set_I:bmcp_785_800_0.075_1500"
+  ],
+  "diagnostic_counter_names": [
+    "accepted_add_positive",
+    "accepted_add_zero",
+    "accepted_add_negative",
+    "accepted_remove_positive",
+    "accepted_remove_zero",
+    "accepted_remove_negative",
+    "accepted_swap_positive",
+    "accepted_swap_zero",
+    "accepted_swap_negative",
+    "accepted_gain_positive_sum",
+    "accepted_gain_negative_abs_sum",
+    "incumbent_improvements_construction",
+    "incumbent_improvements_local",
+    "incumbent_gain_construction",
+    "incumbent_gain_local",
+    "restarts_stagnation",
+    "restarts_no_admissible",
+    "restarts_construction_exhausted",
+    "restarts_empty",
+    "restarts_incumbent",
+    "accepted_table_matches",
+    "accepted_effective_aspirations",
+    "construction_steps",
+    "local_steps",
+    "construction_exhaustions",
+    "local_exhaustions",
+    "recovery_episodes",
+    "recovery_reached",
+    "recovery_delay_steps_sum",
+    "recovery_improved",
+    "recovery_improvement_delay_steps_sum",
+    "recovery_censored_by_restart",
+    "destruction_items_removed",
+    "destruction_items_before",
+    "recovery_improvement_censored_by_restart",
+    "loss_edge_reads",
+    "incoming_items_scanned",
+    "packed_words_scanned",
+    "active_incidence_visits",
+    "construction_candidate_evaluations",
+    "local_add_candidate_evaluations",
+    "local_remove_candidate_evaluations",
+    "local_swap_candidate_evaluations",
+    "local_swap_feasible",
+    "tabu_queries",
+    "tabu_full_hash_matches",
+    "tabu_rejections",
+    "effective_aspiration_candidates",
+    "accepted_construction_moves",
+    "accepted_local_moves"
+  ],
+  "target_scope": "Frozen published and maximum nominal baseline objectives; neither implies optimality.",
+  "timing_scope": "Full per-cell search wall budget. Nominal observations exclude overshoot. Misses are censored at their own horizon. No pooled mixed-budget time.",
+  "corner_coverage": [
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100201,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "temp_0p01_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "ofat",
+          "configuration_id": "temperature_0p01",
+          "parent_index": 15,
+          "line_sha256": "234c4e741ea1500c012ed132d72635310bef1bc158e838b8987169e798cdd028",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        },
+        "stagnation_alone": {
+          "source": "ofat",
+          "configuration_id": "stagnation_150",
+          "parent_index": 2,
+          "line_sha256": "6187523566a6af0579c7fdab4d8dabc3a05a0afa45a8f38edd1958d6515c4dbb",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        }
+      },
+      "paired_factorial_possible_after_completion": true
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100202,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "temp_0p01_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "ofat",
+          "configuration_id": "temperature_0p01",
+          "parent_index": 27,
+          "line_sha256": "b5151c65306eb03c763de2caeadc7f7544ddcedc114dc1ecbeb9ec800db126ea",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        },
+        "stagnation_alone": {
+          "source": "ofat",
+          "configuration_id": "stagnation_150",
+          "parent_index": 30,
+          "line_sha256": "f08c9719f12d87767a7f6ed47f143ce2369beb2aa06d3d98fda67328624c453e",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        }
+      },
+      "paired_factorial_possible_after_completion": true
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100203,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "temp_0p01_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "ofat",
+          "configuration_id": "temperature_0p01",
+          "parent_index": 50,
+          "line_sha256": "d027f4c57ccc8ae0d879391613f70251be3256b17e78ee9042edfe0a40feab98",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        },
+        "stagnation_alone": {
+          "source": "ofat",
+          "configuration_id": "stagnation_150",
+          "parent_index": 45,
+          "line_sha256": "6ed8f2e53aa93b52938c5381a6e6b0288a561dd873fe2569266ef7a1f5d0d03e",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        }
+      },
+      "paired_factorial_possible_after_completion": true
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100201,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "destroy_0p02_0p60_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "ofat",
+          "configuration_id": "destroy_0p02_0p60",
+          "parent_index": 10,
+          "line_sha256": "2f50ee87d578063ff480d076d741861ec62e69728a16ff624b4f1e7facf78810",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        },
+        "stagnation_alone": {
+          "source": "ofat",
+          "configuration_id": "stagnation_150",
+          "parent_index": 2,
+          "line_sha256": "6187523566a6af0579c7fdab4d8dabc3a05a0afa45a8f38edd1958d6515c4dbb",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        }
+      },
+      "paired_factorial_possible_after_completion": true
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100202,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "destroy_0p02_0p60_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "ofat",
+          "configuration_id": "destroy_0p02_0p60",
+          "parent_index": 22,
+          "line_sha256": "fef5a295148a6aed811b273f50b211d5ff5225a78fa2fbbd9113c956cfc4f3f2",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        },
+        "stagnation_alone": {
+          "source": "ofat",
+          "configuration_id": "stagnation_150",
+          "parent_index": 30,
+          "line_sha256": "f08c9719f12d87767a7f6ed47f143ce2369beb2aa06d3d98fda67328624c453e",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        }
+      },
+      "paired_factorial_possible_after_completion": true
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_4600_4400_0.5_7000",
+      "seed": 2026100203,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "destroy_0p02_0p60_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "ofat",
+          "configuration_id": "destroy_0p02_0p60",
+          "parent_index": 43,
+          "line_sha256": "3a1d71e927ebfa88b3daeaa066d860c19a2be59872bbd3ad3c2568792f996078",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        },
+        "stagnation_alone": {
+          "source": "ofat",
+          "configuration_id": "stagnation_150",
+          "parent_index": 45,
+          "line_sha256": "6ed8f2e53aa93b52938c5381a6e6b0288a561dd873fe2569266ef7a1f5d0d03e",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        }
+      },
+      "paired_factorial_possible_after_completion": true
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+      "seed": 2026100201,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "temp_0p01_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "missing",
+          "configuration_id": "temperature_0p01"
+        },
+        "stagnation_alone": {
+          "source": "missing",
+          "configuration_id": "stagnation_150"
+        }
+      },
+      "paired_factorial_possible_after_completion": false
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+      "seed": 2026100202,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "temp_0p01_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "missing",
+          "configuration_id": "temperature_0p01"
+        },
+        "stagnation_alone": {
+          "source": "missing",
+          "configuration_id": "stagnation_150"
+        }
+      },
+      "paired_factorial_possible_after_completion": false
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+      "seed": 2026100203,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "temp_0p01_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "missing",
+          "configuration_id": "temperature_0p01"
+        },
+        "stagnation_alone": {
+          "source": "missing",
+          "configuration_id": "stagnation_150"
+        }
+      },
+      "paired_factorial_possible_after_completion": false
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+      "seed": 2026100201,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "destroy_0p02_0p60_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "missing",
+          "configuration_id": "destroy_0p02_0p60"
+        },
+        "stagnation_alone": {
+          "source": "missing",
+          "configuration_id": "stagnation_150"
+        }
+      },
+      "paired_factorial_possible_after_completion": false
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+      "seed": 2026100202,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "destroy_0p02_0p60_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "missing",
+          "configuration_id": "destroy_0p02_0p60"
+        },
+        "stagnation_alone": {
+          "source": "missing",
+          "configuration_id": "stagnation_150"
+        }
+      },
+      "paired_factorial_possible_after_completion": false
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_5000_5200_0.5_7000",
+      "seed": 2026100203,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "destroy_0p02_0p60_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "missing",
+          "configuration_id": "destroy_0p02_0p60"
+        },
+        "stagnation_alone": {
+          "source": "missing",
+          "configuration_id": "stagnation_150"
+        }
+      },
+      "paired_factorial_possible_after_completion": false
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100201,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "temp_0p01_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "ofat",
+          "configuration_id": "temperature_0p01",
+          "parent_index": 69,
+          "line_sha256": "36a0376d49ab3c72a36403a80a0bc19492b5254eca009f96e902b82a8c8682e7",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        },
+        "stagnation_alone": {
+          "source": "ofat",
+          "configuration_id": "stagnation_150",
+          "parent_index": 58,
+          "line_sha256": "3b9d8ebeacda115400d94bba03521a8cc7d233e76a48f975a668287ec5bb53d4",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        }
+      },
+      "paired_factorial_possible_after_completion": true
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100202,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "temp_0p01_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "ofat",
+          "configuration_id": "temperature_0p01",
+          "parent_index": 77,
+          "line_sha256": "9aba7b8f3a0ceac0dfcdd129129ec0c53420bae0c1623ac53740acdc3fcbe87d",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        },
+        "stagnation_alone": {
+          "source": "ofat",
+          "configuration_id": "stagnation_150",
+          "parent_index": 83,
+          "line_sha256": "5efdf179d98de6aff8128022968da50782e3ce44216bc7a7a2376d7603441f4f",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        }
+      },
+      "paired_factorial_possible_after_completion": true
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100203,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "temp_0p01_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "ofat",
+          "configuration_id": "temperature_0p01",
+          "parent_index": 97,
+          "line_sha256": "035fdaf2487a570660314f5854b89ce3f3b627c07995bf5c4f8ffc50a6f7e8f3",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        },
+        "stagnation_alone": {
+          "source": "ofat",
+          "configuration_id": "stagnation_150",
+          "parent_index": 105,
+          "line_sha256": "e44c4bb84e8b22dc04bdd987ef956e3b405ec37628431c2b4fbc5a3eec573945",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        }
+      },
+      "paired_factorial_possible_after_completion": true
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100201,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "destroy_0p02_0p60_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "ofat",
+          "configuration_id": "destroy_0p02_0p60",
+          "parent_index": 55,
+          "line_sha256": "1643c4335b6201c4f9f029cf5f7476bad0a4d657316130264899ae3174b3f915",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        },
+        "stagnation_alone": {
+          "source": "ofat",
+          "configuration_id": "stagnation_150",
+          "parent_index": 58,
+          "line_sha256": "3b9d8ebeacda115400d94bba03521a8cc7d233e76a48f975a668287ec5bb53d4",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        }
+      },
+      "paired_factorial_possible_after_completion": true
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100202,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "destroy_0p02_0p60_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "ofat",
+          "configuration_id": "destroy_0p02_0p60",
+          "parent_index": 80,
+          "line_sha256": "409ca8550979a2fade2a8ad06ed271062362ae1ffbd8603dffad50d3619747e9",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        },
+        "stagnation_alone": {
+          "source": "ofat",
+          "configuration_id": "stagnation_150",
+          "parent_index": 83,
+          "line_sha256": "5efdf179d98de6aff8128022968da50782e3ce44216bc7a7a2376d7603441f4f",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        }
+      },
+      "paired_factorial_possible_after_completion": true
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_1300_1300_0.5_2000",
+      "seed": 2026100203,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "destroy_0p02_0p60_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "ofat",
+          "configuration_id": "destroy_0p02_0p60",
+          "parent_index": 103,
+          "line_sha256": "e1c957ef22f263904e1d72e8c31c476eaa14e63df534c43356d8507d470c3238",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        },
+        "stagnation_alone": {
+          "source": "ofat",
+          "configuration_id": "stagnation_150",
+          "parent_index": 105,
+          "line_sha256": "e44c4bb84e8b22dc04bdd987ef956e3b405ec37628431c2b4fbc5a3eec573945",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        }
+      },
+      "paired_factorial_possible_after_completion": true
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+      "seed": 2026100201,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "temp_0p01_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "missing",
+          "configuration_id": "temperature_0p01"
+        },
+        "stagnation_alone": {
+          "source": "missing",
+          "configuration_id": "stagnation_150"
+        }
+      },
+      "paired_factorial_possible_after_completion": false
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+      "seed": 2026100202,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "temp_0p01_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "missing",
+          "configuration_id": "temperature_0p01"
+        },
+        "stagnation_alone": {
+          "source": "missing",
+          "configuration_id": "stagnation_150"
+        }
+      },
+      "paired_factorial_possible_after_completion": false
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+      "seed": 2026100203,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "temp_0p01_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "missing",
+          "configuration_id": "temperature_0p01"
+        },
+        "stagnation_alone": {
+          "source": "missing",
+          "configuration_id": "stagnation_150"
+        }
+      },
+      "paired_factorial_possible_after_completion": false
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+      "seed": 2026100201,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "destroy_0p02_0p60_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "missing",
+          "configuration_id": "destroy_0p02_0p60"
+        },
+        "stagnation_alone": {
+          "source": "missing",
+          "configuration_id": "stagnation_150"
+        }
+      },
+      "paired_factorial_possible_after_completion": false
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+      "seed": 2026100202,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "destroy_0p02_0p60_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "missing",
+          "configuration_id": "destroy_0p02_0p60"
+        },
+        "stagnation_alone": {
+          "source": "missing",
+          "configuration_id": "stagnation_150"
+        }
+      },
+      "paired_factorial_possible_after_completion": false
+    },
+    {
+      "instance_uid": "BMCP_Set_II:bmcp_1500_1600_0.5_2000",
+      "seed": 2026100203,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "destroy_0p02_0p60_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "missing",
+          "configuration_id": "destroy_0p02_0p60"
+        },
+        "stagnation_alone": {
+          "source": "missing",
+          "configuration_id": "stagnation_150"
+        }
+      },
+      "paired_factorial_possible_after_completion": false
+    },
+    {
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100201,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "temp_0p01_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "ofat",
+          "configuration_id": "temperature_0p01",
+          "parent_index": 117,
+          "line_sha256": "df5e85f405a9b37b847a69a2d769dbeff5e7fcc390da9d71caf18d8dae214371",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        },
+        "stagnation_alone": {
+          "source": "ofat",
+          "configuration_id": "stagnation_150",
+          "parent_index": 113,
+          "line_sha256": "e7e9c3ed615b0aba94998f0ef25393a76a14bbe8b953e52ba507f2b36a6b0cac",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        }
+      },
+      "paired_factorial_possible_after_completion": true
+    },
+    {
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100202,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "temp_0p01_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "ofat",
+          "configuration_id": "temperature_0p01",
+          "parent_index": 142,
+          "line_sha256": "78af5e1251f9b1ba03a589d944591b104c9a1e935fb439992671206295deacf2",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        },
+        "stagnation_alone": {
+          "source": "ofat",
+          "configuration_id": "stagnation_150",
+          "parent_index": 140,
+          "line_sha256": "408119e5d7f335fefa37f766d5336879745816129534ac382b8f14271239f6e6",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        }
+      },
+      "paired_factorial_possible_after_completion": true
+    },
+    {
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100203,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "temp_0p01_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "ofat",
+          "configuration_id": "temperature_0p01",
+          "parent_index": 147,
+          "line_sha256": "10a1ccbee04d993bf692cc8853ead7db80fdc0d2c71a0b2fbe1a0cee19a1fd3d",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        },
+        "stagnation_alone": {
+          "source": "ofat",
+          "configuration_id": "stagnation_150",
+          "parent_index": 153,
+          "line_sha256": "c5c195878151626bbce77e6033175a38009235e72b0b225524b49660263cb123",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        }
+      },
+      "paired_factorial_possible_after_completion": true
+    },
+    {
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100201,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "destroy_0p02_0p60_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "ofat",
+          "configuration_id": "destroy_0p02_0p60",
+          "parent_index": 110,
+          "line_sha256": "85735f01de4c1b6098cb3bcedcb4b4f1d06ac12bca777230491b05b61c5d2a78",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        },
+        "stagnation_alone": {
+          "source": "ofat",
+          "configuration_id": "stagnation_150",
+          "parent_index": 113,
+          "line_sha256": "e7e9c3ed615b0aba94998f0ef25393a76a14bbe8b953e52ba507f2b36a6b0cac",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        }
+      },
+      "paired_factorial_possible_after_completion": true
+    },
+    {
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100202,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "destroy_0p02_0p60_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "ofat",
+          "configuration_id": "destroy_0p02_0p60",
+          "parent_index": 132,
+          "line_sha256": "fe638bd2240dba8789f4971421329b22eb9658d4c1ca76bd16a7ea1c505d6fb3",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        },
+        "stagnation_alone": {
+          "source": "ofat",
+          "configuration_id": "stagnation_150",
+          "parent_index": 140,
+          "line_sha256": "408119e5d7f335fefa37f766d5336879745816129534ac382b8f14271239f6e6",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        }
+      },
+      "paired_factorial_possible_after_completion": true
+    },
+    {
+      "instance_uid": "BMCP_Set_I:bmcp_785_800_0.05_2000",
+      "seed": 2026100203,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "destroy_0p02_0p60_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "ofat",
+          "configuration_id": "destroy_0p02_0p60",
+          "parent_index": 151,
+          "line_sha256": "ebd7aa494dc68a8110e914ba765da6de1a4674dff65b20a92a0be5c5f492fb32",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        },
+        "stagnation_alone": {
+          "source": "ofat",
+          "configuration_id": "stagnation_150",
+          "parent_index": 153,
+          "line_sha256": "c5c195878151626bbce77e6033175a38009235e72b0b225524b49660263cb123",
+          "protocol_sha256": "682635e1b6ccafd8b24e433505a9446b7e3cb3090fd29d587c3eafbcfd666bf7"
+        }
+      },
+      "paired_factorial_possible_after_completion": true
+    },
+    {
+      "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+      "seed": 2026100201,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "temp_0p01_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "missing",
+          "configuration_id": "temperature_0p01"
+        },
+        "stagnation_alone": {
+          "source": "missing",
+          "configuration_id": "stagnation_150"
+        }
+      },
+      "paired_factorial_possible_after_completion": false
+    },
+    {
+      "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+      "seed": 2026100202,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "temp_0p01_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "missing",
+          "configuration_id": "temperature_0p01"
+        },
+        "stagnation_alone": {
+          "source": "missing",
+          "configuration_id": "stagnation_150"
+        }
+      },
+      "paired_factorial_possible_after_completion": false
+    },
+    {
+      "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+      "seed": 2026100203,
+      "configuration_id": "temp_0p01_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "temp_0p01_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "missing",
+          "configuration_id": "temperature_0p01"
+        },
+        "stagnation_alone": {
+          "source": "missing",
+          "configuration_id": "stagnation_150"
+        }
+      },
+      "paired_factorial_possible_after_completion": false
+    },
+    {
+      "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+      "seed": 2026100201,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "destroy_0p02_0p60_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "missing",
+          "configuration_id": "destroy_0p02_0p60"
+        },
+        "stagnation_alone": {
+          "source": "missing",
+          "configuration_id": "stagnation_150"
+        }
+      },
+      "paired_factorial_possible_after_completion": false
+    },
+    {
+      "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+      "seed": 2026100202,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "destroy_0p02_0p60_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "missing",
+          "configuration_id": "destroy_0p02_0p60"
+        },
+        "stagnation_alone": {
+          "source": "missing",
+          "configuration_id": "stagnation_150"
+        }
+      },
+      "paired_factorial_possible_after_completion": false
+    },
+    {
+      "instance_uid": "BMCP_Set_I:bmcp_985_1000_0.075_1500",
+      "seed": 2026100203,
+      "configuration_id": "destroy_0p02_0p60_stagnation_150",
+      "corners": {
+        "base": {
+          "source": "current_stage",
+          "configuration_id": "base"
+        },
+        "combined": {
+          "source": "current_stage",
+          "configuration_id": "destroy_0p02_0p60_stagnation_150"
+        },
+        "factor_alone": {
+          "source": "missing",
+          "configuration_id": "destroy_0p02_0p60"
+        },
+        "stagnation_alone": {
+          "source": "missing",
+          "configuration_id": "stagnation_150"
+        }
+      },
+      "paired_factorial_possible_after_completion": false
+    }
+  ],
+  "inference": "Exploratory post-OFAT combinations, three paired seeds. Combined-versus-base performance is not proof of interaction. Four-corner paired contrasts are identifiable only on tail cases with existing simple effects. No significance or holdout claim; historical controls belong to a prior stage."
+}

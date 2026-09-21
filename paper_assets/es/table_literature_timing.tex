@@ -1,0 +1,18 @@
+\begin{table}[tbp]\centering\small
+\caption{Contexto temporal por grupo. Tiempo es el promedio de los 30 tiempos medios por instancia hasta el resultado final de cada método; $\mathrm{std}(f)$ corresponde a calidad. Equipos y protocolos distintos.}
+\label{tab:literature-timing}
+\begin{tabular}{llrrrr}
+\toprule
+Grupo & Método & $n$ & Límite (s) & Media de $\mathrm{std}(f)$ & Tiempo (s)\\
+\midrule
+I: pequeñas & PLTS & 30 & 600 & 222 & 257\\
+I: pequeñas & IHS & 30 & 600 & 15.6 & 44.8\\
+I: pequeñas & ANRMA & 30 & 600 & 0 & 1.30\\
+I: pequeñas & GPU-MTS & 10 & 90 & 0 & 0.0130\\
+II: medianas & ANRMA & 30 & 1800 & 8.27 & 41.9\\
+II: medianas & GPU-MTS & 10 & 90/180 & 0 & 0.0967\\
+II: grandes & ANRMA & 30 & 1800 & 869 & 648\\
+II: grandes & GPU-MTS & 10 & 180 & 0 & 2.29\\
+\bottomrule\end{tabular}
+\par\smallskip\parbox{.97\linewidth}{\footnotesize GPU-MTS: cuatro medianas con 90 s y 26 con 180 s. Su reloj incluye búsqueda y observación, y excluye preparación. Los datos bibliográficos proceden de Wei y Hao~\cite{Wei2023IHS} (PLTS e IHS en pequeñas) y Wei et al.~\cite{Wei2026ANRMA} (ANRMA).}
+\end{table}
