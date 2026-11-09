@@ -1,0 +1,66 @@
+{
+  "started": "2026-11-04T15:26:37",
+  "brute_force": [
+    {
+      "instance": "bmcp_4600_4400_0.5_7000",
+      "exit": 0,
+      "last": [
+        "{\"instance\": \"bmcp_4600_4400_0.5_7000\", \"checked_moves\": 16, \"mismatches\": 0, \"overflow_paths\": 0}"
+      ]
+    },
+    {
+      "instance": "edge_sh_r1_k100_density",
+      "exit": 0,
+      "last": [
+        "{\"instance\": \"edge_sh_r1_k100_density\", \"checked_moves\": 0, \"mismatches\": 0, \"overflow_paths\": 0}"
+      ]
+    },
+    {
+      "instance": "edge_sh_r2_k200_unit",
+      "exit": 0,
+      "last": [
+        "{\"instance\": \"edge_sh_r2_k200_unit\", \"checked_moves\": 8, \"mismatches\": 0, \"overflow_paths\": 0}"
+      ]
+    },
+    {
+      "instance": "hard_uniform_10000_s150_rho0.8",
+      "exit": 0,
+      "last": [
+        "{\"instance\": \"hard_uniform_10000_s150_rho0.8\", \"checked_moves\": 12, \"mismatches\": 0, \"overflow_paths\": 0}"
+      ]
+    },
+    {
+      "instance": "hard_heavy_10000_a1.6_b0.8_rho0.5",
+      "exit": 0,
+      "last": [
+        "{\"instance\": \"hard_heavy_10000_a1.6_b0.8_rho0.5\", \"checked_moves\": 12, \"mismatches\": 0, \"overflow_paths\": 0}"
+      ]
+    },
+    {
+      "instance": "hard_spatial_10000_g40_l0.5_rho0.8",
+      "exit": 0,
+      "last": [
+        "{\"instance\": \"hard_spatial_10000_g40_l0.5_rho0.8\", \"checked_moves\": 12, \"mismatches\": 0, \"overflow_paths\": 0}"
+      ]
+    }
+  ],
+  "parity": {
+    "exit": 0,
+    "lines": [
+      "{\"instance\": \"bmcp_785_800_0.05_2000\", \"neighborhood\": \"shortlist\", \"steps\": 256, \"identical\": true, \"gpu\": \"475e653ccb20\", \"cpu\": \"475e653ccb20\", \"gpu_overflows\": null, \"gpu_profit\": 92608, \"cpu_profit\": 92608, \"gpu_s\": 0.05, \"cpu_s\": 0.89}",
+      "{\"instance\": \"bmcp_4600_4400_0.5_7000\", \"neighborhood\": \"shortlist\", \"steps\": 256, \"identical\": true, \"gpu\": \"797c06c59fba\", \"cpu\": \"797c06c59fba\", \"gpu_overflows\": null, \"gpu_profit\": 1901834, \"cpu_profit\": 1901834, \"gpu_s\": 1.45, \"cpu_s\": 36.24}",
+      "{\"instance\": \"edge_sh_r1_k100_density\", \"neighborhood\": \"shortlist\", \"steps\": 256, \"identical\": true, \"gpu\": \"506179bcf876\", \"cpu\": \"506179bcf876\", \"gpu_overflows\": null, \"gpu_profit\": 2937244, \"cpu_profit\": 2937244, \"gpu_s\": 0.08, \"cpu_s\": 0.9}",
+      "{\"instance\": \"hard_uniform_10000_s150_rho0.8\", \"neighborhood\": \"shortlist\", \"steps\": 256, \"identical\": true, \"gpu\": \"3c2d23d544a2\", \"cpu\": \"3c2d23d544a2\", \"gpu_overflows\": null, \"gpu_profit\": 984442, \"cpu_profit\": 984442, \"gpu_s\": 2.6, \"cpu_s\": 40.61}",
+      "{\"instance\": \"hard_heavy_10000_a1.6_b0.8_rho0.5\", \"neighborhood\": \"shortlist\", \"steps\": 256, \"identical\": true, \"gpu\": \"b2ae5f8635ed\", \"cpu\": \"b2ae5f8635ed\", \"gpu_overflows\": null, \"gpu_profit\": 850812, \"cpu_profit\": 850812, \"gpu_s\": 11.13, \"cpu_s\": 52.95}",
+      "{\"instance\": \"hard_spatial_10000_g40_l0.5_rho0.8\", \"neighborhood\": \"shortlist\", \"steps\": 256, \"identical\": true, \"gpu\": \"2d3ac9928a1a\", \"cpu\": \"2d3ac9928a1a\", \"gpu_overflows\": null, \"gpu_profit\": 6094518, \"cpu_profit\": 6094518, \"gpu_s\": 2.32, \"cpu_s\": 23.48}",
+      "{\"instance\": \"bmcp_785_800_0.05_2000\", \"neighborhood\": \"full\", \"steps\": 256, \"identical\": true, \"gpu\": \"33036e01dade\", \"cpu\": \"33036e01dade\", \"gpu_overflows\": 0, \"gpu_profit\": 92740, \"cpu_profit\": 92740, \"gpu_s\": 0.12, \"cpu_s\": 1.26}",
+      "{\"instance\": \"bmcp_4600_4400_0.5_7000\", \"neighborhood\": \"full\", \"steps\": 256, \"identical\": true, \"gpu\": \"96e5fbbca194\", \"cpu\": \"96e5fbbca194\", \"gpu_overflows\": 0, \"gpu_profit\": 1901834, \"cpu_profit\": 1901834, \"gpu_s\": 3.2, \"cpu_s\": 31.33}",
+      "{\"instance\": \"edge_sh_r1_k100_density\", \"neighborhood\": \"full\", \"steps\": 256, \"identical\": true, \"gpu\": \"e80d9ddec15e\", \"cpu\": \"e80d9ddec15e\", \"gpu_overflows\": 0, \"gpu_profit\": 2956761, \"cpu_profit\": 2956761, \"gpu_s\": 0.17, \"cpu_s\": 0.75}",
+      "{\"instance\": \"hard_uniform_10000_s150_rho0.8\", \"neighborhood\": \"full\", \"steps\": 256, \"identical\": true, \"gpu\": \"158191a32323\", \"cpu\": \"158191a32323\", \"gpu_overflows\": 0, \"gpu_profit\": 982165, \"cpu_profit\": 982165, \"gpu_s\": 3.08, \"cpu_s\": 49.3}",
+      "{\"instance\": \"hard_heavy_10000_a1.6_b0.8_rho0.5\", \"neighborhood\": \"full\", \"steps\": 256, \"identical\": true, \"gpu\": \"3c4aa2e70ea8\", \"cpu\": \"3c4aa2e70ea8\", \"gpu_overflows\": 0, \"gpu_profit\": 850812, \"cpu_profit\": 850812, \"gpu_s\": 3.11, \"cpu_s\": 45.48}",
+      "{\"instance\": \"hard_spatial_10000_g40_l0.5_rho0.8\", \"neighborhood\": \"full\", \"steps\": 256, \"identical\": true, \"gpu\": \"fe2116d2e65b\", \"cpu\": \"fe2116d2e65b\", \"gpu_overflows\": 0, \"gpu_profit\": 6225190, \"cpu_profit\": 6225190, \"gpu_s\": 2.17, \"cpu_s\": 22.07}"
+    ]
+  },
+  "finished": "2026-11-04T15:33:27",
+  "passed": true
+}

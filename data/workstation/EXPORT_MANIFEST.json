@@ -1,0 +1,191 @@
+{
+  "description": "Run records of the same-workstation experiments, copied unchanged from the campaign and calibration outputs (source: relative identifier of the original file). Each export hash equals the hash of its source.",
+  "files": [
+    {
+      "file": "data/workstation/hard_complete.jsonl",
+      "source": "campaign/hard_complete.jsonl",
+      "sha256": "b9aafb8d0b102e1fccfce11e6b8e29daa84e3e55af33795c3674134d1d88b288",
+      "records": 54
+    },
+    {
+      "file": "data/workstation/hard_restricted_s1.jsonl",
+      "source": "campaign/hard_restricted_s1.jsonl",
+      "sha256": "c984957e9c6a7e5d75a1f05cb67502bf47749603c311e94119085f418e20e819",
+      "records": 18
+    },
+    {
+      "file": "data/workstation/hard_restricted_s23.jsonl",
+      "source": "campaign/hard_restricted_s23.jsonl",
+      "sha256": "c76840dc7f0fec780b5238eb2232da2c15fb71ebbfddf716e14a1fb74ffd4370",
+      "records": 36
+    },
+    {
+      "file": "data/workstation/cpu12_hard300.jsonl",
+      "source": "campaign/cpu12_hard300.jsonl",
+      "sha256": "0afbe477dbe532ef557915aa0a1e22eb3f86a490ec7822a1a48a1c761cfcf276",
+      "records": 54
+    },
+    {
+      "file": "data/workstation/cpu24_hard300.jsonl",
+      "source": "campaign/cpu24_hard300.jsonl",
+      "sha256": "3659c674ad6311e10457092b0debec24a3a28116bc746cd6bd8cd6ac630dd46d",
+      "records": 54
+    },
+    {
+      "file": "data/workstation/hard_hexaly.jsonl",
+      "source": "campaign/hard_hexaly.jsonl",
+      "sha256": "ed4e97c15bfa6efe5c3b286449eea82f8fc6415866532cad3e2b54c8da1ed154",
+      "records": 54
+    },
+    {
+      "file": "data/workstation/lsbmcp_hard300.jsonl",
+      "source": "campaign/lsbmcp_hard300.jsonl",
+      "sha256": "362ef58feb3b8177b615d248a630f922ecc3ff33a8076a552f0bb58f5f523246",
+      "records": 54
+    },
+    {
+      "file": "data/workstation/hard_mip.jsonl",
+      "source": "campaign/hard_mip.jsonl",
+      "sha256": "6a30e2b47a4e3fc240157a6b918e0201d57ed82a152ec626850651784da13241",
+      "records": 18
+    },
+    {
+      "file": "data/workstation/hard_lp.jsonl",
+      "source": "campaign/hard_lp.jsonl",
+      "sha256": "3810f65ad1f6d934058a521fa4b945b6122f01a35cea96187278495f6a0d4542",
+      "records": 18
+    },
+    {
+      "file": "data/workstation/anrma_hard.jsonl",
+      "source": "campaign/anrma_hard.jsonl",
+      "sha256": "e8e13532cc6127a318b6988b0f18ba325764347172d42b457c0da66c635152cf",
+      "records": 18
+    },
+    {
+      "file": "data/workstation/edge_complete.jsonl",
+      "source": "campaign/edge_complete.jsonl",
+      "sha256": "e341f5c25862cb0fac98881a248f38c3bf6449d0530df8990f7a0a6881b776da",
+      "records": 54
+    },
+    {
+      "file": "data/workstation/edge_restricted.jsonl",
+      "source": "campaign/edge_restricted.jsonl",
+      "sha256": "c11c3a4164169a80eaadd26eccd07f035814013a0c7acd1b3f8a4015ba4c726b",
+      "records": 54
+    },
+    {
+      "file": "data/workstation/edge_hexaly.jsonl",
+      "source": "campaign/edge_hexaly.jsonl",
+      "sha256": "aeaf0eef21230a08ea94e8560049e816bdbde1e242cd858b69ece6ea59549c3e",
+      "records": 54
+    },
+    {
+      "file": "data/workstation/lsbmcp_edge.jsonl",
+      "source": "campaign/lsbmcp_edge.jsonl",
+      "sha256": "6d31c57d9c44ad60a773196007c710ff01d95c7bcaff2b88747be2d6e7030ef4",
+      "records": 54
+    },
+    {
+      "file": "data/workstation/edge_highs.jsonl",
+      "source": "campaign/edge_highs.jsonl",
+      "sha256": "e95c10a0cfef91b4e3360a2620dc7938dd568b24146144b7b6b2da2bc4997e0b",
+      "records": 18
+    },
+    {
+      "file": "data/workstation/edge_highs_120.jsonl",
+      "source": "campaign/edge_highs_120.jsonl",
+      "sha256": "fdbf9906607723606c544dab18e998b2b159ce50b31ec37b8cc6301a7091b13f",
+      "records": 18
+    },
+    {
+      "file": "data/workstation/public_complete.jsonl",
+      "source": "campaign/public_complete.jsonl",
+      "sha256": "da3c81aa1325db89531022b0b5575ab1c59467758362a7f7e9b64fa9aaef3bf8",
+      "records": 90
+    },
+    {
+      "file": "data/workstation/public_complete_s2.jsonl",
+      "source": "campaign/public_complete_s2.jsonl",
+      "sha256": "dea22ca6f6346e1a577d5990a8d0c52b007cb5b97d3971798f84e4d2268bb952",
+      "records": 90
+    },
+    {
+      "file": "data/workstation/public_complete_s3.jsonl",
+      "source": "campaign/public_complete_s3.jsonl",
+      "sha256": "b2207739786928c483d6310695e4a0373aa76b58537522dfe452538f1497c089",
+      "records": 90
+    },
+    {
+      "file": "data/workstation/anrma_public.jsonl",
+      "source": "campaign/anrma_public.jsonl",
+      "sha256": "d0dcfe50e1542bbb635e5224565fc38c09906334c98e38217a8ac15122c8eacd",
+      "records": 270
+    },
+    {
+      "file": "data/workstation/lsbmcp_public.jsonl",
+      "source": "campaign/lsbmcp_public.jsonl",
+      "sha256": "5b7c2ecf25fb89744c933b74f614b42259992eb44869ed472d2a1067d72a272d",
+      "records": 270
+    },
+    {
+      "file": "data/workstation/cpu24_public_large.jsonl",
+      "source": "campaign/cpu24_public_large.jsonl",
+      "sha256": "6d0e1c3a9303fb87996771e76ff8bf12f32cf9d10483c974aef2f161727fbb79",
+      "records": 90
+    },
+    {
+      "file": "data/workstation/platform.jsonl",
+      "source": "campaign/platform.jsonl",
+      "sha256": "89488f97e127b167e76c97966cd7e2e81f19c7427658df1682e3e5c2e097210a",
+      "records": 42
+    },
+    {
+      "file": "data/workstation/kernels.jsonl",
+      "source": "campaign/kernels.jsonl",
+      "sha256": "a0a89074b8394972e619343b44165145d05373668dd02c1e861f3cdfd97eb692",
+      "records": 12
+    },
+    {
+      "file": "data/workstation/full_kernel_validation_report.json",
+      "source": "campaign/full_kernel_validation_report.json",
+      "sha256": "aede773346a392359c96e63ea11a46530a026a8344d25bc994b4665e9b49fa57",
+      "records": 1
+    },
+    {
+      "file": "data/workstation/calibration/calib_lp.jsonl",
+      "source": "calibration/calib_lp.jsonl",
+      "sha256": "1aa4eafa689fc593e103773a0d1aa3b8909bb651693b47200fa8d15d687a7211",
+      "records": 5
+    },
+    {
+      "file": "data/workstation/calibration/gpu/hard_heavy_5000_a1.6_b0.8_rho0.5.json",
+      "source": "calibration/gpu/hard_heavy_5000_a1.6_b0.8_rho0.5.json",
+      "sha256": "0fea790b630ce6916baa5cbdf37727af44e8a19a86df0ec2cc910837214287cb",
+      "records": 1
+    },
+    {
+      "file": "data/workstation/calibration/gpu/hard_heavy_5000_a1.6_b0.8_rho0.8.json",
+      "source": "calibration/gpu/hard_heavy_5000_a1.6_b0.8_rho0.8.json",
+      "sha256": "cf6b7e21f5e0adfb1331063e04c7c4a1a455d4e752e7785a813c7dc0a11051ff",
+      "records": 1
+    },
+    {
+      "file": "data/workstation/calibration/gpu/hard_heavy_5000_a1.6_b0.8_rho1.2.json",
+      "source": "calibration/gpu/hard_heavy_5000_a1.6_b0.8_rho1.2.json",
+      "sha256": "59cf27d443d6f562d4190898a360230b60164c502cc8d2f15ab0c396e442f77d",
+      "records": 1
+    },
+    {
+      "file": "data/workstation/calibration/gpu/hard_spatial_5000_g40_l0.5_rho0.5.json",
+      "source": "calibration/gpu/hard_spatial_5000_g40_l0.5_rho0.5.json",
+      "sha256": "675f1a49c9ba7a415a80c00748e180fc5f09e3c244a76fd22d028e3831006233",
+      "records": 1
+    },
+    {
+      "file": "data/workstation/calibration/gpu/hard_spatial_5000_g40_l0.5_rho0.8.json",
+      "source": "calibration/gpu/hard_spatial_5000_g40_l0.5_rho0.8.json",
+      "sha256": "0e67f2d18bd56214bb45f314bc5a718084ab597a4374c21c5978c8cf34ca366d",
+      "records": 1
+    }
+  ]
+}

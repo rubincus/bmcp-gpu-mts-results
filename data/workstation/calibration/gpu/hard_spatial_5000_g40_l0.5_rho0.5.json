@@ -1,0 +1,307 @@
+{
+  "algorithm": "BMCP-GPU-Tabu-NR-large-v1-full",
+  "neighborhood": "full",
+  "overflow_paths": 0,
+  "instance": "hard_spatial_5000_g40_l0.5_rho0.5",
+  "instance_sha256": "8290cf558131cab4310cc591137fbf8b162ac160dcd520dc0bc4e66c094cb4bf",
+  "items": 5000,
+  "elements": 5000,
+  "incidences": 428667,
+  "scan": "sparse",
+  "seed": 2026110401,
+  "blocks": 128,
+  "stagnation": 300,
+  "outgoing": 4,
+  "temperature": 0.03,
+  "destroy_low": 0.12,
+  "destroy_high": 0.7,
+  "seconds": 30.0,
+  "fixed_steps": null,
+  "steps_done": 2405,
+  "elapsed_seconds": 30.004631300000256,
+  "setup_seconds": 0.07706979999966279,
+  "compile_seconds": 0.09068429999933869,
+  "time_to_best_seconds": 19.583988500000487,
+  "time_to_reference_seconds": null,
+  "reference_best": null,
+  "profit": 5075994,
+  "cost": 2897,
+  "capacity": 2897,
+  "covered_elements": 2652,
+  "selected_count": 28,
+  "feasible": true,
+  "selected_items_0based": [
+    498,
+    524,
+    554,
+    751,
+    808,
+    1038,
+    1139,
+    1311,
+    1518,
+    1782,
+    2060,
+    2397,
+    2507,
+    2722,
+    2809,
+    3064,
+    3206,
+    3278,
+    3339,
+    3351,
+    3406,
+    3700,
+    3832,
+    4014,
+    4091,
+    4170,
+    4544,
+    4800
+  ],
+  "certificate": {
+    "profit": 5075994,
+    "cost": 2897,
+    "capacity": 2897,
+    "feasible": true,
+    "selected_count": 28,
+    "covered_elements": 2652,
+    "selection_sha256": "7816687f262f75ca16e748871c2296ff19736b449bdeabacb6483302ad9010af"
+  },
+  "trace": [
+    {
+      "seconds": 0.002490099999704398,
+      "profit": 547441,
+      "cost": 204,
+      "steps": 1
+    },
+    {
+      "seconds": 0.021665400001438684,
+      "profit": 2619632,
+      "cost": 1231,
+      "steps": 9
+    },
+    {
+      "seconds": 0.04093240000111109,
+      "profit": 3852015,
+      "cost": 2011,
+      "steps": 17
+    },
+    {
+      "seconds": 0.0599158000004536,
+      "profit": 4689785,
+      "cost": 2690,
+      "steps": 25
+    },
+    {
+      "seconds": 0.12052930000027118,
+      "profit": 5002937,
+      "cost": 2895,
+      "steps": 33
+    },
+    {
+      "seconds": 0.14434540000002016,
+      "profit": 5004446,
+      "cost": 2895,
+      "steps": 35
+    },
+    {
+      "seconds": 0.15630210000017541,
+      "profit": 5016071,
+      "cost": 2897,
+      "steps": 36
+    },
+    {
+      "seconds": 0.16875940000136325,
+      "profit": 5017606,
+      "cost": 2890,
+      "steps": 37
+    },
+    {
+      "seconds": 0.18086290000064764,
+      "profit": 5024060,
+      "cost": 2894,
+      "steps": 38
+    },
+    {
+      "seconds": 0.19310330000007525,
+      "profit": 5026509,
+      "cost": 2896,
+      "steps": 39
+    },
+    {
+      "seconds": 0.20519899999999325,
+      "profit": 5026543,
+      "cost": 2897,
+      "steps": 40
+    },
+    {
+      "seconds": 0.24134430000049178,
+      "profit": 5033203,
+      "cost": 2896,
+      "steps": 43
+    },
+    {
+      "seconds": 0.300784000000931,
+      "profit": 5037424,
+      "cost": 2897,
+      "steps": 48
+    },
+    {
+      "seconds": 0.444560800000545,
+      "profit": 5038776,
+      "cost": 2897,
+      "steps": 60
+    },
+    {
+      "seconds": 0.4805608000006032,
+      "profit": 5045637,
+      "cost": 2897,
+      "steps": 63
+    },
+    {
+      "seconds": 1.0045452000013029,
+      "profit": 5046631,
+      "cost": 2896,
+      "steps": 107
+    },
+    {
+      "seconds": 1.0526359000014054,
+      "profit": 5049940,
+      "cost": 2896,
+      "steps": 111
+    },
+    {
+      "seconds": 1.0647364000014932,
+      "profit": 5050718,
+      "cost": 2896,
+      "steps": 112
+    },
+    {
+      "seconds": 2.447552999999971,
+      "profit": 5050814,
+      "cost": 2896,
+      "steps": 228
+    },
+    {
+      "seconds": 2.702710900000966,
+      "profit": 5051472,
+      "cost": 2892,
+      "steps": 248
+    },
+    {
+      "seconds": 2.718053000000509,
+      "profit": 5059349,
+      "cost": 2897,
+      "steps": 249
+    },
+    {
+      "seconds": 3.5729218000014953,
+      "profit": 5060965,
+      "cost": 2897,
+      "steps": 312
+    },
+    {
+      "seconds": 3.588070300000254,
+      "profit": 5061159,
+      "cost": 2895,
+      "steps": 313
+    },
+    {
+      "seconds": 6.685535600001458,
+      "profit": 5061362,
+      "cost": 2897,
+      "steps": 538
+    },
+    {
+      "seconds": 7.808430300001419,
+      "profit": 5061384,
+      "cost": 2897,
+      "steps": 620
+    },
+    {
+      "seconds": 8.08821060000082,
+      "profit": 5063180,
+      "cost": 2896,
+      "steps": 641
+    },
+    {
+      "seconds": 8.102752800001326,
+      "profit": 5064619,
+      "cost": 2896,
+      "steps": 642
+    },
+    {
+      "seconds": 9.568737400000828,
+      "profit": 5065644,
+      "cost": 2896,
+      "steps": 749
+    },
+    {
+      "seconds": 9.581374999999753,
+      "profit": 5066644,
+      "cost": 2897,
+      "steps": 750
+    },
+    {
+      "seconds": 10.304007900000215,
+      "profit": 5067790,
+      "cost": 2893,
+      "steps": 802
+    },
+    {
+      "seconds": 10.320239000000583,
+      "profit": 5068033,
+      "cost": 2895,
+      "steps": 803
+    },
+    {
+      "seconds": 10.378256600000896,
+      "profit": 5068835,
+      "cost": 2896,
+      "steps": 807
+    },
+    {
+      "seconds": 10.390659100001358,
+      "profit": 5069790,
+      "cost": 2897,
+      "steps": 808
+    },
+    {
+      "seconds": 13.565056900000855,
+      "profit": 5070995,
+      "cost": 2896,
+      "steps": 1042
+    },
+    {
+      "seconds": 19.571741900001143,
+      "profit": 5074313,
+      "cost": 2891,
+      "steps": 1526
+    },
+    {
+      "seconds": 19.583988500000487,
+      "profit": 5075994,
+      "cost": 2897,
+      "steps": 1527
+    }
+  ],
+  "state_sha256": "a6142ce7c312edc96253207b73a337a35899facb426172f075a956a3c59b42c6",
+  "device_name": "NVIDIA GeForce RTX 5080",
+  "driver_version": 13030,
+  "source_sha256": {
+    "bmcp_gpu_large.py": "48a163f5252bef3f5dd78fa4991842db6a72444eea0e450ab6ba24c06d4e6a5b",
+    "bmcp_search_full.cu": "4fe857aa63153d2a18ba6bfc6ecb350ab0ee9a7b4e18ddf160a6fc1306541a44",
+    "sparse_io.py": "87abe723dbe77bae68d07fc1c0daf4b1bb93b9e2fa151977e7e90113e9064d1a"
+  },
+  "iterations": 307840,
+  "restarts": 605,
+  "adds": 12476,
+  "removes": 1,
+  "swaps": 294636,
+  "gpu_calls": 2376,
+  "max_batch_seconds": 0.06041609999920183,
+  "device_allocated_bytes": 30705200,
+  "packaged_version": "0.1.0"
+}

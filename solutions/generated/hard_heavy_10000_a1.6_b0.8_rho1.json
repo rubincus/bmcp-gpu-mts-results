@@ -1,0 +1,49 @@
+{
+  "instance": "hard_heavy_10000_a1.6_b0.8_rho1",
+  "instance_sha256": "6d50cf16c46af94af90de9109fa44dbc295e5267ebbaddefe85190325244027b",
+  "profit": 1171137,
+  "cost": 5888,
+  "capacity": 5897,
+  "covered_elements": 7837,
+  "selected_count": 11,
+  "selected_items_0based": [
+    1652,
+    1950,
+    2659,
+    4179,
+    4832,
+    5223,
+    5321,
+    5453,
+    7094,
+    8321,
+    9865
+  ],
+  "selected_items_1based": [
+    1653,
+    1951,
+    2660,
+    4180,
+    4833,
+    5224,
+    5322,
+    5454,
+    7095,
+    8322,
+    9866
+  ],
+  "method": "GPU-MTS, complete neighbourhood",
+  "seed": 2026110501,
+  "source_record": "data/workstation/hard_complete.jsonl:4",
+  "certificate": {
+    "profit": 1171137,
+    "cost": 5888,
+    "capacity": 5897,
+    "feasible": true,
+    "selected_count": 11,
+    "covered_elements": 7837,
+    "selection_sha256": "a185a3f638fc9509c50a866dce141d4d4e93ed6d33dac7c41ef37fa8d55eaabb"
+  },
+  "runs_attaining_value": 13,
+  "selection_rule": "Best certified value over the runs that define the best known value in the manuscript; ties are broken by the order GPU-MTS complete, GPU-MTS restricted, CPU port (24, then 12 threads), LS-BMCP, Hexaly, HiGHS, and then by the smallest seed; not selected by time."
+}

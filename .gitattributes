@@ -9,3 +9,5 @@ data/** -text
 solutions/** -text
 analysis/figures/*.json -text
 analysis/figures/en/*.json -text
+*.xz binary
+benchmark/** -text

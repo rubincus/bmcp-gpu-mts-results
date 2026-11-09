@@ -1,0 +1,78 @@
+{
+  "algorithm": "BMCP-GPU-Tabu-NR-large-v1-full",
+  "neighborhood": "full",
+  "overflow_paths": 0,
+  "instance": "hard_heavy_5000_a1.6_b0.8_rho0.5",
+  "instance_sha256": "0435c96dcd8c336588e603107040fdb84324891b305074bc487ca92070c38711",
+  "items": 5000,
+  "elements": 5000,
+  "incidences": 797690,
+  "scan": "packed",
+  "seed": 2026110401,
+  "blocks": 128,
+  "stagnation": 300,
+  "outgoing": 4,
+  "temperature": 0.03,
+  "destroy_low": 0.12,
+  "destroy_high": 0.7,
+  "seconds": 30.0,
+  "fixed_steps": null,
+  "steps_done": 2266,
+  "elapsed_seconds": 30.0076138000004,
+  "setup_seconds": 0.11024990000078105,
+  "compile_seconds": 0.11379420000048412,
+  "time_to_best_seconds": 0.024219700000685407,
+  "time_to_reference_seconds": null,
+  "reference_best": null,
+  "profit": 490817,
+  "cost": 1589,
+  "capacity": 1599,
+  "covered_elements": 3274,
+  "selected_count": 3,
+  "feasible": true,
+  "selected_items_0based": [
+    2785,
+    2840,
+    4962
+  ],
+  "certificate": {
+    "profit": 490817,
+    "cost": 1589,
+    "capacity": 1599,
+    "feasible": true,
+    "selected_count": 3,
+    "covered_elements": 3274,
+    "selection_sha256": "4a1326b14ebf387e5a76edb6d9c1ac2b3191b27c9450402d03b95f3040ff2093"
+  },
+  "trace": [
+    {
+      "seconds": 0.006626799999139621,
+      "profit": 299021,
+      "cost": 624,
+      "steps": 1
+    },
+    {
+      "seconds": 0.024219700000685407,
+      "profit": 490817,
+      "cost": 1589,
+      "steps": 4
+    }
+  ],
+  "state_sha256": "4d4471d67dbb69132b75219d69db66d127dc92c0da34359727c8ef1511ecb12b",
+  "device_name": "NVIDIA GeForce RTX 5080",
+  "driver_version": 13030,
+  "source_sha256": {
+    "bmcp_gpu_large.py": "48a163f5252bef3f5dd78fa4991842db6a72444eea0e450ab6ba24c06d4e6a5b",
+    "bmcp_search_full.cu": "4fe857aa63153d2a18ba6bfc6ecb350ab0ee9a7b4e18ddf160a6fc1306541a44",
+    "sparse_io.py": "87abe723dbe77bae68d07fc1c0daf4b1bb93b9e2fa151977e7e90113e9064d1a"
+  },
+  "iterations": 290048,
+  "restarts": 883,
+  "adds": 2583,
+  "removes": 2,
+  "swaps": 286455,
+  "gpu_calls": 2262,
+  "max_batch_seconds": 0.03262480000012147,
+  "device_allocated_bytes": 32181292,
+  "packaged_version": "0.1.0"
+}
