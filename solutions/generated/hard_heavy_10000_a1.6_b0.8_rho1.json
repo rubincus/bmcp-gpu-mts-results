@@ -44,6 +44,6 @@
     "covered_elements": 7837,
     "selection_sha256": "a185a3f638fc9509c50a866dce141d4d4e93ed6d33dac7c41ef37fa8d55eaabb"
   },
-  "runs_attaining_value": 13,
+  "runs_attaining_value": 22,
   "selection_rule": "Best certified value over the runs that define the best known value in the manuscript; ties are broken by the order GPU-MTS complete, GPU-MTS restricted, CPU port (24, then 12 threads), LS-BMCP, Hexaly, HiGHS, and then by the smallest seed; not selected by time."
 }

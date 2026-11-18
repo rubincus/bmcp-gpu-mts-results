@@ -75,23 +75,25 @@ The instances use the sparse format `BMCP-SPARSE 1` and are compressed with xz:
 
 | Records in `data/workstation/` | Content |
 |---|---|
-| `hard_complete.jsonl` | GPU-MTS with the complete neighbourhood; generated instances, three seeds, 300 s |
-| `hard_restricted_s1.jsonl`, `hard_restricted_s23.jsonl` | GPU-MTS with the restricted neighbourhood (K = 4); seed 1, and seeds 2 and 3 |
-| `cpu12_hard300.jsonl`, `cpu24_hard300.jsonl` | CPU port with 12 and 24 threads, GPU seeds, 300 s |
-| `hard_hexaly.jsonl`, `lsbmcp_hard300.jsonl` | Hexaly 15.0 with 24 threads, and LS-BMCP; three seeds, 300 s |
+| `hard_complete.jsonl`, `hard_complete_s4.jsonl`, `hard_complete_s5.jsonl` | GPU-MTS with the complete neighbourhood; generated instances, five seeds (seeds 1 to 3 in the first file), 300 s |
+| `hard_restricted_s1.jsonl`, `hard_restricted_s23.jsonl`, `hard_restricted_s4.jsonl`, `hard_restricted_s5.jsonl` | GPU-MTS with the restricted neighbourhood (K = 4); seed 1, seeds 2 and 3, seed 4, and seed 5 |
+| `cpu12_hard300.jsonl`, `cpu24_hard300.jsonl`, and their `_s4` and `_s5` files | CPU port with 12 and 24 threads, GPU seeds (seeds 1 to 3, 4, and 5), 300 s |
+| `hard_hexaly.jsonl`, `lsbmcp_hard300.jsonl` | Hexaly 15.0 with 24 threads, and LS-BMCP; five seeds, 300 s |
 | `hard_lp.jsonl`, `hard_mip.jsonl` | HiGHS with 24 threads: LP relaxation (interior point, 1,200 s) and MIP (600 s) |
 | `anrma_hard.jsonl` | ANRMA executable, 120 s, kept to document its failures: certified selections on 5 of the 18 instances |
-| `edge_complete.jsonl`, `edge_restricted.jsonl` | GPU-MTS with both neighbourhoods; edge instances, three seeds, 120 s |
-| `edge_hexaly.jsonl`, `lsbmcp_edge.jsonl` | Hexaly and LS-BMCP; three seeds, 120 s |
+| `edge_complete.jsonl`, `edge_restricted.jsonl`, and their `_s4` and `_s5` files | GPU-MTS with both neighbourhoods; edge instances, five seeds (seeds 1 to 3, 4, and 5), 120 s |
+| `edge_hexaly.jsonl`, `lsbmcp_edge.jsonl` | Hexaly and LS-BMCP; five seeds, 120 s |
 | `edge_highs.jsonl`, `edge_highs_120.jsonl` | HiGHS MIP with 24 threads: 600 s (reference) and 120 s |
-| `public_complete.jsonl`, `public_complete_s2.jsonl`, `public_complete_s3.jsonl` | GPU-MTS with the complete neighbourhood; 90 public instances, three seeds, 60 s |
-| `anrma_public.jsonl`, `lsbmcp_public.jsonl` | ANRMA and LS-BMCP on one core; three seeds, 60 s |
-| `cpu24_public_large.jsonl` | CPU port with 24 threads; 30 large public instances, GPU seeds, 60 s |
+| `public_complete.jsonl` and `public_complete_s2.jsonl` to `public_complete_s5.jsonl` | GPU-MTS with the complete neighbourhood; 90 public instances, five seeds, 60 s |
+| `anrma_public.jsonl`, `lsbmcp_public.jsonl` | ANRMA and LS-BMCP on one core; five seeds, 60 s |
+| `cpu24_public_large.jsonl` and its `_s4` and `_s5` files | CPU port with 24 threads; 30 large public instances, GPU seeds (seeds 1 to 3, 4, and 5), 60 s |
 | `platform.jsonl` | GPU against the CPU port with 24 threads at fixed work; 7 instances, both neighbourhoods, three seeds |
 | `kernels.jsonl` | shared-memory against global-memory kernel at fixed work; 4 public instances, three seeds |
 | `full_kernel_validation_report.json` | complete-neighbourhood gains checked against brute-force enumeration, and GPU/CPU parity |
 | `calibration/` | LP bounds and 30 s GPU-MTS runs on the calibration instances |
 
+Runs slowed by background load or by the power management of the operating system were repeated, as the manuscript describes; the records here are the ones the manuscript uses.
+
 ANRMA is the executable published in [Zequn-Wei/SUKP](https://github.com/Zequn-Wei/SUKP). LS-BMCP is the code of [AloneKami/LS-BMCP](https://github.com/AloneKami/LS-BMCP), with a routine added to print the final selection. Neither is redistributed here. Each record keeps the selection and the value certified from the instance; for ANRMA and LS-BMCP, the value the program itself reported is kept separately.
 
-Before the deposit, every selection in the witnesses and the run records, 1,540 in total, was recertified from the instance files, and the hashes of all instances were checked.
+Before the deposit, every selection in the witnesses and the run records, 2,500 in total, was recertified from the instance files, and the hashes of all instances were checked.
