@@ -282,6 +282,78 @@
       "source": "calibration/gpu/hard_spatial_5000_g40_l0.5_rho0.8.json",
       "sha256": "0e67f2d18bd56214bb45f314bc5a718084ab597a4374c21c5978c8cf34ca366d",
       "records": 1
+    },
+    {
+      "file": "data/workstation/repeated/20261110/cpu12_hard300_s4.jsonl",
+      "source": "campaign/repeated/20261110/cpu12_hard300_s4.jsonl",
+      "sha256": "6a7f1b1bcd8473862b7d0e8c1053b5d0207af1f047773f0e917554b0f23c931e",
+      "records": 18
+    },
+    {
+      "file": "data/workstation/repeated/20261110/cpu12_hard300_s4_slow_repeat.jsonl",
+      "source": "campaign/repeated/20261110/cpu12_hard300_s4_slow_repeat.jsonl",
+      "sha256": "7aec42d714bddd27333c4ebd36f7545a780ee187520a2a4fdec291762e60e4eb",
+      "records": 3
+    },
+    {
+      "file": "data/workstation/repeated/20261110/cpu24_hard300_s4.jsonl",
+      "source": "campaign/repeated/20261110/cpu24_hard300_s4.jsonl",
+      "sha256": "31e17b06288c924cb0a3c0305c26132bb74b0d487c123f5d871018fa40bcadc5",
+      "records": 18
+    },
+    {
+      "file": "data/workstation/repeated/20261110/cpu24_hard300_s4_slow_repeat.jsonl",
+      "source": "campaign/repeated/20261110/cpu24_hard300_s4_slow_repeat.jsonl",
+      "sha256": "67ad85bff7c3584286f80a879f2f1eea482fa04975402d93012a2c963b4903ba",
+      "records": 1
+    },
+    {
+      "file": "data/workstation/repeated/20261110/edge_hexaly_s4_throttled.jsonl",
+      "source": "campaign/repeated/20261110/edge_hexaly_s4_throttled.jsonl",
+      "sha256": "9a973192bbd08e11eadb59ca5ce23e090a109720c8f1a9198aed56cf3f970fe3",
+      "records": 18
+    },
+    {
+      "file": "data/workstation/repeated/20261110/hard_hexaly_s4_throttled.jsonl",
+      "source": "campaign/repeated/20261110/hard_hexaly_s4_throttled.jsonl",
+      "sha256": "29ab90ce63a07ad00f835fd25c60116acf6d38bccb29d9db02e3908cc138e063",
+      "records": 18
+    },
+    {
+      "file": "data/workstation/repeated/20261117/cpu24_hard300_s5_background.jsonl",
+      "source": "campaign/repeated/20261117/cpu24_hard300_s5_background.jsonl",
+      "sha256": "6adbd2aa86702ee870bd6decafef7d551e9e9902fe5b2a189fe146b60805c347",
+      "records": 8
+    },
+    {
+      "file": "data/workstation/repeated/20261117/cpu24_hard300_s5_throttled.jsonl",
+      "source": "campaign/repeated/20261117/cpu24_hard300_s5_throttled.jsonl",
+      "sha256": "6b48eceba21f645cc48e355b3bab564bf6ef7727103e599d49aec7a237055b02",
+      "records": 2
+    },
+    {
+      "file": "data/workstation/repeated/20261117/hard_restricted_s5_slow.jsonl",
+      "source": "campaign/repeated/20261117/hard_restricted_s5_slow.jsonl",
+      "sha256": "f120a132ba16726619bfd85d856f890487ad298d1b3046f1b121fbea0b31f532",
+      "records": 18
+    },
+    {
+      "file": "data/workstation/checks/batch_invariance.jsonl",
+      "source": "campaign/checks_512/batch_invariance.jsonl",
+      "sha256": "22561b4a36a873090bd7207bf04c19ca21e65d42c23018b029d556e3663e571e",
+      "records": 4
+    },
+    {
+      "file": "data/workstation/checks/cpu_vs_gpu.jsonl",
+      "source": "campaign/checks_512/cpu_vs_gpu.jsonl",
+      "sha256": "08ee222c299c4e036897bd61e9cfc025847522a1a2b333f8fd2b0b3b69756ad8",
+      "records": 6
+    },
+    {
+      "file": "data/workstation/checks/large_vs_shared_kernel.jsonl",
+      "source": "campaign/checks_512/large_vs_shared_kernel.jsonl",
+      "sha256": "00174f50413fc7780897ed5b26344023c042fe059b5488542e0a7c37d5a0b835",
+      "records": 3
     }
   ]
 }

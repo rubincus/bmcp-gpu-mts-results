@@ -38,7 +38,7 @@ Outputs are written to `runs/`. The analysis recomputes statistics from the 900 
 
 - `data/historical/`: 900 runs, protocols, and verification records; 56 instances with a 180 s budget and 34 with a 90 s budget.
 - `data/comparison/`: published values matched by instance and the current analysis of five methods.
-- `data/diagnostics/`: seven stages; 1146 stage records represent 1137 distinct runs because nine controls are reused. The 420 ablation runs include 126 pilot runs. Compact exports omit large internal states while preserving quality, solution witnesses, traces, parameters, and timings.
+- `data/diagnostics/`: seven stages; 1146 stage records represent 1137 distinct runs because nine controls are reused. The 420 ablation runs include 126 pilot runs. Compact exports omit large internal states while preserving quality, solution witnesses, traces, parameters, and timings. In `EXPORT_MANIFEST.json`, `export_sha256` is the hash of the compact export in the private archive and `public_sha256` the hash of the file published here, which holds the same records written with standard JSON separators (and, in `platform_comparison_v1`, local paths replaced by relative identifiers).
 - `data/owner_lookup/`: an additional experiment comprising 60 runs with fixed work. The only evaluated difference is querying the unique owner or the incidence matrix. Both variants maintain the XOR representation. Paired runs have identical final states and certificates; mean incidence/owner time ratios are 1.49, 1.45, and 1.38.
 - `data/PUBLIC_EXPORT_MANIFEST.json`: source and export hashes; absolute local paths in metadata are replaced with relative identifiers. Numerical results are unchanged.
 - `docs/REPRODUCIBILIDAD.md`: definitions, timing scopes, study scope, and preparation costs (in Spanish).
@@ -60,9 +60,9 @@ The revised manuscript adds instances that are larger and harder than the public
 
 ### Contents
 
-- `benchmark/generated/`: 18 generated instances with m = n = 10,000, 20,000, and 40,000 items in three families (uniform, heavy-tailed, and spatial with long-range reach), each with two budgets. The budgets are chosen where linear relaxations are weak. `hard_manifest.json` lists every generation parameter, the seed, and the SHA-256 of each uncompressed file.
+- `benchmark/generated/`: 18 generated instances with m = n = 10,000, 20,000, and 40,000 items in three families (uniform, heavy-tailed, and spatial with long-range reach), each with two budgets. The budgets are chosen where linear relaxations are weak. `hard_manifest.json` lists every generation parameter, the seed, and the SHA-256 of each uncompressed file. Item costs grow linearly with the set size s_i: w_i = round(100 (1/2 + s_i / (2 s̄)) u_i), with u_i uniform in [0.9, 1.1] and at least 1, so that half of the mean cost is fixed and half follows the set size; profits are uniform integers in [100, 200) in the uniform and heavy-tailed families and lognormal workloads in the spatial family. These instances are archived at Zenodo, [doi:10.5281/zenodo.24094323](https://doi.org/10.5281/zenodo.24094323).
 - `benchmark/calibration/`: the five instances with m = n = 5,000 that were used to calibrate the budgets against the LP bound.
-- `benchmark/edge/edge_manifest.json`: the parameters, statistics, and SHA-256 hashes of the 18 edge-server placement instances built from the [Shanghai Telecom dataset](https://wangshangguang.github.io/telecom_dataset), and the hash of the dataset archive. The dataset may not be redistributed, so the instances are not included; the manuscript describes how they are built from the original files, and the hashes identify them.
+- `benchmark/edge/edge_manifest.json`: the parameters, statistics, and SHA-256 hashes of the 18 edge-server placement instances built from the [Shanghai Telecom dataset](https://wangshangguang.github.io/telecom_dataset), and the hash of the dataset archive. The dataset may not be redistributed, so the instances are not included; the manuscript describes how they are built from the original files, and the hashes identify them. To rebuild them byte for byte from the twelve half-month workbooks: aggregate the access records by the latitude and longitude strings of each row, skipping rows without coordinates or user identifier and rows whose coordinates are not valid numbers in range; sort the 3,042 base stations by the numeric latitude and then longitude; give each station a profit equal to its number of records; let site i cover every station within great-circle (haversine) distance R of it, itself included, with Earth radius 6371.0088 km; use unit costs with budget k, or density costs w_i = 100 + floor(100 r_i / n), where r_i ranks the sites by the number of stations within 1 km (ties by index), with budget round(k · mean(w)); and write the dense text format of the public BMCP instances, whose SHA-256 `edge_manifest.json` lists: two empty lines, `m=3042  n=3042  knapsack size=C` (two spaces between fields), an empty line, `The weight of 3042 items`, the costs, an empty line, `The profit of 3042 elements`, the profits, an empty line, `Relation matrix`, and one row of 0/1 values per site; values are separated by single spaces, and every line, the last included, ends with LF (ASCII).
 - `benchmark/SHA256SUMS`: checksums of the files in `benchmark/`; `sha256sum -c benchmark/SHA256SUMS` checks them from the repository root.
 - `data/workstation/`: the run records, copied unchanged from the campaign outputs. `EXPORT_MANIFEST.json` gives the source and SHA-256 of each file.
 - `solutions/generated/` and `solutions/edge/`: for each instance, one certified solution that attains the best known value used in the manuscript, together with the rule used to select it.
@@ -79,7 +79,7 @@ The instances use the sparse format `BMCP-SPARSE 1` and are compressed with xz:
 | `hard_restricted_s1.jsonl`, `hard_restricted_s23.jsonl`, `hard_restricted_s4.jsonl`, `hard_restricted_s5.jsonl` | GPU-MTS with the restricted neighbourhood (K = 4); seed 1, seeds 2 and 3, seed 4, and seed 5 |
 | `cpu12_hard300.jsonl`, `cpu24_hard300.jsonl`, and their `_s4` and `_s5` files | CPU port with 12 and 24 threads, GPU seeds (seeds 1 to 3, 4, and 5), 300 s |
 | `hard_hexaly.jsonl`, `lsbmcp_hard300.jsonl` | Hexaly 15.0 with 24 threads, and LS-BMCP; five seeds, 300 s |
-| `hard_lp.jsonl`, `hard_mip.jsonl` | HiGHS with 24 threads: LP relaxation (interior point, 1,200 s) and MIP (600 s) |
+| `hard_lp.jsonl`, `hard_mip.jsonl` | HiGHS 1.15.1 with 24 threads: LP relaxation (interior point, 1,200 s) and MIP (600 s) |
 | `anrma_hard.jsonl` | ANRMA executable, 120 s, kept to document its failures: certified selections on 5 of the 18 instances |
 | `edge_complete.jsonl`, `edge_restricted.jsonl`, and their `_s4` and `_s5` files | GPU-MTS with both neighbourhoods; edge instances, five seeds (seeds 1 to 3, 4, and 5), 120 s |
 | `edge_hexaly.jsonl`, `lsbmcp_edge.jsonl` | Hexaly and LS-BMCP; five seeds, 120 s |
@@ -90,10 +90,23 @@ The instances use the sparse format `BMCP-SPARSE 1` and are compressed with xz:
 | `platform.jsonl` | GPU against the CPU port with 24 threads at fixed work; 7 instances, both neighbourhoods, three seeds |
 | `kernels.jsonl` | shared-memory against global-memory kernel at fixed work; 4 public instances, three seeds |
 | `full_kernel_validation_report.json` | complete-neighbourhood gains checked against brute-force enumeration, and GPU/CPU parity |
-| `calibration/` | LP bounds and 30 s GPU-MTS runs on the calibration instances |
+| `calibration/` | LP bounds and 30 s GPU-MTS runs on the calibration instances; these runs used an earlier build of the complete-neighbourhood kernel (source SHA-256 `4fe857aa…`) |
+| `checks/` | 512-step state checks: global-memory against shared-memory kernel (3 public instances, both incoming scans), CPU port against GPU (a public, an edge and a generated instance, both neighbourhoods, 24 threads), and batch invariance (4 public instances); every pair ends in identical states |
+| `repeated/` | original records of the 104 runs that were repeated, with a README |
 
-Runs slowed by background load or by the power management of the operating system were repeated, as the manuscript describes; the records here are the ones the manuscript uses.
+Runs slowed by background load or by the power management of the operating system were repeated, as Section 5.3 of the manuscript describes; the records in this folder are the ones the manuscript uses, and the original records of the repeated runs are in `repeated/`.
 
-ANRMA is the executable published in [Zequn-Wei/SUKP](https://github.com/Zequn-Wei/SUKP). LS-BMCP is the code of [AloneKami/LS-BMCP](https://github.com/AloneKami/LS-BMCP), with a routine added to print the final selection. Neither is redistributed here. Each record keeps the selection and the value certified from the instance; for ANRMA and LS-BMCP, the value the program itself reported is kept separately.
+ANRMA is the executable published in [Zequn-Wei/SUKP](https://github.com/Zequn-Wei/SUKP); it runs in a Linux container limited to one core, with an unlimited stack, and its only arguments are the seed and the time limit. LS-BMCP is the code of [AloneKami/LS-BMCP](https://github.com/AloneKami/LS-BMCP) at commit 79de31a, compiled with g++ -O3 and run in the same kind of container with the parameters of its documentation (i_max,1 = 10,000, i_max,2 = 500, λ = 0.9); its published output routine is empty, so a routine that prints the best selection was added. Hexaly is version 15.0 (build 20261026). Neither ANRMA nor LS-BMCP is redistributed here. Each record keeps the selection and the value certified from the instance; for ANRMA and LS-BMCP, the value the program itself reported is kept separately.
 
 Before the deposit, every selection in the witnesses and the run records, 2,500 in total, was recertified from the instance files, and the hashes of all instances were checked.
+
+## How to cite
+
+Please cite the generated benchmark through its Zenodo record and the results through this repository:
+
+- J. Garcia, Generated benchmark instances for the budgeted maximum coverage problem (BMCP), Zenodo, 2026, [doi:10.5281/zenodo.24094323](https://doi.org/10.5281/zenodo.24094323).
+- J. Garcia, GPU-MTS: results and reproducible evidence for BMCP, GitHub, 2026, https://github.com/rubincus/bmcp-gpu-mts-results.
+
+## License
+
+The contents of this repository are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); see `LICENSE`. Third-party instances, the Shanghai Telecom dataset, and published values of other methods remain under the terms of their sources and are not redistributed.

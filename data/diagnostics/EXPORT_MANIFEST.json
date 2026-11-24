@@ -4,48 +4,62 @@
     "records": 420,
     "source_sha256": "e3fcf855b2f6dc553749d38a9e85a0033b704b34f4964320613514312f6664c7",
     "export_sha256": "8edbada56827d97ff8c22f1e9330ce0176fe8b41e0fec587c5051ec1e20731ba",
-    "export": "data\\diagnostics\\ablation_full10_v1\\results_compact.jsonl.gz"
+    "export": "data\\diagnostics\\ablation_full10_v1\\results_compact.jsonl.gz",
+    "public_sha256": "c0498e9f480df8962e5180292f39c363605a29d01978b75262583a5091f043e8",
+    "public_note": "same records as the compact export, written with standard JSON separators"
   },
   {
     "stage": "sensitivity_ofat_v1",
     "records": 162,
     "source_sha256": "92d87c2fe8bc2436ce5471f9f32f3b41dd6be6fd5b2ed605c469783b9b47f4a4",
     "export_sha256": "7cff85471f29d585cdbc013e133933f153303c99c428b4b6c1e6c73d68642f8d",
-    "export": "data\\diagnostics\\sensitivity_ofat_v1\\results_compact.jsonl.gz"
+    "export": "data\\diagnostics\\sensitivity_ofat_v1\\results_compact.jsonl.gz",
+    "public_sha256": "29a62c1a74512ef19bf9e6c3e7c64656d0c654ea6558203ad8e751486bafba4f",
+    "public_note": "same records as the compact export, written with standard JSON separators"
   },
   {
     "stage": "targeted_interactions_v1",
     "records": 54,
     "source_sha256": "ce418d49e0386ef588c343962809c080bc0db1326eee2cb64342aeb788a3f1a1",
     "export_sha256": "eedeb6b42e20bb1b087580805094734eec4fc3e5a7b49c96b42676282e02e929",
-    "export": "data\\diagnostics\\targeted_interactions_v1\\results_compact.jsonl.gz"
+    "export": "data\\diagnostics\\targeted_interactions_v1\\results_compact.jsonl.gz",
+    "public_sha256": "f02d3b521edbfc349f3aef1515d39ab3178d1808cb900f2cb73bc855c10cec6d",
+    "public_note": "same records as the compact export, written with standard JSON separators"
   },
   {
     "stage": "confirmation_v1",
     "records": 180,
     "source_sha256": "f50c93612e04b0145976c7b7fda793f5551067518cf79147f089124ea5bfa155",
     "export_sha256": "277e2d92ed5227ca5e99fc58b3394c9d7fd2ebb78c2e19915f172605a8db4d63",
-    "export": "data\\diagnostics\\confirmation_v1\\results_compact.jsonl.gz"
+    "export": "data\\diagnostics\\confirmation_v1\\results_compact.jsonl.gz",
+    "public_sha256": "39ff2244b227ee928863656e9ee7cbb99c653bcaa2dd713a3db622479cc0fd9f",
+    "public_note": "same records as the compact export, written with standard JSON separators"
   },
   {
     "stage": "heldout_confirmation_v1",
     "records": 180,
     "source_sha256": "d0755e9b7f9d35364d25fc81aed2bca66c4bdda27481dae8db6bbc00758f3de0",
     "export_sha256": "47d4bb49e653b538d149e0f3efb5637119e4c16a3a10d845adaf839e03798fd8",
-    "export": "data\\diagnostics\\heldout_confirmation_v1\\results_compact.jsonl.gz"
+    "export": "data\\diagnostics\\heldout_confirmation_v1\\results_compact.jsonl.gz",
+    "public_sha256": "559af065e2e57bdb78dbe0a0db92a24e26a98e250c0dca1a1c26031b3c7bdf79",
+    "public_note": "same records as the compact export, written with standard JSON separators"
   },
   {
     "stage": "focused_work_v1",
     "records": 60,
     "source_sha256": "7377eee6ede65e59ec8c72753811703287afbd86391ab588cefa4989e3d961c8",
     "export_sha256": "8a9d226ce5ca0d6d50d10e8638b7cc9e3abf938d030ea5a4e5c80d2496ddd747",
-    "export": "data\\diagnostics\\focused_work_v1\\results_compact.jsonl.gz"
+    "export": "data\\diagnostics\\focused_work_v1\\results_compact.jsonl.gz",
+    "public_sha256": "8d3d31cb3928db6e5d231f5516c421dbd2916f812538bc1b2e67c2f180050ad8",
+    "public_note": "same records as the compact export, written with standard JSON separators"
   },
   {
     "stage": "platform_comparison_v1",
     "records": 90,
     "source_sha256": "9bef01dda519b713b64f7906cd5800cd4097cf8ddde23b40e47b3d7d2e144a6d",
     "export_sha256": "742f416616ab2ff9c98f9a8f31aed2157d840d9c0406c9b5d749f5823c708a7a",
-    "export": "data\\diagnostics\\platform_comparison_v1\\results_compact.jsonl.gz"
+    "export": "data\\diagnostics\\platform_comparison_v1\\results_compact.jsonl.gz",
+    "public_sha256": "a71d0d08b963a519ace1b8b551a59602ff39674f8173e127d0b94c51fdc36765",
+    "public_note": "same records as the compact export, written with standard JSON separators; local paths in build_manifest replaced by relative identifiers"
   }
 ]
