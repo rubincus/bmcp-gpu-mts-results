@@ -254,6 +254,18 @@
       "records": 1
     },
     {
+      "file": "data/workstation/scaling_blocks.jsonl",
+      "source": "campaign/scaling_blocks.jsonl",
+      "sha256": "7cc3e1b671d4227c842a333e536272d039a33da3ce7171f878109f57fc95fc55",
+      "records": 60
+    },
+    {
+      "file": "data/workstation/scaling_threads.jsonl",
+      "source": "campaign/scaling_threads.jsonl",
+      "sha256": "3dda5ebfe6d1acb9699206e391b5a20ff519a0fc60582df6cb0a32b0e6e0a488",
+      "records": 32
+    },
+    {
       "file": "data/workstation/calibration/calib_lp.jsonl",
       "source": "calibration/calib_lp.jsonl",
       "sha256": "1aa4eafa689fc593e103773a0d1aa3b8909bb651693b47200fa8d15d687a7211",
