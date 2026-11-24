@@ -18,5 +18,4 @@ uses the repeated runs, which are in the parent folder; these records are kept f
 | `20261117/cpu24_hard300_s5_throttled.jsonl` | 2 | CPU port, 24 threads, seed 5, in efficiency mode; 66% and 75% |
 | `20261117/hard_restricted_s5_slow.jsonl` | 18 | GPU-MTS-R, seed 5, in efficiency mode; 94% |
 
-The kept runs that are slower than the other seeds of their method, and their effect on the comparisons, are
-described in Section 5.3 of the manuscript.
+Section 5.3 of the manuscript also states the kept runs that are slower than the other seeds of their method.
