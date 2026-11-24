@@ -2,7 +2,7 @@
 
 Public repository containing **90 best feasible solutions**, all **900 benchmark runs** (ten per instance), and the data and scripts used to produce the figures and tables in the GPU-MTS study of the budgeted maximum coverage problem (BMCP). Costs are assigned to items, and each covered element contributes its profit once.
 
-Since November 2026 the repository also contains a benchmark of 18 generated instances with up to 40,000 items, the hashes of 18 edge-server placement instances, and the records of the experiments that the revised manuscript runs on one workstation. They are described in [New benchmark and same-workstation experiments](#new-benchmark-and-same-workstation-experiments-november-2026).
+Since November 2026 the repository also contains a benchmark of 18 generated instances with up to 40,000 items, the hashes of 18 edge-server placement instances, and the records of the experiments that the manuscript runs on one workstation. They are described in [New benchmark and same-workstation experiments](#new-benchmark-and-same-workstation-experiments-november-2026).
 
 ## Results
 
@@ -48,15 +48,15 @@ The public deposit supports independent verification of the reported solutions a
 
 ## Correspondence with the manuscript figures
 
-The labels **Base** (Spanish) and **Baseline** (English) denote the configuration identified as `original` or `base` in the experimental records. Archived identifiers and numerical data remain unchanged. Figures contain axes, legends, and data annotations; the manuscript captions describe the comparison conditions. Files in `paper_assets/es` and `paper_assets/en` correspond to the manuscript revision dated September 21, 2026.
+The labels **Base** (Spanish) and **Baseline** (English) denote the configuration identified as `original` or `base` in the experimental records. Archived identifiers and numerical data remain unchanged. Figures contain axes, legends, and data annotations; the manuscript captions describe the comparison conditions. Files in `paper_assets/es` and `paper_assets/en` are the figures and tables of the original study, as exported in September 2026.
 
 The English attainment figure places last-hit annotations below each panel so that they do not cover any curve. The timing protocols of the platform and owner-lookup experiments are compared in [TIMING_PROTOCOLS.md](docs/TIMING_PROTOCOLS.md).
 
-The tables and the throughput figure of the November 2026 revision are not stored here; they are computed from the records described in the next section.
+The tables and the throughput figure of the new experiments are not stored here; they are computed from the records described in the next section.
 
 ## New benchmark and same-workstation experiments (November 2026)
 
-The revised manuscript adds instances that are larger and harder than the public benchmark, and it runs every method one at a time on one workstation with an NVIDIA GeForce RTX 5080. This section describes the corresponding data files.
+The manuscript adds instances that are larger and harder than the public benchmark, and it runs every method one at a time on one workstation with an NVIDIA GeForce RTX 5080. This section describes the corresponding data files.
 
 ### Contents
 
@@ -84,6 +84,7 @@ The instances use the sparse format `BMCP-SPARSE 1` and are compressed with xz:
 | `edge_complete.jsonl`, `edge_restricted.jsonl`, and their `_s4` and `_s5` files | GPU-MTS with both neighbourhoods; edge instances, five seeds (seeds 1 to 3, 4, and 5), 120 s |
 | `edge_hexaly.jsonl`, `lsbmcp_edge.jsonl` | Hexaly and LS-BMCP; five seeds, 120 s |
 | `edge_highs.jsonl`, `edge_highs_120.jsonl` | HiGHS MIP with 24 threads: 600 s (reference) and 120 s |
+| `greedy.jsonl` | cost-effectiveness greedy with the best single item (Khuller et al., 1999); one deterministic run on each generated and edge instance |
 | `public_complete.jsonl` and `public_complete_s2.jsonl` to `public_complete_s5.jsonl` | GPU-MTS with the complete neighbourhood; 90 public instances, five seeds, 60 s |
 | `anrma_public.jsonl`, `lsbmcp_public.jsonl` | ANRMA and LS-BMCP on one core; five seeds, 60 s |
 | `cpu24_public_large.jsonl` and its `_s4` and `_s5` files | CPU port with 24 threads; 30 large public instances, GPU seeds (seeds 1 to 3, 4, and 5), 60 s |

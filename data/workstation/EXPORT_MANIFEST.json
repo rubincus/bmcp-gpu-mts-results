@@ -170,6 +170,12 @@
       "records": 18
     },
     {
+      "file": "data/workstation/greedy.jsonl",
+      "source": "campaign/greedy.jsonl",
+      "sha256": "e972a4531d5ed55f8a7cf206be7d38aabd1092e8d5f914fafefbcf4adf0bbf42",
+      "records": 36
+    },
+    {
       "file": "data/workstation/public_complete.jsonl",
       "source": "campaign/public_complete.jsonl",
       "sha256": "da3c81aa1325db89531022b0b5575ab1c59467758362a7f7e9b64fa9aaef3bf8",

@@ -21,7 +21,7 @@ for ax,c,(g,label),color in zip(axes,A['attainment'],groups,['#009E73','#D55E00'
         y=sum(t<=cut for t in tt)/3;ax.plot(cut,y,'o',ms=3.2,color=color)
     ax.set_xscale('log');ax.set_xlim(.003,180);ax.set_ylim(-2,107);ax.set_xticks([.01,1,100]);ax.set_xticklabels(['.01','1','100']);ax.grid(alpha=.16);ax.set_title(label,color=BLUE,fontsize=10);ax.set_xlabel('Search time (s)',color=BLUE,fontsize=8)
     ax.text(.5,-.34,f'Last hit: {max(tt):.3g} s',transform=ax.transAxes,ha='center',fontsize=8,color=BLUE,clip_on=False)
-axes[0].set_ylabel('Runs attaining R (%)',color=BLUE,fontsize=9)
+axes[0].set_ylabel('Runs attaining $R_i$ (%)',color=BLUE,fontsize=9)
 fig.subplots_adjust(top=.90,bottom=.30,left=.09,right=.99,wspace=.10)
 fig.savefig(O/'fig_attainment.pdf',bbox_inches='tight');fig.savefig(W/'fig_attainment.png',dpi=160,bbox_inches='tight');plt.close(fig)
 D=json.loads((DATA/'ablation.json').read_text(encoding='utf-8'))
