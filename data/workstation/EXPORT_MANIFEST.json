@@ -266,6 +266,12 @@
       "records": 32
     },
     {
+      "file": "data/workstation/ablation_kernels.jsonl",
+      "source": "campaign/ablation_kernels.jsonl",
+      "sha256": "e83f94a70140f63cea5b556f77b84f94c6e265b2dfd62eb6bbc46663e8d82553",
+      "records": 84
+    },
+    {
       "file": "data/workstation/calibration/calib_lp.jsonl",
       "source": "calibration/calib_lp.jsonl",
       "sha256": "1aa4eafa689fc593e103773a0d1aa3b8909bb651693b47200fa8d15d687a7211",

@@ -92,6 +92,7 @@ The instances use the sparse format `BMCP-SPARSE 1` and are compressed with xz:
 | `kernels.jsonl` | shared-memory against global-memory kernel at fixed work; 4 public instances, three seeds |
 | `scaling_blocks.jsonl` | GPU-MTS (complete) at fixed work with B = 32, 64, 128, 256, and 512 trajectories; 6 instances, two seeds |
 | `scaling_threads.jsonl` | CPU port (complete) at fixed work with 1 to 32 threads, and the GPU with B = 128; 2 instances, two seeds; every final state equals that of the GPU |
+| `ablation_kernels.jsonl` | GPU kernel ablations at the steps and seeds of `platform.jsonl`: the restricted neighbourhood with whole rows per thread and with rows divided among the lanes of a warp, and the complete neighbourhood with and without the early stop of its loss-ordered scans; each pair ends in identical states |
 | `full_kernel_validation_report.json` | complete-neighbourhood gains checked against brute-force enumeration, and GPU/CPU parity |
 | `calibration/` | LP bounds and 30 s GPU-MTS runs on the calibration instances; these runs used an earlier build of the complete-neighbourhood kernel (source SHA-256 `4fe857aa…`) |
 | `checks/` | 512-step state checks: global-memory against shared-memory kernel (3 public instances, both incoming scans), CPU port against GPU (a public, an edge and a generated instance, both neighbourhoods, 24 threads), and batch invariance (4 public instances); every pair ends in identical states |
